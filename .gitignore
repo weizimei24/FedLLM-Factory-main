@@ -1,0 +1,11 @@
+.DS_Store
+**/.DS_Store
+.idea
+
+# Local raw StackExchange data and downloaded Qwen model weights
+/dataset/raw_stackexchange/
+/Qwen3-1.7B/
+
+# Python-generated files
+__pycache__/
+*.py[cod]
