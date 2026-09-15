@@ -1,0 +1,87 @@
+{
+  "seed": 42,
+  "max_length": 1152,
+  "train_samples_per_domain": 1000,
+  "test_samples_per_domain": 200,
+  "domains": {
+    "mathematics": {
+      "site": "math.stackexchange.com",
+      "scan": {
+        "rows": 491325,
+        "no_answer": 0,
+        "too_short": 0,
+        "too_long": 79,
+        "duplicates": 0
+      },
+      "train": 1000,
+      "test": 200,
+      "accepted_answers": 766
+    },
+    "physics": {
+      "site": "physics.stackexchange.com",
+      "scan": {
+        "rows": 79313,
+        "no_answer": 0,
+        "too_short": 0,
+        "too_long": 117,
+        "duplicates": 0
+      },
+      "train": 1000,
+      "test": 200,
+      "accepted_answers": 641
+    },
+    "computer_science": {
+      "site": "cs.stackexchange.com",
+      "scan": {
+        "rows": 11314,
+        "no_answer": 0,
+        "too_short": 0,
+        "too_long": 88,
+        "duplicates": 0
+      },
+      "train": 1000,
+      "test": 200,
+      "accepted_answers": 652
+    },
+    "statistics": {
+      "site": "stats.stackexchange.com",
+      "scan": {
+        "rows": 38798,
+        "no_answer": 0,
+        "too_short": 0,
+        "too_long": 225,
+        "duplicates": 0
+      },
+      "train": 1000,
+      "test": 200,
+      "accepted_answers": 624
+    },
+    "economics": {
+      "site": "economics.stackexchange.com",
+      "scan": {
+        "rows": 3838,
+        "no_answer": 0,
+        "too_short": 0,
+        "too_long": 119,
+        "duplicates": 0
+      },
+      "train": 1000,
+      "test": 200,
+      "accepted_answers": 550
+    },
+    "biology": {
+      "site": "biology.stackexchange.com",
+      "scan": {
+        "rows": 6724,
+        "no_answer": 0,
+        "too_short": 0,
+        "too_long": 60,
+        "duplicates": 0
+      },
+      "train": 1000,
+      "test": 200,
+      "accepted_answers": 668
+    }
+  },
+  "train_test_overlap": 0
+}

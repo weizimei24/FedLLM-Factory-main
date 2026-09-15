@@ -1,7 +1,16 @@
+import os
 from types import SimpleNamespace
 
+# Upstream utils.model_utils sets CUDA_VISIBLE_DEVICES="3" on import. Preserve
+# the caller's GPU selection while reusing its aggregation and alignment code.
+_visible_devices = os.environ.get("CUDA_VISIBLE_DEVICES")
 from alg.fedrotlora import _align_factors
 from alg.ftbase import FTBaseServer
+if _visible_devices is None:
+    os.environ.pop("CUDA_VISIBLE_DEVICES", None)
+else:
+    os.environ["CUDA_VISIBLE_DEVICES"] = _visible_devices
+
 from stage1.model import lora_state_dict
 from stage1.trainer import train_phase
 
@@ -73,4 +82,3 @@ class FederatedRunner:
             FTBaseServer.aggregate(self)
             self.history.append(round_history)
         return self.history
-

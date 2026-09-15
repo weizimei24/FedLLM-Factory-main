@@ -1,0 +1,531 @@
+{
+  "method": "fedrotlora",
+  "per_domain": {
+    "mathematics": {
+      "eval_loss": 1.2130043052167299,
+      "perplexity": 3.3635746931764823,
+      "rouge1": 0.24806429234262967,
+      "rouge2": 0.08990816964035275,
+      "rougeL": 0.18774995563846236,
+      "avg_generation_tokens": 144.62,
+      "eos_rate": 0.895,
+      "max_tokens_rate": 0.105,
+      "eval_answer_tokens": 48036,
+      "samples": 200
+    },
+    "physics": {
+      "eval_loss": 1.965833431062282,
+      "perplexity": 7.14086152660761,
+      "rouge1": 0.20757807931044256,
+      "rouge2": 0.05198445377313206,
+      "rougeL": 0.14339719890391106,
+      "avg_generation_tokens": 190.26,
+      "eos_rate": 0.825,
+      "max_tokens_rate": 0.175,
+      "eval_answer_tokens": 52973,
+      "samples": 200
+    },
+    "computer_science": {
+      "eval_loss": 1.8461862917859524,
+      "perplexity": 6.335611217695465,
+      "rouge1": 0.19923474539929448,
+      "rouge2": 0.049143349165014866,
+      "rougeL": 0.13702768479816205,
+      "avg_generation_tokens": 197.88,
+      "eos_rate": 0.815,
+      "max_tokens_rate": 0.185,
+      "eval_answer_tokens": 51020,
+      "samples": 200
+    },
+    "statistics": {
+      "eval_loss": 2.0216508198081273,
+      "perplexity": 7.550779627181427,
+      "rouge1": 0.1818833292509951,
+      "rouge2": 0.04009272040091609,
+      "rougeL": 0.125330375678862,
+      "avg_generation_tokens": 153.9,
+      "eos_rate": 0.87,
+      "max_tokens_rate": 0.13,
+      "eval_answer_tokens": 55097,
+      "samples": 200
+    },
+    "economics": {
+      "eval_loss": 2.257189099019968,
+      "perplexity": 9.55618987536737,
+      "rouge1": 0.17076103004874926,
+      "rouge2": 0.03274617359901332,
+      "rougeL": 0.11930914416966845,
+      "avg_generation_tokens": 263.205,
+      "eos_rate": 0.72,
+      "max_tokens_rate": 0.28,
+      "eval_answer_tokens": 57702,
+      "samples": 200
+    },
+    "biology": {
+      "eval_loss": 2.5379849176773748,
+      "perplexity": 12.654146115982837,
+      "rouge1": 0.1576582539839716,
+      "rouge2": 0.02701794280200504,
+      "rougeL": 0.10959948997154216,
+      "avg_generation_tokens": 264.365,
+      "eos_rate": 0.705,
+      "max_tokens_rate": 0.295,
+      "eval_answer_tokens": 56614,
+      "samples": 200
+    }
+  },
+  "macro_average": {
+    "eval_loss": 1.9736414774284057,
+    "perplexity": 7.766860509335198,
+    "rouge1": 0.19419662172268046,
+    "rouge2": 0.04848213489673902,
+    "rougeL": 0.13706897486010136,
+    "avg_generation_tokens": 202.37166666666667,
+    "eos_rate": 0.805,
+    "max_tokens_rate": 0.19499999999999998,
+    "eval_answer_tokens": 53573.666666666664,
+    "samples": 200.0
+  },
+  "training_history": [
+    [
+      {
+        "label": "fedrotlora round=0 client=0 mathematics",
+        "samples": 1000,
+        "answer_tokens": 237231,
+        "train_nll": 1.4202778778870087,
+        "train_perplexity": 4.13827021427862
+      },
+      {
+        "label": "fedrotlora round=0 client=1 physics",
+        "samples": 1000,
+        "answer_tokens": 277158,
+        "train_nll": 2.215563473652083,
+        "train_perplexity": 9.166572778917763
+      },
+      {
+        "label": "fedrotlora round=0 client=2 computer_science",
+        "samples": 1000,
+        "answer_tokens": 261019,
+        "train_nll": 2.110950815913258,
+        "train_perplexity": 8.256087573293419
+      },
+      {
+        "label": "fedrotlora round=0 client=3 statistics",
+        "samples": 1000,
+        "answer_tokens": 286671,
+        "train_nll": 2.225697810484093,
+        "train_perplexity": 9.259942234688982
+      },
+      {
+        "label": "fedrotlora round=0 client=4 economics",
+        "samples": 1000,
+        "answer_tokens": 277000,
+        "train_nll": 2.4883801995279127,
+        "train_perplexity": 12.041755074059122
+      },
+      {
+        "label": "fedrotlora round=0 client=5 biology",
+        "samples": 1000,
+        "answer_tokens": 282355,
+        "train_nll": 2.708353234069069,
+        "train_perplexity": 15.004546183289797
+      }
+    ],
+    [
+      {
+        "label": "fedrotlora round=1 client=0 mathematics",
+        "samples": 1000,
+        "answer_tokens": 237231,
+        "train_nll": 1.2598855774913644,
+        "train_perplexity": 3.5250181228722286
+      },
+      {
+        "label": "fedrotlora round=1 client=1 physics",
+        "samples": 1000,
+        "answer_tokens": 277158,
+        "train_nll": 2.060032668898596,
+        "train_perplexity": 7.846226133697449
+      },
+      {
+        "label": "fedrotlora round=1 client=2 computer_science",
+        "samples": 1000,
+        "answer_tokens": 261019,
+        "train_nll": 1.938074778940573,
+        "train_perplexity": 6.945366724671424
+      },
+      {
+        "label": "fedrotlora round=1 client=3 statistics",
+        "samples": 1000,
+        "answer_tokens": 286671,
+        "train_nll": 2.070299363497636,
+        "train_perplexity": 7.927195875757025
+      },
+      {
+        "label": "fedrotlora round=1 client=4 economics",
+        "samples": 1000,
+        "answer_tokens": 277000,
+        "train_nll": 2.3242718924733707,
+        "train_perplexity": 10.219236673179315
+      },
+      {
+        "label": "fedrotlora round=1 client=5 biology",
+        "samples": 1000,
+        "answer_tokens": 282355,
+        "train_nll": 2.5444758096712916,
+        "train_perplexity": 12.73654995960385
+      }
+    ],
+    [
+      {
+        "label": "fedrotlora round=2 client=0 mathematics",
+        "samples": 1000,
+        "answer_tokens": 237231,
+        "train_nll": 1.2446244530883752,
+        "train_perplexity": 3.471630794271524
+      },
+      {
+        "label": "fedrotlora round=2 client=1 physics",
+        "samples": 1000,
+        "answer_tokens": 277158,
+        "train_nll": 2.044954149938574,
+        "train_perplexity": 7.728804163640251
+      },
+      {
+        "label": "fedrotlora round=2 client=2 computer_science",
+        "samples": 1000,
+        "answer_tokens": 261019,
+        "train_nll": 1.9220562277346187,
+        "train_perplexity": 6.834998342913956
+      },
+      {
+        "label": "fedrotlora round=2 client=3 statistics",
+        "samples": 1000,
+        "answer_tokens": 286671,
+        "train_nll": 2.054911942560813,
+        "train_perplexity": 7.806150452751349
+      },
+      {
+        "label": "fedrotlora round=2 client=4 economics",
+        "samples": 1000,
+        "answer_tokens": 277000,
+        "train_nll": 2.308266516957903,
+        "train_perplexity": 10.056975938611625
+      },
+      {
+        "label": "fedrotlora round=2 client=5 biology",
+        "samples": 1000,
+        "answer_tokens": 282355,
+        "train_nll": 2.529348425461891,
+        "train_perplexity": 12.545329255918526
+      }
+    ],
+    [
+      {
+        "label": "fedrotlora round=3 client=0 mathematics",
+        "samples": 1000,
+        "answer_tokens": 237231,
+        "train_nll": 1.237857230477269,
+        "train_perplexity": 3.4482168090423886
+      },
+      {
+        "label": "fedrotlora round=3 client=1 physics",
+        "samples": 1000,
+        "answer_tokens": 277158,
+        "train_nll": 2.038048355469517,
+        "train_perplexity": 7.675614500420001
+      },
+      {
+        "label": "fedrotlora round=3 client=2 computer_science",
+        "samples": 1000,
+        "answer_tokens": 261019,
+        "train_nll": 1.9151668725270348,
+        "train_perplexity": 6.788071445128497
+      },
+      {
+        "label": "fedrotlora round=3 client=3 statistics",
+        "samples": 1000,
+        "answer_tokens": 286671,
+        "train_nll": 2.0482123682339797,
+        "train_perplexity": 7.754027363799852
+      },
+      {
+        "label": "fedrotlora round=3 client=4 economics",
+        "samples": 1000,
+        "answer_tokens": 277000,
+        "train_nll": 2.30107501027257,
+        "train_perplexity": 9.984910568797341
+      },
+      {
+        "label": "fedrotlora round=3 client=5 biology",
+        "samples": 1000,
+        "answer_tokens": 282355,
+        "train_nll": 2.522700355595935,
+        "train_perplexity": 12.462203649111759
+      }
+    ],
+    [
+      {
+        "label": "fedrotlora round=4 client=0 mathematics",
+        "samples": 1000,
+        "answer_tokens": 237231,
+        "train_nll": 1.2333689236726255,
+        "train_perplexity": 3.432774834158028
+      },
+      {
+        "label": "fedrotlora round=4 client=1 physics",
+        "samples": 1000,
+        "answer_tokens": 277158,
+        "train_nll": 2.0337018039705783,
+        "train_perplexity": 7.642324447583493
+      },
+      {
+        "label": "fedrotlora round=4 client=2 computer_science",
+        "samples": 1000,
+        "answer_tokens": 261019,
+        "train_nll": 1.9088360254344725,
+        "train_perplexity": 6.7452329478232045
+      },
+      {
+        "label": "fedrotlora round=4 client=3 statistics",
+        "samples": 1000,
+        "answer_tokens": 286671,
+        "train_nll": 2.043004131303291,
+        "train_perplexity": 7.7137475366155
+      },
+      {
+        "label": "fedrotlora round=4 client=4 economics",
+        "samples": 1000,
+        "answer_tokens": 277000,
+        "train_nll": 2.2957887941448267,
+        "train_perplexity": 9.932267437587702
+      },
+      {
+        "label": "fedrotlora round=4 client=5 biology",
+        "samples": 1000,
+        "answer_tokens": 282355,
+        "train_nll": 2.5164832404897237,
+        "train_perplexity": 12.384965043986275
+      }
+    ],
+    [
+      {
+        "label": "fedrotlora round=5 client=0 mathematics",
+        "samples": 1000,
+        "answer_tokens": 237231,
+        "train_nll": 1.2292525464249382,
+        "train_perplexity": 3.4186732815015692
+      },
+      {
+        "label": "fedrotlora round=5 client=1 physics",
+        "samples": 1000,
+        "answer_tokens": 277158,
+        "train_nll": 2.02921309330135,
+        "train_perplexity": 7.608097140007392
+      },
+      {
+        "label": "fedrotlora round=5 client=2 computer_science",
+        "samples": 1000,
+        "answer_tokens": 261019,
+        "train_nll": 1.9044380378732095,
+        "train_perplexity": 6.715632635834306
+      },
+      {
+        "label": "fedrotlora round=5 client=3 statistics",
+        "samples": 1000,
+        "answer_tokens": 286671,
+        "train_nll": 2.03840916539429,
+        "train_perplexity": 7.6783844379909185
+      },
+      {
+        "label": "fedrotlora round=5 client=4 economics",
+        "samples": 1000,
+        "answer_tokens": 277000,
+        "train_nll": 2.291274378646797,
+        "train_perplexity": 9.887530112951389
+      },
+      {
+        "label": "fedrotlora round=5 client=5 biology",
+        "samples": 1000,
+        "answer_tokens": 282355,
+        "train_nll": 2.512564501402932,
+        "train_perplexity": 12.336526568241128
+      }
+    ],
+    [
+      {
+        "label": "fedrotlora round=6 client=0 mathematics",
+        "samples": 1000,
+        "answer_tokens": 237231,
+        "train_nll": 1.2260922800077239,
+        "train_perplexity": 3.407886416799366
+      },
+      {
+        "label": "fedrotlora round=6 client=1 physics",
+        "samples": 1000,
+        "answer_tokens": 277158,
+        "train_nll": 2.0257214129414978,
+        "train_perplexity": 7.581578421035522
+      },
+      {
+        "label": "fedrotlora round=6 client=2 computer_science",
+        "samples": 1000,
+        "answer_tokens": 261019,
+        "train_nll": 1.9010522493192363,
+        "train_perplexity": 6.692933372860124
+      },
+      {
+        "label": "fedrotlora round=6 client=3 statistics",
+        "samples": 1000,
+        "answer_tokens": 286671,
+        "train_nll": 2.0347700399322832,
+        "train_perplexity": 7.650492615377964
+      },
+      {
+        "label": "fedrotlora round=6 client=4 economics",
+        "samples": 1000,
+        "answer_tokens": 277000,
+        "train_nll": 2.287198487861062,
+        "train_perplexity": 9.847311638803156
+      },
+      {
+        "label": "fedrotlora round=6 client=5 biology",
+        "samples": 1000,
+        "answer_tokens": 282355,
+        "train_nll": 2.508476254384887,
+        "train_perplexity": 12.286194754831344
+      }
+    ],
+    [
+      {
+        "label": "fedrotlora round=7 client=0 mathematics",
+        "samples": 1000,
+        "answer_tokens": 237231,
+        "train_nll": 1.2235889637169899,
+        "train_perplexity": 3.3993660682283737
+      },
+      {
+        "label": "fedrotlora round=7 client=1 physics",
+        "samples": 1000,
+        "answer_tokens": 277158,
+        "train_nll": 2.0225309321458984,
+        "train_perplexity": 7.557428086757594
+      },
+      {
+        "label": "fedrotlora round=7 client=2 computer_science",
+        "samples": 1000,
+        "answer_tokens": 261019,
+        "train_nll": 1.8966197877263378,
+        "train_perplexity": 6.663332852788002
+      },
+      {
+        "label": "fedrotlora round=7 client=3 statistics",
+        "samples": 1000,
+        "answer_tokens": 286671,
+        "train_nll": 2.0313194030471964,
+        "train_perplexity": 7.624139037832723
+      },
+      {
+        "label": "fedrotlora round=7 client=4 economics",
+        "samples": 1000,
+        "answer_tokens": 277000,
+        "train_nll": 2.2838483535059955,
+        "train_perplexity": 9.814377020278647
+      },
+      {
+        "label": "fedrotlora round=7 client=5 biology",
+        "samples": 1000,
+        "answer_tokens": 282355,
+        "train_nll": 2.504358366659792,
+        "train_perplexity": 12.235705609922682
+      }
+    ],
+    [
+      {
+        "label": "fedrotlora round=8 client=0 mathematics",
+        "samples": 1000,
+        "answer_tokens": 237231,
+        "train_nll": 1.2201734116579415,
+        "train_perplexity": 3.3877751623940076
+      },
+      {
+        "label": "fedrotlora round=8 client=1 physics",
+        "samples": 1000,
+        "answer_tokens": 277158,
+        "train_nll": 2.01962015894973,
+        "train_perplexity": 7.53546211214483
+      },
+      {
+        "label": "fedrotlora round=8 client=2 computer_science",
+        "samples": 1000,
+        "answer_tokens": 261019,
+        "train_nll": 1.8931985284980168,
+        "train_perplexity": 6.640574816543379
+      },
+      {
+        "label": "fedrotlora round=8 client=3 statistics",
+        "samples": 1000,
+        "answer_tokens": 286671,
+        "train_nll": 2.027290953659185,
+        "train_perplexity": 7.59348736040954
+      },
+      {
+        "label": "fedrotlora round=8 client=4 economics",
+        "samples": 1000,
+        "answer_tokens": 277000,
+        "train_nll": 2.2804220678939715,
+        "train_perplexity": 9.780807703377228
+      },
+      {
+        "label": "fedrotlora round=8 client=5 biology",
+        "samples": 1000,
+        "answer_tokens": 282355,
+        "train_nll": 2.5012045124290165,
+        "train_perplexity": 12.197176767131765
+      }
+    ],
+    [
+      {
+        "label": "fedrotlora round=9 client=0 mathematics",
+        "samples": 1000,
+        "answer_tokens": 237231,
+        "train_nll": 1.2169727334654352,
+        "train_perplexity": 3.3769493185737023
+      },
+      {
+        "label": "fedrotlora round=9 client=1 physics",
+        "samples": 1000,
+        "answer_tokens": 277158,
+        "train_nll": 2.0166711527561323,
+        "train_perplexity": 7.513272722109904
+      },
+      {
+        "label": "fedrotlora round=9 client=2 computer_science",
+        "samples": 1000,
+        "answer_tokens": 261019,
+        "train_nll": 1.8902000260647025,
+        "train_perplexity": 6.620692859741873
+      },
+      {
+        "label": "fedrotlora round=9 client=3 statistics",
+        "samples": 1000,
+        "answer_tokens": 286671,
+        "train_nll": 2.024129238789902,
+        "train_perplexity": 7.569516832468054
+      },
+      {
+        "label": "fedrotlora round=9 client=4 economics",
+        "samples": 1000,
+        "answer_tokens": 277000,
+        "train_nll": 2.2765953359560847,
+        "train_perplexity": 9.743450697371983
+      },
+      {
+        "label": "fedrotlora round=9 client=5 biology",
+        "samples": 1000,
+        "answer_tokens": 282355,
+        "train_nll": 2.4978142548115323,
+        "train_perplexity": 12.155895212777564
+      }
+    ]
+  ]
+}

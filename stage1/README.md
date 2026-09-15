@@ -18,7 +18,7 @@ python -X utf8 run_stage1.py --method fedrotlora --run-name paper_seed42
 The defaults are the paper protocol: 1000/200 examples per domain, 10 phases or
 rounds, BF16, rank 16 LoRA on `q_proj` and `v_proj`, training batch size 1,
 gradient accumulation 32, maximum sequence length 1152, and generation length
-256. Outputs from all five commands are combined under
+512. Outputs from all five commands are combined under
 `results/stage1/paper_seed42`; `main_table.csv` is refreshed after each method.
 
 For a functional check, `--smoke` selects the shortest 50/20 examples from each

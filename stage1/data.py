@@ -2,6 +2,7 @@ import hashlib
 import heapq
 import json
 import re
+import time
 from html import unescape
 from html.parser import HTMLParser
 from pathlib import Path
@@ -55,8 +56,8 @@ def choose_answer(answers) -> dict | None:
     return max(pool, key=lambda a: (int(a.get("pm_score") or 0), -int(a.get("answer_id") or 0)))
 
 
-def _fingerprint(question: str, answer: str) -> str:
-    normalized = re.sub(r"\W+", " ", f"{question}\0{answer}".lower()).strip()
+def _question_fingerprint(question: str) -> str:
+    normalized = re.sub(r"\W+", " ", question.lower()).strip()
     return hashlib.sha256(normalized.encode("utf-8")).hexdigest()
 
 
@@ -125,7 +126,7 @@ def _domain_candidates(raw_dir: Path, domain: str, site: str, tokenizer, max_len
         if len(question) < 20 or len(answer) < 20:
             stats["too_short"] += 1
             continue
-        fp = _fingerprint(question, answer)
+        fp = _question_fingerprint(question)
         if fp in seen:
             stats["duplicates"] += 1
             continue
@@ -137,6 +138,7 @@ def _domain_candidates(raw_dir: Path, domain: str, site: str, tokenizer, max_len
             "domain": domain,
             "site": site,
             "qid": int(row["qid"]),
+            "answer_id": int(answer_row["answer_id"]),
             "question": question,
             "answer": answer,
             "accepted": bool(answer_row.get("selected")),
@@ -147,6 +149,55 @@ def _domain_candidates(raw_dir: Path, domain: str, site: str, tokenizer, max_len
         if len(selected) == keep:
             break
     return selected, stats
+
+
+def _validate_answer_owners(rows: list[dict], site: str) -> tuple[list[dict], dict]:
+    """Keep only answers whose authoritative StackExchange owner is this qid."""
+    import requests
+
+    api_site = site.split(".")[0]
+    answer_ids = sorted({row["answer_id"] for row in rows})
+    owners = {}
+    quota_remaining = None
+    session = requests.Session()
+    session.headers["User-Agent"] = "FedLLM-Factory-Stage1/1.0"
+    for start in range(0, len(answer_ids), 100):
+        ids = answer_ids[start:start + 100]
+        url = "https://api.stackexchange.com/2.3/answers/" + ";".join(map(str, ids))
+        for attempt in range(3):
+            try:
+                response = session.get(url, params={"site": api_site, "pagesize": 100}, timeout=30)
+                response.raise_for_status()
+                payload = response.json()
+                break
+            except requests.RequestException:
+                if attempt == 2:
+                    raise
+                time.sleep(2 ** attempt)
+        quota_remaining = payload.get("quota_remaining", quota_remaining)
+        owners.update({int(item["answer_id"]): int(item["question_id"]) for item in payload["items"]})
+        if payload.get("backoff"):
+            time.sleep(payload["backoff"])
+
+    verified = []
+    mismatches = 0
+    unavailable = 0
+    for row in rows:
+        owner = owners.get(row["answer_id"])
+        if owner is None:
+            unavailable += 1
+        elif owner != row["qid"]:
+            mismatches += 1
+        else:
+            row["verified_question_id"] = owner
+            verified.append(row)
+    return verified, {
+        "checked": len(rows),
+        "verified": len(verified),
+        "mismatches": mismatches,
+        "api_unavailable": unavailable,
+        "quota_remaining": quota_remaining,
+    }
 
 
 def _write_jsonl(path: Path, rows: list[dict]):
@@ -161,7 +212,7 @@ def prepare_stackexchange(raw_dir: str, output_dir: str, tokenizer, train_sample
     raw_path = Path(raw_dir)
     output_path = Path(output_dir)
     required = train_samples + test_samples
-    candidate_count = required + 200
+    candidate_count = required + 800
     candidates = {}
     manifest = {
         "seed": seed,
@@ -176,8 +227,18 @@ def prepare_stackexchange(raw_dir: str, output_dir: str, tokenizer, train_sample
             raw_path, domain, site, tokenizer, max_length, seed, candidate_count
         )
         print(f"Prepared candidate pool for {domain}: {len(rows)} eligible from {stats['rows']} rows")
-        candidates[domain] = rows
-        manifest["domains"][domain] = {"site": site, "scan": stats}
+        verified, verification = _validate_answer_owners(rows, site)
+        print(
+            f"Verified {domain}: {verification['verified']}/{verification['checked']} valid, "
+            f"{verification['mismatches']} mismatched, "
+            f"{verification['api_unavailable']} unavailable"
+        )
+        candidates[domain] = verified
+        manifest["domains"][domain] = {
+            "site": site,
+            "scan": stats,
+            "answer_owner_verification": verification,
+        }
 
     globally_used = set()
     for domain, _ in DOMAINS:

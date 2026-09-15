@@ -1,0 +1,89 @@
+{
+  "method": "base",
+  "per_domain": {
+    "mathematics": {
+      "eval_loss": 2.141715136800482,
+      "perplexity": 8.51402783567046,
+      "rouge1": 0.31670650311700294,
+      "rouge2": 0.11437396280361706,
+      "rougeL": 0.19985362343170276,
+      "avg_generation_tokens": 505.035,
+      "eos_rate": 0.06,
+      "max_tokens_rate": 0.94,
+      "eval_answer_tokens": 48036,
+      "samples": 200
+    },
+    "physics": {
+      "eval_loss": 2.8392654422176857,
+      "perplexity": 17.103197634860628,
+      "rouge1": 0.31052110764370366,
+      "rouge2": 0.08187231202064041,
+      "rougeL": 0.16334338805326812,
+      "avg_generation_tokens": 505.605,
+      "eos_rate": 0.055,
+      "max_tokens_rate": 0.945,
+      "eval_answer_tokens": 52973,
+      "samples": 200
+    },
+    "computer_science": {
+      "eval_loss": 2.8270141846102765,
+      "perplexity": 16.894940266887367,
+      "rouge1": 0.30262936146732256,
+      "rouge2": 0.07514024139302591,
+      "rougeL": 0.1610739754417039,
+      "avg_generation_tokens": 508.68,
+      "eos_rate": 0.03,
+      "max_tokens_rate": 0.97,
+      "eval_answer_tokens": 51020,
+      "samples": 200
+    },
+    "statistics": {
+      "eval_loss": 2.9308555682804553,
+      "perplexity": 18.74366011953459,
+      "rouge1": 0.2904313193154098,
+      "rouge2": 0.06972841203010469,
+      "rougeL": 0.14856417238294525,
+      "avg_generation_tokens": 511.645,
+      "eos_rate": 0.005,
+      "max_tokens_rate": 0.995,
+      "eval_answer_tokens": 55097,
+      "samples": 200
+    },
+    "economics": {
+      "eval_loss": 3.1430459910280177,
+      "perplexity": 23.174348318338918,
+      "rouge1": 0.29149432223499766,
+      "rouge2": 0.06158900977484927,
+      "rougeL": 0.14406371201904777,
+      "avg_generation_tokens": 508.19,
+      "eos_rate": 0.03,
+      "max_tokens_rate": 0.97,
+      "eval_answer_tokens": 57702,
+      "samples": 200
+    },
+    "biology": {
+      "eval_loss": 3.4529887823575582,
+      "perplexity": 31.59468095947577,
+      "rouge1": 0.28181470091840627,
+      "rouge2": 0.05218269826979547,
+      "rougeL": 0.13784525305633344,
+      "avg_generation_tokens": 505.445,
+      "eos_rate": 0.05,
+      "max_tokens_rate": 0.95,
+      "eval_answer_tokens": 56614,
+      "samples": 200
+    }
+  },
+  "macro_average": {
+    "eval_loss": 2.889147517549079,
+    "perplexity": 19.337475855794622,
+    "rouge1": 0.29893288578280713,
+    "rouge2": 0.07581443938200547,
+    "rougeL": 0.15912402073083354,
+    "avg_generation_tokens": 507.43333333333334,
+    "eos_rate": 0.03833333333333334,
+    "max_tokens_rate": 0.9616666666666666,
+    "eval_answer_tokens": 53573.666666666664,
+    "samples": 200.0
+  }
+}

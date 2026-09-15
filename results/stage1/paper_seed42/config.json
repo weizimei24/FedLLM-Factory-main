@@ -1,0 +1,27 @@
+{
+  "model_path": "C:\\Users\\admin\\Desktop\\FedLLM-Factory-main\\FedLLM-Factory-main\\Qwen3-1.7B",
+  "data_dir": "C:\\Users\\admin\\Desktop\\FedLLM-Factory-main\\FedLLM-Factory-main\\dataset\\stackexchange_stage1",
+  "output_dir": "C:\\Users\\admin\\Desktop\\FedLLM-Factory-main\\FedLLM-Factory-main\\results\\stage1",
+  "run_name": "paper_seed42",
+  "seed": 42,
+  "train_samples": 1000,
+  "test_samples": 200,
+  "max_length": 1152,
+  "max_new_tokens": 512,
+  "batch_size": 1,
+  "eval_batch_size": 4,
+  "generation_batch_size": 20,
+  "grad_accum": 32,
+  "learning_rate": 0.0002,
+  "phases": 10,
+  "rounds": 10,
+  "lora_rank": 16,
+  "lora_alpha": 32,
+  "lora_dropout": 0.05,
+  "target_modules": [
+    "q_proj",
+    "v_proj"
+  ],
+  "fedrot_lambda": 0.5,
+  "smoke": false
+}

@@ -25,7 +25,7 @@ class Stage1Config:
     train_samples: int = 1000
     test_samples: int = 200
     max_length: int = 1152
-    max_new_tokens: int = 256
+    max_new_tokens: int = 768
 
     batch_size: int = 1
     eval_batch_size: int = 4

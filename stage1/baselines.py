@@ -6,7 +6,7 @@ from stage1.data import load_domain_rows
 from stage1.evaluator import Stage1Evaluator
 from stage1.federated import FederatedRunner
 from stage1.model import load_base_model, load_lora_model, load_tokenizer, release_memory
-from stage1.results import save_method_result, save_transfer_tables, write_json
+from stage1.results import save_method_result, write_json
 from stage1.trainer import set_seed, train_phase
 
 
@@ -52,7 +52,7 @@ def run_base(config, rows):
 def run_local(config, rows):
     tokenizer = load_tokenizer(config.model_path)
     evaluator = Stage1Evaluator(tokenizer, config)
-    transfer = {}
+    per_domain = {}
     history = {}
     for client_index, (train_domain, splits) in enumerate(rows.items()):
         # Every independent Local run starts from the same LoRA initialization.
@@ -67,15 +67,16 @@ def run_local(config, rows):
             ))
         adapter_dir = config.run_dir / "local" / "adapters" / train_domain
         model.save_pretrained(adapter_dir)
-        transfer[train_domain] = _evaluate_domains(
-            model, evaluator, rows, config.run_dir / "local" / "predictions" / train_domain,
-            prefix=f"{train_domain}_to_",
+        print(f"Evaluating local {train_domain} on {train_domain}")
+        per_domain[train_domain] = evaluator.evaluate(
+            model,
+            splits["test"],
+            config.run_dir / "local" / "predictions" / f"{train_domain}.jsonl",
         )
+        print(json.dumps(per_domain[train_domain], ensure_ascii=False))
         del model
         release_memory()
-    diagonal = {domain: transfer[domain][domain] for domain in rows}
-    save_transfer_tables(config.run_dir, transfer)
-    save_method_result(config.run_dir, "local", diagonal, {"training_history": history})
+    save_method_result(config.run_dir, "local", per_domain, {"training_history": history})
 
 
 def run_centralized(config, rows):

@@ -10,12 +10,19 @@
         "rows": 491325,
         "no_answer": 0,
         "too_short": 0,
-        "too_long": 79,
+        "too_long": 110,
         "duplicates": 0
+      },
+      "answer_owner_verification": {
+        "checked": 2000,
+        "verified": 1598,
+        "mismatches": 397,
+        "api_unavailable": 5,
+        "quota_remaining": 150
       },
       "train": 1000,
       "test": 200,
-      "accepted_answers": 766
+      "accepted_answers": 777
     },
     "physics": {
       "site": "physics.stackexchange.com",
@@ -23,12 +30,19 @@
         "rows": 79313,
         "no_answer": 0,
         "too_short": 0,
-        "too_long": 117,
+        "too_long": 171,
         "duplicates": 0
+      },
+      "answer_owner_verification": {
+        "checked": 2000,
+        "verified": 1666,
+        "mismatches": 330,
+        "api_unavailable": 4,
+        "quota_remaining": 130
       },
       "train": 1000,
       "test": 200,
-      "accepted_answers": 641
+      "accepted_answers": 639
     },
     "computer_science": {
       "site": "cs.stackexchange.com",
@@ -36,12 +50,19 @@
         "rows": 11314,
         "no_answer": 0,
         "too_short": 0,
-        "too_long": 88,
+        "too_long": 134,
         "duplicates": 0
+      },
+      "answer_owner_verification": {
+        "checked": 2000,
+        "verified": 1689,
+        "mismatches": 311,
+        "api_unavailable": 0,
+        "quota_remaining": 110
       },
       "train": 1000,
       "test": 200,
-      "accepted_answers": 652
+      "accepted_answers": 659
     },
     "statistics": {
       "site": "stats.stackexchange.com",
@@ -49,12 +70,19 @@
         "rows": 38798,
         "no_answer": 0,
         "too_short": 0,
-        "too_long": 225,
+        "too_long": 318,
         "duplicates": 0
+      },
+      "answer_owner_verification": {
+        "checked": 2000,
+        "verified": 1711,
+        "mismatches": 288,
+        "api_unavailable": 1,
+        "quota_remaining": 90
       },
       "train": 1000,
       "test": 200,
-      "accepted_answers": 624
+      "accepted_answers": 611
     },
     "economics": {
       "site": "economics.stackexchange.com",
@@ -62,12 +90,19 @@
         "rows": 3838,
         "no_answer": 0,
         "too_short": 0,
-        "too_long": 119,
+        "too_long": 173,
         "duplicates": 0
+      },
+      "answer_owner_verification": {
+        "checked": 2000,
+        "verified": 1688,
+        "mismatches": 308,
+        "api_unavailable": 4,
+        "quota_remaining": 70
       },
       "train": 1000,
       "test": 200,
-      "accepted_answers": 550
+      "accepted_answers": 559
     },
     "biology": {
       "site": "biology.stackexchange.com",
@@ -75,12 +110,19 @@
         "rows": 6724,
         "no_answer": 0,
         "too_short": 0,
-        "too_long": 60,
+        "too_long": 86,
         "duplicates": 0
+      },
+      "answer_owner_verification": {
+        "checked": 2000,
+        "verified": 1760,
+        "mismatches": 239,
+        "api_unavailable": 1,
+        "quota_remaining": 50
       },
       "train": 1000,
       "test": 200,
-      "accepted_answers": 668
+      "accepted_answers": 679
     }
   },
   "train_test_overlap": 0
