@@ -1,0 +1,523 @@
+{
+  "method": "local",
+  "per_domain": {
+    "mathematics": {
+      "eval_loss": 1.2983831498051912,
+      "perplexity": 3.6633687581495806,
+      "rouge1": 0.2692622232594615,
+      "rouge2": 0.09906970380194008,
+      "rougeL": 0.19573678048914453,
+      "avg_generation_tokens": 235.83,
+      "eos_rate": 0.835,
+      "max_tokens_rate": 0.165,
+      "eval_answer_tokens": 48036,
+      "samples": 200
+    },
+    "physics": {
+      "eval_loss": 2.054958151294298,
+      "perplexity": 7.806511173411322,
+      "rouge1": 0.24925388295614034,
+      "rouge2": 0.061015748211545304,
+      "rougeL": 0.1609145655441689,
+      "avg_generation_tokens": 210.35,
+      "eos_rate": 0.855,
+      "max_tokens_rate": 0.145,
+      "eval_answer_tokens": 52973,
+      "samples": 200
+    },
+    "computer_science": {
+      "eval_loss": 1.939428357534061,
+      "perplexity": 6.954774189829248,
+      "rouge1": 0.21395596369812567,
+      "rouge2": 0.04732151034425438,
+      "rougeL": 0.14069078578793545,
+      "avg_generation_tokens": 167.495,
+      "eos_rate": 0.88,
+      "max_tokens_rate": 0.12,
+      "eval_answer_tokens": 51020,
+      "samples": 200
+    },
+    "statistics": {
+      "eval_loss": 2.1081518485095776,
+      "perplexity": 8.233011363139187,
+      "rouge1": 0.21235087407230957,
+      "rouge2": 0.045535298695866304,
+      "rougeL": 0.13583499055596265,
+      "avg_generation_tokens": 198.14,
+      "eos_rate": 0.835,
+      "max_tokens_rate": 0.165,
+      "eval_answer_tokens": 55097,
+      "samples": 200
+    },
+    "economics": {
+      "eval_loss": 2.344982824750403,
+      "perplexity": 10.433093535024549,
+      "rouge1": 0.2053167273289599,
+      "rouge2": 0.04002832491015943,
+      "rougeL": 0.13533734273926434,
+      "avg_generation_tokens": 284.345,
+      "eos_rate": 0.735,
+      "max_tokens_rate": 0.265,
+      "eval_answer_tokens": 57702,
+      "samples": 200
+    },
+    "biology": {
+      "eval_loss": 2.630437117907877,
+      "perplexity": 13.879835701041971,
+      "rouge1": 0.18517067408012838,
+      "rouge2": 0.029800746192724742,
+      "rougeL": 0.11790112863754379,
+      "avg_generation_tokens": 240.545,
+      "eos_rate": 0.775,
+      "max_tokens_rate": 0.225,
+      "eval_answer_tokens": 56614,
+      "samples": 200
+    }
+  },
+  "macro_average": {
+    "eval_loss": 2.0627235749669013,
+    "perplexity": 8.49509912009931,
+    "rouge1": 0.2225517242325209,
+    "rouge2": 0.0537952220260817,
+    "rougeL": 0.1477359322923366,
+    "avg_generation_tokens": 222.78416666666666,
+    "eos_rate": 0.8191666666666667,
+    "max_tokens_rate": 0.18083333333333332,
+    "eval_answer_tokens": 53573.666666666664,
+    "samples": 200.0
+  },
+  "training_history": {
+    "mathematics": [
+      {
+        "label": "local mathematics phase=0",
+        "samples": 1000,
+        "answer_tokens": 237231,
+        "train_nll": 1.4205075585405358,
+        "train_perplexity": 4.139220804047769
+      },
+      {
+        "label": "local mathematics phase=1",
+        "samples": 1000,
+        "answer_tokens": 237231,
+        "train_nll": 1.2539875632461652,
+        "train_perplexity": 3.5042887070559074
+      },
+      {
+        "label": "local mathematics phase=2",
+        "samples": 1000,
+        "answer_tokens": 237231,
+        "train_nll": 1.229982721119706,
+        "train_perplexity": 3.4211704217847756
+      },
+      {
+        "label": "local mathematics phase=3",
+        "samples": 1000,
+        "answer_tokens": 237231,
+        "train_nll": 1.2123206160059428,
+        "train_perplexity": 3.361275839389393
+      },
+      {
+        "label": "local mathematics phase=4",
+        "samples": 1000,
+        "answer_tokens": 237231,
+        "train_nll": 1.1952847203641888,
+        "train_perplexity": 3.3044984945885045
+      },
+      {
+        "label": "local mathematics phase=5",
+        "samples": 1000,
+        "answer_tokens": 237231,
+        "train_nll": 1.178243019132523,
+        "train_perplexity": 3.2486613498359627
+      },
+      {
+        "label": "local mathematics phase=6",
+        "samples": 1000,
+        "answer_tokens": 237231,
+        "train_nll": 1.159943449513793,
+        "train_perplexity": 3.1897528889389917
+      },
+      {
+        "label": "local mathematics phase=7",
+        "samples": 1000,
+        "answer_tokens": 237231,
+        "train_nll": 1.141966947069618,
+        "train_perplexity": 3.1329246055741153
+      },
+      {
+        "label": "local mathematics phase=8",
+        "samples": 1000,
+        "answer_tokens": 237231,
+        "train_nll": 1.1230236633784962,
+        "train_perplexity": 3.0741353151158175
+      },
+      {
+        "label": "local mathematics phase=9",
+        "samples": 1000,
+        "answer_tokens": 237231,
+        "train_nll": 1.1067208513228954,
+        "train_perplexity": 3.024424578252172
+      }
+    ],
+    "physics": [
+      {
+        "label": "local physics phase=0",
+        "samples": 1000,
+        "answer_tokens": 277158,
+        "train_nll": 2.2156071673436304,
+        "train_perplexity": 9.16697330907157
+      },
+      {
+        "label": "local physics phase=1",
+        "samples": 1000,
+        "answer_tokens": 277158,
+        "train_nll": 2.0555662701560182,
+        "train_perplexity": 7.811259903850034
+      },
+      {
+        "label": "local physics phase=2",
+        "samples": 1000,
+        "answer_tokens": 277158,
+        "train_nll": 2.0298629158442325,
+        "train_perplexity": 7.613042659718477
+      },
+      {
+        "label": "local physics phase=3",
+        "samples": 1000,
+        "answer_tokens": 277158,
+        "train_nll": 2.012115916714432,
+        "train_perplexity": 7.479125824051556
+      },
+      {
+        "label": "local physics phase=4",
+        "samples": 1000,
+        "answer_tokens": 277158,
+        "train_nll": 1.9947566933685454,
+        "train_perplexity": 7.350414405738949
+      },
+      {
+        "label": "local physics phase=5",
+        "samples": 1000,
+        "answer_tokens": 277158,
+        "train_nll": 1.9768173370171975,
+        "train_perplexity": 7.219728418399904
+      },
+      {
+        "label": "local physics phase=6",
+        "samples": 1000,
+        "answer_tokens": 277158,
+        "train_nll": 1.9583023796065353,
+        "train_perplexity": 7.087285326793195
+      },
+      {
+        "label": "local physics phase=7",
+        "samples": 1000,
+        "answer_tokens": 277158,
+        "train_nll": 1.9378481225465414,
+        "train_perplexity": 6.9437926912834875
+      },
+      {
+        "label": "local physics phase=8",
+        "samples": 1000,
+        "answer_tokens": 277158,
+        "train_nll": 1.9178237664026125,
+        "train_perplexity": 6.8061306105976795
+      },
+      {
+        "label": "local physics phase=9",
+        "samples": 1000,
+        "answer_tokens": 277158,
+        "train_nll": 1.8982862594842864,
+        "train_perplexity": 6.674446366407303
+      }
+    ],
+    "computer_science": [
+      {
+        "label": "local computer_science phase=0",
+        "samples": 1000,
+        "answer_tokens": 261019,
+        "train_nll": 2.1109996607734303,
+        "train_perplexity": 8.256490850585436
+      },
+      {
+        "label": "local computer_science phase=1",
+        "samples": 1000,
+        "answer_tokens": 261019,
+        "train_nll": 1.9328795204287954,
+        "train_perplexity": 6.909377317163774
+      },
+      {
+        "label": "local computer_science phase=2",
+        "samples": 1000,
+        "answer_tokens": 261019,
+        "train_nll": 1.9059165203951163,
+        "train_perplexity": 6.725568924814742
+      },
+      {
+        "label": "local computer_science phase=3",
+        "samples": 1000,
+        "answer_tokens": 261019,
+        "train_nll": 1.8879615312564002,
+        "train_perplexity": 6.605889048456979
+      },
+      {
+        "label": "local computer_science phase=4",
+        "samples": 1000,
+        "answer_tokens": 261019,
+        "train_nll": 1.8693161364863915,
+        "train_perplexity": 6.483860806956505
+      },
+      {
+        "label": "local computer_science phase=5",
+        "samples": 1000,
+        "answer_tokens": 261019,
+        "train_nll": 1.850685634449271,
+        "train_perplexity": 6.364181529157776
+      },
+      {
+        "label": "local computer_science phase=6",
+        "samples": 1000,
+        "answer_tokens": 261019,
+        "train_nll": 1.8316405079578781,
+        "train_perplexity": 6.2441217923102945
+      },
+      {
+        "label": "local computer_science phase=7",
+        "samples": 1000,
+        "answer_tokens": 261019,
+        "train_nll": 1.8120059033681954,
+        "train_perplexity": 6.122716700685627
+      },
+      {
+        "label": "local computer_science phase=8",
+        "samples": 1000,
+        "answer_tokens": 261019,
+        "train_nll": 1.7921458219899251,
+        "train_perplexity": 6.002318564434266
+      },
+      {
+        "label": "local computer_science phase=9",
+        "samples": 1000,
+        "answer_tokens": 261019,
+        "train_nll": 1.771200623420873,
+        "train_perplexity": 5.877906278530315
+      }
+    ],
+    "statistics": [
+      {
+        "label": "local statistics phase=0",
+        "samples": 1000,
+        "answer_tokens": 286671,
+        "train_nll": 2.2259047656202298,
+        "train_perplexity": 9.261858825612107
+      },
+      {
+        "label": "local statistics phase=1",
+        "samples": 1000,
+        "answer_tokens": 286671,
+        "train_nll": 2.065479856661684,
+        "train_perplexity": 7.889082618369555
+      },
+      {
+        "label": "local statistics phase=2",
+        "samples": 1000,
+        "answer_tokens": 286671,
+        "train_nll": 2.0397004541770847,
+        "train_perplexity": 7.688305854013689
+      },
+      {
+        "label": "local statistics phase=3",
+        "samples": 1000,
+        "answer_tokens": 286671,
+        "train_nll": 2.0214627518678188,
+        "train_perplexity": 7.549359701134688
+      },
+      {
+        "label": "local statistics phase=4",
+        "samples": 1000,
+        "answer_tokens": 286671,
+        "train_nll": 2.0026427740244963,
+        "train_perplexity": 7.408609530724757
+      },
+      {
+        "label": "local statistics phase=5",
+        "samples": 1000,
+        "answer_tokens": 286671,
+        "train_nll": 1.9842076270664275,
+        "train_perplexity": 7.273281949812218
+      },
+      {
+        "label": "local statistics phase=6",
+        "samples": 1000,
+        "answer_tokens": 286671,
+        "train_nll": 1.9651909962800536,
+        "train_perplexity": 7.136275462069258
+      },
+      {
+        "label": "local statistics phase=7",
+        "samples": 1000,
+        "answer_tokens": 286671,
+        "train_nll": 1.9457627025432096,
+        "train_perplexity": 6.998967950503193
+      },
+      {
+        "label": "local statistics phase=8",
+        "samples": 1000,
+        "answer_tokens": 286671,
+        "train_nll": 1.925527966463885,
+        "train_perplexity": 6.858768910099387
+      },
+      {
+        "label": "local statistics phase=9",
+        "samples": 1000,
+        "answer_tokens": 286671,
+        "train_nll": 1.905273384253654,
+        "train_perplexity": 6.721244858997846
+      }
+    ],
+    "economics": [
+      {
+        "label": "local economics phase=0",
+        "samples": 1000,
+        "answer_tokens": 277000,
+        "train_nll": 2.48878770735677,
+        "train_perplexity": 12.046663183503574
+      },
+      {
+        "label": "local economics phase=1",
+        "samples": 1000,
+        "answer_tokens": 277000,
+        "train_nll": 2.3200454761166434,
+        "train_perplexity": 10.176137066747202
+      },
+      {
+        "label": "local economics phase=2",
+        "samples": 1000,
+        "answer_tokens": 277000,
+        "train_nll": 2.2930508472960347,
+        "train_perplexity": 9.905110611193985
+      },
+      {
+        "label": "local economics phase=3",
+        "samples": 1000,
+        "answer_tokens": 277000,
+        "train_nll": 2.273482666160656,
+        "train_perplexity": 9.713169704497624
+      },
+      {
+        "label": "local economics phase=4",
+        "samples": 1000,
+        "answer_tokens": 277000,
+        "train_nll": 2.254172429619713,
+        "train_perplexity": 9.527405448166586
+      },
+      {
+        "label": "local economics phase=5",
+        "samples": 1000,
+        "answer_tokens": 277000,
+        "train_nll": 2.2342205073261088,
+        "train_perplexity": 9.339199176830988
+      },
+      {
+        "label": "local economics phase=6",
+        "samples": 1000,
+        "answer_tokens": 277000,
+        "train_nll": 2.2137840273181237,
+        "train_perplexity": 9.150275858639125
+      },
+      {
+        "label": "local economics phase=7",
+        "samples": 1000,
+        "answer_tokens": 277000,
+        "train_nll": 2.1930371404960485,
+        "train_perplexity": 8.962391864238754
+      },
+      {
+        "label": "local economics phase=8",
+        "samples": 1000,
+        "answer_tokens": 277000,
+        "train_nll": 2.172636569357521,
+        "train_perplexity": 8.78140633243545
+      },
+      {
+        "label": "local economics phase=9",
+        "samples": 1000,
+        "answer_tokens": 277000,
+        "train_nll": 2.1494746234345414,
+        "train_perplexity": 8.58034929834938
+      }
+    ],
+    "biology": [
+      {
+        "label": "local biology phase=0",
+        "samples": 1000,
+        "answer_tokens": 282355,
+        "train_nll": 2.708554985404122,
+        "train_perplexity": 15.007573675904215
+      },
+      {
+        "label": "local biology phase=1",
+        "samples": 1000,
+        "answer_tokens": 282355,
+        "train_nll": 2.5395070961592348,
+        "train_perplexity": 12.673422652349307
+      },
+      {
+        "label": "local biology phase=2",
+        "samples": 1000,
+        "answer_tokens": 282355,
+        "train_nll": 2.512715793759355,
+        "train_perplexity": 12.338393131610541
+      },
+      {
+        "label": "local biology phase=3",
+        "samples": 1000,
+        "answer_tokens": 282355,
+        "train_nll": 2.493720127405962,
+        "train_perplexity": 12.106229167979924
+      },
+      {
+        "label": "local biology phase=4",
+        "samples": 1000,
+        "answer_tokens": 282355,
+        "train_nll": 2.474064296116577,
+        "train_perplexity": 11.870594553455375
+      },
+      {
+        "label": "local biology phase=5",
+        "samples": 1000,
+        "answer_tokens": 282355,
+        "train_nll": 2.453978965795029,
+        "train_perplexity": 11.63454821056117
+      },
+      {
+        "label": "local biology phase=6",
+        "samples": 1000,
+        "answer_tokens": 282355,
+        "train_nll": 2.433258941912461,
+        "train_perplexity": 11.395960402123197
+      },
+      {
+        "label": "local biology phase=7",
+        "samples": 1000,
+        "answer_tokens": 282355,
+        "train_nll": 2.4124746666249113,
+        "train_perplexity": 11.161548107302936
+      },
+      {
+        "label": "local biology phase=8",
+        "samples": 1000,
+        "answer_tokens": 282355,
+        "train_nll": 2.3911786789760248,
+        "train_perplexity": 10.92636503285896
+      },
+      {
+        "label": "local biology phase=9",
+        "samples": 1000,
+        "answer_tokens": 282355,
+        "train_nll": 2.369395435653944,
+        "train_perplexity": 10.690926976684404
+      }
+    ]
+  }
+}

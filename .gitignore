@@ -9,3 +9,6 @@
 # Python-generated files
 __pycache__/
 *.py[cod]
+
+# Local API credentials
+/.env
