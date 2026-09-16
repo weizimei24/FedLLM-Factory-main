@@ -1,0 +1,542 @@
+[
+  {
+    "domain": "mathematics",
+    "qid": 2334540,
+    "label": "A",
+    "method": "fedit"
+  },
+  {
+    "domain": "mathematics",
+    "qid": 2334540,
+    "label": "B",
+    "method": "local"
+  },
+  {
+    "domain": "mathematics",
+    "qid": 2334540,
+    "label": "C",
+    "method": "base"
+  },
+  {
+    "domain": "mathematics",
+    "qid": 2334540,
+    "label": "D",
+    "method": "centralized"
+  },
+  {
+    "domain": "mathematics",
+    "qid": 2334540,
+    "label": "E",
+    "method": "fedrotlora"
+  },
+  {
+    "domain": "mathematics",
+    "qid": 1952769,
+    "label": "A",
+    "method": "fedrotlora"
+  },
+  {
+    "domain": "mathematics",
+    "qid": 1952769,
+    "label": "B",
+    "method": "centralized"
+  },
+  {
+    "domain": "mathematics",
+    "qid": 1952769,
+    "label": "C",
+    "method": "base"
+  },
+  {
+    "domain": "mathematics",
+    "qid": 1952769,
+    "label": "D",
+    "method": "local"
+  },
+  {
+    "domain": "mathematics",
+    "qid": 1952769,
+    "label": "E",
+    "method": "fedit"
+  },
+  {
+    "domain": "mathematics",
+    "qid": 4455397,
+    "label": "A",
+    "method": "fedrotlora"
+  },
+  {
+    "domain": "mathematics",
+    "qid": 4455397,
+    "label": "B",
+    "method": "base"
+  },
+  {
+    "domain": "mathematics",
+    "qid": 4455397,
+    "label": "C",
+    "method": "local"
+  },
+  {
+    "domain": "mathematics",
+    "qid": 4455397,
+    "label": "D",
+    "method": "fedit"
+  },
+  {
+    "domain": "mathematics",
+    "qid": 4455397,
+    "label": "E",
+    "method": "centralized"
+  },
+  {
+    "domain": "physics",
+    "qid": 235736,
+    "label": "A",
+    "method": "centralized"
+  },
+  {
+    "domain": "physics",
+    "qid": 235736,
+    "label": "B",
+    "method": "local"
+  },
+  {
+    "domain": "physics",
+    "qid": 235736,
+    "label": "C",
+    "method": "base"
+  },
+  {
+    "domain": "physics",
+    "qid": 235736,
+    "label": "D",
+    "method": "fedrotlora"
+  },
+  {
+    "domain": "physics",
+    "qid": 235736,
+    "label": "E",
+    "method": "fedit"
+  },
+  {
+    "domain": "physics",
+    "qid": 105356,
+    "label": "A",
+    "method": "local"
+  },
+  {
+    "domain": "physics",
+    "qid": 105356,
+    "label": "B",
+    "method": "fedit"
+  },
+  {
+    "domain": "physics",
+    "qid": 105356,
+    "label": "C",
+    "method": "fedrotlora"
+  },
+  {
+    "domain": "physics",
+    "qid": 105356,
+    "label": "D",
+    "method": "centralized"
+  },
+  {
+    "domain": "physics",
+    "qid": 105356,
+    "label": "E",
+    "method": "base"
+  },
+  {
+    "domain": "physics",
+    "qid": 368438,
+    "label": "A",
+    "method": "fedit"
+  },
+  {
+    "domain": "physics",
+    "qid": 368438,
+    "label": "B",
+    "method": "base"
+  },
+  {
+    "domain": "physics",
+    "qid": 368438,
+    "label": "C",
+    "method": "centralized"
+  },
+  {
+    "domain": "physics",
+    "qid": 368438,
+    "label": "D",
+    "method": "fedrotlora"
+  },
+  {
+    "domain": "physics",
+    "qid": 368438,
+    "label": "E",
+    "method": "local"
+  },
+  {
+    "domain": "computer_science",
+    "qid": 18082,
+    "label": "A",
+    "method": "fedit"
+  },
+  {
+    "domain": "computer_science",
+    "qid": 18082,
+    "label": "B",
+    "method": "fedrotlora"
+  },
+  {
+    "domain": "computer_science",
+    "qid": 18082,
+    "label": "C",
+    "method": "centralized"
+  },
+  {
+    "domain": "computer_science",
+    "qid": 18082,
+    "label": "D",
+    "method": "local"
+  },
+  {
+    "domain": "computer_science",
+    "qid": 18082,
+    "label": "E",
+    "method": "base"
+  },
+  {
+    "domain": "computer_science",
+    "qid": 23813,
+    "label": "A",
+    "method": "base"
+  },
+  {
+    "domain": "computer_science",
+    "qid": 23813,
+    "label": "B",
+    "method": "fedit"
+  },
+  {
+    "domain": "computer_science",
+    "qid": 23813,
+    "label": "C",
+    "method": "centralized"
+  },
+  {
+    "domain": "computer_science",
+    "qid": 23813,
+    "label": "D",
+    "method": "local"
+  },
+  {
+    "domain": "computer_science",
+    "qid": 23813,
+    "label": "E",
+    "method": "fedrotlora"
+  },
+  {
+    "domain": "computer_science",
+    "qid": 12340,
+    "label": "A",
+    "method": "fedit"
+  },
+  {
+    "domain": "computer_science",
+    "qid": 12340,
+    "label": "B",
+    "method": "fedrotlora"
+  },
+  {
+    "domain": "computer_science",
+    "qid": 12340,
+    "label": "C",
+    "method": "centralized"
+  },
+  {
+    "domain": "computer_science",
+    "qid": 12340,
+    "label": "D",
+    "method": "local"
+  },
+  {
+    "domain": "computer_science",
+    "qid": 12340,
+    "label": "E",
+    "method": "base"
+  },
+  {
+    "domain": "statistics",
+    "qid": 8891,
+    "label": "A",
+    "method": "base"
+  },
+  {
+    "domain": "statistics",
+    "qid": 8891,
+    "label": "B",
+    "method": "local"
+  },
+  {
+    "domain": "statistics",
+    "qid": 8891,
+    "label": "C",
+    "method": "fedit"
+  },
+  {
+    "domain": "statistics",
+    "qid": 8891,
+    "label": "D",
+    "method": "centralized"
+  },
+  {
+    "domain": "statistics",
+    "qid": 8891,
+    "label": "E",
+    "method": "fedrotlora"
+  },
+  {
+    "domain": "statistics",
+    "qid": 37497,
+    "label": "A",
+    "method": "centralized"
+  },
+  {
+    "domain": "statistics",
+    "qid": 37497,
+    "label": "B",
+    "method": "base"
+  },
+  {
+    "domain": "statistics",
+    "qid": 37497,
+    "label": "C",
+    "method": "fedrotlora"
+  },
+  {
+    "domain": "statistics",
+    "qid": 37497,
+    "label": "D",
+    "method": "local"
+  },
+  {
+    "domain": "statistics",
+    "qid": 37497,
+    "label": "E",
+    "method": "fedit"
+  },
+  {
+    "domain": "statistics",
+    "qid": 343431,
+    "label": "A",
+    "method": "base"
+  },
+  {
+    "domain": "statistics",
+    "qid": 343431,
+    "label": "B",
+    "method": "centralized"
+  },
+  {
+    "domain": "statistics",
+    "qid": 343431,
+    "label": "C",
+    "method": "fedrotlora"
+  },
+  {
+    "domain": "statistics",
+    "qid": 343431,
+    "label": "D",
+    "method": "local"
+  },
+  {
+    "domain": "statistics",
+    "qid": 343431,
+    "label": "E",
+    "method": "fedit"
+  },
+  {
+    "domain": "economics",
+    "qid": 10364,
+    "label": "A",
+    "method": "fedit"
+  },
+  {
+    "domain": "economics",
+    "qid": 10364,
+    "label": "B",
+    "method": "local"
+  },
+  {
+    "domain": "economics",
+    "qid": 10364,
+    "label": "C",
+    "method": "centralized"
+  },
+  {
+    "domain": "economics",
+    "qid": 10364,
+    "label": "D",
+    "method": "base"
+  },
+  {
+    "domain": "economics",
+    "qid": 10364,
+    "label": "E",
+    "method": "fedrotlora"
+  },
+  {
+    "domain": "economics",
+    "qid": 8532,
+    "label": "A",
+    "method": "base"
+  },
+  {
+    "domain": "economics",
+    "qid": 8532,
+    "label": "B",
+    "method": "fedrotlora"
+  },
+  {
+    "domain": "economics",
+    "qid": 8532,
+    "label": "C",
+    "method": "local"
+  },
+  {
+    "domain": "economics",
+    "qid": 8532,
+    "label": "D",
+    "method": "fedit"
+  },
+  {
+    "domain": "economics",
+    "qid": 8532,
+    "label": "E",
+    "method": "centralized"
+  },
+  {
+    "domain": "economics",
+    "qid": 5334,
+    "label": "A",
+    "method": "centralized"
+  },
+  {
+    "domain": "economics",
+    "qid": 5334,
+    "label": "B",
+    "method": "base"
+  },
+  {
+    "domain": "economics",
+    "qid": 5334,
+    "label": "C",
+    "method": "fedrotlora"
+  },
+  {
+    "domain": "economics",
+    "qid": 5334,
+    "label": "D",
+    "method": "local"
+  },
+  {
+    "domain": "economics",
+    "qid": 5334,
+    "label": "E",
+    "method": "fedit"
+  },
+  {
+    "domain": "biology",
+    "qid": 5458,
+    "label": "A",
+    "method": "base"
+  },
+  {
+    "domain": "biology",
+    "qid": 5458,
+    "label": "B",
+    "method": "centralized"
+  },
+  {
+    "domain": "biology",
+    "qid": 5458,
+    "label": "C",
+    "method": "local"
+  },
+  {
+    "domain": "biology",
+    "qid": 5458,
+    "label": "D",
+    "method": "fedit"
+  },
+  {
+    "domain": "biology",
+    "qid": 5458,
+    "label": "E",
+    "method": "fedrotlora"
+  },
+  {
+    "domain": "biology",
+    "qid": 543,
+    "label": "A",
+    "method": "fedit"
+  },
+  {
+    "domain": "biology",
+    "qid": 543,
+    "label": "B",
+    "method": "centralized"
+  },
+  {
+    "domain": "biology",
+    "qid": 543,
+    "label": "C",
+    "method": "base"
+  },
+  {
+    "domain": "biology",
+    "qid": 543,
+    "label": "D",
+    "method": "local"
+  },
+  {
+    "domain": "biology",
+    "qid": 543,
+    "label": "E",
+    "method": "fedrotlora"
+  },
+  {
+    "domain": "biology",
+    "qid": 44665,
+    "label": "A",
+    "method": "local"
+  },
+  {
+    "domain": "biology",
+    "qid": 44665,
+    "label": "B",
+    "method": "fedrotlora"
+  },
+  {
+    "domain": "biology",
+    "qid": 44665,
+    "label": "C",
+    "method": "fedit"
+  },
+  {
+    "domain": "biology",
+    "qid": 44665,
+    "label": "D",
+    "method": "centralized"
+  },
+  {
+    "domain": "biology",
+    "qid": 44665,
+    "label": "E",
+    "method": "base"
+  }
+]

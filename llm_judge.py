@@ -244,6 +244,10 @@ def main():
     parser.add_argument("--run-dir", required=True, type=Path)
     parser.add_argument("--dataset-dir", required=True, type=Path)
     parser.add_argument("--methods", default="base,local,centralized,fedit,fedrotlora")
+    parser.add_argument(
+        "--method-dir", action="append", default=[], metavar="METHOD=DIR",
+        help="Override a method's prediction directory; may be repeated. DIR may be absolute or relative to --run-dir.",
+    )
     parser.add_argument("--domains", default="mathematics,physics,computer_science,statistics,economics,biology")
     parser.add_argument("--sample-size", type=int, default=40, help="Questions sampled per domain")
     parser.add_argument("--seed", type=int, default=42)
@@ -262,6 +266,17 @@ def main():
     domains = [value.strip() for value in args.domains.split(",") if value.strip()]
     if not methods or not domains or args.sample_size < 1:
         parser.error("methods/domains must be non-empty and sample-size must be positive")
+    method_dirs = {}
+    for value in args.method_dir:
+        method, separator, directory = value.partition("=")
+        method = method.strip()
+        directory = directory.strip()
+        if not separator or not method or not directory:
+            parser.error("--method-dir must have the form METHOD=DIR")
+        if method not in methods:
+            parser.error(f"--method-dir specifies unknown method: {method}")
+        path = Path(directory)
+        method_dirs[method] = path if path.is_absolute() else args.run_dir / path
     output_path = resolve_output(args.run_dir, args.output)
     raw_path = resolve_output(args.run_dir, args.raw_output)
     if args.overwrite and not args.dry_run:
@@ -274,7 +289,7 @@ def main():
         questions = load_questions(args.dataset_dir, domain)
         method_indexes = {}
         for method in methods:
-            path = args.run_dir / method / "predictions" / f"{domain}.jsonl"
+            path = method_dirs.get(method, args.run_dir / method) / "predictions" / f"{domain}.jsonl"
             if not path.exists():
                 raise FileNotFoundError(f"Missing predictions: {path}")
             method_indexes[method] = index_unique(load_jsonl(path), path)
