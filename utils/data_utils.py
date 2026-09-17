@@ -2,6 +2,7 @@ import os
 
 from datasets import load_dataset
 from utils.model_utils import load_tokenizer
+from utils.qa_utils import encode_squad_training_example
 
 def load_data(args, idx):
     dataset = args.dataset
@@ -41,6 +42,12 @@ def get_format_func(args, tokenizer):
             }
         return _format_classification
     elif args.task_type == 'CAUSAL_LM':
+        if args.dataset == 'squad_v1':
+            def _format_squad(example):
+                tokenizer.padding_side = 'right'
+                return encode_squad_training_example(tokenizer, example)
+            return _format_squad
+
         def _format_QA(example):
             prompt = f"Instruct: {example['input_ids']}\nAnswer:"
             # Build prompt and answer separately so long SQuAD contexts cannot

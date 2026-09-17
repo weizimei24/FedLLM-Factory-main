@@ -1,6 +1,6 @@
 {
   "dataset": "SQuAD v1.1",
-  "created_at_utc": "2026-09-16T15:18:50.223338+00:00",
+  "created_at_utc": "2026-09-17T02:10:00.293955+00:00",
   "seed": 42,
   "split_strategy": "10,000 randomly sampled official train QAs; 2,000 randomly sampled official validation QAs",
   "source_counts": {
@@ -22,8 +22,15 @@
     }
   },
   "schema": {
-    "input_ids": "instruction, answer-containing context window, and question",
+    "context": "answer-containing context window; the only truncatable prompt field",
+    "question": "complete SQuAD question; never truncated",
     "label": "first official answer, used for training",
     "answers": "all official answer strings, used for SQuAD EM/F1"
+  },
+  "protocol": {
+    "model_format": "Qwen3 chat template",
+    "enable_thinking": false,
+    "answer_termination": "tokenizer.eos_token_id (<|im_end|>)",
+    "decoding": "deterministic greedy decoding"
   }
 }

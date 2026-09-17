@@ -1,6 +1,8 @@
 import math
 import os
 import re
+import string
+from collections import Counter
 
 import torch
 import yaml
@@ -84,18 +86,19 @@ class Evaluator:
         return {'accuracy': accuracy}
 
     def _eval_causal_lm(self, model) -> dict:
-        total_loss = 0.0
-        total_steps = 0
+        total_nll = 0.0
+        total_tokens = 0
         for batch in self.eval_loader:
             input_ids = torch.stack(batch['input_ids']).transpose(0, 1).to(model.device)
             attention_mask = torch.stack(batch['attention_mask']).transpose(0, 1).to(model.device)
             labels = torch.stack(batch['labels']).transpose(0, 1).to(model.device)
             with torch.no_grad(), autocast('cuda'):
                 outputs = model(input_ids=input_ids, attention_mask=attention_mask, labels=labels)
-                total_loss += outputs.loss.item()
-                total_steps += 1
+                valid_tokens = int((labels[:, 1:] != -100).sum().item())
+                total_nll += outputs.loss.item() * valid_tokens
+                total_tokens += valid_tokens
 
-        avg_loss = total_loss / total_steps if total_steps > 0 else 0.0
+        avg_loss = total_nll / total_tokens if total_tokens > 0 else 0.0
         perplexity = math.exp(avg_loss) if avg_loss < 20 else float('inf')
         return {'eval_loss': avg_loss, 'perplexity': perplexity}
 
@@ -117,8 +120,41 @@ class Evaluator:
 # Helpers
 # ------------------------------------------------------------------
 
-def _normalize(text: str) -> str:
-    """Lowercase and strip punctuation/whitespace for exact-match comparison."""
-    text = text.lower().strip()
-    text = re.sub(r'[^\w\s]', ' ', text)
-    return ' '.join(text.split())
+def normalize_answer(text: str) -> str:
+    """Official SQuAD v1.1 answer normalization."""
+    def remove_articles(value: str) -> str:
+        return re.sub(r'\b(a|an|the)\b', ' ', value)
+
+    def remove_punctuation(value: str) -> str:
+        return ''.join(character for character in value if character not in string.punctuation)
+
+    def white_space_fix(value: str) -> str:
+        return ' '.join(value.split())
+
+    return white_space_fix(remove_articles(remove_punctuation(text.lower())))
+
+
+def exact_match_score(prediction: str, ground_truth: str) -> float:
+    return float(normalize_answer(prediction) == normalize_answer(ground_truth))
+
+
+def f1_score(prediction: str, ground_truth: str) -> float:
+    prediction_tokens = normalize_answer(prediction).split()
+    ground_truth_tokens = normalize_answer(ground_truth).split()
+    if not prediction_tokens or not ground_truth_tokens:
+        return float(prediction_tokens == ground_truth_tokens)
+    common = Counter(prediction_tokens) & Counter(ground_truth_tokens)
+    num_same = sum(common.values())
+    if num_same == 0:
+        return 0.0
+    precision = num_same / len(prediction_tokens)
+    recall = num_same / len(ground_truth_tokens)
+    return 2 * precision * recall / (precision + recall)
+
+
+def metric_max_over_ground_truths(metric_fn, prediction: str, ground_truths: list[str]) -> float:
+    return max((metric_fn(prediction, truth) for truth in ground_truths), default=0.0)
+
+
+# Compatibility alias used by the other dataset evaluators.
+_normalize = normalize_answer

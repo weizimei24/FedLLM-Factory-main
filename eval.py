@@ -14,6 +14,7 @@ per dataset).  No extra flags needed — add/remove entries in the yaml to opt i
 """
 
 import importlib
+import json
 import math
 import os
 
@@ -23,12 +24,20 @@ from peft import get_peft_model
 from rouge_score import rouge_scorer
 from torch.amp import autocast
 from torch.utils.data import DataLoader
+from transformers import GenerationConfig
 
-from utils.eval_utils import get_dataset_config, _normalize, _load_eval_config
+from utils.eval_utils import (
+    _load_eval_config,
+    exact_match_score,
+    f1_score,
+    get_dataset_config,
+    metric_max_over_ground_truths,
+)
 from utils.model_utils import load_model, load_tokenizer, load_lora_config
 from utils.data_utils import load_data
 from utils.options import build_parser
 from utils.logger import get_logger
+from utils.qa_utils import encode_squad_prompt, SQUAD_MAX_NEW_TOKENS
 
 
 _EVAL_CONFIG = _load_eval_config()
@@ -52,10 +61,10 @@ def _adapter_path(args) -> str:
 # ------------------------------------------------------------------
 
 def _generate_predictions(model, tokenizer, args, client_idx: int) -> list:
-    """Generate ``(prediction, accepted_references)`` pairs for one client.
+    """Generate auditable prediction records for one client.
 
-    Loads the raw JSONL (unpacked text) so the prompt contains only the
-    question, not the answer.  Returns a flat list of (pred, gold) tuples.
+    Loads raw JSONL without concatenating the reference as assistant output.
+    Each record includes the sample id, prompt fields, prediction, and references.
     """
     raw_path = os.path.join('dataset', args.dataset, f'test/{client_idx}.jsonl')
     raw_ds = load_dataset('json', data_files={'test': raw_path})['test']
@@ -69,35 +78,53 @@ def _generate_predictions(model, tokenizer, args, client_idx: int) -> list:
     batch_size = _EVAL_CONFIG.get('final_eval_batch_size', 8)
     predictions = []
     tokenizer.padding_side = 'left'
-    def raw_collate(rows):
-        # Keep ragged SQuAD reference lists intact; PyTorch's default collator
-        # assumes every nested list has the same length.
-        return {
-            "input_ids": [row["input_ids"] for row in rows],
-            "label": [row["label"] for row in rows],
-            "answers": [row.get("answers", [row["label"]]) for row in rows],
-        }
 
-    for batch in DataLoader(raw_ds, batch_size=batch_size, shuffle=False, collate_fn=raw_collate):
-        prompts = [f"Instruct: {inp}\nAnswer:" for inp in batch['input_ids']]
-        enc = tokenizer(
-            prompts, return_tensors='pt', truncation=True,
-            padding=True, max_length=512,
-        ).to(model.device)
+    # Do not inherit Qwen3's sampling defaults.  Greedy decoding plus an
+    # explicit <|im_end|> stop token makes repeated evaluations deterministic.
+    generation_config = GenerationConfig(
+        max_new_tokens=SQUAD_MAX_NEW_TOKENS,
+        do_sample=False,
+        eos_token_id=tokenizer.eos_token_id,
+        pad_token_id=tokenizer.pad_token_id,
+        bos_token_id=tokenizer.bos_token_id,
+    )
+
+    for rows in DataLoader(raw_ds, batch_size=batch_size, shuffle=False, collate_fn=lambda x: x):
+        if args.dataset == 'squad_v1':
+            prompt_ids = [
+                encode_squad_prompt(tokenizer, row['context'], row['question'])
+                for row in rows
+            ]
+            enc = tokenizer.pad(
+                [
+                    {'input_ids': ids, 'attention_mask': [1] * len(ids)}
+                    for ids in prompt_ids
+                ],
+                padding=True,
+                return_tensors='pt',
+            ).to(model.device)
+        else:
+            prompts = [f"Instruct: {row['input_ids']}\nAnswer:" for row in rows]
+            enc = tokenizer(
+                prompts, return_tensors='pt', truncation=True,
+                padding=True, max_length=512,
+            ).to(model.device)
         with torch.no_grad():
-            pred_ids = model.generate(**enc, max_new_tokens=64)
+            pred_ids = model.generate(**enc, generation_config=generation_config)
         # decode only the newly generated tokens
         prompt_len = enc['input_ids'].shape[1]
         pred_texts = tokenizer.batch_decode(pred_ids[:, prompt_len:], skip_special_tokens=True)
-        # SQuAD supplies multiple valid answer spans.  Other datasets have a
-        # single ``label`` and follow the same code path.
-        references = batch['answers']
-        for prediction, default_label, candidate_refs in zip(pred_texts, batch['label'], references):
-            if isinstance(candidate_refs, str):
-                candidate_refs = [candidate_refs]
-            elif not candidate_refs:
-                candidate_refs = [default_label]
-            predictions.append((prediction, list(candidate_refs)))
+        for row, prediction in zip(rows, pred_texts):
+            references = row.get('answers') or [row['label']]
+            if isinstance(references, str):
+                references = [references]
+            predictions.append({
+                'id': row.get('squad_id'),
+                'context': row.get('context'),
+                'question': row.get('question', row.get('input_ids', '')),
+                'prediction': prediction.strip(),
+                'references': list(references),
+            })
 
     return predictions
 
@@ -113,10 +140,13 @@ class _ExactMatchEvaluator:
         if not predictions:
             return {'exact_match': 0.0}
         matches = sum(
-            int(any(_normalize(prediction) == _normalize(reference) for reference in references))
-            for prediction, references in predictions
+            metric_max_over_ground_truths(
+                exact_match_score, row['prediction'], row['references']
+            )
+            for row in predictions
         )
-        return {'exact_match': matches / len(predictions)}
+        # Match the official SQuAD script's 0-100 reporting scale.
+        return {'exact_match': 100.0 * matches / len(predictions)}
 
 
 class _RougeEvaluator:
@@ -131,8 +161,11 @@ class _RougeEvaluator:
         totals = {'rouge1': 0.0, 'rouge2': 0.0, 'rougeL': 0.0}
         if not predictions:
             return totals
-        for pred, references in predictions:
-            candidates = [self._scorer.score(reference, pred) for reference in references]
+        for row in predictions:
+            candidates = [
+                self._scorer.score(reference, row['prediction'])
+                for reference in row['references']
+            ]
             scores = max(candidates, key=lambda value: value['rougeL'].fmeasure)
             for k in totals:
                 totals[k] += scores[k].fmeasure
@@ -141,36 +174,34 @@ class _RougeEvaluator:
 
 
 class _F1Evaluator:
-    """Token-level F1 from a list of (pred, gold) pairs (SQuAD-style).
-
-    Tokens are obtained by normalising then splitting on whitespace.
-    F1 = 2 * precision * recall / (precision + recall), where
-      precision = |common| / |pred_tokens|
-      recall    = |common| / |gold_tokens|
-    """
-
-    @staticmethod
-    def _token_f1(pred: str, gold: str) -> float:
-        from collections import Counter
-        pred_tokens = _normalize(pred).split()
-        gold_tokens = _normalize(gold).split()
-        if not pred_tokens or not gold_tokens:
-            return float(pred_tokens == gold_tokens)
-        common = sum((Counter(pred_tokens) & Counter(gold_tokens)).values())
-        if common == 0:
-            return 0.0
-        precision = common / len(pred_tokens)
-        recall = common / len(gold_tokens)
-        return 2 * precision * recall / (precision + recall)
+    """Official SQuAD token-level F1, maximised over references."""
 
     def evaluate(self, predictions: list) -> dict:
         if not predictions:
             return {'f1': 0.0}
         total = sum(
-            max((self._token_f1(prediction, reference) for reference in references), default=0.0)
-            for prediction, references in predictions
+            metric_max_over_ground_truths(f1_score, row['prediction'], row['references'])
+            for row in predictions
         )
-        return {'f1': total / len(predictions)}
+        # Match the official SQuAD script's 0-100 reporting scale.
+        return {'f1': 100.0 * total / len(predictions)}
+
+
+def _save_predictions(predictions: list[dict], args, client_idx: int) -> str:
+    output_dir = os.path.join(args.suffix, 'evaluation', args.dataset)
+    os.makedirs(output_dir, exist_ok=True)
+    output_path = os.path.join(output_dir, f'client_{client_idx}_predictions.jsonl')
+    with open(output_path, 'w', encoding='utf-8') as handle:
+        for row in predictions:
+            saved = dict(row)
+            saved['exact_match'] = metric_max_over_ground_truths(
+                exact_match_score, row['prediction'], row['references']
+            )
+            saved['f1'] = metric_max_over_ground_truths(
+                f1_score, row['prediction'], row['references']
+            )
+            handle.write(json.dumps(saved, ensure_ascii=False) + '\n')
+    return output_path
 
 
 # ------------------------------------------------------------------
@@ -276,16 +307,17 @@ def _eval_client(model, tokenizer, client_idx: int, args, dataset_cfg: dict) -> 
     elif task_type == 'CAUSAL_LM':
         # loss / perplexity
         loader = DataLoader(formatted_ds, batch_size=1, shuffle=False)
-        total_loss, total_steps = 0.0, 0
+        total_nll, total_tokens = 0.0, 0
         for batch in loader:
             input_ids = torch.stack(batch['input_ids']).transpose(0, 1).to(model.device)
             attention_mask = torch.stack(batch['attention_mask']).transpose(0, 1).to(model.device)
             labels = torch.stack(batch['labels']).transpose(0, 1).to(model.device)
             with torch.no_grad(), autocast('cuda'):
                 outputs = model(input_ids=input_ids, attention_mask=attention_mask, labels=labels)
-                total_loss += outputs.loss.item()
-                total_steps += 1
-        avg_loss = total_loss / total_steps if total_steps > 0 else 0.0
+                valid_tokens = int((labels[:, 1:] != -100).sum().item())
+                total_nll += outputs.loss.item() * valid_tokens
+                total_tokens += valid_tokens
+        avg_loss = total_nll / total_tokens if total_tokens > 0 else 0.0
         result['eval_loss'] = avg_loss
         result['perplexity'] = math.exp(avg_loss) if avg_loss < 20 else float('inf')
 
@@ -301,6 +333,8 @@ def _eval_client(model, tokenizer, client_idx: int, args, dataset_cfg: dict) -> 
                 result.update(_RougeEvaluator().evaluate(predictions))
             if run_f1:
                 result.update(_F1Evaluator().evaluate(predictions))
+            prediction_path = _save_predictions(predictions, args, client_idx)
+            print(f'Predictions saved to {prediction_path}')
 
     return result
 

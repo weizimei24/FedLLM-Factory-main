@@ -1,8 +1,8 @@
 """Download and prepare a deterministic SQuAD v1.1 subset for centralized SFT.
 
 The official train split supplies 10,000 examples and the official development
-split supplies 2,000 examples.  Output uses the repository's ``input_ids`` /
-``label`` JSONL schema, with a single client (``0``) for centralized training.
+split supplies 2,000 examples. Context and question remain separate so only
+the context may be truncated by the shared Qwen3 chat-template encoder.
 
 Run from the repository root:
     python -X utf8 dataset/prepare_squad_v1.py
@@ -83,7 +83,7 @@ def _load_qas(path: Path) -> list[dict]:
     return rows
 
 
-def _context_window(context: str, primary_answer: str, max_chars: int = 1800) -> str:
+def _context_window(context: str, primary_answer: str, max_chars: int = 1400) -> str:
     """Keep a compact context window that contains the supervised answer."""
     if len(context) <= max_chars:
         return context
@@ -100,11 +100,8 @@ def _to_factory_row(row: dict) -> dict:
     answer = row["answers"][0]
     context = _context_window(row["context"], answer)
     return {
-        "input_ids": (
-            "Answer the question using only the provided context.\n"
-            f"Context: {context}\n"
-            f"Question: {row['question']}"
-        ),
+        "context": context,
+        "question": row["question"],
         "label": answer,
         "answers": row["answers"],
         "squad_id": row["id"],
@@ -173,9 +170,16 @@ def main() -> int:
             for split, url in SOURCES.items()
         },
         "schema": {
-            "input_ids": "instruction, answer-containing context window, and question",
+            "context": "answer-containing context window; the only truncatable prompt field",
+            "question": "complete SQuAD question; never truncated",
             "label": "first official answer, used for training",
             "answers": "all official answer strings, used for SQuAD EM/F1",
+        },
+        "protocol": {
+            "model_format": "Qwen3 chat template",
+            "enable_thinking": False,
+            "answer_termination": "tokenizer.eos_token_id (<|im_end|>)",
+            "decoding": "deterministic greedy decoding",
         },
     }
     (OUT_DIR / "manifest.json").write_text(
