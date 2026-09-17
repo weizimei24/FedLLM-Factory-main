@@ -1,14 +1,20 @@
-import torch
 import os
+import torch
 from transformers import AutoModelForCausalLM, AutoModelForSequenceClassification, AutoTokenizer
 from peft import LoraConfig, TaskType
 
-
-os.environ["CUDA_VISIBLE_DEVICES"] = "3"
-
-
-
 def load_model(args):
+    # Honour the configured GPU instead of unconditionally selecting GPU 3.
+    # This must happen before the first CUDA model allocation.
+    requested_device = str(args.device)
+    visible_devices = os.environ.get("CUDA_VISIBLE_DEVICES")
+    if visible_devices is None:
+        os.environ["CUDA_VISIBLE_DEVICES"] = requested_device
+    elif visible_devices != requested_device:
+        print(
+            f"CUDA_VISIBLE_DEVICES={visible_devices} is already set; "
+            f"leaving it in place instead of overriding --device {requested_device}."
+        )
     model_name = args.model
     
     if args.task_type == 'SEQ_CLS':

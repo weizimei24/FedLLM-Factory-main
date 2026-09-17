@@ -57,6 +57,24 @@ The args can be configured in `utils/options.py`.
 + **Dolly**
 #### Mathematical Reasoning
 + **GSM8K**
++ **SQuAD v1.1** (centralized LoRA validation subset: 10,000 train / 2,000 test)
+
+### SQuAD v1.1 centralized validation
+
+Download and deterministically prepare the SQuAD v1.1 subset under
+`dataset/squad_v1`, then run the one-client, one-round centralized baseline:
+
+```
+python -X utf8 dataset/prepare_squad_v1.py
+python -X utf8 main.py --config config.squad_v1.yaml
+python -X utf8 eval.py --config config.squad_v1.yaml
+```
+
+The 10,000 examples come from the official training split and the 2,000 test
+examples come from the official validation split.  `manifest.json` records the
+source checksums and sampling seed.  This command evaluates per-round loss and
+perplexity; the final evaluation additionally reports SQuAD-style EM and F1
+against all official answer spans.
 
 
 ### Frontend Usage

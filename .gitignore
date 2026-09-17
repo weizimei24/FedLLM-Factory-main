@@ -4,6 +4,7 @@
 
 # Local raw StackExchange data and downloaded Qwen model weights
 /dataset/raw_stackexchange/
+/dataset/squad_v1/raw/
 /Qwen3-1.7B/
 
 # Python-generated files

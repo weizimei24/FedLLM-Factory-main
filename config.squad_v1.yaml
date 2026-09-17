@@ -1,0 +1,25 @@
+# Single-client, one-round execution is the centralized LoRA baseline.
+alg: fedit
+suffix: squad_v1_centralized
+device: 0
+dataset: squad_v1
+model: Qwen3-1.7B
+task_type: CAUSAL_LM
+
+# Centralized execution: one client owns all 10,000 training examples.
+cn: 1
+sr: 1.0
+rnd: 1
+test_gap: 1
+
+# One pass over 10,000 rows: batch size 1, 8 micro-batches/update -> 1,250 updates.
+bs: 1
+grad_accum: 8
+epoch: 1
+step: 1250
+lr: 1e-4
+
+mode: prototype
+lora_rank: 8
+lora_alpha: 32
+lora_dropout: 0.05

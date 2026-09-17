@@ -1,0 +1,2 @@
+method,adapter,subjects,num_fewshot,scoring,timestamp_utc,accuracy,macro_accuracy,samples,mmlu_abstract_algebra_accuracy,mmlu_college_mathematics_accuracy,mmlu_elementary_mathematics_accuracy,mmlu_high_school_mathematics_accuracy
+base,(base),"abstract_algebra,college_mathematics,elementary_mathematics,high_school_mathematics",0,sum_loglikelihood_of_A_B_C_D_after_Answer_colon,2026-09-16T08:19:13.751165+00:00,0.25,0.25,4,1.0,0.0,0.0,0.0

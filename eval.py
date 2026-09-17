@@ -52,21 +52,33 @@ def _adapter_path(args) -> str:
 # ------------------------------------------------------------------
 
 def _generate_predictions(model, tokenizer, args, client_idx: int) -> list:
-    """Generate (pred_text, gold_label) pairs for one client's test split.
+    """Generate ``(prediction, accepted_references)`` pairs for one client.
 
     Loads the raw JSONL (unpacked text) so the prompt contains only the
     question, not the answer.  Returns a flat list of (pred, gold) tuples.
     """
     raw_path = os.path.join('dataset', args.dataset, f'test/{client_idx}.jsonl')
     raw_ds = load_dataset('json', data_files={'test': raw_path})['test']
-    final_samples = _EVAL_CONFIG.get('final_eval_samples', 0)
+    dataset_cfg = get_dataset_config(args.dataset)
+    final_samples = dataset_cfg.get(
+        'final_eval_samples', _EVAL_CONFIG.get('final_eval_samples', 0)
+    )
     if final_samples > 0:
         raw_ds = raw_ds.select(range(min(final_samples, len(raw_ds))))
 
     batch_size = _EVAL_CONFIG.get('final_eval_batch_size', 8)
     predictions = []
     tokenizer.padding_side = 'left'
-    for batch in DataLoader(raw_ds, batch_size=batch_size, shuffle=False):
+    def raw_collate(rows):
+        # Keep ragged SQuAD reference lists intact; PyTorch's default collator
+        # assumes every nested list has the same length.
+        return {
+            "input_ids": [row["input_ids"] for row in rows],
+            "label": [row["label"] for row in rows],
+            "answers": [row.get("answers", [row["label"]]) for row in rows],
+        }
+
+    for batch in DataLoader(raw_ds, batch_size=batch_size, shuffle=False, collate_fn=raw_collate):
         prompts = [f"Instruct: {inp}\nAnswer:" for inp in batch['input_ids']]
         enc = tokenizer(
             prompts, return_tensors='pt', truncation=True,
@@ -77,7 +89,15 @@ def _generate_predictions(model, tokenizer, args, client_idx: int) -> list:
         # decode only the newly generated tokens
         prompt_len = enc['input_ids'].shape[1]
         pred_texts = tokenizer.batch_decode(pred_ids[:, prompt_len:], skip_special_tokens=True)
-        predictions.extend(zip(pred_texts, batch['label']))
+        # SQuAD supplies multiple valid answer spans.  Other datasets have a
+        # single ``label`` and follow the same code path.
+        references = batch['answers']
+        for prediction, default_label, candidate_refs in zip(pred_texts, batch['label'], references):
+            if isinstance(candidate_refs, str):
+                candidate_refs = [candidate_refs]
+            elif not candidate_refs:
+                candidate_refs = [default_label]
+            predictions.append((prediction, list(candidate_refs)))
 
     return predictions
 
@@ -87,12 +107,15 @@ def _generate_predictions(model, tokenizer, args, client_idx: int) -> list:
 # ------------------------------------------------------------------
 
 class _ExactMatchEvaluator:
-    """Computes exact match from a list of (pred, gold) pairs."""
+    """Computes the best exact match over each example's references."""
 
     def evaluate(self, predictions: list) -> dict:
         if not predictions:
             return {'exact_match': 0.0}
-        matches = sum(int(_normalize(p) == _normalize(g)) for p, g in predictions)
+        matches = sum(
+            int(any(_normalize(prediction) == _normalize(reference) for reference in references))
+            for prediction, references in predictions
+        )
         return {'exact_match': matches / len(predictions)}
 
 
@@ -108,8 +131,9 @@ class _RougeEvaluator:
         totals = {'rouge1': 0.0, 'rouge2': 0.0, 'rougeL': 0.0}
         if not predictions:
             return totals
-        for pred, gold in predictions:
-            scores = self._scorer.score(gold, pred)
+        for pred, references in predictions:
+            candidates = [self._scorer.score(reference, pred) for reference in references]
+            scores = max(candidates, key=lambda value: value['rougeL'].fmeasure)
             for k in totals:
                 totals[k] += scores[k].fmeasure
         n = len(predictions)
@@ -142,7 +166,10 @@ class _F1Evaluator:
     def evaluate(self, predictions: list) -> dict:
         if not predictions:
             return {'f1': 0.0}
-        total = sum(self._token_f1(p, g) for p, g in predictions)
+        total = sum(
+            max((self._token_f1(prediction, reference) for reference in references), default=0.0)
+            for prediction, references in predictions
+        )
         return {'f1': total / len(predictions)}
 
 
@@ -223,7 +250,11 @@ def _eval_client(model, tokenizer, client_idx: int, args, dataset_cfg: dict) -> 
     metrics = dataset_cfg['metrics']
 
     formatted_ds = load_data(args, idx=client_idx)['test']
-    eval_samples = _EVAL_CONFIG.get('eval_samples', 0)
+    # This is the standalone final evaluator, so SQuAD uses all 2,000
+    # designated test examples rather than the lightweight per-round subset.
+    eval_samples = dataset_cfg.get(
+        'final_eval_samples', _EVAL_CONFIG.get('final_eval_samples', 0)
+    )
     if eval_samples > 0:
         formatted_ds = formatted_ds.select(range(min(eval_samples, len(formatted_ds))))
     result = {}

@@ -1,12 +1,22 @@
 import argparse
 import importlib
+from pathlib import Path
 import yaml
 
 
 def build_parser() -> argparse.ArgumentParser:
     """Create and return the base argument parser with all common args pre-registered.
     Callers can add extra arguments before parsing."""
-    parser = argparse.ArgumentParser()
+    # Parse this one option first so a dataset-specific YAML can supply all
+    # ordinary defaults without modifying the repository-wide config.yaml.
+    config_parser = argparse.ArgumentParser(add_help=False)
+    config_parser.add_argument('--config', default='config.yaml')
+    config_args, _ = config_parser.parse_known_args()
+    config_path = Path(config_args.config)
+    if not config_path.is_file():
+        raise FileNotFoundError(f"Configuration file not found: {config_path}")
+
+    parser = argparse.ArgumentParser(parents=[config_parser])
 
     ### basic setting
     parser.add_argument('--alg', type=str, default='fedit', help='algorithm name')
@@ -14,6 +24,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument('--device', type=int, default=0, help='device id')
     parser.add_argument('--dataset', type=str, default='', help='dataset name')
     parser.add_argument('--model', type=str, default='', help='model name')
+    parser.add_argument('--task_type', type=str, default='', help='task type (SEQ_CLS or CAUSAL_LM)')
 
     ### FL setting
     parser.add_argument('--cn', type=int, default=10, help='number of clients')
@@ -45,7 +56,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument('--lora_dropout', type=float, default=0.05, help='LoRA dropout')
 
     # === read args from yaml ===
-    with open('config.yaml', 'r') as f:
+    with config_path.open('r', encoding='utf-8') as f:
         yaml_config = yaml.load(f.read(), Loader=yaml.Loader)
     parser.set_defaults(**yaml_config)
 

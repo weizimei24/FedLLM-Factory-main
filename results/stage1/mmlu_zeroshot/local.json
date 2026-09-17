@@ -1,0 +1,15 @@
+{
+  "method": "local",
+  "adapter": "C:\\Users\\admin\\Desktop\\FedLLM-Factory-main\\FedLLM-Factory-main\\results\\stage1\\paper_seed42_t768\\local\\adapters\\mathematics",
+  "subjects": "abstract_algebra,college_mathematics,elementary_mathematics,high_school_mathematics",
+  "num_fewshot": 0,
+  "scoring": "sum_loglikelihood_of_A_B_C_D_after_Answer_colon",
+  "timestamp_utc": "2026-09-16T08:37:33.783428+00:00",
+  "accuracy": 0.31014150943396224,
+  "macro_accuracy": 0.30067460317460315,
+  "samples": 848,
+  "mmlu_abstract_algebra_accuracy": 0.32,
+  "mmlu_college_mathematics_accuracy": 0.27,
+  "mmlu_elementary_mathematics_accuracy": 0.35714285714285715,
+  "mmlu_high_school_mathematics_accuracy": 0.25555555555555554
+}

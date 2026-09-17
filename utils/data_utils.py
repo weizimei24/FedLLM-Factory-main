@@ -11,8 +11,16 @@ def load_data(args, idx):
     dataset = load_dataset("json", data_files={'train': train_dir, 'test': test_dir})
     tokenizer = load_tokenizer(args)
     format_func = get_format_func(args, tokenizer)
-    dataset['train'] = dataset['train'].map(format_func)
-    dataset['test'] = dataset['test'].map(format_func)
+    # Retain only model tensors after formatting.  In particular, SQuAD's
+    # ``answers`` is a ragged list of reference strings and PyTorch's default
+    # collator cannot batch it.  Raw columns remain available separately to
+    # ``eval.py`` for multi-reference EM/F1 scoring.
+    dataset['train'] = dataset['train'].map(
+        format_func, remove_columns=dataset['train'].column_names
+    )
+    dataset['test'] = dataset['test'].map(
+        format_func, remove_columns=dataset['test'].column_names
+    )
 
     return dataset
 
@@ -35,26 +43,23 @@ def get_format_func(args, tokenizer):
     elif args.task_type == 'CAUSAL_LM':
         def _format_QA(example):
             prompt = f"Instruct: {example['input_ids']}\nAnswer:"
-            full_text = prompt + example["label"]
-            # Training data must use right padding: left-padded inputs cause NaN
-            # in fp16 attention when attention_mask zeros out all causal context.
+            # Build prompt and answer separately so long SQuAD contexts cannot
+            # truncate every supervised answer token at the sequence limit.
             tokenizer.padding_side = 'right'
-            encoded = tokenizer(
-                full_text,
-                truncation=True,
-                padding="max_length",
-                max_length=512
-            )
-            input_ids = encoded["input_ids"]
-            attention_mask = encoded["attention_mask"]
-            prompt_len = min(
-                len(tokenizer(prompt, add_special_tokens=False)["input_ids"]),
-                len(input_ids)
-            )
+            prompt_ids = tokenizer(prompt, add_special_tokens=False)["input_ids"]
+            answer_ids = tokenizer(str(example["label"]), add_special_tokens=False)["input_ids"]
+            if len(prompt_ids) >= 512:
+                # Preserve room for at least one target token even for a long prompt.
+                prompt_ids = prompt_ids[:511]
+            answer_ids = answer_ids[: 512 - len(prompt_ids)]
+            input_ids = prompt_ids + answer_ids
+            attention_mask = [1] * len(input_ids)
+            prompt_len = len(prompt_ids)
             pad_id = tokenizer.pad_token_id
-            labels = [-100] * prompt_len + [
-                t if t != pad_id else -100 for t in input_ids[prompt_len:]
-            ]
+            padding = 512 - len(input_ids)
+            input_ids += [pad_id] * padding
+            attention_mask += [0] * padding
+            labels = [-100] * prompt_len + answer_ids + [-100] * padding
             return {
                 "input_ids": input_ids,
                 "attention_mask": attention_mask,

@@ -1,0 +1,15 @@
+{
+  "method": "base",
+  "adapter": "(base)",
+  "subjects": "abstract_algebra,college_mathematics,elementary_mathematics,high_school_mathematics",
+  "num_fewshot": 0,
+  "scoring": "sum_loglikelihood_of_A_B_C_D_after_Answer_colon",
+  "timestamp_utc": "2026-09-16T08:19:13.751165+00:00",
+  "accuracy": 0.25,
+  "macro_accuracy": 0.25,
+  "samples": 4,
+  "mmlu_abstract_algebra_accuracy": 1.0,
+  "mmlu_college_mathematics_accuracy": 0.0,
+  "mmlu_elementary_mathematics_accuracy": 0.0,
+  "mmlu_high_school_mathematics_accuracy": 0.0
+}

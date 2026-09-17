@@ -1,0 +1,15 @@
+{
+  "method": "centralized",
+  "adapter": "C:\\Users\\admin\\Desktop\\FedLLM-Factory-main\\FedLLM-Factory-main\\results\\stage1\\paper_seed42_t768\\centralized\\adapter",
+  "subjects": "abstract_algebra,college_mathematics,elementary_mathematics,high_school_mathematics",
+  "num_fewshot": 0,
+  "scoring": "sum_loglikelihood_of_A_B_C_D_after_Answer_colon",
+  "timestamp_utc": "2026-09-16T08:40:08.856876+00:00",
+  "accuracy": 0.2865566037735849,
+  "macro_accuracy": 0.2827116402116402,
+  "samples": 848,
+  "mmlu_abstract_algebra_accuracy": 0.29,
+  "mmlu_college_mathematics_accuracy": 0.28,
+  "mmlu_elementary_mathematics_accuracy": 0.3201058201058201,
+  "mmlu_high_school_mathematics_accuracy": 0.24074074074074073
+}
