@@ -1,2 +1,0 @@
-2026-09-16 23:48:34 | [Round 0] eval_loss: 0.3619  perplexity: 1.4360  wall_clock: 105547.36701250076
-2026-09-17 00:01:16 | [Avg] eval_loss: 0.2554 | perplexity: 1.2910 | exact_match: 0.0085 | f1: 0.1469

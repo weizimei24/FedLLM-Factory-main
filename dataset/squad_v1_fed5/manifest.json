@@ -1,0 +1,26 @@
+{
+  "dataset": "SQuAD v1.1 five-client IID split",
+  "created_at_utc": "2026-09-17T08:02:59.606076+00:00",
+  "seed": 42,
+  "clients": 5,
+  "partition": "deterministic uniform random split without replacement",
+  "train_total": 10000,
+  "train_per_client": {
+    "0": 2000,
+    "1": 2000,
+    "2": 2000,
+    "3": 2000,
+    "4": 2000
+  },
+  "client_id_sha256": {
+    "0": "a01afe7b8d092ee46b68c9d6d63be60cc7a4d9ca99cd928627ca5edb2b550ac8",
+    "1": "9ae40e9c992929324ed8b27f24148089b1864f1a7f2d570b513ddea48d61a8bb",
+    "2": "83a5b31122ad270bd6f567b6e85216e4f237b2e34e8eecfc138bf07fc380f141",
+    "3": "03a108be801e4879fb6a28623cbcd250281e2a15732181622890b73470d155c6",
+    "4": "d56ee21ab82861f90091e01985c0f7f5ed3f69cb4041d45b6bba4ab680b2fcf4"
+  },
+  "client_overlap": 0,
+  "global_test": 2000,
+  "global_test_id_sha256": "78bcb2d663eb28009045e64fbaa434146623ab8fc61b281cc2bcddc882ec4c36",
+  "source_manifest": "dataset/squad_v1/manifest.json"
+}

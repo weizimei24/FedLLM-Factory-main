@@ -2,7 +2,7 @@ import os
 import random
 
 from peft import get_peft_model
-from utils.data_utils import load_data
+from utils.data_utils import load_data, load_global_test_data
 from utils.sys_utils import device_config
 from utils.train_utils import Trainer
 from utils.eval_utils import Evaluator
@@ -18,7 +18,7 @@ class FTBaseClient(BaseClient):
         self.dataset = load_data(args=args, idx=self.id)
         self.lora = {}
         self.trainer = Trainer(args=args, dataset=self.dataset, client=self)
-        self.evaluator = Evaluator(args=args, dataset=self.dataset)
+        self.evaluator = None if args.global_test else Evaluator(args=args, dataset=self.dataset)
 
     @time_record
     def run(self, model):
@@ -26,6 +26,8 @@ class FTBaseClient(BaseClient):
         self.lora = {k: v.clone() for k, v in model.state_dict().items() if "lora_" in k}
 
     def local_test(self, model):
+        if self.evaluator is None:
+            raise RuntimeError("Client-local evaluation is disabled when global_test=true")
         return self.evaluator.evaluate(model, round_idx=self.server.round, client_id=self.id)
 
 class FTBaseServer(BaseServer):
@@ -37,6 +39,13 @@ class FTBaseServer(BaseServer):
         self.sample_rate = args.sr
         self.wall_clock_time = 0
         self.round = 0
+
+        if args.global_test:
+            self.global_test_dataset = load_global_test_data(args)
+            self.global_evaluator = Evaluator(args=args, dataset=self.global_test_dataset)
+        else:
+            self.global_test_dataset = None
+            self.global_evaluator = None
 
         for client, delay in zip(clients, device_config(args)): client.delay = delay
 
@@ -70,6 +79,35 @@ class FTBaseServer(BaseServer):
         print("Aggregated model updated.")
 
     def test_all(self):
+        if self.global_evaluator is not None:
+            print("Testing aggregated global model on shared global test set ...")
+            metrics = self.global_evaluator.evaluate(
+                self.model, round_idx=self.round, client_id=None
+            )
+            if self.args.round_generation_metrics:
+                # Import lazily to keep the ordinary training path lightweight
+                # and avoid loading generation evaluation code for other tasks.
+                from eval import (
+                    _ExactMatchEvaluator,
+                    _F1Evaluator,
+                    _generate_predictions,
+                    _save_predictions,
+                )
+
+                predictions = _generate_predictions(
+                    self.model, self.clients[0].tokenizer, self.args, client_idx=None
+                )
+                metrics.update(_ExactMatchEvaluator().evaluate(predictions))
+                metrics.update(_F1Evaluator().evaluate(predictions))
+                prediction_path = _save_predictions(
+                    predictions,
+                    self.args,
+                    client_idx=None,
+                    filename=f'global_round_{self.round}_predictions.jsonl',
+                )
+                print(f'Round {self.round} predictions saved to {prediction_path}')
+            return metrics
+
         all_metrics = []
         for client in self.clients:
             print(f"Testing on client {client.id} ...")
@@ -83,6 +121,7 @@ class FTBaseServer(BaseServer):
         return res_dict
 
     def save_adapter(self):
+        import json
         import torch
         args = self.args
         name = (
@@ -92,4 +131,6 @@ class FTBaseServer(BaseServer):
         adapter_path = os.path.join(args.suffix, 'adapter', name)
         os.makedirs(adapter_path, exist_ok=True)
         torch.save(dict(self.global_lora), os.path.join(adapter_path, 'lora_weights.pt'))
+        with open(os.path.join(adapter_path, 'training_config.json'), 'w', encoding='utf-8') as handle:
+            json.dump(vars(args), handle, ensure_ascii=False, indent=2, default=str)
         print(f'Adapter saved to {adapter_path}')

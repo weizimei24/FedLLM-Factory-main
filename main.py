@@ -5,12 +5,15 @@ import os
 
 from utils.logger import get_logger
 from utils.options import args_parser
+from utils.seed_utils import set_global_seed
 from tqdm import tqdm
 
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
 class FedSim:
     def __init__(self, args):
+        set_global_seed(args.seed, device=args.device, deterministic=args.deterministic)
+        print(f"Reproducibility: seed={args.seed}, deterministic={args.deterministic}")
         self.args = args
         args.suffix = f'exp/{args.suffix}'
         self.logger = get_logger(args)
@@ -23,6 +26,9 @@ class FedSim:
 
         # === init clients & server ===
         self.clients = [alg_module.Client(idx, args) for idx in tqdm(range(args.cn), desc="Loading clients...")]
+        # Client data loading must not influence the subsequent LoRA
+        # initialization RNG state.
+        set_global_seed(args.seed, device=args.device, deterministic=args.deterministic)
         self.server = alg_module.Server(args, self.clients)
         
         if args.mode == 'prototype':

@@ -1,0 +1,2 @@
+2026-09-18 09:50:49 | [Round 0] eval_loss: 0.2962  perplexity: 1.3448  exact_match: 79.7000  f1: 87.8103  wall_clock: 282695.80994546413
+2026-09-18 10:28:19 | [Round 1] eval_loss: 0.2829  perplexity: 1.3270  exact_match: 82.9500  f1: 90.2583  wall_clock: 570647.5692853332

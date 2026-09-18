@@ -5,11 +5,13 @@ device: 0
 dataset: squad_v1
 model: Qwen3-1.7B
 task_type: CAUSAL_LM
+seed: 42
+deterministic: true
 
 # Centralized execution: one client owns all 10,000 training examples.
 cn: 1
 sr: 1.0
-rnd: 1
+rnd: 3
 test_gap: 1
 
 # One pass over 10,000 rows: batch size 1, 8 micro-batches/update -> 1,250 updates.

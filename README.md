@@ -83,6 +83,33 @@ greedy decoding rather than the model's sampling defaults. Final evaluation
 uses the official SQuAD normalization/EM/F1 definitions and saves each decoded
 answer under `exp/<suffix>/evaluation/squad_v1/client_0_predictions.jsonl`.
 Aggregate EM and F1 are reported on the official 0–100 percentage scale.
+The SQuAD config fixes `seed: 42` and enables deterministic PyTorch/CUDA
+algorithms. Python, NumPy, PyTorch, LoRA initialization, client sampling, and
+per-client/per-round DataLoader shuffling are all seeded; the resolved training
+configuration is saved beside each LoRA checkpoint as `training_config.json`.
+SQuAD context windows are centred using the dataset's official `answer_start`
+offsets; both original and window-relative offsets are retained in JSONL and
+validated during preparation.
+
+### SQuAD v1.1 FedIT baseline
+
+Prepare a deterministic IID partition with five clients, then run FedIT:
+
+```
+python -X utf8 dataset/prepare_squad_v1_federated.py
+python -X utf8 main.py --config config.squad_v1_fedit.yaml
+python -X utf8 eval.py --config config.squad_v1_fedit.yaml
+```
+
+The partition contains exactly 2,000 training examples per client and no
+client-local test split. All five clients participate in every communication
+round. After aggregation, the global model is evaluated once on the shared
+2,000-example SQuAD validation subset. Per-round evaluation reports
+token-weighted loss/perplexity and official deterministic EM/F1, and saves
+auditable predictions under
+`exp/squad_v1_fedit_5clients/evaluation/squad_v1_fed5/`. The standalone
+evaluation command reloads the saved global adapter and evaluates the same
+shared test set once.
 
 
 ### Frontend Usage

@@ -1,0 +1,30 @@
+# FedIT/FedAvg baseline: five IID clients and one shared global test set.
+alg: fedit
+suffix: squad_v1_fedit_5clients
+device: 0
+dataset: squad_v1_fed5
+model: Qwen3-1.7B
+task_type: CAUSAL_LM
+seed: 42
+deterministic: true
+
+# All five clients participate in every communication round.
+cn: 5
+sr: 1.0
+rnd: 10
+test_gap: 1
+global_test: true
+global_test_file: global.jsonl
+# round_generation_metrics: false
+
+# Each client has 2,000 rows: 2,000 / (bs 1 * accumulation 8) = 250 updates.
+bs: 1
+grad_accum: 8
+epoch: 1
+step: 250
+lr: 1e-4
+
+mode: prototype
+lora_rank: 8
+lora_alpha: 32
+lora_dropout: 0.05

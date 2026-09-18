@@ -68,42 +68,74 @@ def _load_qas(path: Path) -> list[dict]:
     rows = []
     for article in payload["data"]:
         for paragraph in article["paragraphs"]:
-            context = " ".join(paragraph["context"].split())
+            # Preserve the official context byte-for-byte at the Python string
+            # level; whitespace normalization would invalidate answer_start.
+            context = paragraph["context"]
             for qa in paragraph["qas"]:
-                answers = [" ".join(answer["text"].split()) for answer in qa.get("answers", [])]
-                answers = list(dict.fromkeys(answer for answer in answers if answer))
-                if answers:
+                answer_records = []
+                seen = set()
+                for answer in qa.get("answers", []):
+                    text = answer.get("text", "")
+                    start = int(answer.get("answer_start", -1))
+                    if not text or start < 0:
+                        continue
+                    if context[start:start + len(text)] != text:
+                        raise ValueError(
+                            f"Invalid official answer_start for SQuAD id {qa['id']}: "
+                            f"{start} does not locate {text!r}"
+                        )
+                    key = (text, start)
+                    if key not in seen:
+                        seen.add(key)
+                        answer_records.append({"text": text, "answer_start": start})
+                if answer_records:
                     rows.append({
                         "id": qa["id"],
                         "title": article.get("title", ""),
                         "context": context,
                         "question": " ".join(qa["question"].split()),
-                        "answers": answers,
+                        "answer_records": answer_records,
                     })
     return rows
 
 
-def _context_window(context: str, primary_answer: str, max_chars: int = 1400) -> str:
-    """Keep a compact context window that contains the supervised answer."""
+def _context_window(
+    context: str,
+    answer_start: int,
+    answer_text: str,
+    max_chars: int = 1400,
+) -> tuple[str, int]:
+    """Return an answer-centred window using the official SQuAD offset."""
+    if context[answer_start:answer_start + len(answer_text)] != answer_text:
+        raise ValueError("answer_start does not identify answer_text in context")
     if len(context) <= max_chars:
-        return context
-    answer_at = context.lower().find(primary_answer.lower())
-    if answer_at < 0:
-        return context[:max_chars]
-    start = max(0, answer_at - (max_chars - len(primary_answer)) // 2)
+        return context, 0
+    start = max(0, answer_start - (max_chars - len(answer_text)) // 2)
     end = min(len(context), start + max_chars)
     start = max(0, end - max_chars)
-    return context[start:end]
+    window = context[start:end]
+    relative_start = answer_start - start
+    if window[relative_start:relative_start + len(answer_text)] != answer_text:
+        raise RuntimeError("Answer was lost while constructing its context window")
+    return window, start
 
 
 def _to_factory_row(row: dict) -> dict:
-    answer = row["answers"][0]
-    context = _context_window(row["context"], answer)
+    primary = row["answer_records"][0]
+    answer = primary["text"]
+    official_answer_start = primary["answer_start"]
+    context, context_start = _context_window(
+        row["context"], official_answer_start, answer
+    )
+    answer_start = official_answer_start - context_start
     return {
         "context": context,
         "question": row["question"],
         "label": answer,
-        "answers": row["answers"],
+        "answers": list(dict.fromkeys(a["text"] for a in row["answer_records"])),
+        "answer_start": answer_start,
+        "official_answer_start": official_answer_start,
+        "context_start": context_start,
         "squad_id": row["id"],
         "title": row["title"],
     }
@@ -174,6 +206,9 @@ def main() -> int:
             "question": "complete SQuAD question; never truncated",
             "label": "first official answer, used for training",
             "answers": "all official answer strings, used for SQuAD EM/F1",
+            "answer_start": "primary answer offset inside the stored context window",
+            "official_answer_start": "primary answer offset in the original official context",
+            "context_start": "stored context window offset in the original official context",
         },
         "protocol": {
             "model_format": "Qwen3 chat template",

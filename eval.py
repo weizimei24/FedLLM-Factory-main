@@ -34,10 +34,11 @@ from utils.eval_utils import (
     metric_max_over_ground_truths,
 )
 from utils.model_utils import load_model, load_tokenizer, load_lora_config
-from utils.data_utils import load_data
+from utils.data_utils import DATASET_CACHE_DIR, load_data, load_global_test_data
 from utils.options import build_parser
 from utils.logger import get_logger
 from utils.qa_utils import encode_squad_prompt, SQUAD_MAX_NEW_TOKENS
+from utils.seed_utils import set_global_seed
 
 
 _EVAL_CONFIG = _load_eval_config()
@@ -66,15 +67,11 @@ def _generate_predictions(model, tokenizer, args, client_idx: int) -> list:
     Loads raw JSONL without concatenating the reference as assistant output.
     Each record includes the sample id, prompt fields, prediction, and references.
     """
-    raw_path = os.path.join('dataset', args.dataset, f'test/{client_idx}.jsonl')
-    raw_ds = load_dataset('json', data_files={'test': raw_path})['test']
-    dataset_cfg = get_dataset_config(args.dataset)
-    final_samples = dataset_cfg.get(
-        'final_eval_samples', _EVAL_CONFIG.get('final_eval_samples', 0)
-    )
-    if final_samples > 0:
-        raw_ds = raw_ds.select(range(min(final_samples, len(raw_ds))))
-
+    test_filename = args.global_test_file if args.global_test else f'{client_idx}.jsonl'
+    raw_path = os.path.join('dataset', args.dataset, 'test', test_filename)
+    raw_ds = load_dataset(
+        'json', data_files={'test': raw_path}, cache_dir=DATASET_CACHE_DIR
+    )['test']
     batch_size = _EVAL_CONFIG.get('final_eval_batch_size', 8)
     predictions = []
     tokenizer.padding_side = 'left'
@@ -90,7 +87,7 @@ def _generate_predictions(model, tokenizer, args, client_idx: int) -> list:
     )
 
     for rows in DataLoader(raw_ds, batch_size=batch_size, shuffle=False, collate_fn=lambda x: x):
-        if args.dataset == 'squad_v1':
+        if args.dataset.startswith('squad_v1'):
             prompt_ids = [
                 encode_squad_prompt(tokenizer, row['context'], row['question'])
                 for row in rows
@@ -122,6 +119,9 @@ def _generate_predictions(model, tokenizer, args, client_idx: int) -> list:
                 'id': row.get('squad_id'),
                 'context': row.get('context'),
                 'question': row.get('question', row.get('input_ids', '')),
+                'answer_start': row.get('answer_start'),
+                'official_answer_start': row.get('official_answer_start'),
+                'context_start': row.get('context_start'),
                 'prediction': prediction.strip(),
                 'references': list(references),
             })
@@ -187,10 +187,18 @@ class _F1Evaluator:
         return {'f1': 100.0 * total / len(predictions)}
 
 
-def _save_predictions(predictions: list[dict], args, client_idx: int) -> str:
+def _save_predictions(
+    predictions: list[dict], args, client_idx: int | None, filename: str | None = None
+) -> str:
     output_dir = os.path.join(args.suffix, 'evaluation', args.dataset)
     os.makedirs(output_dir, exist_ok=True)
-    output_path = os.path.join(output_dir, f'client_{client_idx}_predictions.jsonl')
+    if filename is None:
+        filename = (
+            'global_predictions.jsonl'
+            if client_idx is None
+            else f'client_{client_idx}_predictions.jsonl'
+        )
+    output_path = os.path.join(output_dir, filename)
     with open(output_path, 'w', encoding='utf-8') as handle:
         for row in predictions:
             saved = dict(row)
@@ -276,18 +284,16 @@ class _MMLUEvaluator:
 # Per-client evaluation
 # ------------------------------------------------------------------
 
-def _eval_client(model, tokenizer, client_idx: int, args, dataset_cfg: dict) -> dict:
+def _eval_client(model, tokenizer, client_idx: int | None, args, dataset_cfg: dict) -> dict:
     task_type = dataset_cfg['task_type']
     metrics = dataset_cfg['metrics']
 
-    formatted_ds = load_data(args, idx=client_idx)['test']
-    # This is the standalone final evaluator, so SQuAD uses all 2,000
-    # designated test examples rather than the lightweight per-round subset.
-    eval_samples = dataset_cfg.get(
-        'final_eval_samples', _EVAL_CONFIG.get('final_eval_samples', 0)
-    )
-    if eval_samples > 0:
-        formatted_ds = formatted_ds.select(range(min(eval_samples, len(formatted_ds))))
+    if args.global_test:
+        formatted_ds = load_global_test_data(args)['test']
+    else:
+        formatted_ds = load_data(args, idx=client_idx)['test']
+    # Standalone final evaluation always uses every row present in the test
+    # file; the dataset file itself is the single source of truth for size.
     result = {}
 
     if task_type == 'SEQ_CLS':
@@ -363,6 +369,9 @@ def main():
     # Final parse
     args = add_args(parser)
 
+    set_global_seed(args.seed, device=args.device, deterministic=args.deterministic)
+    print(f"Reproducibility: seed={args.seed}, deterministic={args.deterministic}")
+
     args.suffix = f'exp/{args.suffix}'
     logger = get_logger(args)
 
@@ -381,19 +390,23 @@ def main():
     model.load_state_dict(lora_weights, strict=False)
     model.eval()
 
-    # Per-client evaluation (all metrics except mmlu)
+    # Shared global evaluation runs once; legacy client-local evaluation runs
+    # once per client and averages the resulting metrics.
     all_metrics = []
-    for cid in range(args.cn):
+    evaluation_targets = (None,) if args.global_test else range(args.cn)
+    for cid in evaluation_targets:
         metrics = _eval_client(model, tokenizer, cid, args, dataset_cfg)
         parts = ' | '.join(f'{k}: {v:.4f}' for k, v in metrics.items())
-        print(f'[Client {cid}] {parts}')
+        label = 'Global' if cid is None else f'Client {cid}'
+        print(f'[{label}] {parts}')
         all_metrics.append(metrics)
 
     if all_metrics:
         agg = {k: sum(m[k] for m in all_metrics) / len(all_metrics) for k in all_metrics[0]}
         parts = ' | '.join(f'{k}: {v:.4f}' for k, v in agg.items())
-        print(f'[Avg] {parts}')
-        logger.info(f'[Avg] {parts}')
+        aggregate_label = 'Global' if args.global_test else 'Avg'
+        print(f'[{aggregate_label}] {parts}')
+        logger.info(f'[{aggregate_label}] {parts}')
 
     # MMLU — run once on the global model, triggered by eval.yaml config
     if 'mmlu' in dataset_cfg['metrics']:

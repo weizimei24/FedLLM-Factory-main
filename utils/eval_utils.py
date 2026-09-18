@@ -44,11 +44,11 @@ class Evaluator:
         self.task_type = self.dataset_cfg['task_type']
         self.tokenizer = load_tokenizer(args)
 
-        test_data = dataset['test']
-        eval_samples = _EVAL_CONFIG.get('eval_samples', 0)
-        if eval_samples > 0:
-            test_data = test_data.select(range(min(eval_samples, len(test_data))))
-        self.eval_loader = DataLoader(test_data, batch_size=1, shuffle=False)
+        # Evaluation always covers every row actually present in the test
+        # split. Dataset size belongs to the data, not to eval.yaml.
+        self.eval_loader = DataLoader(
+            dataset['test'], batch_size=1, shuffle=False
+        )
 
     # ------------------------------------------------------------------
     # Public interface
@@ -112,6 +112,8 @@ class Evaluator:
             prefix += f"Round {round_idx} | "
         if client_id is not None:
             prefix += f"Client {client_id} | "
+        elif round_idx is not None:
+            prefix += "Global | "
         parts = [f"{k}: {v:.4f}" for k, v in metrics.items()]
         print(prefix + " | ".join(parts))
 

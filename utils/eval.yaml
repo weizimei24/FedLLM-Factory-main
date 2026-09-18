@@ -17,7 +17,10 @@ datasets:
   squad_v1:
     task_type: CAUSAL_LM
     metrics: [exact_match, f1, perplexity]
-    final_eval_samples: 2000
+
+  squad_v1_fed5:
+    task_type: CAUSAL_LM
+    metrics: [exact_match, f1, perplexity]
 
   dolly:
     task_type: CAUSAL_LM
@@ -36,9 +39,7 @@ datasets:
     metrics: [perplexity, f1]
 
 
-# Global eval settings
-eval_samples: 100        # max samples for per-round evaluation (loss/perplexity only)
-final_eval_samples: 200  # max samples for final evaluation (all metrics incl. generation)
+# Global generation settings
 final_eval_batch_size: 8 # batch size for model.generate() during final evaluation
 
 # Global benchmarks — MMLU config (activated by adding 'mmlu' to a dataset's metrics)

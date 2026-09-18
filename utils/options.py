@@ -25,12 +25,16 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument('--dataset', type=str, default='', help='dataset name')
     parser.add_argument('--model', type=str, default='', help='model name')
     parser.add_argument('--task_type', type=str, default='', help='task type (SEQ_CLS or CAUSAL_LM)')
+    parser.add_argument('--seed', type=int, default=42, help='global random seed')
+    parser.add_argument(
+        '--deterministic', action=argparse.BooleanOptionalAction, default=True,
+        help='require deterministic PyTorch/CUDA algorithms'
+    )
 
     ### FL setting
     parser.add_argument('--cn', type=int, default=10, help='number of clients')
     parser.add_argument('--sr', type=float, default=1.0, help='sample rate')
     parser.add_argument('--rnd', type=int, default=10, help='number of rounds')
-    parser.add_argument('--tg', type=int, default=1, help='test gap')
     parser.add_argument('--session_time', type=float, default=24, help='round session duration in hours')
     parser.add_argument('--start_time', type=float, default=0.0, help='simulation start offset in hours from the earliest trace event')
 
@@ -42,6 +46,18 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument('--lr', type=float, default=1e-4, help='learning rate')
 
     parser.add_argument('--test_gap', type=int, default=1, help='test interval')
+    parser.add_argument(
+        '--global_test', action=argparse.BooleanOptionalAction, default=False,
+        help='evaluate one shared server-side test set instead of client-local test sets，决定测试集是客户端本地持有，还是服务器统一持有。'
+    )
+    parser.add_argument(
+        '--global_test_file', default='global.jsonl',
+        help='filename under dataset/<dataset>/test/ used for shared evaluation，指定服务器共享测试集的文件名。'
+    )
+    parser.add_argument(
+        '--round_generation_metrics', action=argparse.BooleanOptionalAction, default=False,
+        help='compute generation metrics on the global model after each round，决定每轮聚合后是否让全局模型真正生成答案，并计算生成指标。'
+    )
 
     ### async
     parser.add_argument('--decay', type=float, default=0.1, help='decay rate')

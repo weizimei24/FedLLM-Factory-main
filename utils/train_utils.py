@@ -4,6 +4,7 @@ import torch
 from torch.optim import AdamW
 from torch.utils.data import DataLoader
 from torch.amp import GradScaler, autocast
+from utils.seed_utils import client_round_seed, seed_rngs
 
 
 class Trainer:
@@ -16,12 +17,21 @@ class Trainer:
         self.args = args
         self.client = client
         self.task_type = args.task_type
+        self.shuffle_generator = torch.Generator()
         self.train_loader = DataLoader(
             dataset['train'],
             batch_size=self.args.bs,
             shuffle=True,
-            drop_last=True
+            drop_last=True,
+            generator=self.shuffle_generator,
         )
+
+    def _set_round_seed(self):
+        seed = client_round_seed(
+            self.args.seed, self.client.id, self.client.server.round
+        )
+        seed_rngs(seed)
+        self.shuffle_generator.manual_seed(seed)
 
     # ------------------------------------------------------------------
     # Public interface
@@ -29,6 +39,7 @@ class Trainer:
 
     def train(self, model):
         """Run one round of local training and return the final loss."""
+        self._set_round_seed()
         model.train()
         optimizer = AdamW(
             filter(lambda p: p.requires_grad, model.parameters()),
@@ -54,6 +65,7 @@ class Trainer:
             (loss, truncated): the last computed loss and a bool indicating
             whether the run was cut short by the window deadline.
         """
+        self._set_round_seed()
         model.train()
         optimizer = AdamW(
             filter(lambda p: p.requires_grad, model.parameters()),
@@ -76,6 +88,7 @@ class Trainer:
         Returns:
             (loss, truncated, completed_steps)
         """
+        self._set_round_seed()
         model.train()
         optimizer = AdamW(
             filter(lambda p: p.requires_grad, model.parameters()),
