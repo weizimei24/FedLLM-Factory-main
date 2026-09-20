@@ -18,7 +18,7 @@ class FTBaseClient(BaseClient):
         self.dataset = load_data(args=args, idx=self.id)
         self.lora = {}
         self.trainer = Trainer(args=args, dataset=self.dataset, client=self)
-        self.evaluator = None if args.global_test else Evaluator(args=args, dataset=self.dataset)
+        self.evaluator = None if (args.global_test or getattr(args, 'cross_domain_qa', False)) else Evaluator(args=args, dataset=self.dataset)
 
     @time_record
     def run(self, model):
@@ -27,7 +27,7 @@ class FTBaseClient(BaseClient):
 
     def local_test(self, model):
         if self.evaluator is None:
-            raise RuntimeError("Client-local evaluation is disabled when global_test=true")
+            raise RuntimeError("Client-local evaluation is disabled for global_test or cross-domain QA runs")
         return self.evaluator.evaluate(model, round_idx=self.server.round, client_id=self.id)
 
 class FTBaseServer(BaseServer):
@@ -43,6 +43,12 @@ class FTBaseServer(BaseServer):
         if args.global_test:
             self.global_test_dataset = load_global_test_data(args)
             self.global_evaluator = Evaluator(args=args, dataset=self.global_test_dataset)
+        elif getattr(args, 'cross_domain_qa', False):
+            # This evaluator operates on raw named test files and performs
+            # generation-based MRQA metrics independently for each domain.
+            from utils.cross_domain_qa import CrossDomainQAEvaluator
+            self.global_test_dataset = None
+            self.global_evaluator = CrossDomainQAEvaluator(args)
         else:
             self.global_test_dataset = None
             self.global_evaluator = None
@@ -65,20 +71,28 @@ class FTBaseServer(BaseServer):
         self.wall_clock_time += max([c.training_time for c in self.sampled_clients])
 
     def aggregate(self):
-        data_sum = sum([len(client.dataset['train']) for client in self.sampled_clients])
         from collections import defaultdict
         aggregated = defaultdict(lambda: 0)
-
+        data_sum = sum(len(client.dataset['train']) for client in self.sampled_clients)
+        client_weights = {
+            client.id: len(client.dataset['train']) / data_sum
+            for client in self.sampled_clients
+        }
         for client in self.sampled_clients:
             model = client.lora
             for k, v in model.items():
-                aggregated[k] = aggregated[k] + v * len(client.dataset['train']) / data_sum
+                aggregated[k] = aggregated[k] + v * client_weights[client.id]
 
         self.global_lora = aggregated
         self.model.load_state_dict(self.global_lora, strict=False)
         print("Aggregated model updated.")
 
     def test_all(self):
+        if getattr(self.args, 'cross_domain_qa', False):
+            print("Testing aggregated global model on four named MRQA domain test sets ...")
+            return self.global_evaluator.evaluate(
+                self.model, self.clients[0].tokenizer, round_idx=self.round, method=self.args.alg
+            )
         if self.global_evaluator is not None:
             print("Testing aggregated global model on shared global test set ...")
             metrics = self.global_evaluator.evaluate(
@@ -120,15 +134,27 @@ class FTBaseServer(BaseServer):
 
         return res_dict
 
-    def save_adapter(self):
-        import json
-        import torch
+    def _adapter_path(self):
         args = self.args
         name = (
             f'{args.alg}_{args.dataset}_{args.model}_'
             f'{args.cn}c_{args.epoch}E_lr{args.lr}'
         )
-        adapter_path = os.path.join(args.suffix, 'adapter', name)
+        return os.path.join(args.suffix, 'adapter', name)
+
+    def save_round_adapter(self, round_idx):
+        """Persist the post-aggregation global adapter for audit/re-evaluation."""
+        import torch
+        adapter_path = os.path.join(self._adapter_path(), f'round_{round_idx:03d}')
+        os.makedirs(adapter_path, exist_ok=True)
+        torch.save(dict(self.global_lora), os.path.join(adapter_path, 'lora_weights.pt'))
+        print(f'Round {round_idx} adapter saved to {adapter_path}')
+
+    def save_adapter(self):
+        import json
+        import torch
+        args = self.args
+        adapter_path = self._adapter_path()
         os.makedirs(adapter_path, exist_ok=True)
         torch.save(dict(self.global_lora), os.path.join(adapter_path, 'lora_weights.pt'))
         with open(os.path.join(adapter_path, 'training_config.json'), 'w', encoding='utf-8') as handle:

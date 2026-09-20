@@ -1,0 +1,30 @@
+# Controlled four-domain MRQA QA pilot: FedRot-LoRA.
+# This intentionally differs from config.cross_domain_fedit.yaml only in
+# aggregation algorithm, output suffix, and FedRot-LoRA's required lambda.
+alg: fedrotlora
+suffix: cross_domain_mrqa_fedrot
+device: 0
+dataset: cross_domain_mrqa
+model: Qwen3-1.7B
+task_type: CAUSAL_LM
+seed: 42
+deterministic: true
+
+cn: 4
+sr: 1.0
+rnd: 10
+test_gap: 1
+cross_domain_qa: true
+
+bs: 1
+grad_accum: 8
+epoch: 1
+step: 125
+lr: 1e-4
+eval_batch_size: 8
+
+mode: prototype
+lora_rank: 8
+lora_alpha: 32
+lora_dropout: 0.05
+lam: 0.5

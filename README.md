@@ -112,6 +112,80 @@ evaluation command reloads the saved global adapter and evaluates the same
 shared test set once.
 
 
+### Cross-domain MRQA QA pilot: FedIT vs. FedRot-LoRA
+
+This controlled pilot gives four fully participating clients the same
+extractive-QA instruction format but different MRQA domains: client 0 SQuAD,
+client 1 NewsQA, client 2 TriviaQA, and client 3 NaturalQuestions. It uses the
+existing Qwen3 chat template, answer-only label masking, deterministic greedy
+generation, and SQuAD/MRQA multi-reference EM/F1 normalization. The only
+training-method difference is aggregation: FedIT averages LoRA factors and
+FedRot-LoRA aligns them before applying that same equal-weight average.
+
+Install the normal project dependencies (plotting additionally uses
+`matplotlib`), then prepare data:
+
+```
+pip install -r requirements-stage1.txt matplotlib
+python -X utf8 dataset/prepare_cross_domain_mrqa.py
+```
+
+The preparation command downloads the official, already unified MRQA v2
+JSONL.GZ train and validation files, samples exactly 1,000 train and 200
+held-out test examples per domain with seed 42, and writes
+`dataset/cross_domain_mrqa/`. It preserves named test identities instead of
+creating a mixed global test file. `manifest.json` records source URLs,
+original splits, SHA-256 hashes, seeds, and output counts;
+`statistics.json` records train/test counts plus average prompt/input, context,
+question, and answer token lengths. The supervised answer is the first
+source-order gold answer found in its context; all gold strings remain in
+`answers` for evaluation.
+
+Run the two otherwise identical five-round experiments:
+
+```
+python -X utf8 main.py --config config.cross_domain_fedit.yaml
+python -X utf8 main.py --config config.cross_domain_fedrot.yaml
+```
+
+All four clients participate every round. Aggregation follows the repository's
+existing training-sample-count weighting; because every client has 1,000
+examples, this is exactly 1/4 per client in this pilot. After every
+aggregation, the run writes a snapshot at
+`exp/<suffix>/adapter/.../round_XXX/lora_weights.pt`, generates
+predictions separately for SQuAD, NewsQA, TriviaQA, and NaturalQuestions, and
+writes per-domain rows plus a macro row to:
+
+```
+exp/<suffix>/evaluation/cross_domain/results.csv
+exp/<suffix>/evaluation/cross_domain/macro_average.csv
+```
+
+EM, F1, and containment in these CSVs are percentages on the existing SQuAD
+0--100 scale. Prediction JSONL files retain every reference answer and each
+example-level score. Re-evaluate saved adapters (for example after changing
+only evaluation hardware) or plot the round curves with:
+
+```
+python -X utf8 eval_cross_domain.py --config config.cross_domain_fedit.yaml --rounds all
+python -X utf8 eval_cross_domain.py --config config.cross_domain_fedrot.yaml --rounds all
+python -X utf8 plot_cross_domain_results.py
+python -X utf8 bootstrap_cross_domain_f1.py --rounds all
+```
+
+The plot command creates `exp/cross_domain_mrqa_f1_by_round.png`, with one F1
+trajectory per domain and method. The standalone evaluator intentionally
+rewrites its method's `results.csv`, so run it once with `--rounds all` when a
+complete replacement is wanted.
+
+`bootstrap_cross_domain_f1.py` resamples the 200 examples inside each domain,
+not the four domain means. Its CSV includes each method's F1 bootstrap standard
+deviation and a paired FedRot-LoRA minus FedIT 95% interval; the latter
+quantifies evaluation-set uncertainty for a method difference, but does not
+replace multiple-training-seed uncertainty. By default it also evaluates the
+per-example mean across all selected rounds, which is the appropriate row for
+claims based on a ten-round average rather than a single checkpoint.
+
 ### Frontend Usage
 We also provide a simple frontend for users to easily run the code.
 To use the frontend, you should install `streamlit` first.

@@ -13,6 +13,7 @@ Which metrics are computed is controlled entirely by utils/eval.yaml (metrics fi
 per dataset).  No extra flags needed — add/remove entries in the yaml to opt in/out.
 """
 
+import argparse
 import importlib
 import json
 import math
@@ -359,6 +360,12 @@ def add_args(parser):
 
 def main():
     parser = build_parser()
+    parser.add_argument(
+        '--base_model_only',
+        action=argparse.BooleanOptionalAction,
+        default=False,
+        help='evaluate the pretrained base model without creating or loading a LoRA adapter',
+    )
 
     # First pass to get --alg, then load algorithm-specific args
     args, _ = parser.parse_known_args()
@@ -379,15 +386,17 @@ def main():
     dataset_cfg = get_dataset_config(args.dataset)
     args.task_type = dataset_cfg['task_type']
 
-    adapter_path = _adapter_path(args)
-
     tokenizer = load_tokenizer(args)
-    base_model = load_model(args)
-    model = get_peft_model(base_model, load_lora_config(args))
-    lora_weights = torch.load(
-        os.path.join(adapter_path, 'lora_weights.pt'), map_location='cpu'
-    )
-    model.load_state_dict(lora_weights, strict=False)
+    model = load_model(args)
+    if args.base_model_only:
+        print(f'Evaluating pretrained base model without LoRA: {args.model}')
+    else:
+        adapter_path = _adapter_path(args)
+        model = get_peft_model(model, load_lora_config(args))
+        lora_weights = torch.load(
+            os.path.join(adapter_path, 'lora_weights.pt'), map_location='cpu'
+        )
+        model.load_state_dict(lora_weights, strict=False)
     model.eval()
 
     # Shared global evaluation runs once; legacy client-local evaluation runs

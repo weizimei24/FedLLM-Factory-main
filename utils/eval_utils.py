@@ -13,7 +13,9 @@ from utils.model_utils import load_tokenizer
 
 def _load_eval_config():
     config_path = os.path.join(os.path.dirname(__file__), 'eval.yaml')
-    with open(config_path, 'r') as f:
+    # Explicit UTF-8 makes evaluation portable on Windows systems whose
+    # process default encoding is GBK.
+    with open(config_path, 'r', encoding='utf-8') as f:
         return yaml.safe_load(f)
 
 

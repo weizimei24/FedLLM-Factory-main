@@ -1,2 +1,10 @@
 2026-09-18 09:50:49 | [Round 0] eval_loss: 0.2962  perplexity: 1.3448  exact_match: 79.7000  f1: 87.8103  wall_clock: 282695.80994546413
 2026-09-18 10:28:19 | [Round 1] eval_loss: 0.2829  perplexity: 1.3270  exact_match: 82.9500  f1: 90.2583  wall_clock: 570647.5692853332
+2026-09-18 10:59:40 | [Round 2] eval_loss: 0.2625  perplexity: 1.3002  exact_match: 83.9000  f1: 91.3747  wall_clock: 724000.4837349057
+2026-09-18 11:42:40 | [Round 3] eval_loss: 0.2672  perplexity: 1.3063  exact_match: 83.9500  f1: 91.0776  wall_clock: 1014123.9427775145
+2026-09-18 12:20:59 | [Round 4] eval_loss: 0.2706  perplexity: 1.3108  exact_match: 84.5500  f1: 91.7428  wall_clock: 1168912.5813290477
+2026-09-18 13:09:55 | [Round 5] eval_loss: 0.2753  perplexity: 1.3169  exact_match: 84.6000  f1: 91.4985  wall_clock: 1454275.671851635
+2026-09-18 13:57:42 | [Round 6] eval_loss: 0.2853  perplexity: 1.3302  exact_match: 83.4500  f1: 90.7553  wall_clock: 1732808.2934170961
+2026-09-18 14:45:15 | [Round 7] eval_loss: 0.2897  perplexity: 1.3360  exact_match: 84.5500  f1: 91.3929  wall_clock: 2011880.082012713
+2026-09-18 15:28:07 | [Round 8] eval_loss: 0.2943  perplexity: 1.3422  exact_match: 83.9000  f1: 90.9737  wall_clock: 2305456.39308393
+2026-09-18 16:00:59 | [Round 9] eval_loss: 0.3086  perplexity: 1.3616  exact_match: 85.1000  f1: 91.6630  wall_clock: 2458024.6139913797

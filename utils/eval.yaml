@@ -22,6 +22,10 @@ datasets:
     task_type: CAUSAL_LM
     metrics: [exact_match, f1, perplexity]
 
+  cross_domain_mrqa:
+    task_type: CAUSAL_LM
+    metrics: [exact_match, f1]
+
   dolly:
     task_type: CAUSAL_LM
     metrics: [perplexity, rouge, f1, mmlu]

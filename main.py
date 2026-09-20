@@ -45,6 +45,11 @@ class FedSim:
                 self.server.round = rnd
                 self.server.run()
 
+                # A snapshot is taken immediately after aggregation, before
+                # evaluation, so every reported point can be reproduced later.
+                if getattr(self.args, 'cross_domain_qa', False) and hasattr(self.server, 'save_round_adapter'):
+                    self.server.save_round_adapter(rnd)
+
                 # ===================== test =====================
                 if (self.args.rnd - rnd <= 10) or (rnd % TEST_GAP == (TEST_GAP-1)):
                     ret_dict = self.server.test_all()

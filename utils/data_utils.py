@@ -11,7 +11,10 @@ def load_data(args, idx):
     dataset = args.dataset
     train_dir = os.path.join('dataset', dataset, f'train/{idx}.jsonl')
     data_files = {'train': train_dir}
-    if not getattr(args, 'global_test', False):
+    # Cross-domain QA keeps four named server-side test files.  They are
+    # deliberately not exposed as client-indexed ``test/<id>.jsonl`` files;
+    # the cross-domain evaluator reads and reports every domain separately.
+    if not getattr(args, 'global_test', False) and not getattr(args, 'cross_domain_qa', False):
         data_files['test'] = os.path.join('dataset', dataset, f'test/{idx}.jsonl')
 
     dataset = load_dataset(
@@ -65,7 +68,7 @@ def get_format_func(args, tokenizer):
             }
         return _format_classification
     elif args.task_type == 'CAUSAL_LM':
-        if args.dataset.startswith('squad_v1'):
+        if args.dataset.startswith('squad_v1') or getattr(args, 'cross_domain_qa', False):
             def _format_squad(example):
                 tokenizer.padding_side = 'right'
                 return encode_squad_training_example(tokenizer, example)

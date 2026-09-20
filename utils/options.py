@@ -58,6 +58,12 @@ def build_parser() -> argparse.ArgumentParser:
         '--round_generation_metrics', action=argparse.BooleanOptionalAction, default=False,
         help='compute generation metrics on the global model after each round，决定每轮聚合后是否让全局模型真正生成答案，并计算生成指标。'
     )
+    parser.add_argument(
+        '--cross_domain_qa', action=argparse.BooleanOptionalAction, default=False,
+        help='use the four-domain MRQA QA protocol (one domain per client)',
+    )
+    parser.add_argument('--eval_batch_size', type=int, default=8,
+                        help='generation batch size for cross-domain QA evaluation')
 
     ### async
     parser.add_argument('--decay', type=float, default=0.1, help='decay rate')
