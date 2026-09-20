@@ -1,0 +1,11 @@
+method,round,domain,em,f1,containment,num_samples
+fedrotlora,0,macro_average,58.75,69.14761520723764,76.875,800
+fedrotlora,1,macro_average,63.25,73.71308066665165,80.625,800
+fedrotlora,2,macro_average,64.625,74.88288700930813,81.875,800
+fedrotlora,3,macro_average,61.875,73.20622614721879,81.125,800
+fedrotlora,4,macro_average,64.125,74.79286227725663,82.125,800
+fedrotlora,5,macro_average,64.25,76.10306483612733,83.25,800
+fedrotlora,6,macro_average,65.875,76.72759544094528,83.25,800
+fedrotlora,7,macro_average,63.5,75.7788794570063,83.5,800
+fedrotlora,8,macro_average,63.375,75.09660579713429,82.625,800
+fedrotlora,9,macro_average,63.875,75.75680514236294,82.75,800
