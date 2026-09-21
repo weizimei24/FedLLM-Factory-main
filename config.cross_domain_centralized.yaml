@@ -1,0 +1,31 @@
+# Centralized pooled-data LoRA reference for the four-domain MRQA pilot.
+alg: centralized
+suffix: cross_domain_mrqa_centralized
+device: 0
+dataset: cross_domain_mrqa
+train_file: pooled.jsonl
+model: Qwen3-1.7B
+task_type: CAUSAL_LM
+seed: 42
+deterministic: true
+
+# One pooled client. Ten rounds preserve the federated runs' LR schedule and
+# expose every one of the 4,000 examples exactly ten times in total.
+cn: 1
+sr: 1.0
+rnd: 10
+test_gap: 1
+cross_domain_qa: true
+
+# 4,000 / (batch size 1 * accumulation 8) = 500 optimizer updates per pass.
+bs: 1
+grad_accum: 8
+epoch: 1
+step: 500
+lr: 0.0001
+eval_batch_size: 8
+
+mode: prototype
+lora_rank: 8
+lora_alpha: 32
+lora_dropout: 0.05

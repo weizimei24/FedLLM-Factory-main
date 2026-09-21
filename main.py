@@ -48,6 +48,7 @@ class FedSim:
                 # A snapshot is taken immediately after aggregation, before
                 # evaluation, so every reported point can be reproduced later.
                 if getattr(self.args, 'cross_domain_qa', False) and hasattr(self.server, 'save_round_adapter'):
+                    self.server.save_client_updates(rnd)   # 新增：保存 4 个 Δ_i
                     self.server.save_round_adapter(rnd)
 
                 # ===================== test =====================

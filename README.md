@@ -141,7 +141,7 @@ question, and answer token lengths. The supervised answer is the first
 source-order gold answer found in its context; all gold strings remain in
 `answers` for evaluation.
 
-Run the two otherwise identical five-round experiments:
+Run the two otherwise identical ten-round experiments:
 
 ```
 python -X utf8 main.py --config config.cross_domain_fedit.yaml
@@ -185,6 +185,25 @@ quantifies evaluation-set uncertainty for a method difference, but does not
 replace multiple-training-seed uncertainty. By default it also evaluates the
 per-example mean across all selected rounds, which is the appropriate row for
 claims based on a ten-round average rather than a single checkpoint.
+
+#### Centralized pooled-data reference
+
+Build a deterministic 4,000-example training pool from the same four client
+files, then run and optionally re-evaluate the centralized LoRA reference:
+
+```
+python -X utf8 dataset/build_cross_domain_pooled.py
+python -X utf8 main.py --config config.cross_domain_centralized.yaml
+python -X utf8 eval_cross_domain.py --config config.cross_domain_centralized.yaml --rounds all
+```
+
+This does not mix the 800 test examples into one metric. The same four named
+200-example test sets are evaluated independently and macro-averaged. The
+centralized run uses one pooled client, 10 rounds, and 500 optimizer updates
+per round. With `bs=1` and `grad_accum=8`, this matches the federated runs'
+40,000 total example exposures and 5,000 optimizer updates while retaining the
+same round-wise learning-rate schedule. Its outputs are stored under
+`exp/cross_domain_mrqa_centralized/` with method label `centralized`.
 
 ### Frontend Usage
 We also provide a simple frontend for users to easily run the code.

@@ -23,6 +23,10 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument('--suffix', type=str, default='default', help='experiment suffix')
     parser.add_argument('--device', type=int, default=0, help='device id')
     parser.add_argument('--dataset', type=str, default='', help='dataset name')
+    parser.add_argument(
+        '--train_file', type=str, default='',
+        help='optional filename under dataset/<dataset>/train; defaults to <client_id>.jsonl',
+    )
     parser.add_argument('--model', type=str, default='', help='model name')
     parser.add_argument('--task_type', type=str, default='', help='task type (SEQ_CLS or CAUSAL_LM)')
     parser.add_argument('--seed', type=int, default=42, help='global random seed')

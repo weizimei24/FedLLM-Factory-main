@@ -20,7 +20,7 @@ bs: 1
 grad_accum: 8
 epoch: 1
 step: 125
-lr: 1e-4
+lr: 0.0001
 eval_batch_size: 8
 
 mode: prototype

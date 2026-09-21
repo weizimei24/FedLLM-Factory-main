@@ -1,0 +1,22 @@
+{
+  "dataset": "MRQA cross-domain centralized pooled training set",
+  "created_at_utc": "2026-09-21T03:12:28.183136+00:00",
+  "seed": 42,
+  "source_files": [
+    "train/0.jsonl",
+    "train/1.jsonl",
+    "train/2.jsonl",
+    "train/3.jsonl"
+  ],
+  "domain_counts": {
+    "squad": 1000,
+    "newsqa": 1000,
+    "triviaqa": 1000,
+    "naturalquestions": 1000
+  },
+  "total_train_samples": 4000,
+  "unique_ids": 4000,
+  "id_sha256": "86f7231f491447460db52889d4108f16af1c7b4e552ac72d1c61122d9dac30c0",
+  "output": "train/pooled.jsonl",
+  "test_protocol": "reuse four named 200-example domain test files; no mixed micro-only test"
+}

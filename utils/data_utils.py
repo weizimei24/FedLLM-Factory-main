@@ -9,7 +9,8 @@ DATASET_CACHE_DIR = os.path.join('dataset', '.hf_cache')
 
 def load_data(args, idx):
     dataset = args.dataset
-    train_dir = os.path.join('dataset', dataset, f'train/{idx}.jsonl')
+    train_filename = getattr(args, 'train_file', '') or f'{idx}.jsonl'
+    train_dir = os.path.join('dataset', dataset, 'train', train_filename)
     data_files = {'train': train_dir}
     # Cross-domain QA keeps four named server-side test files.  They are
     # deliberately not exposed as client-indexed ``test/<id>.jsonl`` files;

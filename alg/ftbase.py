@@ -150,6 +150,14 @@ class FTBaseServer(BaseServer):
         torch.save(dict(self.global_lora), os.path.join(adapter_path, 'lora_weights.pt'))
         print(f'Round {round_idx} adapter saved to {adapter_path}')
 
+    def save_client_updates(self, round_idx):
+        """Persist each sampled client's post-training LoRA factors (Δ_i) for this round."""
+        import torch
+        for client in self.sampled_clients:
+            client_dir = os.path.join(self._adapter_path(), f'round_{round_idx:03d}', 'clients')
+            os.makedirs(client_dir, exist_ok=True)
+            torch.save(dict(client.lora), os.path.join(client_dir, f'client_{client.id}.pt'))
+
     def save_adapter(self):
         import json
         import torch

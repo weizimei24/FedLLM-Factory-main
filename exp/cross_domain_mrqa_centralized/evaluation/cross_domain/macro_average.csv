@@ -1,0 +1,11 @@
+method,round,domain,em,f1,containment,num_samples
+centralized,0,macro_average,63.0,74.75330913890313,81.75,800
+centralized,1,macro_average,62.75,74.56489803089067,81.875,800
+centralized,2,macro_average,62.75,74.16833421794551,80.375,800
+centralized,3,macro_average,63.75,75.97077717982904,82.0,800
+centralized,4,macro_average,63.25,74.68465328552908,81.375,800
+centralized,5,macro_average,63.25,74.13360157391655,80.125,800
+centralized,6,macro_average,63.75,75.07134525713018,81.125,800
+centralized,7,macro_average,64.5,75.30652810133664,81.25,800
+centralized,8,macro_average,62.75,74.43938176732101,80.875,800
+centralized,9,macro_average,62.25,73.57593354790627,80.125,800
