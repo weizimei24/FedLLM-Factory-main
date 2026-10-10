@@ -1,0 +1,18 @@
+clients: 8   shared prompt prefix: 18 tokens   prefix share of q/v input energy: 36.4%
+
+Teacher-forced full-answer EM on each client's test (rephrased) questions, macro over clients:
+  base model                            1.35
+  own local adapter                    32.42
+  another client's adapter alone        3.56
+  all eight merged, exact average (eta=1)  5.03
+  all eight merged, average x 2        4.40
+  all eight merged, average x 4        0.00
+  all eight merged, plain sum (eta=8)  0.00
+
+Pairwise interference, adding client i's full update to client j's own adapter:
+  mean change of j's TF-EM  -30.84   worst -51.40   best -19.40
+  mean change of j's NLL    +3.088
+
+Functional footprint R[i][j] = E_Dj||Delta_i x||^2 / E_Di||Delta_i x||^2 (1 = acts on j as on i):
+  all tokens         off-diagonal mean 0.962
+  post-prefix tokens off-diagonal mean 0.954
