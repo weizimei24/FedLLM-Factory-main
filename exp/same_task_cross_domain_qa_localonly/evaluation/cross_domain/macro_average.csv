@@ -1,0 +1,8 @@
+method,round,domain,em,f1,containment,num_samples
+localonly,0,macro_average,64.92,75.25049078390674,80.72,2500
+localonly,1,macro_average,67.4,76.99988188410842,82.16,2500
+localonly,2,macro_average,68.12,77.44119794950925,82.12,2500
+localonly,3,macro_average,68.08,77.3168677300404,81.92,2500
+localonly,4,macro_average,68.28,77.35508051683857,81.8,2500
+localonly,5,macro_average,68.47999999999999,78.05836970168669,82.6,2500
+localonly,6,macro_average,67.67999999999999,76.87176607825812,81.16,2500
