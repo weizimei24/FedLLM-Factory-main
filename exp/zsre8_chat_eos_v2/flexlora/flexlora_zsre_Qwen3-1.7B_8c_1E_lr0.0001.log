@@ -1,0 +1,10 @@
+2026-09-30 11:46:32 | [Round 0] eval_loss: 2.5222  perplexity: 12.9815  wall_clock: 137263.80548626184
+2026-09-30 12:29:17 | [Round 1] eval_loss: 2.2891  perplexity: 10.2677  wall_clock: 272283.9128628373
+2026-09-30 13:12:06 | [Round 2] eval_loss: 2.1778  perplexity: 9.2069  wall_clock: 407424.59662109613
+2026-09-30 13:54:58 | [Round 3] eval_loss: 2.1041  perplexity: 8.5652  wall_clock: 542685.0076764822
+2026-09-30 14:37:49 | [Round 4] eval_loss: 2.0443  perplexity: 8.0863  wall_clock: 678180.2192285657
+2026-09-30 15:21:07 | [Round 5] eval_loss: 1.9933  perplexity: 7.6792  wall_clock: 814765.9961208701
+2026-09-30 16:04:25 | [Round 6] eval_loss: 1.9505  perplexity: 7.3534  wall_clock: 952006.0265466571
+2026-09-30 16:47:37 | [Round 7] eval_loss: 1.9094  perplexity: 7.0553  wall_clock: 1088885.3368341923
+2026-09-30 17:30:54 | [Round 8] eval_loss: 1.8707  perplexity: 6.7866  wall_clock: 1224452.2316604853
+2026-09-30 18:12:40 | [Round 9] eval_loss: 1.8369  perplexity: 6.5555  wall_clock: 1361720.220208168
