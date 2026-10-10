@@ -1,0 +1,11 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.21s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.62it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.41it/s]
+fedrotlora client 0: EM=0.00 F1=5.10 containment=13.80 n=500
+fedrotlora client 1: EM=0.00 F1=2.89 containment=9.00 n=500
+fedrotlora client 2: EM=0.00 F1=3.50 containment=12.00 n=500
+fedrotlora client 3: EM=0.00 F1=4.92 containment=22.60 n=500
+fedrotlora client 4: EM=0.00 F1=3.45 containment=7.40 n=500
+fedrotlora client 5: EM=0.00 F1=3.86 containment=14.40 n=500
+fedrotlora client 6: EM=0.00 F1=4.10 containment=11.20 n=500
+fedrotlora client 7: EM=0.00 F1=2.75 containment=8.20 n=500
+fedrotlora macro: EM=0.00 F1=3.82 containment=12.32

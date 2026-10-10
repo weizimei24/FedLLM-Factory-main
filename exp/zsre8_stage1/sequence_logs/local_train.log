@@ -1,0 +1,265 @@
+Reproducibility: seed=42, deterministic=True
+Loading clients...:   0%|          | 0/8 [00:00<?, ?it/s]
+Generating train split: 0 examples [00:00, ? examples/s][AGenerating train split: 500 examples [00:00, 32233.63 examples/s]
+
+Generating test split: 0 examples [00:00, ? examples/s][AGenerating test split: 500 examples [00:00, 100007.25 examples/s]
+
+Map:   0%|          | 0/500 [00:00<?, ? examples/s][A
+Map: 100%|██████████| 500/500 [00:00<00:00, 3426.86 examples/s][AMap: 100%|██████████| 500/500 [00:00<00:00, 3217.05 examples/s]
+
+Map:   0%|          | 0/500 [00:00<?, ? examples/s][A
+Map: 100%|██████████| 500/500 [00:00<00:00, 3698.49 examples/s][AMap: 100%|██████████| 500/500 [00:00<00:00, 3396.89 examples/s]
+Loading clients...:  12%|█▎        | 1/8 [00:02<00:17,  2.45s/it]
+Generating train split: 0 examples [00:00, ? examples/s][AGenerating train split: 500 examples [00:00, 99344.01 examples/s]
+
+Generating test split: 0 examples [00:00, ? examples/s][AGenerating test split: 500 examples [00:00, 99997.71 examples/s]
+
+Map:   0%|          | 0/500 [00:00<?, ? examples/s][A
+Map: 100%|██████████| 500/500 [00:00<00:00, 3730.05 examples/s][AMap: 100%|██████████| 500/500 [00:00<00:00, 3470.99 examples/s]
+
+Map:   0%|          | 0/500 [00:00<?, ? examples/s][A
+Map: 100%|██████████| 500/500 [00:00<00:00, 3843.76 examples/s][AMap: 100%|██████████| 500/500 [00:00<00:00, 3544.02 examples/s]
+Loading clients...:  25%|██▌       | 2/8 [00:03<00:10,  1.79s/it]
+Generating train split: 0 examples [00:00, ? examples/s][AGenerating train split: 500 examples [00:00, 100002.48 examples/s]
+
+Generating test split: 0 examples [00:00, ? examples/s][AGenerating test split: 500 examples [00:00, 99969.11 examples/s]
+
+Map:   0%|          | 0/500 [00:00<?, ? examples/s][A
+Map: 100%|██████████| 500/500 [00:00<00:00, 3706.96 examples/s][AMap: 100%|██████████| 500/500 [00:00<00:00, 3451.10 examples/s]
+
+Map:   0%|          | 0/500 [00:00<?, ? examples/s][A
+Map: 100%|██████████| 500/500 [00:00<00:00, 3808.92 examples/s][AMap: 100%|██████████| 500/500 [00:00<00:00, 3616.28 examples/s]
+Loading clients...:  38%|███▊      | 3/8 [00:05<00:07,  1.56s/it]
+Generating train split: 0 examples [00:00, ? examples/s][AGenerating train split: 500 examples [00:00, 83326.13 examples/s]
+
+Generating test split: 0 examples [00:00, ? examples/s][AGenerating test split: 500 examples [00:00, 99978.64 examples/s]
+
+Map:   0%|          | 0/500 [00:00<?, ? examples/s][A
+Map: 100%|██████████| 500/500 [00:00<00:00, 3531.88 examples/s][AMap: 100%|██████████| 500/500 [00:00<00:00, 3298.93 examples/s]
+
+Map:   0%|          | 0/500 [00:00<?, ? examples/s][A
+Map: 100%|██████████| 500/500 [00:00<00:00, 3786.29 examples/s][AMap: 100%|██████████| 500/500 [00:00<00:00, 3544.91 examples/s]
+Loading clients...:  50%|█████     | 4/8 [00:06<00:05,  1.46s/it]
+Generating train split: 0 examples [00:00, ? examples/s][AGenerating train split: 500 examples [00:00, 125009.06 examples/s]
+
+Generating test split: 0 examples [00:00, ? examples/s][AGenerating test split: 500 examples [00:00, 99873.89 examples/s]
+
+Map:   0%|          | 0/500 [00:00<?, ? examples/s][A
+Map: 100%|██████████| 500/500 [00:00<00:00, 3700.47 examples/s][AMap: 100%|██████████| 500/500 [00:00<00:00, 3445.17 examples/s]
+
+Map:   0%|          | 0/500 [00:00<?, ? examples/s][A
+Map: 100%|██████████| 500/500 [00:00<00:00, 3815.27 examples/s][AMap: 100%|██████████| 500/500 [00:00<00:00, 3531.77 examples/s]
+Loading clients...:  62%|██████▎   | 5/8 [00:07<00:04,  1.39s/it]
+Generating train split: 0 examples [00:00, ? examples/s][AGenerating train split: 500 examples [00:00, 124994.16 examples/s]
+
+Generating test split: 0 examples [00:00, ? examples/s][AGenerating test split: 500 examples [00:00, 100002.48 examples/s]
+
+Map:   0%|          | 0/500 [00:00<?, ? examples/s][A
+Map: 100%|██████████| 500/500 [00:00<00:00, 3715.97 examples/s][AMap: 100%|██████████| 500/500 [00:00<00:00, 3458.72 examples/s]
+
+Map:   0%|          | 0/500 [00:00<?, ? examples/s][A
+Map: 100%|██████████| 500/500 [00:00<00:00, 3872.89 examples/s][AMap: 100%|██████████| 500/500 [00:00<00:00, 3594.60 examples/s]
+Loading clients...:  75%|███████▌  | 6/8 [00:08<00:02,  1.35s/it]
+Generating train split: 0 examples [00:00, ? examples/s][AGenerating train split: 500 examples [00:00, 99315.78 examples/s]
+
+Generating test split: 0 examples [00:00, ? examples/s][AGenerating test split: 500 examples [00:00, 99907.20 examples/s]
+
+Map:   0%|          | 0/500 [00:00<?, ? examples/s][A
+Map: 100%|██████████| 500/500 [00:00<00:00, 3435.51 examples/s][AMap: 100%|██████████| 500/500 [00:00<00:00, 3254.19 examples/s]
+
+Map:   0%|          | 0/500 [00:00<?, ? examples/s][A
+Map: 100%|██████████| 500/500 [00:00<00:00, 3815.65 examples/s][AMap: 100%|██████████| 500/500 [00:00<00:00, 3595.92 examples/s]
+Loading clients...:  88%|████████▊ | 7/8 [00:10<00:01,  1.33s/it]
+Generating train split: 0 examples [00:00, ? examples/s][AGenerating train split: 500 examples [00:00, 99997.71 examples/s]
+
+Generating test split: 0 examples [00:00, ? examples/s][AGenerating test split: 500 examples [00:00, 125009.06 examples/s]
+
+Map:   0%|          | 0/500 [00:00<?, ? examples/s][A
+Map: 100%|██████████| 500/500 [00:00<00:00, 3712.90 examples/s][AMap: 100%|██████████| 500/500 [00:00<00:00, 3385.88 examples/s]
+
+Map:   0%|          | 0/500 [00:00<?, ? examples/s][A
+Map: 100%|██████████| 500/500 [00:00<00:00, 3680.63 examples/s][AMap: 100%|██████████| 500/500 [00:00<00:00, 3314.64 examples/s]
+Loading clients...: 100%|██████████| 8/8 [00:11<00:00,  1.35s/it]Loading clients...: 100%|██████████| 8/8 [00:11<00:00,  1.45s/it]
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.32s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.49it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.30it/s]
+Communication round:   0%|          | 0/10 [00:00<?, ?it/s]Round 0 | Client 0 | Train Loss: 4.0719
+Round 0 | Client 1 | Train Loss: 4.8443
+Round 0 | Client 2 | Train Loss: 4.5658
+Round 0 | Client 3 | Train Loss: 4.3015
+Round 0 | Client 4 | Train Loss: 4.3135
+Round 0 | Client 5 | Train Loss: 4.0721
+Round 0 | Client 6 | Train Loss: 4.5972
+Round 0 | Client 7 | Train Loss: 4.7291
+2026-09-27 03:05:03 | [Round 0] client_0_train_loss: 4.0719  client_1_train_loss: 4.8443  client_2_train_loss: 4.5658  client_3_train_loss: 4.3015  client_4_train_loss: 4.3135  client_5_train_loss: 4.0721  client_6_train_loss: 4.5972  client_7_train_loss: 4.7291  wall_clock: 37521.16432785988
+Round 0 | Client 0 | eval_loss: 2.3247 | perplexity: 10.2231
+Round 0 | Client 1 | eval_loss: 3.2008 | perplexity: 24.5524
+Round 0 | Client 2 | eval_loss: 2.9533 | perplexity: 19.1683
+Round 0 | Client 3 | eval_loss: 2.4853 | perplexity: 12.0048
+Round 0 | Client 4 | eval_loss: 2.8233 | perplexity: 16.8317
+Round 0 | Client 5 | eval_loss: 2.5185 | perplexity: 12.4098
+Round 0 | Client 6 | eval_loss: 2.9093 | perplexity: 18.3437
+Round 0 | Client 7 | eval_loss: 3.1935 | perplexity: 24.3739
+2026-09-27 03:08:36 | [Round 0] eval_loss: 2.8011  perplexity: 17.2385  wall_clock: 37521.16432785988
+Communication round:  10%|█         | 1/10 [12:10<1:49:37, 730.84s/it]Round 1 | Client 0 | Train Loss: 2.3428
+Round 1 | Client 1 | Train Loss: 3.2256
+Round 1 | Client 2 | Train Loss: 2.8450
+Round 1 | Client 3 | Train Loss: 2.2011
+Round 1 | Client 4 | Train Loss: 2.8553
+Round 1 | Client 5 | Train Loss: 2.4569
+Round 1 | Client 6 | Train Loss: 2.7192
+Round 1 | Client 7 | Train Loss: 3.1139
+2026-09-27 03:17:11 | [Round 1] client_0_train_loss: 2.3428  client_1_train_loss: 3.2256  client_2_train_loss: 2.8450  client_3_train_loss: 2.2011  client_4_train_loss: 2.8553  client_5_train_loss: 2.4569  client_6_train_loss: 2.7192  client_7_train_loss: 3.1139  wall_clock: 74939.61852639914
+Round 1 | Client 0 | eval_loss: 1.9606 | perplexity: 7.1037
+Round 1 | Client 1 | eval_loss: 2.8464 | perplexity: 17.2257
+Round 1 | Client 2 | eval_loss: 2.5563 | perplexity: 12.8875
+Round 1 | Client 3 | eval_loss: 2.1157 | perplexity: 8.2955
+Round 1 | Client 4 | eval_loss: 2.4873 | perplexity: 12.0284
+Round 1 | Client 5 | eval_loss: 2.2058 | perplexity: 9.0772
+Round 1 | Client 6 | eval_loss: 2.3791 | perplexity: 10.7953
+Round 1 | Client 7 | eval_loss: 2.7982 | perplexity: 16.4145
+2026-09-27 03:20:45 | [Round 1] eval_loss: 2.4187  perplexity: 11.7285  wall_clock: 74939.61852639914
+Communication round:  20%|██        | 2/10 [24:19<1:37:16, 729.61s/it]Round 2 | Client 0 | Train Loss: 1.9624
+Round 2 | Client 1 | Train Loss: 2.8408
+Round 2 | Client 2 | Train Loss: 2.4000
+Round 2 | Client 3 | Train Loss: 1.8417
+Round 2 | Client 4 | Train Loss: 2.4584
+Round 2 | Client 5 | Train Loss: 2.1057
+Round 2 | Client 6 | Train Loss: 2.2836
+Round 2 | Client 7 | Train Loss: 2.7040
+2026-09-27 03:29:21 | [Round 2] client_0_train_loss: 1.9624  client_1_train_loss: 2.8408  client_2_train_loss: 2.4000  client_3_train_loss: 1.8417  client_4_train_loss: 2.4584  client_5_train_loss: 2.1057  client_6_train_loss: 2.2836  client_7_train_loss: 2.7040  wall_clock: 112352.98389941454
+Round 2 | Client 0 | eval_loss: 1.7297 | perplexity: 5.6388
+Round 2 | Client 1 | eval_loss: 2.6166 | perplexity: 13.6888
+Round 2 | Client 2 | eval_loss: 2.2419 | perplexity: 9.4116
+Round 2 | Client 3 | eval_loss: 1.8940 | perplexity: 6.6458
+Round 2 | Client 4 | eval_loss: 2.2608 | perplexity: 9.5903
+Round 2 | Client 5 | eval_loss: 1.9894 | perplexity: 7.3111
+Round 2 | Client 6 | eval_loss: 2.1289 | perplexity: 8.4052
+Round 2 | Client 7 | eval_loss: 2.5153 | perplexity: 12.3704
+2026-09-27 03:32:53 | [Round 2] eval_loss: 2.1721  perplexity: 9.1328  wall_clock: 112352.98389941454
+Communication round:  30%|███       | 3/10 [36:28<1:25:04, 729.18s/it]Round 3 | Client 0 | Train Loss: 1.6433
+Round 3 | Client 1 | Train Loss: 2.4604
+Round 3 | Client 2 | Train Loss: 2.0446
+Round 3 | Client 3 | Train Loss: 1.5438
+Round 3 | Client 4 | Train Loss: 2.1528
+Round 3 | Client 5 | Train Loss: 1.7977
+Round 3 | Client 6 | Train Loss: 1.9265
+Round 3 | Client 7 | Train Loss: 2.3070
+2026-09-27 03:41:29 | [Round 3] client_0_train_loss: 1.6433  client_1_train_loss: 2.4604  client_2_train_loss: 2.0446  client_3_train_loss: 1.5438  client_4_train_loss: 2.1528  client_5_train_loss: 1.7977  client_6_train_loss: 1.9265  client_7_train_loss: 2.3070  wall_clock: 149761.20750904083
+Round 3 | Client 0 | eval_loss: 1.5747 | perplexity: 4.8293
+Round 3 | Client 1 | eval_loss: 2.3764 | perplexity: 10.7660
+Round 3 | Client 2 | eval_loss: 2.0143 | perplexity: 7.4951
+Round 3 | Client 3 | eval_loss: 1.7132 | perplexity: 5.5466
+Round 3 | Client 4 | eval_loss: 2.0449 | perplexity: 7.7284
+Round 3 | Client 5 | eval_loss: 1.8078 | perplexity: 6.0973
+Round 3 | Client 6 | eval_loss: 1.9172 | perplexity: 6.8019
+Round 3 | Client 7 | eval_loss: 2.3133 | perplexity: 10.1079
+2026-09-27 03:45:02 | [Round 3] eval_loss: 1.9702  perplexity: 7.4216  wall_clock: 149761.20750904083
+Communication round:  40%|████      | 4/10 [48:36<1:12:53, 728.88s/it]Round 4 | Client 0 | Train Loss: 1.3521
+Round 4 | Client 1 | Train Loss: 2.0750
+Round 4 | Client 2 | Train Loss: 1.7049
+Round 4 | Client 3 | Train Loss: 1.3065
+Round 4 | Client 4 | Train Loss: 1.8229
+Round 4 | Client 5 | Train Loss: 1.5534
+Round 4 | Client 6 | Train Loss: 1.5885
+Round 4 | Client 7 | Train Loss: 1.9384
+2026-09-27 03:53:38 | [Round 4] client_0_train_loss: 1.3521  client_1_train_loss: 2.0750  client_2_train_loss: 1.7049  client_3_train_loss: 1.3065  client_4_train_loss: 1.8229  client_5_train_loss: 1.5534  client_6_train_loss: 1.5885  client_7_train_loss: 1.9384  wall_clock: 187135.99046319723
+Round 4 | Client 0 | eval_loss: 1.4380 | perplexity: 4.2125
+Round 4 | Client 1 | eval_loss: 2.1909 | perplexity: 8.9431
+Round 4 | Client 2 | eval_loss: 1.8400 | perplexity: 6.2966
+Round 4 | Client 3 | eval_loss: 1.5547 | perplexity: 4.7336
+Round 4 | Client 4 | eval_loss: 1.8835 | perplexity: 6.5765
+Round 4 | Client 5 | eval_loss: 1.7179 | perplexity: 5.5725
+Round 4 | Client 6 | eval_loss: 1.7784 | perplexity: 5.9201
+Round 4 | Client 7 | eval_loss: 2.1192 | perplexity: 8.3245
+2026-09-27 03:57:11 | [Round 4] eval_loss: 1.8153  perplexity: 6.3224  wall_clock: 187135.99046319723
+Communication round:  50%|█████     | 5/10 [1:00:45<1:00:45, 729.01s/it]Round 5 | Client 0 | Train Loss: 1.1041
+Round 5 | Client 1 | Train Loss: 1.7058
+Round 5 | Client 2 | Train Loss: 1.3930
+Round 5 | Client 3 | Train Loss: 1.0884
+Round 5 | Client 4 | Train Loss: 1.5139
+Round 5 | Client 5 | Train Loss: 1.3420
+Round 5 | Client 6 | Train Loss: 1.3160
+Round 5 | Client 7 | Train Loss: 1.5986
+2026-09-27 04:05:48 | [Round 5] client_0_train_loss: 1.1041  client_1_train_loss: 1.7058  client_2_train_loss: 1.3930  client_3_train_loss: 1.0884  client_4_train_loss: 1.5139  client_5_train_loss: 1.3420  client_6_train_loss: 1.3160  client_7_train_loss: 1.5986  wall_clock: 224540.4202848673
+Round 5 | Client 0 | eval_loss: 1.3387 | perplexity: 3.8141
+Round 5 | Client 1 | eval_loss: 2.0309 | perplexity: 7.6208
+Round 5 | Client 2 | eval_loss: 1.7071 | perplexity: 5.5131
+Round 5 | Client 3 | eval_loss: 1.4535 | perplexity: 4.2781
+Round 5 | Client 4 | eval_loss: 1.7481 | perplexity: 5.7436
+Round 5 | Client 5 | eval_loss: 1.5924 | perplexity: 4.9155
+Round 5 | Client 6 | eval_loss: 1.6464 | perplexity: 5.1885
+Round 5 | Client 7 | eval_loss: 1.9806 | perplexity: 7.2473
+2026-09-27 04:09:20 | [Round 5] eval_loss: 1.6872  perplexity: 5.5401  wall_clock: 224540.4202848673
+Communication round:  60%|██████    | 6/10 [1:12:55<48:36, 729.06s/it]  Round 6 | Client 0 | Train Loss: 0.8928
+Round 6 | Client 1 | Train Loss: 1.3617
+Round 6 | Client 2 | Train Loss: 1.0963
+Round 6 | Client 3 | Train Loss: 0.8736
+Round 6 | Client 4 | Train Loss: 1.2479
+Round 6 | Client 5 | Train Loss: 1.0941
+Round 6 | Client 6 | Train Loss: 1.0308
+Round 6 | Client 7 | Train Loss: 1.3264
+2026-09-27 04:17:56 | [Round 6] client_0_train_loss: 0.8928  client_1_train_loss: 1.3617  client_2_train_loss: 1.0963  client_3_train_loss: 0.8736  client_4_train_loss: 1.2479  client_5_train_loss: 1.0941  client_6_train_loss: 1.0308  client_7_train_loss: 1.3264  wall_clock: 261911.87078654766
+Round 6 | Client 0 | eval_loss: 1.2350 | perplexity: 3.4385
+Round 6 | Client 1 | eval_loss: 1.9609 | perplexity: 7.1056
+Round 6 | Client 2 | eval_loss: 1.5947 | perplexity: 4.9269
+Round 6 | Client 3 | eval_loss: 1.3846 | perplexity: 3.9931
+Round 6 | Client 4 | eval_loss: 1.6538 | perplexity: 5.2268
+Round 6 | Client 5 | eval_loss: 1.5307 | perplexity: 4.6214
+Round 6 | Client 6 | eval_loss: 1.6205 | perplexity: 5.0555
+Round 6 | Client 7 | eval_loss: 1.8978 | perplexity: 6.6714
+2026-09-27 04:21:29 | [Round 6] eval_loss: 1.6098  perplexity: 5.1299  wall_clock: 261911.87078654766
+Communication round:  70%|███████   | 7/10 [1:25:03<36:26, 728.88s/it]Round 7 | Client 0 | Train Loss: 0.7039
+Round 7 | Client 1 | Train Loss: 1.0958
+Round 7 | Client 2 | Train Loss: 0.8334
+Round 7 | Client 3 | Train Loss: 0.6870
+Round 7 | Client 4 | Train Loss: 1.0422
+Round 7 | Client 5 | Train Loss: 0.9312
+Round 7 | Client 6 | Train Loss: 0.8573
+Round 7 | Client 7 | Train Loss: 1.0921
+2026-09-27 04:30:05 | [Round 7] client_0_train_loss: 0.7039  client_1_train_loss: 1.0958  client_2_train_loss: 0.8334  client_3_train_loss: 0.6870  client_4_train_loss: 1.0422  client_5_train_loss: 0.9312  client_6_train_loss: 0.8573  client_7_train_loss: 1.0921  wall_clock: 299314.96524363756
+Round 7 | Client 0 | eval_loss: 1.2060 | perplexity: 3.3402
+Round 7 | Client 1 | eval_loss: 1.8987 | perplexity: 6.6774
+Round 7 | Client 2 | eval_loss: 1.5264 | perplexity: 4.6016
+Round 7 | Client 3 | eval_loss: 1.2957 | perplexity: 3.6535
+Round 7 | Client 4 | eval_loss: 1.5877 | perplexity: 4.8925
+Round 7 | Client 5 | eval_loss: 1.4429 | perplexity: 4.2328
+Round 7 | Client 6 | eval_loss: 1.5659 | perplexity: 4.7868
+Round 7 | Client 7 | eval_loss: 1.8273 | perplexity: 6.2168
+2026-09-27 04:33:37 | [Round 7] eval_loss: 1.5438  perplexity: 4.8002  wall_clock: 299314.96524363756
+Communication round:  80%|████████  | 8/10 [1:37:11<24:17, 728.64s/it]Round 8 | Client 0 | Train Loss: 0.5618
+Round 8 | Client 1 | Train Loss: 0.8661
+Round 8 | Client 2 | Train Loss: 0.6464
+Round 8 | Client 3 | Train Loss: 0.5302
+Round 8 | Client 4 | Train Loss: 0.8349
+Round 8 | Client 5 | Train Loss: 0.7424
+Round 8 | Client 6 | Train Loss: 0.6440
+Round 8 | Client 7 | Train Loss: 0.8659
+2026-09-27 04:42:13 | [Round 8] client_0_train_loss: 0.5618  client_1_train_loss: 0.8661  client_2_train_loss: 0.6464  client_3_train_loss: 0.5302  client_4_train_loss: 0.8349  client_5_train_loss: 0.7424  client_6_train_loss: 0.6440  client_7_train_loss: 0.8659  wall_clock: 336713.18331956863
+Round 8 | Client 0 | eval_loss: 1.1391 | perplexity: 3.1240
+Round 8 | Client 1 | eval_loss: 1.7488 | perplexity: 5.7477
+Round 8 | Client 2 | eval_loss: 1.4542 | perplexity: 4.2810
+Round 8 | Client 3 | eval_loss: 1.2460 | perplexity: 3.4762
+Round 8 | Client 4 | eval_loss: 1.5720 | perplexity: 4.8161
+Round 8 | Client 5 | eval_loss: 1.4535 | perplexity: 4.2779
+Round 8 | Client 6 | eval_loss: 1.5347 | perplexity: 4.6397
+Round 8 | Client 7 | eval_loss: 1.7069 | perplexity: 5.5119
+2026-09-27 04:45:46 | [Round 8] eval_loss: 1.4819  perplexity: 4.4843  wall_clock: 336713.18331956863
+Communication round:  90%|█████████ | 9/10 [1:49:21<12:08, 728.89s/it]Round 9 | Client 0 | Train Loss: 0.4408
+Round 9 | Client 1 | Train Loss: 0.6947
+Round 9 | Client 2 | Train Loss: 0.5190
+Round 9 | Client 3 | Train Loss: 0.4044
+Round 9 | Client 4 | Train Loss: 0.6797
+Round 9 | Client 5 | Train Loss: 0.5803
+Round 9 | Client 6 | Train Loss: 0.5016
+Round 9 | Client 7 | Train Loss: 0.6848
+2026-09-27 04:54:22 | [Round 9] client_0_train_loss: 0.4408  client_1_train_loss: 0.6947  client_2_train_loss: 0.5190  client_3_train_loss: 0.4044  client_4_train_loss: 0.6797  client_5_train_loss: 0.5803  client_6_train_loss: 0.5016  client_7_train_loss: 0.6848  wall_clock: 374078.7233501673
+Round 9 | Client 0 | eval_loss: 1.1168 | perplexity: 3.0552
+Round 9 | Client 1 | eval_loss: 1.7880 | perplexity: 5.9777
+Round 9 | Client 2 | eval_loss: 1.3341 | perplexity: 3.7966
+Round 9 | Client 3 | eval_loss: 1.1971 | perplexity: 3.3106
+Round 9 | Client 4 | eval_loss: 1.5384 | perplexity: 4.6569
+Round 9 | Client 5 | eval_loss: 1.4120 | perplexity: 4.1041
+Round 9 | Client 6 | eval_loss: 1.5095 | perplexity: 4.5244
+Round 9 | Client 7 | eval_loss: 1.6853 | perplexity: 5.3938
+2026-09-27 04:57:55 | [Round 9] eval_loss: 1.4476  perplexity: 4.3524  wall_clock: 374078.7233501673
+Communication round: 100%|██████████| 10/10 [2:01:30<00:00, 728.98s/it]                                                                       Final local adapters saved to exp/zsre8_stage1/local\adapter\localonly_zsre_Qwen3-1.7B_8c_1E_lr0.0001

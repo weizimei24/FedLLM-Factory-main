@@ -1,0 +1,64 @@
+{
+  "method": "fedrotlora",
+  "generation": {
+    "do_sample": false,
+    "max_new_tokens": 32,
+    "prompt": "Instruct: <rephrase>\\nAnswer:"
+  },
+  "per_client": {
+    "0": {
+      "em": 0.0,
+      "f1": 5.102968795246035,
+      "containment": 13.8,
+      "num_samples": 500
+    },
+    "1": {
+      "em": 0.0,
+      "f1": 2.890689505448871,
+      "containment": 9.0,
+      "num_samples": 500
+    },
+    "2": {
+      "em": 0.0,
+      "f1": 3.496117077412903,
+      "containment": 12.0,
+      "num_samples": 500
+    },
+    "3": {
+      "em": 0.0,
+      "f1": 4.920620015530217,
+      "containment": 22.6,
+      "num_samples": 500
+    },
+    "4": {
+      "em": 0.0,
+      "f1": 3.45244793604994,
+      "containment": 7.4,
+      "num_samples": 500
+    },
+    "5": {
+      "em": 0.0,
+      "f1": 3.858904853412001,
+      "containment": 14.4,
+      "num_samples": 500
+    },
+    "6": {
+      "em": 0.0,
+      "f1": 4.099423054568458,
+      "containment": 11.2,
+      "num_samples": 500
+    },
+    "7": {
+      "em": 0.0,
+      "f1": 2.747709955495577,
+      "containment": 8.2,
+      "num_samples": 500
+    }
+  },
+  "macro_average": {
+    "em": 0.0,
+    "f1": 3.8211101491455004,
+    "containment": 12.325,
+    "num_samples": 500.0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "pid": 18676,
+  "python": "D:\\sofrware\\anaconda3\\envs\\wzm\\python.exe",
+  "status": "complete",
+  "completed": [
+    "local_train",
+    "local_eval",
+    "fedit_train",
+    "fedit_eval",
+    "fedrotlora_train",
+    "fedrotlora_eval",
+    "summarize"
+  ],
+  "updated_at": "2026-09-27T01:34:32.765883+00:00",
+  "step": "summarize",
+  "command": [
+    "D:\\sofrware\\anaconda3\\envs\\wzm\\python.exe",
+    "-X",
+    "utf8",
+    "-u",
+    "summarize_stage1.py",
+    "--run",
+    "zsre8_stage1",
+    "--metric",
+    "em"
+  ],
+  "log": "C:\\Users\\admin\\Desktop\\FedLLM-Factory-main\\FedLLM-Factory-main\\exp\\zsre8_stage1\\sequence_logs\\summarize.log",
+  "child_pid": null
+}

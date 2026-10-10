@@ -1,0 +1,64 @@
+{
+  "method": "local",
+  "generation": {
+    "do_sample": false,
+    "max_new_tokens": 32,
+    "prompt": "Instruct: <rephrase>\\nAnswer:"
+  },
+  "per_client": {
+    "0": {
+      "em": 0.0,
+      "f1": 11.11147555769125,
+      "containment": 37.2,
+      "num_samples": 500
+    },
+    "1": {
+      "em": 0.0,
+      "f1": 6.93563411780551,
+      "containment": 26.6,
+      "num_samples": 500
+    },
+    "2": {
+      "em": 0.0,
+      "f1": 6.892768816209304,
+      "containment": 36.6,
+      "num_samples": 500
+    },
+    "3": {
+      "em": 0.4,
+      "f1": 7.2870544560415365,
+      "containment": 47.8,
+      "num_samples": 500
+    },
+    "4": {
+      "em": 0.0,
+      "f1": 7.474390515185205,
+      "containment": 28.2,
+      "num_samples": 500
+    },
+    "5": {
+      "em": 0.0,
+      "f1": 5.895922504786387,
+      "containment": 31.6,
+      "num_samples": 500
+    },
+    "6": {
+      "em": 0.0,
+      "f1": 5.862810449927452,
+      "containment": 31.4,
+      "num_samples": 500
+    },
+    "7": {
+      "em": 0.0,
+      "f1": 6.072307159345792,
+      "containment": 28.8,
+      "num_samples": 500
+    }
+  },
+  "macro_average": {
+    "em": 0.05,
+    "f1": 7.191545447124055,
+    "containment": 33.525,
+    "num_samples": 500.0
+  }
+}

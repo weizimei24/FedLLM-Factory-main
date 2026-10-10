@@ -1,0 +1,11 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.25s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.57it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.37it/s]
+local client 0: EM=0.00 F1=11.11 containment=37.20 n=500
+local client 1: EM=0.00 F1=6.94 containment=26.60 n=500
+local client 2: EM=0.00 F1=6.89 containment=36.60 n=500
+local client 3: EM=0.40 F1=7.29 containment=47.80 n=500
+local client 4: EM=0.00 F1=7.47 containment=28.20 n=500
+local client 5: EM=0.00 F1=5.90 containment=31.60 n=500
+local client 6: EM=0.00 F1=5.86 containment=31.40 n=500
+local client 7: EM=0.00 F1=6.07 containment=28.80 n=500
+local macro: EM=0.05 F1=7.19 containment=33.52

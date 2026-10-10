@@ -1,0 +1,6 @@
+method,round,domain,em,f1,containment,num_samples
+base,0,squad,52.0,71.71584255428573,83.5,200
+base,0,newsqa,36.5,56.47648118972118,69.5,200
+base,0,triviaqa,47.0,57.81906929242068,76.5,200
+base,0,naturalquestions,46.0,63.105200610750856,73.5,200
+base,0,macro_average,45.375,62.27914841179461,75.75,800

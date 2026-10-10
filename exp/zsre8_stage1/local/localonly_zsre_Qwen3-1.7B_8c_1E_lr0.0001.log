@@ -1,0 +1,20 @@
+2026-09-27 03:05:03 | [Round 0] client_0_train_loss: 4.0719  client_1_train_loss: 4.8443  client_2_train_loss: 4.5658  client_3_train_loss: 4.3015  client_4_train_loss: 4.3135  client_5_train_loss: 4.0721  client_6_train_loss: 4.5972  client_7_train_loss: 4.7291  wall_clock: 37521.16432785988
+2026-09-27 03:08:36 | [Round 0] eval_loss: 2.8011  perplexity: 17.2385  wall_clock: 37521.16432785988
+2026-09-27 03:17:11 | [Round 1] client_0_train_loss: 2.3428  client_1_train_loss: 3.2256  client_2_train_loss: 2.8450  client_3_train_loss: 2.2011  client_4_train_loss: 2.8553  client_5_train_loss: 2.4569  client_6_train_loss: 2.7192  client_7_train_loss: 3.1139  wall_clock: 74939.61852639914
+2026-09-27 03:20:45 | [Round 1] eval_loss: 2.4187  perplexity: 11.7285  wall_clock: 74939.61852639914
+2026-09-27 03:29:21 | [Round 2] client_0_train_loss: 1.9624  client_1_train_loss: 2.8408  client_2_train_loss: 2.4000  client_3_train_loss: 1.8417  client_4_train_loss: 2.4584  client_5_train_loss: 2.1057  client_6_train_loss: 2.2836  client_7_train_loss: 2.7040  wall_clock: 112352.98389941454
+2026-09-27 03:32:53 | [Round 2] eval_loss: 2.1721  perplexity: 9.1328  wall_clock: 112352.98389941454
+2026-09-27 03:41:29 | [Round 3] client_0_train_loss: 1.6433  client_1_train_loss: 2.4604  client_2_train_loss: 2.0446  client_3_train_loss: 1.5438  client_4_train_loss: 2.1528  client_5_train_loss: 1.7977  client_6_train_loss: 1.9265  client_7_train_loss: 2.3070  wall_clock: 149761.20750904083
+2026-09-27 03:45:02 | [Round 3] eval_loss: 1.9702  perplexity: 7.4216  wall_clock: 149761.20750904083
+2026-09-27 03:53:38 | [Round 4] client_0_train_loss: 1.3521  client_1_train_loss: 2.0750  client_2_train_loss: 1.7049  client_3_train_loss: 1.3065  client_4_train_loss: 1.8229  client_5_train_loss: 1.5534  client_6_train_loss: 1.5885  client_7_train_loss: 1.9384  wall_clock: 187135.99046319723
+2026-09-27 03:57:11 | [Round 4] eval_loss: 1.8153  perplexity: 6.3224  wall_clock: 187135.99046319723
+2026-09-27 04:05:48 | [Round 5] client_0_train_loss: 1.1041  client_1_train_loss: 1.7058  client_2_train_loss: 1.3930  client_3_train_loss: 1.0884  client_4_train_loss: 1.5139  client_5_train_loss: 1.3420  client_6_train_loss: 1.3160  client_7_train_loss: 1.5986  wall_clock: 224540.4202848673
+2026-09-27 04:09:20 | [Round 5] eval_loss: 1.6872  perplexity: 5.5401  wall_clock: 224540.4202848673
+2026-09-27 04:17:56 | [Round 6] client_0_train_loss: 0.8928  client_1_train_loss: 1.3617  client_2_train_loss: 1.0963  client_3_train_loss: 0.8736  client_4_train_loss: 1.2479  client_5_train_loss: 1.0941  client_6_train_loss: 1.0308  client_7_train_loss: 1.3264  wall_clock: 261911.87078654766
+2026-09-27 04:21:29 | [Round 6] eval_loss: 1.6098  perplexity: 5.1299  wall_clock: 261911.87078654766
+2026-09-27 04:30:05 | [Round 7] client_0_train_loss: 0.7039  client_1_train_loss: 1.0958  client_2_train_loss: 0.8334  client_3_train_loss: 0.6870  client_4_train_loss: 1.0422  client_5_train_loss: 0.9312  client_6_train_loss: 0.8573  client_7_train_loss: 1.0921  wall_clock: 299314.96524363756
+2026-09-27 04:33:37 | [Round 7] eval_loss: 1.5438  perplexity: 4.8002  wall_clock: 299314.96524363756
+2026-09-27 04:42:13 | [Round 8] client_0_train_loss: 0.5618  client_1_train_loss: 0.8661  client_2_train_loss: 0.6464  client_3_train_loss: 0.5302  client_4_train_loss: 0.8349  client_5_train_loss: 0.7424  client_6_train_loss: 0.6440  client_7_train_loss: 0.8659  wall_clock: 336713.18331956863
+2026-09-27 04:45:46 | [Round 8] eval_loss: 1.4819  perplexity: 4.4843  wall_clock: 336713.18331956863
+2026-09-27 04:54:22 | [Round 9] client_0_train_loss: 0.4408  client_1_train_loss: 0.6947  client_2_train_loss: 0.5190  client_3_train_loss: 0.4044  client_4_train_loss: 0.6797  client_5_train_loss: 0.5803  client_6_train_loss: 0.5016  client_7_train_loss: 0.6848  wall_clock: 374078.7233501673
+2026-09-27 04:57:55 | [Round 9] eval_loss: 1.4476  perplexity: 4.3524  wall_clock: 374078.7233501673

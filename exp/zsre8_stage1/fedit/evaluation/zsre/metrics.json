@@ -1,0 +1,64 @@
+{
+  "method": "fedit",
+  "generation": {
+    "do_sample": false,
+    "max_new_tokens": 32,
+    "prompt": "Instruct: <rephrase>\\nAnswer:"
+  },
+  "per_client": {
+    "0": {
+      "em": 0.0,
+      "f1": 5.09828009899192,
+      "containment": 14.2,
+      "num_samples": 500
+    },
+    "1": {
+      "em": 0.0,
+      "f1": 2.839106842587435,
+      "containment": 8.8,
+      "num_samples": 500
+    },
+    "2": {
+      "em": 0.0,
+      "f1": 3.456795204647876,
+      "containment": 11.6,
+      "num_samples": 500
+    },
+    "3": {
+      "em": 0.0,
+      "f1": 4.756162227793656,
+      "containment": 22.6,
+      "num_samples": 500
+    },
+    "4": {
+      "em": 0.0,
+      "f1": 3.4038738065204623,
+      "containment": 6.8,
+      "num_samples": 500
+    },
+    "5": {
+      "em": 0.0,
+      "f1": 3.618979423084363,
+      "containment": 13.8,
+      "num_samples": 500
+    },
+    "6": {
+      "em": 0.0,
+      "f1": 4.1278361591299,
+      "containment": 11.4,
+      "num_samples": 500
+    },
+    "7": {
+      "em": 0.0,
+      "f1": 2.776200761496711,
+      "containment": 8.0,
+      "num_samples": 500
+    }
+  },
+  "macro_average": {
+    "em": 0.0,
+    "f1": 3.7596543155315403,
+    "containment": 12.15,
+    "num_samples": 500.0
+  }
+}

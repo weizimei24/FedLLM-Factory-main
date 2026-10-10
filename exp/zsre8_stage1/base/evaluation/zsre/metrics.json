@@ -1,0 +1,64 @@
+{
+  "method": "base",
+  "generation": {
+    "do_sample": false,
+    "max_new_tokens": 32,
+    "prompt": "Instruct: <rephrase>\\nAnswer:"
+  },
+  "per_client": {
+    "0": {
+      "em": 0.0,
+      "f1": 3.2681783335896712,
+      "containment": 3.8,
+      "num_samples": 500
+    },
+    "1": {
+      "em": 0.0,
+      "f1": 2.0287667521705144,
+      "containment": 6.0,
+      "num_samples": 500
+    },
+    "2": {
+      "em": 0.0,
+      "f1": 2.0184489581899734,
+      "containment": 5.6,
+      "num_samples": 500
+    },
+    "3": {
+      "em": 0.0,
+      "f1": 2.416801778305921,
+      "containment": 3.4,
+      "num_samples": 500
+    },
+    "4": {
+      "em": 0.0,
+      "f1": 2.967522809716659,
+      "containment": 3.2,
+      "num_samples": 500
+    },
+    "5": {
+      "em": 0.0,
+      "f1": 2.3175138758587543,
+      "containment": 4.0,
+      "num_samples": 500
+    },
+    "6": {
+      "em": 0.0,
+      "f1": 2.640767873623127,
+      "containment": 6.0,
+      "num_samples": 500
+    },
+    "7": {
+      "em": 0.0,
+      "f1": 2.2936507279700717,
+      "containment": 5.2,
+      "num_samples": 500
+    }
+  },
+  "macro_average": {
+    "em": 0.0,
+    "f1": 2.4939563886780864,
+    "containment": 4.65,
+    "num_samples": 500.0
+  }
+}

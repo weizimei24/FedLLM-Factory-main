@@ -1,0 +1,11 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.20s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.63it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.42it/s]
+fedit client 0: EM=0.00 F1=5.10 containment=14.20 n=500
+fedit client 1: EM=0.00 F1=2.84 containment=8.80 n=500
+fedit client 2: EM=0.00 F1=3.46 containment=11.60 n=500
+fedit client 3: EM=0.00 F1=4.76 containment=22.60 n=500
+fedit client 4: EM=0.00 F1=3.40 containment=6.80 n=500
+fedit client 5: EM=0.00 F1=3.62 containment=13.80 n=500
+fedit client 6: EM=0.00 F1=4.13 containment=11.40 n=500
+fedit client 7: EM=0.00 F1=2.78 containment=8.00 n=500
+fedit macro: EM=0.00 F1=3.76 containment=12.15
