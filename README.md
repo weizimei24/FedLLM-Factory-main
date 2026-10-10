@@ -112,15 +112,16 @@ evaluation command reloads the saved global adapter and evaluates the same
 shared test set once.
 
 
-### Cross-domain MRQA QA pilot: FedIT vs. FedRot-LoRA
+### Cross-domain MRQA QA pilot: FedIT, FedRot-LoRA, and local-only
 
 This controlled pilot gives four fully participating clients the same
 extractive-QA instruction format but different MRQA domains: client 0 SQuAD,
 client 1 NewsQA, client 2 TriviaQA, and client 3 NaturalQuestions. It uses the
 existing Qwen3 chat template, answer-only label masking, deterministic greedy
 generation, and SQuAD/MRQA multi-reference EM/F1 normalization. The only
-training-method difference is aggregation: FedIT averages LoRA factors and
+federated-method difference is aggregation: FedIT averages LoRA factors and
 FedRot-LoRA aligns them before applying that same equal-weight average.
+Local-only instead keeps four independent domain-specific adapters.
 
 Install the normal project dependencies (plotting additionally uses
 `matplotlib`), then prepare data:
@@ -128,12 +129,15 @@ Install the normal project dependencies (plotting additionally uses
 ```
 pip install -r requirements-stage1.txt matplotlib
 python -X utf8 dataset/prepare_cross_domain_mrqa.py
+python -X utf8 dataset/prepare_cross_domain_mrqa.py --train-size 2000 --test-size 200 --output-dir dataset/cross_domain_mrqa_2k --extend-from dataset/cross_domain_mrqa
 ```
 
-The preparation command downloads the official, already unified MRQA v2
-JSONL.GZ train and validation files, samples exactly 1,000 train and 200
-held-out test examples per domain with seed 42, and writes
-`dataset/cross_domain_mrqa/`. It preserves named test identities instead of
+The first preparation command downloads the official, already unified MRQA v2
+JSONL.GZ train and validation files and samples exactly 1,000 train and 200
+held-out test examples per domain with seed 42. The second command creates the
+current `dataset/cross_domain_mrqa_2k/` variant by retaining all original 1,000
+training rows, adding 1,000 non-overlapping rows per domain, and copying the
+four test files byte-for-byte. It preserves named test identities instead of
 creating a mixed global test file. `manifest.json` records source URLs,
 original splits, SHA-256 hashes, seeds, and output counts;
 `statistics.json` records train/test counts plus average prompt/input, context,
@@ -141,17 +145,25 @@ question, and answer token lengths. The supervised answer is the first
 source-order gold answer found in its context; all gold strings remain in
 `answers` for evaluation.
 
-Run the two otherwise identical ten-round experiments:
+Run the three ten-round experiments:
 
 ```
 python -X utf8 main.py --config config.cross_domain_fedit.yaml
 python -X utf8 main.py --config config.cross_domain_fedrot.yaml
+python -X utf8 main.py --config config.cross_domain_localonly.yaml
 ```
 
-All four clients participate every round. Aggregation follows the repository's
-existing training-sample-count weighting; because every client has 1,000
-examples, this is exactly 1/4 per client in this pilot. After every
-aggregation, the run writes a snapshot at
+Evaluate the untouched base model once on the same four 200-example test sets:
+
+```
+python -X utf8 eval_cross_domain.py --config config.cross_domain_base.yaml --base-only
+```
+
+All four clients participate every round. For FedIT and FedRot-LoRA,
+aggregation follows the repository's existing training-sample-count weighting;
+because every client has 1,000 examples in the original pilot and 2,000 in the
+current variant, this is exactly 1/4 per client. After every aggregation, those
+runs write a global snapshot at
 `exp/<suffix>/adapter/.../round_XXX/lora_weights.pt`, generates
 predictions separately for SQuAD, NewsQA, TriviaQA, and NaturalQuestions, and
 writes per-domain rows plus a macro row to:
@@ -186,22 +198,32 @@ replace multiple-training-seed uncertainty. By default it also evaluates the
 per-example mean across all selected rounds, which is the appropriate row for
 claims based on a ten-round average rather than a single checkpoint.
 
+#### Local-only reference
+
+`config.cross_domain_localonly.yaml` trains four independent LoRA adapters.
+They share the same initial adapter but never exchange or aggregate updates.
+After each round, client 0 is evaluated only on SQuAD, client 1 only on NewsQA,
+client 2 only on TriviaQA, and client 3 only on NaturalQuestions. The log records
+all four round-average training losses and all per-domain generation metrics.
+Per-round adapters are stored under `round_XXX/clients/client_N.pt`; there is no
+global adapter for this method.
+
 #### Centralized pooled-data reference
 
-Build a deterministic 4,000-example training pool from the same four client
+Build a deterministic 8,000-example training pool from the same four 2k client
 files, then run and optionally re-evaluate the centralized LoRA reference:
 
 ```
-python -X utf8 dataset/build_cross_domain_pooled.py
+python -X utf8 dataset/build_cross_domain_pooled.py --dataset-dir cross_domain_mrqa_2k --expected-per-domain 2000
 python -X utf8 main.py --config config.cross_domain_centralized.yaml
 python -X utf8 eval_cross_domain.py --config config.cross_domain_centralized.yaml --rounds all
 ```
 
 This does not mix the 800 test examples into one metric. The same four named
 200-example test sets are evaluated independently and macro-averaged. The
-centralized run uses one pooled client, 10 rounds, and 500 optimizer updates
+centralized run uses one pooled client, 10 rounds, and 1,000 optimizer updates
 per round. With `bs=1` and `grad_accum=8`, this matches the federated runs'
-40,000 total example exposures and 5,000 optimizer updates while retaining the
+80,000 total example exposures and 10,000 optimizer updates while retaining the
 same round-wise learning-rate schedule. Its outputs are stored under
 `exp/cross_domain_mrqa_centralized/` with method label `centralized`.
 

@@ -1,4 +1,4 @@
-"""Build the 4,000-example centralized training pool from existing clients.
+"""Build a centralized training pool from existing cross-domain clients.
 
 Run after ``prepare_cross_domain_mrqa.py``:
     python -X utf8 dataset/build_cross_domain_pooled.py
@@ -18,7 +18,6 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parent
-DATASET_DIR = ROOT / "cross_domain_mrqa"
 CLIENT_DOMAINS = {0: "squad", 1: "newsqa", 2: "triviaqa", 3: "naturalquestions"}
 
 
@@ -47,13 +46,21 @@ def main() -> int:
     parser.add_argument("--seed", type=int, default=42)
     parser.add_argument("--expected-per-domain", type=int, default=1000)
     parser.add_argument("--output", default="pooled.jsonl")
+    parser.add_argument(
+        "--dataset-dir",
+        default="cross_domain_mrqa",
+        help="dataset directory name under dataset/, or an absolute path",
+    )
     args = parser.parse_args()
+    dataset_dir = Path(args.dataset_dir)
+    if not dataset_dir.is_absolute():
+        dataset_dir = ROOT / dataset_dir
 
     pooled: list[dict] = []
     counts: dict[str, int] = {}
     seen_ids: set[str] = set()
     for client_id, domain in CLIENT_DOMAINS.items():
-        rows = _read_jsonl(DATASET_DIR / "train" / f"{client_id}.jsonl")
+        rows = _read_jsonl(dataset_dir / "train" / f"{client_id}.jsonl")
         if len(rows) != args.expected_per_domain:
             raise ValueError(
                 f"Expected {args.expected_per_domain} {domain} rows for client {client_id}, "
@@ -76,7 +83,7 @@ def main() -> int:
     # deterministic mixed order prevents the pooled artifact from encoding
     # domain blocks and makes it independently auditable.
     random.Random(args.seed).shuffle(pooled)
-    output_path = DATASET_DIR / "train" / args.output
+    output_path = dataset_dir / "train" / args.output
     _write_jsonl(output_path, pooled)
     manifest = {
         "dataset": "MRQA cross-domain centralized pooled training set",
@@ -90,7 +97,7 @@ def main() -> int:
         "output": f"train/{args.output}",
         "test_protocol": "reuse four named 200-example domain test files; no mixed micro-only test",
     }
-    manifest_path = DATASET_DIR / "pooled_manifest.json"
+    manifest_path = dataset_dir / "pooled_manifest.json"
     manifest_path.write_text(
         json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
     )

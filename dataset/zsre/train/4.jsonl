@@ -1,0 +1,500 @@
+{"sample_id": "zsre-0000388", "client_id": 4, "input_ids": "What year is Intersil 6100 associated with?", "label": "1974"}
+{"sample_id": "zsre-0000826", "client_id": 4, "input_ids": "Who desigened LNWR 17in Coal Engine?", "label": "Franciscus Wesson"}
+{"sample_id": "zsre-0001362", "client_id": 4, "input_ids": "In what year was Delta-S created?", "label": "1961"}
+{"sample_id": "zsre-0003066", "client_id": 4, "input_ids": "What continent is Mount Shute located on?", "label": "North America"}
+{"sample_id": "zsre-0004401", "client_id": 4, "input_ids": "Which constellation is HD 153053 a part of?", "label": "Camelopardalis"}
+{"sample_id": "zsre-0004573", "client_id": 4, "input_ids": "What type of submarine was USS Palmer (DD-161) classified as?", "label": "Mahan-class destroyer"}
+{"sample_id": "zsre-0004926", "client_id": 4, "input_ids": "Who desigened TKB-506?", "label": "Izhmash"}
+{"sample_id": "zsre-0005006", "client_id": 4, "input_ids": "Which species has the C7orf43 gene?", "label": "male"}
+{"sample_id": "zsre-0005022", "client_id": 4, "input_ids": "What airport is Domodedovo Airlines part of?", "label": "Domodedovo Airport"}
+{"sample_id": "zsre-0005034", "client_id": 4, "input_ids": "When was Dieringhausen station created?", "label": "14 November 1867"}
+{"sample_id": "zsre-0005285", "client_id": 4, "input_ids": "Who designed the .225 Winchester?", "label": "Winchester Repeating Arms Corporation"}
+{"sample_id": "zsre-0005768", "client_id": 4, "input_ids": "Which company manufactured GM New Look bus?", "label": "General Motor Corporation"}
+{"sample_id": "zsre-0005854", "client_id": 4, "input_ids": "What company made Remington Model 798?", "label": "John Brown & Company"}
+{"sample_id": "zsre-0006468", "client_id": 4, "input_ids": "At what airport can you find Cougar Helicopters?", "label": "St Peter"}
+{"sample_id": "zsre-0007366", "client_id": 4, "input_ids": "What type of aquatic unit is HMS Antigua (K501)?", "label": "Amphion-class submarine"}
+{"sample_id": "zsre-0007610", "client_id": 4, "input_ids": "What constellation is home to NGC 6822?", "label": "Sagittarius"}
+{"sample_id": "zsre-0008112", "client_id": 4, "input_ids": "The star HD 126128 is a part of the constellation named what?", "label": "Cygnus"}
+{"sample_id": "zsre-0008477", "client_id": 4, "input_ids": "Which is the manufacturer of Barrett XM109?", "label": "Barrett Firearms Company"}
+{"sample_id": "zsre-0008479", "client_id": 4, "input_ids": "Who made Barrett XM109?", "label": "Barrett Firearms International"}
+{"sample_id": "zsre-0008705", "client_id": 4, "input_ids": "When did Franklin Institute open?", "label": "1724"}
+{"sample_id": "zsre-0008710", "client_id": 4, "input_ids": "When was Franklin Institute opened?", "label": "1724"}
+{"sample_id": "zsre-0008782", "client_id": 4, "input_ids": "What type of submarine was USS Cone (DD-866) classified as?", "label": "866-class destroyer"}
+{"sample_id": "zsre-0008960", "client_id": 4, "input_ids": "What was the date of the official opening of Schwaikheim station?", "label": "26 September 1876"}
+{"sample_id": "zsre-0009649", "client_id": 4, "input_ids": "The Progress M-17 was launched on what date?", "label": "25 January 1993"}
+{"sample_id": "zsre-0010194", "client_id": 4, "input_ids": "What company made Scion bbX?", "label": "Scion Auto"}
+{"sample_id": "zsre-0011014", "client_id": 4, "input_ids": "What company built Acorn Electron?", "label": "Acorn Computer Corporation"}
+{"sample_id": "zsre-0011959", "client_id": 4, "input_ids": "What studio produced Maa Exchange?", "label": "Yash Raj Films"}
+{"sample_id": "zsre-0011979", "client_id": 4, "input_ids": "What is the launch date of USA-83?", "label": "7 September 1992"}
+{"sample_id": "zsre-0012048", "client_id": 4, "input_ids": "Over which river does Roosevelt Island Bridge cross?", "label": "East Branch Fishing Creek"}
+{"sample_id": "zsre-0012630", "client_id": 4, "input_ids": "Who set the standards for ISO 3166-2:LI?", "label": "International Organization for Standardize"}
+{"sample_id": "zsre-0013260", "client_id": 4, "input_ids": "What company makes Polar Satellite Launch Vehicle?", "label": "Gazprom"}
+{"sample_id": "zsre-0013314", "client_id": 4, "input_ids": "When was the Andromeda XVIII discovered?", "label": "2007"}
+{"sample_id": "zsre-0013742", "client_id": 4, "input_ids": "Which airport is most closely associated with Silk Way Airlines?", "label": "Heydar Aliyev Stadium"}
+{"sample_id": "zsre-0013871", "client_id": 4, "input_ids": "What year did British Airways Ltd dissolve?", "label": "1948"}
+{"sample_id": "zsre-0015255", "client_id": 4, "input_ids": "What year was it when Infinity Broadcasting Corporation was dissolved?", "label": "1998"}
+{"sample_id": "zsre-0015467", "client_id": 4, "input_ids": "What type of submarine was USS Charles J. Badger (DD-657) classified as?", "label": "Gearing-class destroyer"}
+{"sample_id": "zsre-0015787", "client_id": 4, "input_ids": "Who was responsible for the discovery of 798 Ruth?", "label": "Franz Kaiser"}
+{"sample_id": "zsre-0015847", "client_id": 4, "input_ids": "Which was the official year for the approval of Cannone da 75/27 modello 11?", "label": "1911"}
+{"sample_id": "zsre-0016054", "client_id": 4, "input_ids": "What is the name of the constellation where Struve 1694 belongs?", "label": "Ursa Major"}
+{"sample_id": "zsre-0016189", "client_id": 4, "input_ids": "The team 1461 Trabzon is a member of which sports league?", "label": "TFF Second League"}
+{"sample_id": "zsre-0016740", "client_id": 4, "input_ids": "What was the year that ATMOS 2000 entered service?", "label": "2002"}
+{"sample_id": "zsre-0016746", "client_id": 4, "input_ids": "What year did ATMOS 2000 come into use?", "label": "2002"}
+{"sample_id": "zsre-0016801", "client_id": 4, "input_ids": "Who worked on designing Short Mark 7 torpedo?", "label": "Westinghouse Electric"}
+{"sample_id": "zsre-0017135", "client_id": 4, "input_ids": "The star HD 87883 b is a part of the constellation named what?", "label": "Andromeda"}
+{"sample_id": "zsre-0017361", "client_id": 4, "input_ids": "When was Emden Hauptbahnhof founded?", "label": "1917"}
+{"sample_id": "zsre-0017421", "client_id": 4, "input_ids": "By which body of water is Deventer located?", "label": "Adour"}
+{"sample_id": "zsre-0018333", "client_id": 4, "input_ids": "What is Safeco's parent company?", "label": "Wesfarmers"}
+{"sample_id": "zsre-0018918", "client_id": 4, "input_ids": "Who worked on .17 Hornet?", "label": "PO Ackerman"}
+{"sample_id": "zsre-0019203", "client_id": 4, "input_ids": "Which league did FC Alay join with?", "label": "Azerbaijan First Division"}
+{"sample_id": "zsre-0019277", "client_id": 4, "input_ids": "What company built Mitsubishi RPM 7000?", "label": "Mitsubishi Motor Company"}
+{"sample_id": "zsre-0019539", "client_id": 4, "input_ids": "Who is the designer of PP-90M1?", "label": "KBP Instrument Design Agency"}
+{"sample_id": "zsre-0019816", "client_id": 4, "input_ids": "The date of Vladivostok Air Flight 352 was what?", "label": "4 August 2001"}
+{"sample_id": "zsre-0020241", "client_id": 4, "input_ids": "What airport does Afrijet Airlines operate out of?", "label": "Tambo International Airport"}
+{"sample_id": "zsre-0020248", "client_id": 4, "input_ids": "Which constellation is HD 222582 in?", "label": "Ara"}
+{"sample_id": "zsre-0021018", "client_id": 4, "input_ids": "The star/galaxy NGC 4725 is in what constellation?", "label": "Canes Venatici"}
+{"sample_id": "zsre-0021438", "client_id": 4, "input_ids": "Who was behind the creation of Maryland Residence?", "label": "Cobb and Frost"}
+{"sample_id": "zsre-0021543", "client_id": 4, "input_ids": "What type of submarine was USS Nashville (CL-43) classified as?", "label": "Brooklyn-class destroyer"}
+{"sample_id": "zsre-0021569", "client_id": 4, "input_ids": "The USS Brownson (DD-868) was named for whom?", "label": "J M Brownson"}
+{"sample_id": "zsre-0021771", "client_id": 4, "input_ids": "What type of aquatic unit is USS Laws (DD-558)?", "label": "Fremantle class destroyer"}
+{"sample_id": "zsre-0022480", "client_id": 4, "input_ids": "What day was Soyuz 33 launched?", "label": "10 June 1979"}
+{"sample_id": "zsre-0023525", "client_id": 4, "input_ids": "Which company is the parent company of LG Display?", "label": "LG Corporation"}
+{"sample_id": "zsre-0024016", "client_id": 4, "input_ids": "What constellation is home to NGC 4451?", "label": "Virgo"}
+{"sample_id": "zsre-0024505", "client_id": 4, "input_ids": "What airport does Pacific Pearl Airways operate out of?", "label": "Subic Bay Airport"}
+{"sample_id": "zsre-0024741", "client_id": 4, "input_ids": "Which is the manufacturer of Kyoto Express?", "label": "Hyundai Motor Company"}
+{"sample_id": "zsre-0024946", "client_id": 4, "input_ids": "What year was C/1890 V1 discovered?", "label": "15 March 1890"}
+{"sample_id": "zsre-0024949", "client_id": 4, "input_ids": "What time was C/1890 V1 found?", "label": "15 March 1890"}
+{"sample_id": "zsre-0025016", "client_id": 4, "input_ids": "Who would be the first to discover 754 Malabar?", "label": "Grigory Neujmin"}
+{"sample_id": "zsre-0025089", "client_id": 4, "input_ids": "Which performer released Elements of Corrosion as it's album?", "label": "The Elements of Nature"}
+{"sample_id": "zsre-0025573", "client_id": 4, "input_ids": "On what date did USA-63 lift off?", "label": "2 February 1990"}
+{"sample_id": "zsre-0025700", "client_id": 4, "input_ids": "Which industry is NY1 associated with?", "label": "electronics"}
+{"sample_id": "zsre-0025857", "client_id": 4, "input_ids": "In what war did USS Adelaide (1854) fight?", "label": "Canadian Civil War"}
+{"sample_id": "zsre-0025870", "client_id": 4, "input_ids": "What celestial body can Beta Regio be found on?", "label": "Mercury"}
+{"sample_id": "zsre-0025963", "client_id": 4, "input_ids": "The star HAT-P-4b is part of what constellation?", "label": "Andromeda"}
+{"sample_id": "zsre-0026374", "client_id": 4, "input_ids": "What company published Pac-Man Pinball Advance?", "label": "NEC"}
+{"sample_id": "zsre-0027008", "client_id": 4, "input_ids": "What is the musical instrument Nuages gris was intended for?", "label": "violin"}
+{"sample_id": "zsre-0027065", "client_id": 4, "input_ids": "What was the launch date of Progress M-9?", "label": "20 January 1991"}
+{"sample_id": "zsre-0027119", "client_id": 4, "input_ids": "The Nilesat 201 was launched on what date?", "label": "4 January 2010"}
+{"sample_id": "zsre-0027193", "client_id": 4, "input_ids": "Which was the official year for the approval of DR Class 83.10?", "label": "1956"}
+{"sample_id": "zsre-0027291", "client_id": 4, "input_ids": "On what date did Dragon C2+ launch?", "label": "22 April 2012"}
+{"sample_id": "zsre-0028548", "client_id": 4, "input_ids": "Which company is known as the manufacturer of Teat-fire cartridge?", "label": "National Academy of Sciences"}
+{"sample_id": "zsre-0028770", "client_id": 4, "input_ids": "What date was Soyuz 28 launched?", "label": "2 February 1979"}
+{"sample_id": "zsre-0029156", "client_id": 4, "input_ids": "What was the date Transit 3B was launched?", "label": "22 March 1961"}
+{"sample_id": "zsre-0029178", "client_id": 4, "input_ids": "Who was the director of Ådalen 31?", "label": "Bo Hermansson"}
+{"sample_id": "zsre-0029183", "client_id": 4, "input_ids": "Who was the film director that directed Ådalen 31?", "label": "Bo Weser"}
+{"sample_id": "zsre-0029310", "client_id": 4, "input_ids": "What vessel type is USS Stevens (DD-479)?", "label": "Fletcher-class attack ship"}
+{"sample_id": "zsre-0029796", "client_id": 4, "input_ids": "What species is FAM46A specific to?", "label": "male"}
+{"sample_id": "zsre-0030038", "client_id": 4, "input_ids": "On what date did Dan-Air Flight 1903 occur?", "label": "3 Dan-Air Airport"}
+{"sample_id": "zsre-0030557", "client_id": 4, "input_ids": "What vessel type is USS Metcalf (DD-595)?", "label": "Fletcher-class submarine"}
+{"sample_id": "zsre-0030997", "client_id": 4, "input_ids": "Who was the main designer of Dongdaemun Design Plaza?", "label": "Chapman Taylor"}
+{"sample_id": "zsre-0031009", "client_id": 4, "input_ids": "Which is the league of Daylesford Football Club?", "label": "Wimmera Football League"}
+{"sample_id": "zsre-0031952", "client_id": 4, "input_ids": "What is the operating system used with HTC One A9?", "label": "Microsoft Mobile"}
+{"sample_id": "zsre-0031977", "client_id": 4, "input_ids": "What continent contains Mount Hancox?", "label": "South America"}
+{"sample_id": "zsre-0032259", "client_id": 4, "input_ids": "What is the name of the publisher of Ridge Racer 64?", "label": "Electronic Arts"}
+{"sample_id": "zsre-0032260", "client_id": 4, "input_ids": "Who published Ridge Racer 64?", "label": "Accolade"}
+{"sample_id": "zsre-0032686", "client_id": 4, "input_ids": "In which language Rue89 monthly football magazine reporting?", "label": "1889"}
+{"sample_id": "zsre-0032843", "client_id": 4, "input_ids": "Who is the Gray code named after?", "label": "Joseph Gray"}
+{"sample_id": "zsre-0033600", "client_id": 4, "input_ids": "What is Aeroflot-Plus's parent company?", "label": "SkyWest Inc"}
+{"sample_id": "zsre-0034367", "client_id": 4, "input_ids": "What year was AMX-30 commissioned?", "label": "1959"}
+{"sample_id": "zsre-0034414", "client_id": 4, "input_ids": "Which company is known as the manufacturer of German submarine U-355?", "label": "Nordseewerke"}
+{"sample_id": "zsre-0034542", "client_id": 4, "input_ids": "What is the name of the state where First National Bank of Mankato is located?", "label": "Illinois"}
+{"sample_id": "zsre-0035406", "client_id": 4, "input_ids": "What date was Soyuz TMA-07M launched?", "label": "15 May 2012"}
+{"sample_id": "zsre-0036824", "client_id": 4, "input_ids": "What company built Volvo B9L?", "label": "Bohemia"}
+{"sample_id": "zsre-0037695", "client_id": 4, "input_ids": "Who is the Marshall University named after?", "label": "Marshall School"}
+{"sample_id": "zsre-0038279", "client_id": 4, "input_ids": "The manufacturer of HMS H23 was who?", "label": "Swan Hunter"}
+{"sample_id": "zsre-0039120", "client_id": 4, "input_ids": "What artist released 55 Cadillac?", "label": "Buck Owens"}
+{"sample_id": "zsre-0039401", "client_id": 4, "input_ids": "Who was the discoverer of 118401 LINEAR?", "label": "Lincoln Near-Earth Asteroids"}
+{"sample_id": "zsre-0040062", "client_id": 4, "input_ids": "What is the launch date of Orbiting Carbon Observatory 2?", "label": "2 August 2014"}
+{"sample_id": "zsre-0040201", "client_id": 4, "input_ids": "What is the status of Graphium stresemanni?", "label": "Data Deficient"}
+{"sample_id": "zsre-0040488", "client_id": 4, "input_ids": "What constellation is SGR 1627-41 part of?", "label": "Cygnus"}
+{"sample_id": "zsre-0040885", "client_id": 4, "input_ids": "Which was the official year for the approval of HSC Condor Liberation?", "label": "27 February 2015"}
+{"sample_id": "zsre-0041002", "client_id": 4, "input_ids": "Who would be the first to discover 134 Sophrosyne?", "label": "Henry Luther"}
+{"sample_id": "zsre-0041447", "client_id": 4, "input_ids": "What is the name of the airport associated with Bulgarian Air Charter?", "label": "Sofia International Airport"}
+{"sample_id": "zsre-0041453", "client_id": 4, "input_ids": "Which airline hub does Bulgarian Air Charter operate out of?", "label": "Skien Airport, Sofia"}
+{"sample_id": "zsre-0041471", "client_id": 4, "input_ids": "Which species has the KCNK13 gene?", "label": "male"}
+{"sample_id": "zsre-0041586", "client_id": 4, "input_ids": "Who are the cast members of Awwal Number?", "label": "Priyanka Chopra"}
+{"sample_id": "zsre-0042661", "client_id": 4, "input_ids": "Who published Policy Studies Journal?", "label": "Wesleyan University Press"}
+{"sample_id": "zsre-0042900", "client_id": 4, "input_ids": "In which language 1000° monthly football magazine reporting?", "label": "French"}
+{"sample_id": "zsre-0043220", "client_id": 4, "input_ids": "What constellation is NGC 6366 part of?", "label": "Draco"}
+{"sample_id": "zsre-0043271", "client_id": 4, "input_ids": "Which corporation was UR GB class created by?", "label": "North British Locomotive Industry"}
+{"sample_id": "zsre-0043474", "client_id": 4, "input_ids": "What vessel type is USS Hailey (DD-556)?", "label": "Clemson-class destroyer"}
+{"sample_id": "zsre-0043730", "client_id": 4, "input_ids": "When was 258 Tyche discovered?", "label": "4 November 1886"}
+{"sample_id": "zsre-0043867", "client_id": 4, "input_ids": "What date was USA-38 launched?", "label": "10 April 1989"}
+{"sample_id": "zsre-0044039", "client_id": 4, "input_ids": "Which is the designer of Canon de 75 mle TR?", "label": "Cockerill"}
+{"sample_id": "zsre-0044281", "client_id": 4, "input_ids": "Which species has the CD6 gene?", "label": "species"}
+{"sample_id": "zsre-0044386", "client_id": 4, "input_ids": "What was the year East Midlands Electricity was formed in?", "label": "1947"}
+{"sample_id": "zsre-0044395", "client_id": 4, "input_ids": "What league was Erie Commodores FC?", "label": "National Premier Leagues NSW"}
+{"sample_id": "zsre-0044717", "client_id": 4, "input_ids": "In which year was USA Technologies established?", "label": "2001"}
+{"sample_id": "zsre-0044879", "client_id": 4, "input_ids": "What specific type of seafaring vessel was USS Macon (PF-96)?", "label": "Tacoma-class fr ship"}
+{"sample_id": "zsre-0044888", "client_id": 4, "input_ids": "The Progress M-1 was launched on what date?", "label": "23 February 1989"}
+{"sample_id": "zsre-0044908", "client_id": 4, "input_ids": "What specific type of seafaring vessel was USS Guam (LPH-9)?", "label": "Iwo Jima-class amphibious transport dock"}
+{"sample_id": "zsre-0045344", "client_id": 4, "input_ids": "Who was Thunderbird 6 was directed by?", "label": "George Blair"}
+{"sample_id": "zsre-0045593", "client_id": 4, "input_ids": "What football league is Prospect Knights FC a part of?", "label": "Northern Premier Development League"}
+{"sample_id": "zsre-0045718", "client_id": 4, "input_ids": "The star/galaxy NGC 6139 is in what constellation?", "label": "Scutum"}
+{"sample_id": "zsre-0046083", "client_id": 4, "input_ids": "Who designed the ARM Cortex-A9?", "label": "ARM Technology"}
+{"sample_id": "zsre-0046084", "client_id": 4, "input_ids": "Who desigened ARM Cortex-A9?", "label": "ARM Technology"}
+{"sample_id": "zsre-0046745", "client_id": 4, "input_ids": "On what date did STS-87 take off?", "label": "18 October 1997"}
+{"sample_id": "zsre-0047085", "client_id": 4, "input_ids": "When was the official opening of Aarhus Central Station?", "label": "1921"}
+{"sample_id": "zsre-0047142", "client_id": 4, "input_ids": "Who was the architect involved with 125 Greenwich Street?", "label": "César Pelli"}
+{"sample_id": "zsre-0047389", "client_id": 4, "input_ids": "On what date did Kosmos 324 lift off?", "label": "27 March 1970"}
+{"sample_id": "zsre-0047499", "client_id": 4, "input_ids": "The inventor of 3551 Verenia was whom?", "label": "T K Rogers"}
+{"sample_id": "zsre-0047529", "client_id": 4, "input_ids": "The star HD 88836 is part of the constellation known as what?", "label": "Carina"}
+{"sample_id": "zsre-0047925", "client_id": 4, "input_ids": "What river does Vietnam Memorial Bridge cross?", "label": "Long Thanh River"}
+{"sample_id": "zsre-0048361", "client_id": 4, "input_ids": "Which corporation created AGM-86 ALCM?", "label": "Martin Marietta"}
+{"sample_id": "zsre-0048890", "client_id": 4, "input_ids": "What is the name of The Blueprint 3's record label?", "label": "Blue Note Records"}
+{"sample_id": "zsre-0048956", "client_id": 4, "input_ids": "What is the name of the publisher of F-15 Strike Eagle II?", "label": "MicroIllusions"}
+{"sample_id": "zsre-0049465", "client_id": 4, "input_ids": "In which year the first version of Fifth Colvmn Records is released?", "label": "1988"}
+{"sample_id": "zsre-0049541", "client_id": 4, "input_ids": "Who desigened Mark 29 torpedo?", "label": "Washington Navy Yard"}
+{"sample_id": "zsre-0049608", "client_id": 4, "input_ids": "The year that Andromeda II was discovered was when?", "label": "August 1971"}
+{"sample_id": "zsre-0050114", "client_id": 4, "input_ids": "The C/2013 A1 was discovered in what year?", "label": "7 September 2013"}
+{"sample_id": "zsre-0050159", "client_id": 4, "input_ids": "What is the name of the airport associated with Keyway Air Transport?", "label": "Rhein-Main Air Airport"}
+{"sample_id": "zsre-0050167", "client_id": 4, "input_ids": "What vessel type is USS Platte (AO-24)?", "label": "Columbia-class oiler"}
+{"sample_id": "zsre-0050510", "client_id": 4, "input_ids": "At what airport can you find Safarilink Aviation?", "label": "Wilson Airport', \"Wilson Airport"}
+{"sample_id": "zsre-0050514", "client_id": 4, "input_ids": "What is the name of the airport where Safarilink Aviation is located?", "label": "Wilson Airport-Freiburg"}
+{"sample_id": "zsre-0050686", "client_id": 4, "input_ids": "What constellation is where HD 41004 Ab is?", "label": "Vela"}
+{"sample_id": "zsre-0050746", "client_id": 4, "input_ids": "Which constellation is formed by MWC 349?", "label": "Cygnus the Great"}
+{"sample_id": "zsre-0051009", "client_id": 4, "input_ids": "The publisher that published MTX Mototrax is what?", "label": "THQ"}
+{"sample_id": "zsre-0051032", "client_id": 4, "input_ids": "What was the date of MW 18014?", "label": "20 December 1944"}
+{"sample_id": "zsre-0051633", "client_id": 4, "input_ids": "What does Northern Railway Bridge cross over?", "label": "Danubon River"}
+{"sample_id": "zsre-0051932", "client_id": 4, "input_ids": "Which species has the TOX4 gene?", "label": "species"}
+{"sample_id": "zsre-0052373", "client_id": 4, "input_ids": "Who was SS.11 designed by?", "label": "Nordseewerke"}
+{"sample_id": "zsre-0052733", "client_id": 4, "input_ids": "What day was STS-117 launched?", "label": "8 March 2007"}
+{"sample_id": "zsre-0052806", "client_id": 4, "input_ids": "What programming language was used to write Apache Struts 2?", "label": "JavaScript"}
+{"sample_id": "zsre-0052812", "client_id": 4, "input_ids": "Who was 2400 A.D. designed by?", "label": "Chuck Maunsell"}
+{"sample_id": "zsre-0053243", "client_id": 4, "input_ids": "Who was QJY-88 designed by?", "label": "Daewoo Shipbuilding & Engineering"}
+{"sample_id": "zsre-0053245", "client_id": 4, "input_ids": "Who was the designor of QJY-88?", "label": "Norilsk Nickel"}
+{"sample_id": "zsre-0053425", "client_id": 4, "input_ids": "Who was the star of Carbide and Sorrel?", "label": "Hans Brausewetter"}
+{"sample_id": "zsre-0053658", "client_id": 4, "input_ids": "The star/galaxy NGC 1535 is in what constellation?", "label": "Ara"}
+{"sample_id": "zsre-0054367", "client_id": 4, "input_ids": "When was the launch date of SpaceX CRS-5?", "label": "10 January 2015"}
+{"sample_id": "zsre-0055227", "client_id": 4, "input_ids": "Which constellation is NGC 2175 in?", "label": "Canis Major"}
+{"sample_id": "zsre-0055317", "client_id": 4, "input_ids": "Which person is the architect of Olympia 66?", "label": "Andrea Palladio"}
+{"sample_id": "zsre-0055483", "client_id": 4, "input_ids": "Who worked on designing .38 S&W?", "label": "John Browning"}
+{"sample_id": "zsre-0056150", "client_id": 4, "input_ids": "By whom was 550 Senta discovered?", "label": "Max Planck"}
+{"sample_id": "zsre-0056391", "client_id": 4, "input_ids": "Who developed Eames Lounge Chair?", "label": "Richard Eames"}
+{"sample_id": "zsre-0056754", "client_id": 4, "input_ids": "What year did Shahab-1 come into use?", "label": "1986"}
+{"sample_id": "zsre-0056765", "client_id": 4, "input_ids": "What is the operating system used with Galaxy Nexus?", "label": "OS X"}
+{"sample_id": "zsre-0057178", "client_id": 4, "input_ids": "The star NGC 47 is part of what constellation?", "label": "Cetus"}
+{"sample_id": "zsre-0057487", "client_id": 4, "input_ids": "Who worked on designing Remington Model 10?", "label": "John Browning"}
+{"sample_id": "zsre-0057992", "client_id": 4, "input_ids": "What is the publisher of Black & White 2?", "label": "Ubisoft"}
+{"sample_id": "zsre-0058897", "client_id": 4, "input_ids": "In which year was the service entry date for PP-91 KEDR?", "label": "1995"}
+{"sample_id": "zsre-0059517", "client_id": 4, "input_ids": "Who was the person who directed High Road to China?", "label": "Wang Shu"}
+{"sample_id": "zsre-0059851", "client_id": 4, "input_ids": "Who set the standards for ISO 3166-2:GY?", "label": "International Organization for Standardize"}
+{"sample_id": "zsre-0059975", "client_id": 4, "input_ids": "What type of submarine was USS Stockham (DD-683) classified as?", "label": "Porter-class destroyer"}
+{"sample_id": "zsre-0060248", "client_id": 4, "input_ids": "The star HD 216770 is a part of the constellation named what?", "label": "Pisces"}
+{"sample_id": "zsre-0061013", "client_id": 4, "input_ids": "The manufacturer of Yamaha DragStar 650 was who?", "label": "Yamaha Motor Corporation"}
+{"sample_id": "zsre-0061158", "client_id": 4, "input_ids": "What constellation is where 3C 219 is?", "label": "Andromeda"}
+{"sample_id": "zsre-0062175", "client_id": 4, "input_ids": "What constellation is NGC 1448 located in?", "label": "Ara"}
+{"sample_id": "zsre-0062606", "client_id": 4, "input_ids": "What is the ending year of Eastern Wei?", "label": "1207"}
+{"sample_id": "zsre-0063051", "client_id": 4, "input_ids": "Who published Fox Sports College Hoops '99?", "label": "Fox Broadcasting Company"}
+{"sample_id": "zsre-0063257", "client_id": 4, "input_ids": "The 790 Pretoria was discovered by whom?", "label": "Johann Palisa"}
+{"sample_id": "zsre-0064448", "client_id": 4, "input_ids": "What year was C/2013 R1 discovered?", "label": "7 January 2013"}
+{"sample_id": "zsre-0064552", "client_id": 4, "input_ids": "Which is the basis of Affero General Public License?", "label": "Apache License"}
+{"sample_id": "zsre-0064896", "client_id": 4, "input_ids": "In which language is PC Engine Fan made in?", "label": "English"}
+{"sample_id": "zsre-0065044", "client_id": 4, "input_ids": "The OPS 5111 was launched on what date?", "label": "22 March 1978"}
+{"sample_id": "zsre-0065328", "client_id": 4, "input_ids": "The star HD 93385 is part of what constellation?", "label": "Lyra"}
+{"sample_id": "zsre-0065336", "client_id": 4, "input_ids": "Which year witnessed the formation of International Planetary Data Alliance?", "label": "2010"}
+{"sample_id": "zsre-0065421", "client_id": 4, "input_ids": "What is the name of the person who designed PP-90?", "label": "KBP Instrument Design Agency"}
+{"sample_id": "zsre-0065954", "client_id": 4, "input_ids": "What year was SVT-40 introduced?", "label": "1931"}
+{"sample_id": "zsre-0066051", "client_id": 4, "input_ids": "The star NGC 4639 is part of the constellation known as what?", "label": "Coma Berenice"}
+{"sample_id": "zsre-0066227", "client_id": 4, "input_ids": "When does the Messier 109 discovered?", "label": "1681"}
+{"sample_id": "zsre-0066241", "client_id": 4, "input_ids": "What was Helicopter Canada nominated for?", "label": "Academy Award for Best Animated Short Film"}
+{"sample_id": "zsre-0066521", "client_id": 4, "input_ids": "On what moon or planet can Dorsum Arduino be found?", "label": "Arduino"}
+{"sample_id": "zsre-0067434", "client_id": 4, "input_ids": "Which company is known as the manufacturer of XSM-74?", "label": "Concordia"}
+{"sample_id": "zsre-0067716", "client_id": 4, "input_ids": "What company produced BSA Ultra?", "label": "Nissan"}
+{"sample_id": "zsre-0067879", "client_id": 4, "input_ids": "Which species has the ZDHHC2 gene?", "label": "male"}
+{"sample_id": "zsre-0068258", "client_id": 4, "input_ids": "In what year did AAI RQ-2 Pioneer enter service?", "label": "1985"}
+{"sample_id": "zsre-0068349", "client_id": 4, "input_ids": "The star WISE 0359−5401 is part of what constellation?", "label": "Dorado"}
+{"sample_id": "zsre-0068544", "client_id": 4, "input_ids": "What was the original network for World Business Report?", "label": "BBC World Economy"}
+{"sample_id": "zsre-0068728", "client_id": 4, "input_ids": "The star UGPS J0521+3640 is a part of the constellation named what?", "label": "Lyra"}
+{"sample_id": "zsre-0069655", "client_id": 4, "input_ids": "Which company manufactured AIR-2 Genie?", "label": "Douglas and Company"}
+{"sample_id": "zsre-0069749", "client_id": 4, "input_ids": "What specific type of seafaring vessel was USS Hoel (DD-533)?", "label": "Fletcher-class submarine"}
+{"sample_id": "zsre-0070148", "client_id": 4, "input_ids": "The star 3C 66B is a part of the constellation named what?", "label": "Serpens"}
+{"sample_id": "zsre-0070467", "client_id": 4, "input_ids": "What type of product does Nelson Aircraft produce?", "label": "aircraft"}
+{"sample_id": "zsre-0070640", "client_id": 4, "input_ids": "What date was Progress M-11 launched?", "label": "11 December 1992"}
+{"sample_id": "zsre-0070753", "client_id": 4, "input_ids": "What is the launch date of AAU CubeSat?", "label": "30 December 2003"}
+{"sample_id": "zsre-0071971", "client_id": 4, "input_ids": "What vessel type is USS Cole (DD-155)?", "label": "Clemson-class destroyer"}
+{"sample_id": "zsre-0073462", "client_id": 4, "input_ids": "What type of submarine was USS Shields (DD-596) classified as?", "label": "Clemson-class destroyer"}
+{"sample_id": "zsre-0073550", "client_id": 4, "input_ids": "What specific type of seafaring vessel was USS Richard L. Page (FFG-5)?", "label": "Knox class frigate"}
+{"sample_id": "zsre-0073937", "client_id": 4, "input_ids": "What is the publisher of Earth Defense Force 2017?", "label": "Dell"}
+{"sample_id": "zsre-0074475", "client_id": 4, "input_ids": "What was the date of TDRS-11's launch?", "label": "31 December 2013"}
+{"sample_id": "zsre-0074861", "client_id": 4, "input_ids": "Who made the discovery of 741 Botolphia?", "label": "Johann Palisa"}
+{"sample_id": "zsre-0074894", "client_id": 4, "input_ids": "Which airline hub does Air Florida operate out of?", "label": "Orlando International Airport"}
+{"sample_id": "zsre-0075301", "client_id": 4, "input_ids": "Who made RFA Stromness (A344)?", "label": "A344 Aeroplanes"}
+{"sample_id": "zsre-0075400", "client_id": 4, "input_ids": "What was the year that Boeing 601 entered service?", "label": "16 October 1986"}
+{"sample_id": "zsre-0075699", "client_id": 4, "input_ids": "What company produced Mitsubishi PX33?", "label": "Mitsubishi Heavy Industries"}
+{"sample_id": "zsre-0075741", "client_id": 4, "input_ids": "What vessel type is USS Bumper (SS-333)?", "label": "Los Angeles-class submarine"}
+{"sample_id": "zsre-0075973", "client_id": 4, "input_ids": "What war did Ogden Phipps participate in?", "label": "Battle of Britain"}
+{"sample_id": "zsre-0076265", "client_id": 4, "input_ids": "What company makes Datsun Bluebird (910)?", "label": "Namibia"}
+{"sample_id": "zsre-0076474", "client_id": 4, "input_ids": "What year was Central Electricity Generating Board created in?", "label": "1961"}
+{"sample_id": "zsre-0076716", "client_id": 4, "input_ids": "When was 21st Army Group abolished?", "label": "1921"}
+{"sample_id": "zsre-0076810", "client_id": 4, "input_ids": "Which species has the TM6SF2 gene?", "label": "species"}
+{"sample_id": "zsre-0077517", "client_id": 4, "input_ids": "Who developed Lefaucheux M1858?", "label": "Casimir Louis Lefaucheux"}
+{"sample_id": "zsre-0077522", "client_id": 4, "input_ids": "Who worked on Lefaucheux M1858?", "label": "Casimir Louis Lefaucheux"}
+{"sample_id": "zsre-0077677", "client_id": 4, "input_ids": "What is the name of the editors of Quark/4?", "label": "Marilyn Hacker"}
+{"sample_id": "zsre-0078330", "client_id": 4, "input_ids": "What is the constellation that is made with V382 Velorum?", "label": "Vela the Great"}
+{"sample_id": "zsre-0079022", "client_id": 4, "input_ids": "What company produced German submarine U-177?", "label": "AG Vulcan Stettine"}
+{"sample_id": "zsre-0079192", "client_id": 4, "input_ids": "Who was the architect or designer of Chet Holifield Federal Building?", "label": "George Pereira"}
+{"sample_id": "zsre-0079353", "client_id": 4, "input_ids": "What company made Wright R-1300 Cyclone 7?", "label": "Wright Brothers"}
+{"sample_id": "zsre-0079612", "client_id": 4, "input_ids": "What type of submarine was HMS K17 classified as?", "label": "British K class destroyer"}
+{"sample_id": "zsre-0079648", "client_id": 4, "input_ids": "When was the inception of Uzbekistan Airways?", "label": "2002"}
+{"sample_id": "zsre-0080314", "client_id": 4, "input_ids": "What company made Eurocopter EC635?", "label": "Airbus Helicopter Company"}
+{"sample_id": "zsre-0080385", "client_id": 4, "input_ids": "What type of product does CPS Energy produce?", "label": "funeral"}
+{"sample_id": "zsre-0080388", "client_id": 4, "input_ids": "What is the product of CPS Energy?", "label": "funeral"}
+{"sample_id": "zsre-0080951", "client_id": 4, "input_ids": "Which is the designer of SR U1 class?", "label": "Richard Mollberg"}
+{"sample_id": "zsre-0081390", "client_id": 4, "input_ids": "The star HD 43587 is a part of the constellation named what?", "label": "Hydra"}
+{"sample_id": "zsre-0081443", "client_id": 4, "input_ids": "What is the name of the constellation which HD 133002 belongs?", "label": "Lupus"}
+{"sample_id": "zsre-0081456", "client_id": 4, "input_ids": "In which year was 9/11 Family Steering Committee established?", "label": "1993"}
+{"sample_id": "zsre-0082147", "client_id": 4, "input_ids": "Which is the manufacturer of USS Neoga (YTB-263)?", "label": "JTB-542-class tank landing ship"}
+{"sample_id": "zsre-0082561", "client_id": 4, "input_ids": "Which species has the GP1BB gene?", "label": "species"}
+{"sample_id": "zsre-0083016", "client_id": 4, "input_ids": "Which is the designer of Remington Model 8?", "label": "Remington Arms"}
+{"sample_id": "zsre-0083680", "client_id": 4, "input_ids": "In what living being can PINX1 be found?", "label": "male"}
+{"sample_id": "zsre-0083992", "client_id": 4, "input_ids": "Which constellation is NGC 2360 a part of?", "label": "Columba"}
+{"sample_id": "zsre-0084199", "client_id": 4, "input_ids": "What is the ending year of Eastern Wu?", "label": "394"}
+{"sample_id": "zsre-0084274", "client_id": 4, "input_ids": "What artist created A Black Box?", "label": "Riders in the Sky"}
+{"sample_id": "zsre-0084444", "client_id": 4, "input_ids": "Which was the constellation for Gliese 777 b?", "label": "Lynx"}
+{"sample_id": "zsre-0084827", "client_id": 4, "input_ids": "The 221B Baker Street was made by whom?", "label": "Richard Eichberg"}
+{"sample_id": "zsre-0085384", "client_id": 4, "input_ids": "What constellation is home to 2MASS-GC02?", "label": "Tucana"}
+{"sample_id": "zsre-0085569", "client_id": 4, "input_ids": "Which constellation is NGC 7354 in?", "label": "Centaurus"}
+{"sample_id": "zsre-0085648", "client_id": 4, "input_ids": "What was the year West Caribbean Airways was formed in?", "label": "2001"}
+{"sample_id": "zsre-0085713", "client_id": 4, "input_ids": "Which is the manufacturer of German submarine U-352?", "label": "Friedensreich Hundertwasser"}
+{"sample_id": "zsre-0087270", "client_id": 4, "input_ids": "What company is Jeep part of?", "label": "Chevron Corporation"}
+{"sample_id": "zsre-0087356", "client_id": 4, "input_ids": "Which constellation is HD 4391 a part of?", "label": "Puppis"}
+{"sample_id": "zsre-0087613", "client_id": 4, "input_ids": "What year was the end of Western Power Corporation?", "label": "1987"}
+{"sample_id": "zsre-0087649", "client_id": 4, "input_ids": "When was Luna E-3 No.1's launch date?", "label": "11 October 1958"}
+{"sample_id": "zsre-0088190", "client_id": 4, "input_ids": "In which language is Corsaren made in?", "label": "Dolcan"}
+{"sample_id": "zsre-0088212", "client_id": 4, "input_ids": "Which corporation was R.530 created by?", "label": "Matraelect"}
+{"sample_id": "zsre-0088272", "client_id": 4, "input_ids": "What is the constellation that NGC 5890 is a part of?", "label": "Circinus"}
+{"sample_id": "zsre-0088781", "client_id": 4, "input_ids": "Which was the constellation for HAT-P-6?", "label": "Andromeda"}
+{"sample_id": "zsre-0088822", "client_id": 4, "input_ids": "The date of Spanair Flight 5022?", "label": "Spanair Flight 2010"}
+{"sample_id": "zsre-0089033", "client_id": 4, "input_ids": "What year did Army Group F dissolve?", "label": "1950"}
+{"sample_id": "zsre-0089147", "client_id": 4, "input_ids": "The date of Edmonton air crash was what?", "label": "6 February 1938"}
+{"sample_id": "zsre-0089380", "client_id": 4, "input_ids": "Which designer was responsible for Albuquerque Plaza?", "label": "Hellmuth & Koch"}
+{"sample_id": "zsre-0089472", "client_id": 4, "input_ids": "What type of submarine was HMCS Pictou classified as?", "label": "Flower-class frigate"}
+{"sample_id": "zsre-0089566", "client_id": 4, "input_ids": "What constellation is NGC 383 in?", "label": "Phoenix"}
+{"sample_id": "zsre-0089950", "client_id": 4, "input_ids": "What company made Santa Fe 5017?", "label": "Bolland & Holland"}
+{"sample_id": "zsre-0090196", "client_id": 4, "input_ids": "The INS Kadmatt (P29) was produced by whom?", "label": "Garden Reach Shipbuilding & Engineering Company"}
+{"sample_id": "zsre-0090199", "client_id": 4, "input_ids": "The manufacturer of INS Kadmatt (P29) was who?", "label": "Garden Reach Shipbuilding and Engineering Company"}
+{"sample_id": "zsre-0090573", "client_id": 4, "input_ids": "Who was the designor of 9 Queen's Road Central?", "label": "Wong Tung & Sons"}
+{"sample_id": "zsre-0090637", "client_id": 4, "input_ids": "What constellation does HD 214810 belong to?", "label": "Antlia"}
+{"sample_id": "zsre-0091023", "client_id": 4, "input_ids": "At what airport can you find Equaflight?", "label": "Point-à-Pitre International Airport"}
+{"sample_id": "zsre-0091850", "client_id": 4, "input_ids": "What year is AK-63 associated with?", "label": "1975"}
+{"sample_id": "zsre-0092465", "client_id": 4, "input_ids": "What company published Journal of Internal Medicine?", "label": "Wiley-Blackwell"}
+{"sample_id": "zsre-0092508", "client_id": 4, "input_ids": "Which was the constellation for HD 10180 c?", "label": "Lyra"}
+{"sample_id": "zsre-0093380", "client_id": 4, "input_ids": "What vessel type is USS King (DD-242)?", "label": "Clemson-class submarine"}
+{"sample_id": "zsre-0093638", "client_id": 4, "input_ids": "What was the date of National Airlines Flight 16?", "label": "3 July 1945"}
+{"sample_id": "zsre-0094090", "client_id": 4, "input_ids": "What vessel type is USS Ross (DD-563)?", "label": "Fletcher-class submarine"}
+{"sample_id": "zsre-0094135", "client_id": 4, "input_ids": "In what living being can Gamma-butyrobetaine dioxygenase be found?", "label": "Antarctica"}
+{"sample_id": "zsre-0094719", "client_id": 4, "input_ids": "By whom was 258 Tyche discovered?", "label": "4 May 1886"}
+{"sample_id": "zsre-0094721", "client_id": 4, "input_ids": "What was the name of the discoverer of 258 Tyche?", "label": "William Herschel"}
+{"sample_id": "zsre-0094823", "client_id": 4, "input_ids": "Who was the original discoverer of 639 Latona?", "label": "Karl Julius Löwen"}
+{"sample_id": "zsre-0095021", "client_id": 4, "input_ids": "What is Center for Earth Resources Observation and Science's parent company?", "label": "United States Department of Agriculture"}
+{"sample_id": "zsre-0095075", "client_id": 4, "input_ids": "When did 2008 Macedonian Armed Forces Mil Mi-17 crash occurr?", "label": "12 April 2008"}
+{"sample_id": "zsre-0095514", "client_id": 4, "input_ids": "The 980 Anacostia was discovered by whom?", "label": "Auguste Charlois"}
+{"sample_id": "zsre-0096226", "client_id": 4, "input_ids": "When was Progress M-6's launch date?", "label": "27 August 1991"}
+{"sample_id": "zsre-0097128", "client_id": 4, "input_ids": "Who is the Barnaul Airport named after?", "label": "Uttar Pradesh"}
+{"sample_id": "zsre-0097263", "client_id": 4, "input_ids": "The Atari 7800 was produced by whom?", "label": "Atari Computer Corporation"}
+{"sample_id": "zsre-0097688", "client_id": 4, "input_ids": "Who made Remington Model 58?", "label": "John Browning"}
+{"sample_id": "zsre-0098189", "client_id": 4, "input_ids": "The Three Countries Bridge was named for whom?", "label": "Switzerland"}
+{"sample_id": "zsre-0098326", "client_id": 4, "input_ids": "The star NGC 145 is part of what constellation?", "label": "145"}
+{"sample_id": "zsre-0098485", "client_id": 4, "input_ids": "Which species has the WNT6 gene?", "label": "male"}
+{"sample_id": "zsre-0099025", "client_id": 4, "input_ids": "Which was the manufacturer of USA-243?", "label": "Defoe Shipbuilders"}
+{"sample_id": "zsre-0099236", "client_id": 4, "input_ids": "Which is the designer of NK-33?", "label": "Kuznetsov Designack"}
+{"sample_id": "zsre-0099417", "client_id": 4, "input_ids": "What product does Panel Mine produce?", "label": "diamond"}
+{"sample_id": "zsre-0099646", "client_id": 4, "input_ids": "In which state is Salisbury Beach State Reservation located?", "label": "New York"}
+{"sample_id": "zsre-0099666", "client_id": 4, "input_ids": "What is the constellation where 81 Geminorum is located?", "label": "Ursa Major"}
+{"sample_id": "zsre-0099860", "client_id": 4, "input_ids": "What company produced Lap Engine?", "label": "Aston Martin"}
+{"sample_id": "zsre-0100327", "client_id": 4, "input_ids": "What constellation is Kepler-10 part of?", "label": "Hydra"}
+{"sample_id": "zsre-0100385", "client_id": 4, "input_ids": "What is the date when 1951 Misrair SNCASE Languedoc crash happened?", "label": "22 March 1951"}
+{"sample_id": "zsre-0100672", "client_id": 4, "input_ids": "The Remington Model 34 was produced by whom?", "label": "John Brown & Company"}
+{"sample_id": "zsre-0100946", "client_id": 4, "input_ids": "What was the date of Progress M-04M's launch?", "label": "3 April 2010"}
+{"sample_id": "zsre-0100950", "client_id": 4, "input_ids": "On what date did Progress M-04M launch?", "label": "3 April 2010"}
+{"sample_id": "zsre-0101079", "client_id": 4, "input_ids": "What state is Hanford Site located?", "label": "Massachusetts"}
+{"sample_id": "zsre-0101935", "client_id": 4, "input_ids": "What company made Chevrolet Express?", "label": "Chevrolet"}
+{"sample_id": "zsre-0101955", "client_id": 4, "input_ids": "The production company responsible for Ragini MMS 2 is what?", "label": "PVR Pictures"}
+{"sample_id": "zsre-0102995", "client_id": 4, "input_ids": "What company published Journal of Symbolic Computation?", "label": "IOP Publishing"}
+{"sample_id": "zsre-0103775", "client_id": 4, "input_ids": "Which is the basis of Boeing KC-767?", "label": "Boeing Commercial Airplanes"}
+{"sample_id": "zsre-0103831", "client_id": 4, "input_ids": "What company produced Submarine Alert?", "label": "Paradox Interactive"}
+{"sample_id": "zsre-0104155", "client_id": 4, "input_ids": "What is the name of the airport where Asia Continental Airlines is located?", "label": "Almaty Airport"}
+{"sample_id": "zsre-0104166", "client_id": 4, "input_ids": "The star/galaxy COROT-7c is in what constellation?", "label": "Carina"}
+{"sample_id": "zsre-0104384", "client_id": 4, "input_ids": "The point in time of Lufthansa Flight 2904 was what?", "label": "14 September 1993"}
+{"sample_id": "zsre-0104591", "client_id": 4, "input_ids": "What is the launch date of Soyuz TMA-16M?", "label": "27 September 2015"}
+{"sample_id": "zsre-0104738", "client_id": 4, "input_ids": "Who was the designor of MULTI2?", "label": "Rafael Advanced Defense Systems"}
+{"sample_id": "zsre-0104739", "client_id": 4, "input_ids": "Which is the designer of MULTI2?", "label": "Hitomi Takahashi"}
+{"sample_id": "zsre-0105877", "client_id": 4, "input_ids": "The publisher that published IEEE Transactions on Pattern Analysis and Machine Intelligence is what?", "label": "IEEE Computer Institute"}
+{"sample_id": "zsre-0105903", "client_id": 4, "input_ids": "What date is associated with 1964 T-39 shootdown incident?", "label": "28 March 1964"}
+{"sample_id": "zsre-0106163", "client_id": 4, "input_ids": "In which constellation is HD 15082?", "label": "Libra"}
+{"sample_id": "zsre-0106306", "client_id": 4, "input_ids": "Who was the distributor of Mega Man Battle Network 5?", "label": "Keiji University"}
+{"sample_id": "zsre-0106374", "client_id": 4, "input_ids": "To which fictional work does Revolver Ocelot appear in?", "label": "Metal Blade series"}
+{"sample_id": "zsre-0106434", "client_id": 4, "input_ids": "What constellation is NGC 4038 Group part of?", "label": "Corona Australis"}
+{"sample_id": "zsre-0106704", "client_id": 4, "input_ids": "What series is The Pylon Express a part of?", "label": "Futurama"}
+{"sample_id": "zsre-0106806", "client_id": 4, "input_ids": "The inventor of 815 Coppelia was whom?", "label": "Franz Kaiser"}
+{"sample_id": "zsre-0107126", "client_id": 4, "input_ids": "What constellation is HD 47186 c in?", "label": "Canis Borealis"}
+{"sample_id": "zsre-0107464", "client_id": 4, "input_ids": "When date was the official opening of Elmshorn station?", "label": "18 October 1844"}
+{"sample_id": "zsre-0107508", "client_id": 4, "input_ids": "What company made BE-4?", "label": "Bluefield Research"}
+{"sample_id": "zsre-0107800", "client_id": 4, "input_ids": "The manufacturer of Hyundai Stellar was who?", "label": "Hyundai Motor Corporation"}
+{"sample_id": "zsre-0107846", "client_id": 4, "input_ids": "Who developed Lap Engine?", "label": "Boulton Becket"}
+{"sample_id": "zsre-0108226", "client_id": 4, "input_ids": "The date of Binter Mediterráneo Flight 8261?", "label": "29 October 2001"}
+{"sample_id": "zsre-0108661", "client_id": 4, "input_ids": "Which designer was responsible for Intiö Water Tower?", "label": "J Sreekumar"}
+{"sample_id": "zsre-0108946", "client_id": 4, "input_ids": "What series is Audi A6 from?", "label": "supermini"}
+{"sample_id": "zsre-0109346", "client_id": 4, "input_ids": "The designer for 60 State Street was?", "label": "Skidmore and Company"}
+{"sample_id": "zsre-0109616", "client_id": 4, "input_ids": "What constellation is HD 147513 part of?", "label": "Scorpius"}
+{"sample_id": "zsre-0110287", "client_id": 4, "input_ids": "What is the name of the constellation which KOI-81 belongs?", "label": "Aquila"}
+{"sample_id": "zsre-0110331", "client_id": 4, "input_ids": "Who was the discoverer of 983 Gunila?", "label": "Karl Friedrich Peters"}
+{"sample_id": "zsre-0110486", "client_id": 4, "input_ids": "What network does Patent Bending air on?", "label": "ITV"}
+{"sample_id": "zsre-0110488", "client_id": 4, "input_ids": "What network aired Patent Bending?", "label": "Lifetime"}
+{"sample_id": "zsre-0111536", "client_id": 4, "input_ids": "What is the endangered status of Zapata rail?", "label": "endangered species"}
+{"sample_id": "zsre-0111588", "client_id": 4, "input_ids": "Which corporation was Remington Model 742 created by?", "label": "John Browning"}
+{"sample_id": "zsre-0111853", "client_id": 4, "input_ids": "On what date did Hill GH1 take place?", "label": "1980"}
+{"sample_id": "zsre-0111887", "client_id": 4, "input_ids": "The LG Optimus 2X was produced by whom?", "label": "LG Computer Corporation"}
+{"sample_id": "zsre-0112555", "client_id": 4, "input_ids": "In which conflict did USS Horace Beals (1862) participate?", "label": "Apache Wars"}
+{"sample_id": "zsre-0112736", "client_id": 4, "input_ids": "Which constellation is formed by HD 96700?", "label": "Antlia"}
+{"sample_id": "zsre-0112751", "client_id": 4, "input_ids": "On which continent is Dunedin Range located?", "label": "South America"}
+{"sample_id": "zsre-0113106", "client_id": 4, "input_ids": "Of what series is Saab 9000 a part of?", "label": "executive Suzuki"}
+{"sample_id": "zsre-0114294", "client_id": 4, "input_ids": "What vessel type is USS SC-18?", "label": "SC-1-class destroyer"}
+{"sample_id": "zsre-0114653", "client_id": 4, "input_ids": "What type of submarine was USS Tucson (SSN-770) classified as?", "label": "Los Angeles-class cruiser"}
+{"sample_id": "zsre-0114704", "client_id": 4, "input_ids": "What is the launch date of Mars 6?", "label": "21 July 1973"}
+{"sample_id": "zsre-0115294", "client_id": 4, "input_ids": "What year was Amsterdam Airlines created?", "label": "1962"}
+{"sample_id": "zsre-0115517", "client_id": 4, "input_ids": "The RC6 is based upon what?", "label": "Ron Rivest"}
+{"sample_id": "zsre-0115519", "client_id": 4, "input_ids": "What is the name of the person who designed Livens Large Gallery Flame Projector?", "label": "William Livens"}
+{"sample_id": "zsre-0115567", "client_id": 4, "input_ids": "By which company, AMT Lightning pistol has been manufactured?", "label": "Arcadiaadia Machine and Tool"}
+{"sample_id": "zsre-0115756", "client_id": 4, "input_ids": "What company makes DS 4?", "label": "Dodge"}
+{"sample_id": "zsre-0116418", "client_id": 4, "input_ids": "Who made Nexus 6P?", "label": "LG Electronics"}
+{"sample_id": "zsre-0116420", "client_id": 4, "input_ids": "By which company, Nexus 6P has been manufactured?", "label": "Android"}
+{"sample_id": "zsre-0116584", "client_id": 4, "input_ids": "Who was Grand Prix 4 designed by?", "label": "Geoff Eigenmann"}
+{"sample_id": "zsre-0117140", "client_id": 4, "input_ids": "Which constellation is WISE 1217+1626 a part of?", "label": "Ursa Major"}
+{"sample_id": "zsre-0117203", "client_id": 4, "input_ids": "What type of aquatic unit is HMCS St. Lambert?", "label": "Flower class corvette"}
+{"sample_id": "zsre-0117400", "client_id": 4, "input_ids": "Who worked on designing .40 S&W?", "label": "John Browning"}
+{"sample_id": "zsre-0118038", "client_id": 4, "input_ids": "What is the name of the constellation where HD 215497 c belongs?", "label": "Tethys"}
+{"sample_id": "zsre-0118056", "client_id": 4, "input_ids": "What was the year of inception of Supertalk Mississippi?", "label": "2005"}
+{"sample_id": "zsre-0118297", "client_id": 4, "input_ids": "Which airport does Golden Bay Air operate in?", "label": "Tinson Pen Aerodrome"}
+{"sample_id": "zsre-0118721", "client_id": 4, "input_ids": "What was the designer of Kaiser Center's name?", "label": "Wärtsilä"}
+{"sample_id": "zsre-0118722", "client_id": 4, "input_ids": "Who was the architect that designed Kaiser Center?", "label": "Kohn Pedersen Fox"}
+{"sample_id": "zsre-0119210", "client_id": 4, "input_ids": "What is the name of the person who discovered 437 Rhodia?", "label": "August Kopff"}
+{"sample_id": "zsre-0119277", "client_id": 4, "input_ids": "Who is the architect of Target Field?", "label": "Poplar Blanks"}
+{"sample_id": "zsre-0119833", "client_id": 4, "input_ids": "The manufacturer of Bell 206 was who?", "label": "Bell Aircraft"}
+{"sample_id": "zsre-0120543", "client_id": 4, "input_ids": "Who was BR Standard Class 3 2-6-2T designed by?", "label": "RobertRobert Riddles"}
+{"sample_id": "zsre-0120544", "client_id": 4, "input_ids": "Which is the designer of BR Standard Class 3 2-6-2T?", "label": "Robert F Hill"}
+{"sample_id": "zsre-0121710", "client_id": 4, "input_ids": "What is the name of the Ladd Observatory architect?", "label": "Stone and Willson"}
+{"sample_id": "zsre-0121987", "client_id": 4, "input_ids": "Who worked on designing PP-93?", "label": "KBP Instrument Design Design Bureau"}
+{"sample_id": "zsre-0122652", "client_id": 4, "input_ids": "On what date did Kosmos 545 lift off?", "label": "24 May 1973"}
+{"sample_id": "zsre-0123641", "client_id": 4, "input_ids": "Who was LB&SCR I3 class designed by?", "label": "William Stroudley"}
+{"sample_id": "zsre-0124078", "client_id": 4, "input_ids": "What was the year BTR-60 entered service?", "label": "13 January 1959"}
+{"sample_id": "zsre-0124474", "client_id": 4, "input_ids": "In which war did M19 Tank Transporter fight?", "label": "Korean War"}
+{"sample_id": "zsre-0124607", "client_id": 4, "input_ids": "The architect of 84 Plymouth Grove is whom?", "label": "Richard Lane-Harrison"}
+{"sample_id": "zsre-0124655", "client_id": 4, "input_ids": "What is the name of the airport associated with Malawian Airlines?", "label": "Lilongwe International Stadium"}
+{"sample_id": "zsre-0124768", "client_id": 4, "input_ids": "What year did LSV Berlin dissolve?", "label": "1942"}
+{"sample_id": "zsre-0124947", "client_id": 4, "input_ids": "What constellation is WISE J004945.61+215120.0 a part of?", "label": "Pegasus"}
+{"sample_id": "zsre-0125069", "client_id": 4, "input_ids": "What type of submarine was USS Annapolis (SSN-760) classified as?", "label": "Gearing-class submarine"}
+{"sample_id": "zsre-0125528", "client_id": 4, "input_ids": "What was the record label of Zonoscope?", "label": "Sony BMG"}
+{"sample_id": "zsre-0126060", "client_id": 4, "input_ids": "What was the date of USA-262's launch?", "label": "15 August 2015"}
+{"sample_id": "zsre-0126831", "client_id": 4, "input_ids": "What is the name of the airport associated with Porter Airlines?", "label": "Billy Bishop Bishop Toronto City Airport"}
+{"sample_id": "zsre-0127549", "client_id": 4, "input_ids": "In what year did Airtel Tanzania originate?", "label": "2010"}
+{"sample_id": "zsre-0127939", "client_id": 4, "input_ids": "What year was the end of White Motor Company?", "label": "1962"}
+{"sample_id": "zsre-0128084", "client_id": 4, "input_ids": "What is the constellation that HD 9446 c is a part of?", "label": "446"}
+{"sample_id": "zsre-0128154", "client_id": 4, "input_ids": "What year did Honda P50 start?", "label": "1950"}
+{"sample_id": "zsre-0128574", "client_id": 4, "input_ids": "What was the founding year of Iraqi Airways?", "label": "1962"}
+{"sample_id": "zsre-0128683", "client_id": 4, "input_ids": "What is the name of the Newton Suites architect?", "label": "Norman Corwin"}
+{"sample_id": "zsre-0128911", "client_id": 4, "input_ids": "The inventor of 176 Iduna was whom?", "label": "Christian Heinrich Wilhelm Peters"}
+{"sample_id": "zsre-0129006", "client_id": 4, "input_ids": "What specific type of seafaring vessel was USS Bryant?", "label": "Wickes-class destroyer"}
+{"sample_id": "zsre-0129019", "client_id": 4, "input_ids": "Which airport does Armenian Airlines operate in?", "label": "Yerevan International Airport"}
+{"sample_id": "zsre-0129287", "client_id": 4, "input_ids": "Which person is the architect of Østervold Observatory?", "label": "Christian Heinrich Wilhelm Reinmuth"}
+{"sample_id": "zsre-0129527", "client_id": 4, "input_ids": "The manufacturer of German submarine U-171 was who?", "label": "AG Vulcan Stettin"}
+{"sample_id": "zsre-0129699", "client_id": 4, "input_ids": "Who made BFW M.19?", "label": "Ernest Emerson"}
+{"sample_id": "zsre-0130196", "client_id": 4, "input_ids": "Who developed This Is England '88?", "label": "Chris Rock"}
+{"sample_id": "zsre-0130423", "client_id": 4, "input_ids": "What programming language was used to write Apache Struts 1?", "label": "JavaScript"}
+{"sample_id": "zsre-0131072", "client_id": 4, "input_ids": "What vessel type is SM UB-25?", "label": "German Type UB II destroyer"}
+{"sample_id": "zsre-0131103", "client_id": 4, "input_ids": "What company made Fujian Blue?", "label": "Taito Corporation"}
+{"sample_id": "zsre-0131231", "client_id": 4, "input_ids": "What is Carnegie Mellon Silicon Valley's parent company?", "label": "Carnegie Mellon Mellon University"}
+{"sample_id": "zsre-0131325", "client_id": 4, "input_ids": "What airport is AirTran Airways associated with?", "label": "Wellington International Airport"}
+{"sample_id": "zsre-0131505", "client_id": 4, "input_ids": "What is the operating system used with ArcGIS?", "label": "Microsoft Mobile"}
+{"sample_id": "zsre-0131602", "client_id": 4, "input_ids": "At what airport can you find ASL Airlines Hungary?", "label": "Budapest Ferenc Liszt Airport"}
+{"sample_id": "zsre-0131701", "client_id": 4, "input_ids": "In which year was SCC Berlin incepted?", "label": "2001"}
+{"sample_id": "zsre-0132336", "client_id": 4, "input_ids": "Who made the discovery of C/2006 P1?", "label": "Terry Lovejoy"}
+{"sample_id": "zsre-0132339", "client_id": 4, "input_ids": "What is the name of the person who discovered C/2006 P1?", "label": "Robert J Flaherty"}
+{"sample_id": "zsre-0132491", "client_id": 4, "input_ids": "Of which constellation is NGC 1943 a part?", "label": "1943"}
+{"sample_id": "zsre-0132731", "client_id": 4, "input_ids": "What constellation is home to Coma Star Cluster?", "label": "Sagittarius"}
+{"sample_id": "zsre-0133012", "client_id": 4, "input_ids": "What business published ATP Tour Championship Tennis?", "label": "Accolade"}
+{"sample_id": "zsre-0133225", "client_id": 4, "input_ids": "What is the country Unbeaten 28 is from?", "label": "Singapore"}
+{"sample_id": "zsre-0133343", "client_id": 4, "input_ids": "When was SprintAir launched?", "label": "1999"}
+{"sample_id": "zsre-0133829", "client_id": 4, "input_ids": "What year did Stryker come into use?", "label": "1998"}
+{"sample_id": "zsre-0134650", "client_id": 4, "input_ids": "Who made the discovery of NGC 185?", "label": "William Herskovitz"}
+{"sample_id": "zsre-0136430", "client_id": 4, "input_ids": "What is the constellation where NGC 1559 is located?", "label": "Dorado"}
+{"sample_id": "zsre-0136916", "client_id": 4, "input_ids": "Who is the architect of 100 North Tampa?", "label": "HNTB"}
+{"sample_id": "zsre-0137084", "client_id": 4, "input_ids": "Who was the main designer of A. D. German Warehouse?", "label": "Frank Lloyd Webber"}
+{"sample_id": "zsre-0137088", "client_id": 4, "input_ids": "What was the year Type 97 motorcycle entered service?", "label": "1905"}
+{"sample_id": "zsre-0137124", "client_id": 4, "input_ids": "Which was the constellation for SN 1572?", "label": "Ara"}
+{"sample_id": "zsre-0137301", "client_id": 4, "input_ids": "What is the name of the constellation where GU Piscium belongs?", "label": "Pegasus"}
+{"sample_id": "zsre-0137574", "client_id": 4, "input_ids": "When was Monsheim station started?", "label": "14 November 1864"}
+{"sample_id": "zsre-0138290", "client_id": 4, "input_ids": "Which chromosome is the gene KIAA0922 located on?", "label": "human"}
+{"sample_id": "zsre-0138406", "client_id": 4, "input_ids": "Who was the architect or designer of SGX Centre?", "label": "Kurt Wiese"}
+{"sample_id": "zsre-0138470", "client_id": 4, "input_ids": "What year was QBU-88 made?", "label": "1994"}
+{"sample_id": "zsre-0138783", "client_id": 4, "input_ids": "Who directed the film 30 Winchester per El Diablo?", "label": "Gianfranco Mingozzi"}
+{"sample_id": "zsre-0139753", "client_id": 4, "input_ids": "The manufacturer of Nokia Lumia 530 was who?", "label": "Nokia Lumia Phone"}
+{"sample_id": "zsre-0140498", "client_id": 4, "input_ids": "Of which constellation is NGC 2748 a part?", "label": "Carina"}
+{"sample_id": "zsre-0140499", "client_id": 4, "input_ids": "Which was the constellation for NGC 2748?", "label": "Carina"}
+{"sample_id": "zsre-0140922", "client_id": 4, "input_ids": "Which constellation is formed by NGC 6217?", "label": "Hercules"}
+{"sample_id": "zsre-0141077", "client_id": 4, "input_ids": "The date of Aeroflot Flight 8381 was what?", "label": "3 April 1985"}
+{"sample_id": "zsre-0141106", "client_id": 4, "input_ids": "Which company manufactured British Rail Class 26?", "label": "Darlington Works"}
+{"sample_id": "zsre-0141510", "client_id": 4, "input_ids": "The star Palomar 1 is a part of the constellation named what?", "label": "Auriga"}
+{"sample_id": "zsre-0141838", "client_id": 4, "input_ids": "Which constellation is HIP 14810 b in?", "label": "Ara"}
+{"sample_id": "zsre-0141953", "client_id": 4, "input_ids": "What year was it when Augsburg Airways was dissolved?", "label": "2010"}
+{"sample_id": "zsre-0142088", "client_id": 4, "input_ids": "Which is the designer of GER Class D27?", "label": "Stratford Works"}
+{"sample_id": "zsre-0142462", "client_id": 4, "input_ids": "Which is the designer of XM806?", "label": "General Electric"}
+{"sample_id": "zsre-0142555", "client_id": 4, "input_ids": "Who desigened GER Classes S46, D56 and H88?", "label": "Adrian Dunbar"}
+{"sample_id": "zsre-0142677", "client_id": 4, "input_ids": "Which league did Conwy Borough F.C. join with?", "label": "Cayman Islands League"}
+{"sample_id": "zsre-0142772", "client_id": 4, "input_ids": "Which year witnessed the formation of GeminiJets?", "label": "2004"}
+{"sample_id": "zsre-0142976", "client_id": 4, "input_ids": "By whom was 172 Baucis discovered?", "label": "Albrecht Dürer"}
+{"sample_id": "zsre-0143782", "client_id": 4, "input_ids": "On what date did Soyuz 23 take off?", "label": "14 April 1976"}
+{"sample_id": "zsre-0145297", "client_id": 4, "input_ids": "When did 2008 Guam B-52 crash occurr?", "label": "21 August 2008"}
+{"sample_id": "zsre-0145498", "client_id": 4, "input_ids": "What vessel type is USS Buchanan (DD-131)?", "label": "Bainbridge-class destroyer"}
+{"sample_id": "zsre-0145691", "client_id": 4, "input_ids": "What is the name of the person who designed Floatpoint?", "label": "Ben Goertzel"}
+{"sample_id": "zsre-0145693", "client_id": 4, "input_ids": "Who was Floatpoint designed by?", "label": "Floatpoint"}
+{"sample_id": "zsre-0146035", "client_id": 4, "input_ids": "The Leica S2 was produced by whom?", "label": "Media Home Entertainment"}
+{"sample_id": "zsre-0146360", "client_id": 4, "input_ids": "When was WASP-12 found or made?", "label": "2007"}
+{"sample_id": "zsre-0146591", "client_id": 4, "input_ids": "In what living being can EID2 be found?", "label": "male"}
+{"sample_id": "zsre-0146937", "client_id": 4, "input_ids": "Over what river does Wabasha Street Bridge cross?", "label": "Illinois River"}
+{"sample_id": "zsre-0146986", "client_id": 4, "input_ids": "What was the year of Lake Central Airlines's inception?", "label": "1999"}
+{"sample_id": "zsre-0148041", "client_id": 4, "input_ids": "By whom was 596 Scheila discovered?", "label": "21 February 1906"}
+{"sample_id": "zsre-0148852", "client_id": 4, "input_ids": "What year did Kh-25 come into use?", "label": "1980"}
+{"sample_id": "zsre-0149068", "client_id": 4, "input_ids": "On what date did Mars 2 lift off?", "label": "5 August 1971"}
+{"sample_id": "zsre-0149266", "client_id": 4, "input_ids": "Who was the architect that designed 3 Hardman Street?", "label": "Sheffield Eagles"}
+{"sample_id": "zsre-0150080", "client_id": 4, "input_ids": "The Mitsubishi Grandis was produced by whom?", "label": "Mitsubishi Motor Company"}
+{"sample_id": "zsre-0150521", "client_id": 4, "input_ids": "What arena did FC St. Gallen play in?", "label": "AFG Stadium"}
+{"sample_id": "zsre-0150587", "client_id": 4, "input_ids": "Who found Great Comet of 1819?", "label": "Johann Georg Trumbull"}
+{"sample_id": "zsre-0150697", "client_id": 4, "input_ids": "When does the 843 Nicolaia discovered?", "label": "30 August 1916"}
+{"sample_id": "zsre-0150709", "client_id": 4, "input_ids": "What year was 843 Nicolaia discovered?", "label": "30 October 1916"}
+{"sample_id": "zsre-0150719", "client_id": 4, "input_ids": "What year is M47 Dragon associated with?", "label": "1970"}
+{"sample_id": "zsre-0150720", "client_id": 4, "input_ids": "In which year was the service entry date for M47 Dragon?", "label": "1972"}
+{"sample_id": "zsre-0150791", "client_id": 4, "input_ids": "Which company is known as the manufacturer of Alfa Romeo 75?", "label": "Alfa Romeo"}
+{"sample_id": "zsre-0150852", "client_id": 4, "input_ids": "What year did Lola T370 start?", "label": "1971"}
+{"sample_id": "zsre-0151591", "client_id": 4, "input_ids": "On what date was Kosmos 314 launched?", "label": "11 January 1969"}
+{"sample_id": "zsre-0151679", "client_id": 4, "input_ids": "What is the name of the state where 2001 Honda Indy 300 is located?", "label": "New South Wales"}
+{"sample_id": "zsre-0151757", "client_id": 4, "input_ids": "Which was the manufacturer of RL10?", "label": "Rocketdyne"}
+{"sample_id": "zsre-0151761", "client_id": 4, "input_ids": "Which is the manufacturer of RL10?", "label": "Pratt & Rapp"}
+{"sample_id": "zsre-0152222", "client_id": 4, "input_ids": "Who was the original discoverer of 136 Austria?", "label": "Johann Georg Tralles"}
+{"sample_id": "zsre-0152288", "client_id": 4, "input_ids": "What is the name of the airport associated with Sky Airline?", "label": "Comoros International Airport"}
+{"sample_id": "zsre-0152637", "client_id": 4, "input_ids": "What football league is Sky Blue FC a part of?", "label": "National Premier Soccer League"}
+{"sample_id": "zsre-0152925", "client_id": 4, "input_ids": "The star NGC 2613 is a part of the constellation named what?", "label": "Lynx"}
+{"sample_id": "zsre-0153470", "client_id": 4, "input_ids": "What was the year Valemax entered service?", "label": "2010"}
+{"sample_id": "zsre-0153822", "client_id": 4, "input_ids": "What constellation is Engraved Hourglass Nebula part of?", "label": "Orion"}
+{"sample_id": "zsre-0154017", "client_id": 4, "input_ids": "What is the name of the constellation where HR 3803 belongs?", "label": "Ursus"}
+{"sample_id": "zsre-0154188", "client_id": 4, "input_ids": "Which is the manufacturer of Cadillac Gage Peacekeeper II?", "label": "General Dynamics"}
+{"sample_id": "zsre-0154252", "client_id": 4, "input_ids": "What type of submarine was USS Tang (SS-306) classified as?", "label": "Balao-class destroyer"}
+{"sample_id": "zsre-0154519", "client_id": 4, "input_ids": "Who is the Shuttleworth Foundation named after?", "label": "Andrew Shuttleworth"}
+{"sample_id": "zsre-0154975", "client_id": 4, "input_ids": "On what continent can Mason Inlet be found?", "label": "North America"}
+{"sample_id": "zsre-0155164", "client_id": 4, "input_ids": "The continent of Salisbury Bluff is what?", "label": "North America"}
+{"sample_id": "zsre-0155493", "client_id": 4, "input_ids": "What is Chlodomer's spouse's name?", "label": "Danehill"}
+{"sample_id": "zsre-0155941", "client_id": 4, "input_ids": "What species is APOA4 specific to?", "label": "species"}
+{"sample_id": "zsre-0156364", "client_id": 4, "input_ids": "When was Siemens Communications abolished?", "label": "2010"}
+{"sample_id": "zsre-0157734", "client_id": 4, "input_ids": "What company makes Datsun DC-3?", "label": "Datsun Contraves"}
+{"sample_id": "zsre-0157898", "client_id": 4, "input_ids": "Which programming language is MOEA Framework written in?", "label": "C++"}
+{"sample_id": "zsre-0157975", "client_id": 4, "input_ids": "What broadcasting company aired Silicon Spin?", "label": "Turner Classic"}
+{"sample_id": "zsre-0158978", "client_id": 4, "input_ids": "Who is the performer of Sweet '69?", "label": "Lil Wayne"}
+{"sample_id": "zsre-0159062", "client_id": 4, "input_ids": "What vessel type is USS Lawrence (DD-250)?", "label": "Clemson-class submarine"}
+{"sample_id": "zsre-0160016", "client_id": 4, "input_ids": "What city is CBF-FM-8 located?", "label": "Quebec City"}
+{"sample_id": "zsre-0161520", "client_id": 4, "input_ids": "In which year was Deep Sea Supply incepted?", "label": "1991"}
+{"sample_id": "zsre-0161809", "client_id": 4, "input_ids": "Who would be the first to discover 535 Montague?", "label": "George Henry Peters"}
+{"sample_id": "zsre-0162562", "client_id": 4, "input_ids": "What company published Sign Systems Studies?", "label": "University of California Press"}
+{"sample_id": "zsre-0162602", "client_id": 4, "input_ids": "What species is RN5S1@ specific to?", "label": "male"}
+{"sample_id": "zsre-0162603", "client_id": 4, "input_ids": "In what living being can RN5S1@ be found?", "label": "male"}
+{"sample_id": "zsre-0162926", "client_id": 4, "input_ids": "Which is the designer of LSWR G14 class?", "label": "William Adams"}

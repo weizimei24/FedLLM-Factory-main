@@ -1,0 +1,500 @@
+{"sample_id": "zsre-0001208", "client_id": 7, "input_ids": "Who is the architect from Busch Stadium?", "label": "Frank Gehry"}
+{"sample_id": "zsre-0001674", "client_id": 7, "input_ids": "Which director directed the film The Yellow Canary?", "label": "Gianfranco Mingozzi"}
+{"sample_id": "zsre-0001693", "client_id": 7, "input_ids": "What network did Toasted TV appear in?", "label": "Seven Network"}
+{"sample_id": "zsre-0001743", "client_id": 7, "input_ids": "What time was Corn Palace created?", "label": "21 September 1892"}
+{"sample_id": "zsre-0001880", "client_id": 7, "input_ids": "In what year has Iron Dome entered into service?", "label": "2006"}
+{"sample_id": "zsre-0002138", "client_id": 7, "input_ids": "Who's the father of Touch Gold?", "label": "Silver Hawk"}
+{"sample_id": "zsre-0002160", "client_id": 7, "input_ids": "What fictitious universe does the Legion of Super-Pets come from?", "label": "DC Comics"}
+{"sample_id": "zsre-0002231", "client_id": 7, "input_ids": "What is the name of the person who discovered Solar Pons?", "label": "August Derleth-Blohm"}
+{"sample_id": "zsre-0002420", "client_id": 7, "input_ids": "In what original network is The Loner on the move?", "label": "Channel 4"}
+{"sample_id": "zsre-0002548", "client_id": 7, "input_ids": "Who is Alysheba's mother?", "label": "Alydar"}
+{"sample_id": "zsre-0002719", "client_id": 7, "input_ids": "What is the city of origin of The Lightning Seeds?", "label": "Brighton"}
+{"sample_id": "zsre-0003177", "client_id": 7, "input_ids": "What is the name of the state where Lilpur is?", "label": "Uttarakhand"}
+{"sample_id": "zsre-0003330", "client_id": 7, "input_ids": "In which year will the first version of Diabetes UK appear?", "label": "1941"}
+{"sample_id": "zsre-0003501", "client_id": 7, "input_ids": "What is the name of the performer who released the album Psychotic Sculpture?", "label": "Leningrad"}
+{"sample_id": "zsre-0004511", "client_id": 7, "input_ids": "The designer of the Monument to the Unknown Hero?", "label": "Igor Stechkin"}
+{"sample_id": "zsre-0004939", "client_id": 7, "input_ids": "Which city is home to the band The Dodos?", "label": "San Diego"}
+{"sample_id": "zsre-0005018", "client_id": 7, "input_ids": "What moon or planet can Montes Pyrenaeus be found on?", "label": "Mercury"}
+{"sample_id": "zsre-0005197", "client_id": 7, "input_ids": "What network is part of Tim Gunn's Guide to Style?", "label": "Travel Channel"}
+{"sample_id": "zsre-0005399", "client_id": 7, "input_ids": "How is an ecological status of Tibetan sand foxes?", "label": "endangered species"}
+{"sample_id": "zsre-0006296", "client_id": 7, "input_ids": "How high is the endangered status of Abronia deppii?", "label": "endangered endangered"}
+{"sample_id": "zsre-0006680", "client_id": 7, "input_ids": "What is the Regio-Tour named for?", "label": "Regio Nacional"}
+{"sample_id": "zsre-0007703", "client_id": 7, "input_ids": "What is the name of I Wanna Dance's label?", "label": "Atlantic Records"}
+{"sample_id": "zsre-0007757", "client_id": 7, "input_ids": "The editor who published Mayo Clinic Proceedings, what?", "label": "American Medical Association"}
+{"sample_id": "zsre-0008448", "client_id": 7, "input_ids": "Who was the film director that directed Goodbye Uncle Tom?", "label": "Gian Vittorio Baldi"}
+{"sample_id": "zsre-0009082", "client_id": 7, "input_ids": "Who's that San Francisco name for?", "label": "Saint Francisco"}
+{"sample_id": "zsre-0009162", "client_id": 7, "input_ids": "Which fictitious universe does Clayface belong to?", "label": "Marvel Universe"}
+{"sample_id": "zsre-0009358", "client_id": 7, "input_ids": "Where came Remo Buess from?", "label": "Switzerland"}
+{"sample_id": "zsre-0009470", "client_id": 7, "input_ids": "What architect designed Heron Tower?", "label": "Welton Becket"}
+{"sample_id": "zsre-0009666", "client_id": 7, "input_ids": "From which country does the Flowering Nettle come?", "label": "Switzerland"}
+{"sample_id": "zsre-0009710", "client_id": 7, "input_ids": "What level is Coptodon discolor's ucn conservation status?", "label": "critically endangered"}
+{"sample_id": "zsre-0009901", "client_id": 7, "input_ids": "What kind of a family is Uvularia?", "label": "Cerambycidae"}
+{"sample_id": "zsre-0010078", "client_id": 7, "input_ids": "From what country was Pan Head?", "label": "Sweden"}
+{"sample_id": "zsre-0010209", "client_id": 7, "input_ids": "Which family is Iridictyon's?", "label": "Crambidae"}
+{"sample_id": "zsre-0010426", "client_id": 7, "input_ids": "What year was the Illinois State Museum established?", "label": "1949"}
+{"sample_id": "zsre-0010547", "client_id": 7, "input_ids": "Which league is Baltimore Monumentals participating in?", "label": "Negro league baseball"}
+{"sample_id": "zsre-0010834", "client_id": 7, "input_ids": "Where are Five Cities located?", "label": "Pittsburgh"}
+{"sample_id": "zsre-0010999", "client_id": 7, "input_ids": "What is the constellation manufactured with DM Geminorum?", "label": "Ganymede"}
+{"sample_id": "zsre-0011051", "client_id": 7, "input_ids": "What is the name of the state in which Mount Sir Allan MacNab is located?", "label": "Queensland"}
+{"sample_id": "zsre-0012083", "client_id": 7, "input_ids": "What continent was Radio Hill found on?", "label": "Antar"}
+{"sample_id": "zsre-0012261", "client_id": 7, "input_ids": "What is the status of Mexican cottontail?", "label": "endangered species"}
+{"sample_id": "zsre-0012517", "client_id": 7, "input_ids": "By whom was The Sacrifice directed or edited?", "label": "Andrei Gursky"}
+{"sample_id": "zsre-0012679", "client_id": 7, "input_ids": "Which continent do you find on Schneider Glacier?", "label": "South America"}
+{"sample_id": "zsre-0013189", "client_id": 7, "input_ids": "What network aired Theme in Seven?", "label": "NBC"}
+{"sample_id": "zsre-0013326", "client_id": 7, "input_ids": "What continent is the Diamantina River on?", "label": "South Africa"}
+{"sample_id": "zsre-0013392", "client_id": 7, "input_ids": "Which river is the Kendall River, a tributary?", "label": "Coppermine Gulf"}
+{"sample_id": "zsre-0013717", "client_id": 7, "input_ids": "On which continent is Géologie Archipelago found?", "label": "Africa"}
+{"sample_id": "zsre-0014292", "client_id": 7, "input_ids": "Which manufacturing company was involved in Lost in Beijing?", "label": "Herzog & de Meuron"}
+{"sample_id": "zsre-0014307", "client_id": 7, "input_ids": "Team Tucson Padres is a member of what sport league?", "label": "Pacific Coast Baseball League"}
+{"sample_id": "zsre-0014371", "client_id": 7, "input_ids": "What programming language was used for writing Crystal Space?", "label": "PHP"}
+{"sample_id": "zsre-0014399", "client_id": 7, "input_ids": "What city is the band Black Lips?", "label": "Miami"}
+{"sample_id": "zsre-0015096", "client_id": 7, "input_ids": "Was Georgia Fudge feminine or male?", "label": "male"}
+{"sample_id": "zsre-0015197", "client_id": 7, "input_ids": "Who's in High Art as a cast member?", "label": "Dana Andrews"}
+{"sample_id": "zsre-0015278", "client_id": 7, "input_ids": "With which industry is Terra Natura associated?", "label": "aerospace industry"}
+{"sample_id": "zsre-0015778", "client_id": 7, "input_ids": "What is Chester River inflow?", "label": "Cheyenne River"}
+{"sample_id": "zsre-0015926", "client_id": 7, "input_ids": "Which studio has Time Soldiers released?", "label": "Yash Raj Films"}
+{"sample_id": "zsre-0015964", "client_id": 7, "input_ids": "What is Sugarplum Fairy's original city?", "label": "Borgo"}
+{"sample_id": "zsre-0017104", "client_id": 7, "input_ids": "What's the name of the father of Easter Stockings?", "label": "Charles Stockings, 2nd Earl of Derby"}
+{"sample_id": "zsre-0017286", "client_id": 7, "input_ids": "Who's the Director of the Sinister Journey?", "label": "B Reeves Eason"}
+{"sample_id": "zsre-0017969", "client_id": 7, "input_ids": "Which was the record label for Tissues and Issues?", "label": "Universal Records"}
+{"sample_id": "zsre-0018464", "client_id": 7, "input_ids": "What is the water close to the Cariboo River?", "label": "Prince George River"}
+{"sample_id": "zsre-0019241", "client_id": 7, "input_ids": "Which architect was responsible for Courthouse of Arezzo?", "label": "Manoel de Oliveira"}
+{"sample_id": "zsre-0019355", "client_id": 7, "input_ids": "What state does Mingaladon Township have?", "label": "Tasman Region"}
+{"sample_id": "zsre-0019488", "client_id": 7, "input_ids": "Who was responsible for The Wild Bunch?", "label": "Louise Lester"}
+{"sample_id": "zsre-0019769", "client_id": 7, "input_ids": "Which performer released Think with Your Heart as an album?", "label": "Barry Humphries"}
+{"sample_id": "zsre-0020207", "client_id": 7, "input_ids": "The director of Shimkent hôtel, who is that?", "label": "François Davy"}
+{"sample_id": "zsre-0020912", "client_id": 7, "input_ids": "What's the publisher of Digimon Battle Spirit?", "label": "Capcom"}
+{"sample_id": "zsre-0021159", "client_id": 7, "input_ids": "What is the date on which the Battle of Mortemer took place?", "label": "1060"}
+{"sample_id": "zsre-0021428", "client_id": 7, "input_ids": "Who was responsible for designing the Windsor Castle?", "label": "Hugh April"}
+{"sample_id": "zsre-0022992", "client_id": 7, "input_ids": "What country released Suddenly at Midnight?", "label": "United Kingdom"}
+{"sample_id": "zsre-0023048", "client_id": 7, "input_ids": "What continent does McKay Valley contain?", "label": "South America"}
+{"sample_id": "zsre-0023179", "client_id": 7, "input_ids": "The New Americans was the distributor who?", "label": "Kalypso Media"}
+{"sample_id": "zsre-0023291", "client_id": 7, "input_ids": "Which is the basis for Decameron Nights?", "label": "Scrubs"}
+{"sample_id": "zsre-0023626", "client_id": 7, "input_ids": "What was the name Come on a Cone's Performer?", "label": "The B-52's"}
+{"sample_id": "zsre-0023781", "client_id": 7, "input_ids": "The Wiser Sex a 2001 German drama movie directed by?", "label": "Sebastian Krüger"}
+{"sample_id": "zsre-0024304", "client_id": 7, "input_ids": "What's the publisher that published Jigsaw Madness?", "label": "Jigsaw Games"}
+{"sample_id": "zsre-0024474", "client_id": 7, "input_ids": "The film Tragic Love was filmed by whom?", "label": "Sergio Corbucci"}
+{"sample_id": "zsre-0024539", "client_id": 7, "input_ids": "What's Run This Town's record label?", "label": "Motown"}
+{"sample_id": "zsre-0025075", "client_id": 7, "input_ids": "In which state is Collective for Living Cinema situated?", "label": "West Sussex"}
+{"sample_id": "zsre-0025592", "client_id": 7, "input_ids": "Who was responsible for discovering the 271 Penthesilea?", "label": "Otto Struve"}
+{"sample_id": "zsre-0026068", "client_id": 7, "input_ids": "What year will the first version of PolyGram Filmed Entertainment be released?", "label": "1998"}
+{"sample_id": "zsre-0026294", "client_id": 7, "input_ids": "What company has A Caribbean Mystery published?", "label": "Doubleday"}
+{"sample_id": "zsre-0026343", "client_id": 7, "input_ids": "What continent is Cruzen Island?", "label": "South America"}
+{"sample_id": "zsre-0026381", "client_id": 7, "input_ids": "To which artist does the album Love's About to Change My Heart belong?", "label": "Shelley Mills"}
+{"sample_id": "zsre-0026668", "client_id": 7, "input_ids": "Which programming language has been used to write GNOME Shell?", "label": "C++"}
+{"sample_id": "zsre-0026789", "client_id": 7, "input_ids": "The editor who released MySims SkyHeroes, huh?", "label": "Ubisoft"}
+{"sample_id": "zsre-0027023", "client_id": 7, "input_ids": "The The Chump is part of a series?", "label": "Seinfeld"}
+{"sample_id": "zsre-0028160", "client_id": 7, "input_ids": "Which year was the founding of the Conspiracy Con?", "label": "2005"}
+{"sample_id": "zsre-0028302", "client_id": 7, "input_ids": "In which team is Blake Acres a member?", "label": "North Melbourne Football Club"}
+{"sample_id": "zsre-0028669", "client_id": 7, "input_ids": "What is the original city of Christians & Lions?", "label": "Jamaica"}
+{"sample_id": "zsre-0028712", "client_id": 7, "input_ids": "What business published Anachrophobia?", "label": "Jonathan Cape"}
+{"sample_id": "zsre-0029209", "client_id": 7, "input_ids": "When was the opening of Svalbard Global Seed Vault?", "label": "26 March 2008"}
+{"sample_id": "zsre-0030323", "client_id": 7, "input_ids": "The genus Rheumapterini is part of what family?", "label": "Rheumapterini"}
+{"sample_id": "zsre-0030383", "client_id": 7, "input_ids": "Which series is Corner of the Eye?", "label": "Babylon 5"}
+{"sample_id": "zsre-0030484", "client_id": 7, "input_ids": "Which one was the architect of Hôtel van Eetvelde?", "label": "François Mansart"}
+{"sample_id": "zsre-0030603", "client_id": 7, "input_ids": "What fictitious universe is the character Tar-Aldarion associated with?", "label": "Masters of the Universe"}
+{"sample_id": "zsre-0030789", "client_id": 7, "input_ids": "Which river is Arlington Memorial Bridge crossing?", "label": "Allegheny River"}
+{"sample_id": "zsre-0031594", "client_id": 7, "input_ids": "What was Viriclanis' family?", "label": "Geometridae"}
+{"sample_id": "zsre-0031751", "client_id": 7, "input_ids": "What year did Hohenlohe end?", "label": "1804"}
+{"sample_id": "zsre-0031791", "client_id": 7, "input_ids": "In which series is A Feast for Crows a part?", "label": "Game of Thrones"}
+{"sample_id": "zsre-0031859", "client_id": 7, "input_ids": "What's the date that happened to Bakhrabad massacre?", "label": "21 April 1971"}
+{"sample_id": "zsre-0032380", "client_id": 7, "input_ids": "Who is the Thom space named after?", "label": "Norman Thom"}
+{"sample_id": "zsre-0032493", "client_id": 7, "input_ids": "What fictional universe is Jack Sparrow part of?", "label": "Pirates of Adventure"}
+{"sample_id": "zsre-0032589", "client_id": 7, "input_ids": "Which family belongs to Metaporana?", "label": "Euphorbiaceae"}
+{"sample_id": "zsre-0032661", "client_id": 7, "input_ids": "Who spotted Butterfly Cluster?", "label": "Giovanni Battisti"}
+{"sample_id": "zsre-0032772", "client_id": 7, "input_ids": "Who is the Atwood machine named?", "label": "John Atwood"}
+{"sample_id": "zsre-0032834", "client_id": 7, "input_ids": "Which river is the Malbaie River a tributary of?", "label": "Bylong River"}
+{"sample_id": "zsre-0033889", "client_id": 7, "input_ids": "Who named the Wiman's sextics after?", "label": "Nicolae Wiman"}
+{"sample_id": "zsre-0033989", "client_id": 7, "input_ids": "What do you call the series Identity Within?", "label": "Red Dwarf"}
+{"sample_id": "zsre-0034000", "client_id": 7, "input_ids": "The star Delta Velorum is a part of the constellation named what?", "label": "Vela the Great"}
+{"sample_id": "zsre-0034151", "client_id": 7, "input_ids": "What is the fictional universe that Freedom Beast belongs to?", "label": "DC Comics"}
+{"sample_id": "zsre-0034246", "client_id": 7, "input_ids": "In which year was Dagenham idol found?", "label": "1923"}
+{"sample_id": "zsre-0034382", "client_id": 7, "input_ids": "On which continent is Hurd Peninsula?", "label": "North America"}
+{"sample_id": "zsre-0034398", "client_id": 7, "input_ids": "Who produced or published Herc's Adventures?", "label": "Lucia Pictures"}
+{"sample_id": "zsre-0034441", "client_id": 7, "input_ids": "Which was the label for Water Runs Dry?", "label": "Epic Records"}
+{"sample_id": "zsre-0034693", "client_id": 7, "input_ids": "The astronomical body on which Promethei Terra sits, is what?", "label": "Moon"}
+{"sample_id": "zsre-0035301", "client_id": 7, "input_ids": "What director led the film Invasion 1700?", "label": "Fernando Soler"}
+{"sample_id": "zsre-0035607", "client_id": 7, "input_ids": "When was the Canadian Environmental Law Association created?", "label": "1951"}
+{"sample_id": "zsre-0035621", "client_id": 7, "input_ids": "Who was The Limey directing or editing?", "label": "Sarah Polley"}
+{"sample_id": "zsre-0035834", "client_id": 7, "input_ids": "Which constellation does M Centauri own?", "label": "Andromeda"}
+{"sample_id": "zsre-0035838", "client_id": 7, "input_ids": "The Indianapolis Braves team belongs to which sport league?", "label": "National Soccer League"}
+{"sample_id": "zsre-0036105", "client_id": 7, "input_ids": "Who are Nadunisi Naaygal's cast members?", "label": "Sivaji Ganesan"}
+{"sample_id": "zsre-0036158", "client_id": 7, "input_ids": "In which year was Oxfam Canada founded?", "label": "1951"}
+{"sample_id": "zsre-0036196", "client_id": 7, "input_ids": "What is the product of Galore Creek mine?", "label": "uranium"}
+{"sample_id": "zsre-0037225", "client_id": 7, "input_ids": "What state is on Mount Yengo?", "label": "Quebec"}
+{"sample_id": "zsre-0037712", "client_id": 7, "input_ids": "The genus Eurymerus belongs to which family?", "label": "Eurymeridae"}
+{"sample_id": "zsre-0038007", "client_id": 7, "input_ids": "Where does Bylong River flow into?", "label": "Chesapeake Bay"}
+{"sample_id": "zsre-0038479", "client_id": 7, "input_ids": "Which production company takes part in Storm Rider Clash of the Evils?", "label": "Shanghai Media Studio"}
+{"sample_id": "zsre-0038800", "client_id": 7, "input_ids": "What musical instrument was Great Fantasia and Fugue in G minor, BWV 542 created for?", "label": "harpsichord"}
+{"sample_id": "zsre-0038912", "client_id": 7, "input_ids": "The production company for That's Dancing! What was it?", "label": "Metro-Goldwyn-ayer"}
+{"sample_id": "zsre-0038939", "client_id": 7, "input_ids": "Who was the head of Memories in March?", "label": "Manoj Kumar"}
+{"sample_id": "zsre-0039285", "client_id": 7, "input_ids": "In which language does Réalités report monthly football magazines?", "label": "Louisian"}
+{"sample_id": "zsre-0039380", "client_id": 7, "input_ids": "Who made Place Ville Marie?", "label": "Henry N Bradbury"}
+{"sample_id": "zsre-0039767", "client_id": 7, "input_ids": "Which person was the architect of Society Hill Towers?", "label": "Istvan Pely"}
+{"sample_id": "zsre-0039806", "client_id": 7, "input_ids": "In what language is the monthly football magazine A New Morning reported?", "label": "French"}
+{"sample_id": "zsre-0040336", "client_id": 7, "input_ids": "In which year was Tribalistas established?", "label": "2004"}
+{"sample_id": "zsre-0040364", "client_id": 7, "input_ids": "Which place is When We Leave in?", "label": "Norway"}
+{"sample_id": "zsre-0040760", "client_id": 7, "input_ids": "Which manufacturing company is committed to Echo Planet?", "label": "Boeing"}
+{"sample_id": "zsre-0041339", "client_id": 7, "input_ids": "What was that label of Hey Ricky?", "label": "MCA Records"}
+{"sample_id": "zsre-0041456", "client_id": 7, "input_ids": "Which family is Oxylechia part?", "label": "Cerambycidae"}
+{"sample_id": "zsre-0041469", "client_id": 7, "input_ids": "To which performers belongs the album Standard Songs for Average People?", "label": "George Clinton"}
+{"sample_id": "zsre-0041906", "client_id": 7, "input_ids": "Who is the artist from The Kings of Hong Kong?", "label": "The Watchmen"}
+{"sample_id": "zsre-0042125", "client_id": 7, "input_ids": "Who was in the film New Heart?", "label": "Brigitte Bardot"}
+{"sample_id": "zsre-0042136", "client_id": 7, "input_ids": "What digital media have Baghdad ER published?", "label": "HGTV"}
+{"sample_id": "zsre-0042480", "client_id": 7, "input_ids": "What is The Making of a Teacher's publisher?", "label": "St Martin's Magazine"}
+{"sample_id": "zsre-0042749", "client_id": 7, "input_ids": "Which celestial body can you find Acidalia Planitia on?", "label": "Acidalia"}
+{"sample_id": "zsre-0043350", "client_id": 7, "input_ids": "Which artist did Heart Beat, Pig Meat create?", "label": "Eddie Harris"}
+{"sample_id": "zsre-0043933", "client_id": 7, "input_ids": "What year was Broad & Bright's founding year?", "label": "1999"}
+{"sample_id": "zsre-0043970", "client_id": 7, "input_ids": "Who was the architect of Banff National Park Pavilion?", "label": "Francis Conroy Sullivan"}
+{"sample_id": "zsre-0044154", "client_id": 7, "input_ids": "On which continent are Lajarte Islands?", "label": "Antctica"}
+{"sample_id": "zsre-0044304", "client_id": 7, "input_ids": "What's the name of the constellation where Medusa Nebula belongs?", "label": "Medus"}
+{"sample_id": "zsre-0044694", "client_id": 7, "input_ids": "What's the surface of Horse Tamers made of?", "label": "canvas"}
+{"sample_id": "zsre-0044903", "client_id": 7, "input_ids": "In Phantom Stallion, who was the star?", "label": "Robert Mitchum"}
+{"sample_id": "zsre-0045406", "client_id": 7, "input_ids": "Who was the distributor of the Saps at Sea?", "label": "United Aircraft and Transport Corporation"}
+{"sample_id": "zsre-0045921", "client_id": 7, "input_ids": "In what series was Death to the Daleks in?", "label": "The Daleks"}
+{"sample_id": "zsre-0046365", "client_id": 7, "input_ids": "What person illustrated Worse Things Waiting?", "label": "Leece Wright"}
+{"sample_id": "zsre-0047319", "client_id": 7, "input_ids": "The show Little Big Star originally aired on what network?", "label": "A&E"}
+{"sample_id": "zsre-0047554", "client_id": 7, "input_ids": "The film Vanilla and Chocolate by whom?", "label": "Citroën"}
+{"sample_id": "zsre-0047562", "client_id": 7, "input_ids": "The date of 1975 Lice earthquake was what?", "label": "6 March 1975"}
+{"sample_id": "zsre-0047710", "client_id": 7, "input_ids": "What product does Dannemora mine produce?", "label": "gold"}
+{"sample_id": "zsre-0047748", "client_id": 7, "input_ids": "What is the chromosome of Tissue plasminogen activator?", "label": "chromosomeissue"}
+{"sample_id": "zsre-0048232", "client_id": 7, "input_ids": "In what fictitious universe does the Alliance of Evil appear?", "label": "Dune universe"}
+{"sample_id": "zsre-0048730", "client_id": 7, "input_ids": "What river is part of the Tomaga River?", "label": "Oka River"}
+{"sample_id": "zsre-0049257", "client_id": 7, "input_ids": "Which digital media publicised The Sawdust Ring?", "label": "Paramount Pictures"}
+{"sample_id": "zsre-0049631", "client_id": 7, "input_ids": "The date of the 2nd Cinemalaya Independent Film Festival was what?", "label": "2013"}
+{"sample_id": "zsre-0050584", "client_id": 7, "input_ids": "The designer of the Monseigneur Schrijnen Retreat House?", "label": "Fritz Gosslau"}
+{"sample_id": "zsre-0050655", "client_id": 7, "input_ids": "Who was the architect at Weedpatch Camp?", "label": "Works Progress Committee"}
+{"sample_id": "zsre-0051089", "client_id": 7, "input_ids": "From which city is the band The Cape Race?", "label": "Cape Town"}
+{"sample_id": "zsre-0051196", "client_id": 7, "input_ids": "What city is the band Papa Roach?", "label": "New Mexico"}
+{"sample_id": "zsre-0052137", "client_id": 7, "input_ids": "Which production company participated in Shakespeare Wallah?", "label": "Shaw Brothers Studio"}
+{"sample_id": "zsre-0052179", "client_id": 7, "input_ids": "What city was Black Sabbath founded in?", "label": "Blackpool"}
+{"sample_id": "zsre-0052331", "client_id": 7, "input_ids": "What's the name of the director of the Rose of the Rancho?", "label": "Ricardo Bofill"}
+{"sample_id": "zsre-0052682", "client_id": 7, "input_ids": "Where is Icaria Planum found?", "label": "Io"}
+{"sample_id": "zsre-0053165", "client_id": 7, "input_ids": "What was the family of Pignus?", "label": "Dermateaceae"}
+{"sample_id": "zsre-0053448", "client_id": 7, "input_ids": "What's the name of the place where Triptych of the Annunciation can be found?", "label": "Uffizi"}
+{"sample_id": "zsre-0054187", "client_id": 7, "input_ids": "Which is the last year of American Stores?", "label": "1991"}
+{"sample_id": "zsre-0054522", "client_id": 7, "input_ids": "What is the name of Geology Today's editor?", "label": "John Wiley & Sons"}
+{"sample_id": "zsre-0054570", "client_id": 7, "input_ids": "What is the name of the state in which Grotteria is located?", "label": "Province of Piacenza"}
+{"sample_id": "zsre-0054687", "client_id": 7, "input_ids": "What is the level of Nauru reed warbler's conservation status?", "label": "least concern"}
+{"sample_id": "zsre-0055018", "client_id": 7, "input_ids": "What river cross the Lions Gate Bridge?", "label": "Burlington Creek"}
+{"sample_id": "zsre-0055468", "client_id": 7, "input_ids": "Which kind of family is Pseudogalleria?", "label": "Tortricidae"}
+{"sample_id": "zsre-0055963", "client_id": 7, "input_ids": "The song or album Cathedral Oceans is from which artist?", "label": "Graveworm"}
+{"sample_id": "zsre-0056093", "client_id": 7, "input_ids": "Pop Class distributor who was?", "label": "Universal Pictures"}
+{"sample_id": "zsre-0057314", "client_id": 7, "input_ids": "What business published Curtains for Three?", "label": "Doubleday"}
+{"sample_id": "zsre-0057478", "client_id": 7, "input_ids": "Who led or edited Executive Decision?", "label": "Stuart Rosenberg"}
+{"sample_id": "zsre-0057996", "client_id": 7, "input_ids": "In which city was Dislocation Dance founded?", "label": "Athens"}
+{"sample_id": "zsre-0058037", "client_id": 7, "input_ids": "Who's the performer from Through the Wire?", "label": "The Wire"}
+{"sample_id": "zsre-0058070", "client_id": 7, "input_ids": "What kind of profession does Zigmantas Balčytis have?", "label": "actor"}
+{"sample_id": "zsre-0058170", "client_id": 7, "input_ids": "What's the name of the company that sold out Train Ride?", "label": "Sony Entertainment Television"}
+{"sample_id": "zsre-0058772", "client_id": 7, "input_ids": "Which was the record label from Let Me Explain Something to You About Art?", "label": "Shimmy Disc"}
+{"sample_id": "zsre-0059085", "client_id": 7, "input_ids": "Who's the maker of QRpedia?", "label": "Raph Koster"}
+{"sample_id": "zsre-0059435", "client_id": 7, "input_ids": "Talk of a Million a 2001 german drama movie director?", "label": "George Archainbaud"}
+{"sample_id": "zsre-0059539", "client_id": 7, "input_ids": "How is the operating system used in MuseScore?", "label": "Android"}
+{"sample_id": "zsre-0059884", "client_id": 7, "input_ids": "The film \"The Lunatic at Large\" was shot by whom?", "label": "William A Seiter"}
+{"sample_id": "zsre-0060319", "client_id": 7, "input_ids": "What league have Ottawa Rough Riders met with?", "label": "Canadian Football Association"}
+{"sample_id": "zsre-0060558", "client_id": 7, "input_ids": "Which country did Tricky Brains come from?", "label": "New Zealand"}
+{"sample_id": "zsre-0060965", "client_id": 7, "input_ids": "How was the founding year of the Scottish Council for Development and Industry?", "label": "1928"}
+{"sample_id": "zsre-0062145", "client_id": 7, "input_ids": "What was the production company for The Proud and Profane?", "label": "Ealing Studios"}
+{"sample_id": "zsre-0062298", "client_id": 7, "input_ids": "The Bored of the Rings is based upon what?", "label": "The Hobbit: The Desolation of Smaug"}
+{"sample_id": "zsre-0062353", "client_id": 7, "input_ids": "Which was the country for Children of the Dog Star?", "label": "Hong Kong"}
+{"sample_id": "zsre-0062843", "client_id": 7, "input_ids": "Which river is crossing Robert Street Bridge?", "label": "Saint John River"}
+{"sample_id": "zsre-0062910", "client_id": 7, "input_ids": "Which company got Trailer Town fired from?", "label": "Budd Company"}
+{"sample_id": "zsre-0063389", "client_id": 7, "input_ids": "The genus Gelechiinae is part of the family?", "label": "Carabidae"}
+{"sample_id": "zsre-0063396", "client_id": 7, "input_ids": "Who is the artist of the Tomorrow's Harvest?", "label": "Shelley Wilson"}
+{"sample_id": "zsre-0063463", "client_id": 7, "input_ids": "In which year Sayyid dynasty ceased to exist?", "label": "1481"}
+{"sample_id": "zsre-0063629", "client_id": 7, "input_ids": "In Golden Venus, who was the star?", "label": "Jean-Luc Godard"}
+{"sample_id": "zsre-0063882", "client_id": 7, "input_ids": "Who is Thrill of a Lifetime?", "label": "Kurt Wiese"}
+{"sample_id": "zsre-0064263", "client_id": 7, "input_ids": "On which continent is Molar Peak?", "label": "North America"}
+{"sample_id": "zsre-0064477", "client_id": 7, "input_ids": "What is the endangered status of Huon astrapia?", "label": "Astrapia"}
+{"sample_id": "zsre-0064519", "client_id": 7, "input_ids": "In which family belongs Arrhenoseius?", "label": "Noctuidae"}
+{"sample_id": "zsre-0065165", "client_id": 7, "input_ids": "What place did Octave Maus die?", "label": "Brusque"}
+{"sample_id": "zsre-0065241", "client_id": 7, "input_ids": "What is the full date for the discovery of Promethium?", "label": "1957"}
+{"sample_id": "zsre-0065338", "client_id": 7, "input_ids": "What's the surface of Fisher's Lane Bridge?", "label": "sandstone"}
+{"sample_id": "zsre-0065358", "client_id": 7, "input_ids": "In which series is The Paragon of Animals part of this?", "label": "Doctor Who"}
+{"sample_id": "zsre-0065522", "client_id": 7, "input_ids": "The country for Midsomer Murders, huh?", "label": "New Zealand"}
+{"sample_id": "zsre-0065768", "client_id": 7, "input_ids": "Who made the Chicago Opera House?", "label": "Cobb, Frost and White"}
+{"sample_id": "zsre-0066424", "client_id": 7, "input_ids": "On which day did the Battle of Neuve Chapelle end?", "label": "22 August 1793"}
+{"sample_id": "zsre-0067995", "client_id": 7, "input_ids": "The genus Anatrachyntis belongs to this family.", "label": "Gelechiidae"}
+{"sample_id": "zsre-0068075", "client_id": 7, "input_ids": "What is the name of the illustrator of The Strange Awakening of Lazy Smurfs?", "label": "Howard Wandrei"}
+{"sample_id": "zsre-0068249", "client_id": 7, "input_ids": "From what river is Guadalete a tributary?", "label": "Bay of Béarn"}
+{"sample_id": "zsre-0068590", "client_id": 7, "input_ids": "Who was the star from Motel Blue?", "label": "William Holden"}
+{"sample_id": "zsre-0068631", "client_id": 7, "input_ids": "What's the name of this stadium where Antalyaspor plays home games?", "label": "Akdeniz University Center"}
+{"sample_id": "zsre-0068634", "client_id": 7, "input_ids": "Which stadium does Antalyaspor Home Games play?", "label": "Akdeniz University Center"}
+{"sample_id": "zsre-0068782", "client_id": 7, "input_ids": "How endangered does the Iucn Shorea dasyphylla think it is?", "label": "least concern"}
+{"sample_id": "zsre-0069051", "client_id": 7, "input_ids": "Which river is the tributary of the Marias River?", "label": "Missouri Bay"}
+{"sample_id": "zsre-0069313", "client_id": 7, "input_ids": "What society is the parent company of Queensland Parks and Wildlife Service?", "label": "Department of Environment and Rural Development"}
+{"sample_id": "zsre-0069621", "client_id": 7, "input_ids": "On which continent is the Greenwood Valley located?", "label": "South America"}
+{"sample_id": "zsre-0070529", "client_id": 7, "input_ids": "On which moon or planet can one find Irnini Mons?", "label": "Io"}
+{"sample_id": "zsre-0070737", "client_id": 7, "input_ids": "Who was responsible for directing Before the Jury?", "label": "Manoel de Oliveira"}
+{"sample_id": "zsre-0070778", "client_id": 7, "input_ids": "What's the publisher of Dizzy Down the Rapids?", "label": "Electronic Arts"}
+{"sample_id": "zsre-0071448", "client_id": 7, "input_ids": "The work of art The Tomorrow People by who?", "label": "David Mainse"}
+{"sample_id": "zsre-0071585", "client_id": 7, "input_ids": "Which record label for Blue Interlude?", "label": "Columbia Pictures"}
+{"sample_id": "zsre-0072237", "client_id": 7, "input_ids": "Which network has Run of the House broadcast?", "label": "ABC Family"}
+{"sample_id": "zsre-0072811", "client_id": 7, "input_ids": "What was the original network of Nilus the Sandman?", "label": "BBC Two"}
+{"sample_id": "zsre-0072995", "client_id": 7, "input_ids": "On which continent is the Monge Island located?", "label": "Europe"}
+{"sample_id": "zsre-0073160", "client_id": 7, "input_ids": "What is the name of the artist or group that originally performed Group Portrait?", "label": "The Moody Blues"}
+{"sample_id": "zsre-0073955", "client_id": 7, "input_ids": "Which planet does Euripus Mons have?", "label": "Moon"}
+{"sample_id": "zsre-0075205", "client_id": 7, "input_ids": "What type of employment does Demetri Porphyrios have?", "label": "painter"}
+{"sample_id": "zsre-0075323", "client_id": 7, "input_ids": "In which year did Luxor Temple come into being?", "label": "1917"}
+{"sample_id": "zsre-0075554", "client_id": 7, "input_ids": "What State is the Eighteenth District School?", "label": "Pennsylvania"}
+{"sample_id": "zsre-0075915", "client_id": 7, "input_ids": "What network is Family Trade active in?", "label": "Nine Network"}
+{"sample_id": "zsre-0076126", "client_id": 7, "input_ids": "What's the name of Leonardo's robot explorer?", "label": "Leonardo De Filippo"}
+{"sample_id": "zsre-0076182", "client_id": 7, "input_ids": "What's the license for Alien Carnage?", "label": "GNU Emacs"}
+{"sample_id": "zsre-0076378", "client_id": 7, "input_ids": "What is the iucn conservation status of Coptodon bemini?", "label": "endangered species"}
+{"sample_id": "zsre-0076584", "client_id": 7, "input_ids": "Which League was Little Common F.C.?", "label": "Sussex County Football Championship"}
+{"sample_id": "zsre-0076882", "client_id": 7, "input_ids": "What level is Lycodon solivagus' iucn conservation state?", "label": "Dataangered species"}
+{"sample_id": "zsre-0077260", "client_id": 7, "input_ids": "What date is associated with the 29th Venice International Film Festival?", "label": "1970"}
+{"sample_id": "zsre-0077417", "client_id": 7, "input_ids": "In what continent is Mount Coman?", "label": "South America"}
+{"sample_id": "zsre-0077843", "client_id": 7, "input_ids": "Which network is broadcasting Freaky Stories?", "label": "Animal Planet"}
+{"sample_id": "zsre-0077962", "client_id": 7, "input_ids": "What is the astronomical body on which Mons Argaeus says?", "label": "Mercury"}
+{"sample_id": "zsre-0078253", "client_id": 7, "input_ids": "Which company is the parent of Deram Records?", "label": "Deram Music Group"}
+{"sample_id": "zsre-0078566", "client_id": 7, "input_ids": "Which country has Four Seasons Wines been born?", "label": "Netherlands"}
+{"sample_id": "zsre-0078662", "client_id": 7, "input_ids": "Galaxius Mons astronomical body is what?", "label": "Moon"}
+{"sample_id": "zsre-0078852", "client_id": 7, "input_ids": "On which continent is the Manhaul Glacier?", "label": "Antar"}
+{"sample_id": "zsre-0078947", "client_id": 7, "input_ids": "What river turns into the Humffray River?", "label": "Wenatchee River"}
+{"sample_id": "zsre-0079434", "client_id": 7, "input_ids": "What's Godfred Donsah's role?", "label": "defender"}
+{"sample_id": "zsre-0079753", "client_id": 7, "input_ids": "Where does Sachs Patera find himself?", "label": "Io"}
+{"sample_id": "zsre-0079985", "client_id": 7, "input_ids": "What is the network available on Red River Jamboree?", "label": "National Geographic Channel"}
+{"sample_id": "zsre-0080241", "client_id": 7, "input_ids": "Where did the Theatre Canada Network air?", "label": "CBCTV"}
+{"sample_id": "zsre-0080245", "client_id": 7, "input_ids": "What industry is connected to Canal i?", "label": "shipbuilding"}
+{"sample_id": "zsre-0080699", "client_id": 7, "input_ids": "What show does Crook and Ladder appear in?", "label": "Ugly Betty"}
+{"sample_id": "zsre-0080736", "client_id": 7, "input_ids": "What was the Nanolestes family?", "label": "Noctuidae"}
+{"sample_id": "zsre-0081145", "client_id": 7, "input_ids": "In which family is Tuxenentulus part?", "label": "Dolichopodidae"}
+{"sample_id": "zsre-0081832", "client_id": 7, "input_ids": "What country did The Adventures of Black Beauty originate?", "label": "Australia"}
+{"sample_id": "zsre-0082498", "client_id": 7, "input_ids": "What was the nationality of Jyoti Subhash?", "label": "Urdu"}
+{"sample_id": "zsre-0082609", "client_id": 7, "input_ids": "The Philadelphia Fury played home games in what?", "label": "Veterans Park"}
+{"sample_id": "zsre-0082872", "client_id": 7, "input_ids": "Which production company or companies have Tears of the Sun established?", "label": "Television Broadcasts Limited"}
+{"sample_id": "zsre-0083041", "client_id": 7, "input_ids": "What is the name of the illustrator in the book The Cats of Copenhagen?", "label": "Casey G Hall"}
+{"sample_id": "zsre-0083133", "client_id": 7, "input_ids": "What family is Adenostemma?", "label": "Noctuidae"}
+{"sample_id": "zsre-0083140", "client_id": 7, "input_ids": "In which condition is Lenoir Cotton Mill located?", "label": "Missouri"}
+{"sample_id": "zsre-0083929", "client_id": 7, "input_ids": "How at risk is the status of Coptodon snyderae?", "label": "least concern"}
+{"sample_id": "zsre-0084088", "client_id": 7, "input_ids": "When was the Plattling station created/built?", "label": "20 June 1860"}
+{"sample_id": "zsre-0084391", "client_id": 7, "input_ids": "What is the Ceyhan River tributary?", "label": "Ob"}
+{"sample_id": "zsre-0085026", "client_id": 7, "input_ids": "What's the editor that published Deadlight?", "label": "Electronic Arts"}
+{"sample_id": "zsre-0085163", "client_id": 7, "input_ids": "What's the publisher who published the Crooked House?", "label": "Collins Crime Club"}
+{"sample_id": "zsre-0086303", "client_id": 7, "input_ids": "Who published The Good Master?", "label": "HarperCollins"}
+{"sample_id": "zsre-0087304", "client_id": 7, "input_ids": "What was the record label of Sung Tongs like?", "label": "MCA Records"}
+{"sample_id": "zsre-0088460", "client_id": 7, "input_ids": "What is the Demerara River inflow of?", "label": "Guyandotte River"}
+{"sample_id": "zsre-0088910", "client_id": 7, "input_ids": "Which person was the Graduates Memorial Building designed by?", "label": "Sir John Drew"}
+{"sample_id": "zsre-0088918", "client_id": 7, "input_ids": "In which fictional work do you find a character named Arizona Robbins?", "label": "Private Practice"}
+{"sample_id": "zsre-0089225", "client_id": 7, "input_ids": "What is the continent of Belchin Rock?", "label": "North America"}
+{"sample_id": "zsre-0089498", "client_id": 7, "input_ids": "To which river does the Yarrow River connect?", "label": "Yarrow River"}
+{"sample_id": "zsre-0089983", "client_id": 7, "input_ids": "Who is the artist from Age of Feminine?", "label": "Ruthless"}
+{"sample_id": "zsre-0090091", "client_id": 7, "input_ids": "Which is the water of the Principality of Sealand?", "label": "North Atlantic"}
+{"sample_id": "zsre-0090625", "client_id": 7, "input_ids": "What year did Meadow Fresh end?", "label": "3 February 2008"}
+{"sample_id": "zsre-0090834", "client_id": 7, "input_ids": "Which artist has published the album Palepoli?", "label": "The Trews"}
+{"sample_id": "zsre-0091245", "client_id": 7, "input_ids": "Which family belong to Pentarthrum?", "label": "Pentarthrellidae"}
+{"sample_id": "zsre-0091575", "client_id": 7, "input_ids": "In what year was Paveway IV introduced?", "label": "2010"}
+{"sample_id": "zsre-0091747", "client_id": 7, "input_ids": "Which family belongs to Asterolibertia?", "label": "Geometridae"}
+{"sample_id": "zsre-0092513", "client_id": 7, "input_ids": "In which year was Whittemore Gang dissolved?", "label": "1917"}
+{"sample_id": "zsre-0092538", "client_id": 7, "input_ids": "For which league did Denver Avalanche play in the upper league?", "label": "National Hockey League"}
+{"sample_id": "zsre-0092586", "client_id": 7, "input_ids": "Which Moon or Planet can Odin Planitia be found on?", "label": "Mars"}
+{"sample_id": "zsre-0092872", "client_id": 7, "input_ids": "What family is Pomaulax of?", "label": "Pomaulaxidae"}
+{"sample_id": "zsre-0093620", "client_id": 7, "input_ids": "What fictitious universe does Ghanima Atreides belong to?", "label": "Dunectica"}
+{"sample_id": "zsre-0093988", "client_id": 7, "input_ids": "What's Brushite named for?", "label": "John Jarvis Brush"}
+{"sample_id": "zsre-0094373", "client_id": 7, "input_ids": "Who was the star of the movie Fun in the Barracks?", "label": "José Bohr"}
+{"sample_id": "zsre-0094395", "client_id": 7, "input_ids": "Which city is the band The Wedding Present?", "label": "Presentation"}
+{"sample_id": "zsre-0094473", "client_id": 7, "input_ids": "Who's Little Brown Bushrat's draughtsman?", "label": "Georgie Little Brown"}
+{"sample_id": "zsre-0094490", "client_id": 7, "input_ids": "With which water body is Swanscombe located?", "label": "River South Tyne"}
+{"sample_id": "zsre-0094973", "client_id": 7, "input_ids": "Who developed Ashes and Snow?", "label": "Agatha Christie"}
+{"sample_id": "zsre-0095204", "client_id": 7, "input_ids": "What position was held by Eadric Streona?", "label": "Archbishop of York"}
+{"sample_id": "zsre-0095337", "client_id": 7, "input_ids": "Which company has been released by The Valley of Vanishing Men?", "label": "Goldwyn Pictures"}
+{"sample_id": "zsre-0096013", "client_id": 7, "input_ids": "The country for Mantralaya Mahatme what?", "label": "United Kingdom"}
+{"sample_id": "zsre-0096063", "client_id": 7, "input_ids": "Who had the part of a director in A Slumdog Millionaire Goes Dancing?", "label": "Dennis Law"}
+{"sample_id": "zsre-0096611", "client_id": 7, "input_ids": "What series is the episode City at the End of Time part of?", "label": "Time Hunter"}
+{"sample_id": "zsre-0096728", "client_id": 7, "input_ids": "In which series is Aquiel part?", "label": "Star Trek: Enterprise"}
+{"sample_id": "zsre-0097115", "client_id": 7, "input_ids": "The Cape Horn was named after whom?", "label": "Great Horn"}
+{"sample_id": "zsre-0097693", "client_id": 7, "input_ids": "What country came from Apabad?", "label": "Afghanistan"}
+{"sample_id": "zsre-0098494", "client_id": 7, "input_ids": "How is an ecological status of Olympic marmots?", "label": "leukemia"}
+{"sample_id": "zsre-0098597", "client_id": 7, "input_ids": "Which channel broadcasted NET Playhouse?", "label": "Discovery Channel"}
+{"sample_id": "zsre-0098824", "client_id": 7, "input_ids": "In which year was Zero Degree Atoll founded?", "label": "1987"}
+{"sample_id": "zsre-0098967", "client_id": 7, "input_ids": "What person illustrated Song and Dance Man?", "label": "Stephen Jones"}
+{"sample_id": "zsre-0099073", "client_id": 7, "input_ids": "What family is Clausilia?", "label": "Crambidae"}
+{"sample_id": "zsre-0099923", "client_id": 7, "input_ids": "In which war/battle did Lansing Colton Holden fight?", "label": "Vietnam War"}
+{"sample_id": "zsre-0100418", "client_id": 7, "input_ids": "What designer was in charge of Évry Cathedral?", "label": "Mario Gariazzo"}
+{"sample_id": "zsre-0101035", "client_id": 7, "input_ids": "What was the record label Live at Milton Keynes - Bootleg Series Volume 1?", "label": "Xtreem Music"}
+{"sample_id": "zsre-0101723", "client_id": 7, "input_ids": "What crosses Old Trails Bridge?", "label": "Brisbane River"}
+{"sample_id": "zsre-0101734", "client_id": 7, "input_ids": "Which place does The White Family exist in?", "label": "New Zealand"}
+{"sample_id": "zsre-0102058", "client_id": 7, "input_ids": "The publisher that released The Shadow Elves is what?", "label": "BBC Books"}
+{"sample_id": "zsre-0102183", "client_id": 7, "input_ids": "Who aired Naked Science?", "label": "Nature Channel"}
+{"sample_id": "zsre-0102506", "client_id": 7, "input_ids": "What year has the Kingdom of Mapungubwe ceased to exist?", "label": "1883"}
+{"sample_id": "zsre-0102817", "client_id": 7, "input_ids": "What was the name of Rideau Hall's designer?", "label": "James Rideau"}
+{"sample_id": "zsre-0102940", "client_id": 7, "input_ids": "In what language does the New African report monthly football magazine?", "label": "South Africa"}
+{"sample_id": "zsre-0103305", "client_id": 7, "input_ids": "Which artist was responsible for the development of Bailed Up?", "label": "John Lennon"}
+{"sample_id": "zsre-0103414", "client_id": 7, "input_ids": "Of which family is Selenophorus a part?", "label": "Geometridae"}
+{"sample_id": "zsre-0103615", "client_id": 7, "input_ids": "What moon or planet is Mare Crisium on?", "label": "Mars"}
+{"sample_id": "zsre-0103711", "client_id": 7, "input_ids": "Which company published LocoCycle?", "label": "Microsoft Studios"}
+{"sample_id": "zsre-0103802", "client_id": 7, "input_ids": "On what celestial body can Mare Erythraeum be found?", "label": "William Herschel"}
+{"sample_id": "zsre-0103889", "client_id": 7, "input_ids": "The genus Cochylimorpha is part of the family?", "label": "Noctuidae"}
+{"sample_id": "zsre-0104658", "client_id": 7, "input_ids": "Which place does The Onion Field exist in?", "label": "New Jersey"}
+{"sample_id": "zsre-0104714", "client_id": 7, "input_ids": "The movie \"Thenum Paalum\" was directed by who?", "label": "K Balachander"}
+{"sample_id": "zsre-0105682", "client_id": 7, "input_ids": "What is Ambrosi's cave salamander's status on the vulnerable list?", "label": "least concern"}
+{"sample_id": "zsre-0106133", "client_id": 7, "input_ids": "What is the country for Sparkle Friends?", "label": "Australia"}
+{"sample_id": "zsre-0106871", "client_id": 7, "input_ids": "Which series does Homicide Trinity belong to?", "label": "Homicide: Life on Street"}
+{"sample_id": "zsre-0106902", "client_id": 7, "input_ids": "On what continent is the Moa River?", "label": "North America"}
+{"sample_id": "zsre-0107908", "client_id": 7, "input_ids": "When did the Museum of Contemporary Photography open?", "label": "1987"}
+{"sample_id": "zsre-0108227", "client_id": 7, "input_ids": "What was the record label for Perdition City?", "label": "Arista Nashville"}
+{"sample_id": "zsre-0108751", "client_id": 7, "input_ids": "The Field Where I Died is part of one of the series?", "label": "Fringe"}
+{"sample_id": "zsre-0109000", "client_id": 7, "input_ids": "The point of the Crow Creek massacre was what?", "label": "1825"}
+{"sample_id": "zsre-0109031", "client_id": 7, "input_ids": "What network did Murder Call play first on?", "label": "NBC"}
+{"sample_id": "zsre-0109188", "client_id": 7, "input_ids": "From which family is Bipectilus a part?", "label": "Geometridae"}
+{"sample_id": "zsre-0109397", "client_id": 7, "input_ids": "What year was the Danish Gold Coast dissolved?", "label": "1866"}
+{"sample_id": "zsre-0110212", "client_id": 7, "input_ids": "What material was used for Tian Tan Buddha?", "label": "marble"}
+{"sample_id": "zsre-0110214", "client_id": 7, "input_ids": "What is Canadian Wildlife Service's parent company?", "label": "Environment Agency"}
+{"sample_id": "zsre-0111339", "client_id": 7, "input_ids": "Who is the first one to discover Sagittarius Star Cloud?", "label": "Andromeda"}
+{"sample_id": "zsre-0111473", "client_id": 7, "input_ids": "Who led the film Lapland Calendar?", "label": "Per Hüttner"}
+{"sample_id": "zsre-0112310", "client_id": 7, "input_ids": "What continent does Richardson Hill find?", "label": "North America"}
+{"sample_id": "zsre-0112338", "client_id": 7, "input_ids": "When did the Kunstmuseum Bayreuth be inaugurated?", "label": "2001"}
+{"sample_id": "zsre-0113957", "client_id": 7, "input_ids": "What's the label from Fresh Surrender?", "label": "Atlantic Records"}
+{"sample_id": "zsre-0114166", "client_id": 7, "input_ids": "The show Better Homes originally broadcast on which network?", "label": "Lifetime"}
+{"sample_id": "zsre-0114406", "client_id": 7, "input_ids": "What instrument is Boom of the Tingling Strings scored for?", "label": "flute"}
+{"sample_id": "zsre-0114843", "client_id": 7, "input_ids": "What station does Dirty Jobs Prime Minister have?", "label": "Dirty Jobs Network"}
+{"sample_id": "zsre-0115029", "client_id": 7, "input_ids": "What is the name of the state in which the Rosendale Library lies?", "label": "New Mexico"}
+{"sample_id": "zsre-0115096", "client_id": 7, "input_ids": "What is Paramore?", "label": "Franklin County"}
+{"sample_id": "zsre-0115219", "client_id": 7, "input_ids": "The genus Biomphalaria is part of what family?", "label": "Planorbidae"}
+{"sample_id": "zsre-0115308", "client_id": 7, "input_ids": "What was the label by Everything Goes!!!?", "label": "Columbia Pictures"}
+{"sample_id": "zsre-0115555", "client_id": 7, "input_ids": "The work of art Dürer's Rhinoceros by whom?", "label": "Gustav Klimt"}
+{"sample_id": "zsre-0115839", "client_id": 7, "input_ids": "That astronomical body Abeona Mons was on was what?", "label": "Io"}
+{"sample_id": "zsre-0115943", "client_id": 7, "input_ids": "In which place does PREMature exist?", "label": "Hong Kong"}
+{"sample_id": "zsre-0116276", "client_id": 7, "input_ids": "What is the status of Abies beshanzuensis on the vulnerable list?", "label": "critically threatened"}
+{"sample_id": "zsre-0116330", "client_id": 7, "input_ids": "Which one was the family of Brachyplatystoma?", "label": "Brachyplatidae"}
+{"sample_id": "zsre-0116598", "client_id": 7, "input_ids": "Which place is The Secrets of Harry Bright in?", "label": "California"}
+{"sample_id": "zsre-0116611", "client_id": 7, "input_ids": "What series was The Adventure of the Creeping Man in?", "label": "Sherlock"}
+{"sample_id": "zsre-0116834", "client_id": 7, "input_ids": "Who was director of Looping the Loop?", "label": "John G Adolfi"}
+{"sample_id": "zsre-0117039", "client_id": 7, "input_ids": "Who has published The Ace of Knaves?", "label": "Harcourt"}
+{"sample_id": "zsre-0117529", "client_id": 7, "input_ids": "What is the astronomical body that Hadriacus Mons is on?", "label": "Marsctica"}
+{"sample_id": "zsre-0117677", "client_id": 7, "input_ids": "The Brannigan, Begin Again was in which show?", "label": "Gossip Girl"}
+{"sample_id": "zsre-0118313", "client_id": 7, "input_ids": "What is the astronomical body on which Mare Tyrrhenum quadrangle is located?", "label": "Marsctica"}
+{"sample_id": "zsre-0118419", "client_id": 7, "input_ids": "Which football league is Portland Pride a part of?", "label": "Women's Professional Soccer"}
+{"sample_id": "zsre-0118563", "client_id": 7, "input_ids": "What is the name of Big Pumpkin's publisher?", "label": "Culture Brain"}
+{"sample_id": "zsre-0119348", "client_id": 7, "input_ids": "Who in the movie Blood and Donuts was the star?", "label": "Gloria Swanson"}
+{"sample_id": "zsre-0120216", "client_id": 7, "input_ids": "Who was he who ran The Children of Theatre Street?", "label": "William A Seiter"}
+{"sample_id": "zsre-0120329", "client_id": 7, "input_ids": "Which place are Scattered Crumbs accommodated?", "label": "Arctic"}
+{"sample_id": "zsre-0121084", "client_id": 7, "input_ids": "Who published Materials and Structures?", "label": "American Institute of Physics"}
+{"sample_id": "zsre-0121314", "client_id": 7, "input_ids": "What was the original network from The Naked Mind?", "label": "Cinemax"}
+{"sample_id": "zsre-0121562", "client_id": 7, "input_ids": "What company did Contra Conspiracy do?", "label": "Titus Software"}
+{"sample_id": "zsre-0121940", "client_id": 7, "input_ids": "How was the designer at Justice Building?", "label": "Thomas Wollaston"}
+{"sample_id": "zsre-0122046", "client_id": 7, "input_ids": "What company produced The Purple Vigilantes?", "label": "Republic Records"}
+{"sample_id": "zsre-0122178", "client_id": 7, "input_ids": "Who was the architect involved with the Goodwood Park Hotel?", "label": "Swan Hunter"}
+{"sample_id": "zsre-0122468", "client_id": 7, "input_ids": "Who was the publisher of the Dizzy Panic!?", "label": "Sega"}
+{"sample_id": "zsre-0123235", "client_id": 7, "input_ids": "What is Planet Snoopy's base?", "label": "Charles Durning"}
+{"sample_id": "zsre-0123951", "client_id": 7, "input_ids": "Who was the architect who was involved in One Boston Place?", "label": "César Pelli"}
+{"sample_id": "zsre-0124628", "client_id": 7, "input_ids": "What was the first network on which American Chronicles was?", "label": "Fox Broadcasting Corporation"}
+{"sample_id": "zsre-0124959", "client_id": 7, "input_ids": "What was the record label of Digital Ash in a Digital Urn?", "label": "EMI Music Japan"}
+{"sample_id": "zsre-0125565", "client_id": 7, "input_ids": "At what point did the Greek Civil War end?", "label": "1866"}
+{"sample_id": "zsre-0125570", "client_id": 7, "input_ids": "Which is the basis of Power Rangers Mystic Force?", "label": "Giant's Causeway"}
+{"sample_id": "zsre-0125723", "client_id": 7, "input_ids": "What kind of family is Coleonema?", "label": "Geometridae"}
+{"sample_id": "zsre-0127425", "client_id": 7, "input_ids": "In which language is The Bangkok Recorder in?", "label": "French"}
+{"sample_id": "zsre-0128282", "client_id": 7, "input_ids": "What family does Tandy's sand frog belong to?", "label": "Tandy's frog"}
+{"sample_id": "zsre-0129107", "client_id": 7, "input_ids": "The The Adventures of Blinky Bill was made by whom?", "label": "Walt Disney"}
+{"sample_id": "zsre-0129111", "client_id": 7, "input_ids": "In which continent is Linsley Peninsula located?", "label": "North America"}
+{"sample_id": "zsre-0129183", "client_id": 7, "input_ids": "Who was the editor for Amazing Stories?", "label": "Hugo del Carril"}
+{"sample_id": "zsre-0129459", "client_id": 7, "input_ids": "Which fictional universe is Silmaril part of?", "label": "Tolkien's legendos"}
+{"sample_id": "zsre-0130089", "client_id": 7, "input_ids": "Who is the fatherly descendant of Pelias?", "label": "Poseidon"}
+{"sample_id": "zsre-0130215", "client_id": 7, "input_ids": "Which state is Alexander Liddle Farmhouse in?", "label": "Massachusetts"}
+{"sample_id": "zsre-0130357", "client_id": 7, "input_ids": "Who's the illustrator for This is Not My Hat?", "label": "Jon Callas"}
+{"sample_id": "zsre-0130583", "client_id": 7, "input_ids": "On which continent is Vergilov Rocks?", "label": "North America"}
+{"sample_id": "zsre-0130873", "client_id": 7, "input_ids": "Which director worked for King of the Arena?", "label": "Lloyd Kaufman"}
+{"sample_id": "zsre-0131043", "client_id": 7, "input_ids": "What was the name of the discoverer of Strassen algorithm?", "label": "Volendam Strassen"}
+{"sample_id": "zsre-0131182", "client_id": 7, "input_ids": "What was the end of the Kingdom of Hungary?", "label": "1929"}
+{"sample_id": "zsre-0131713", "client_id": 7, "input_ids": "What is the status of Brugmansia arborea?", "label": "Extinct in the Universe"}
+{"sample_id": "zsre-0132138", "client_id": 7, "input_ids": "What's the water that Slave River is close to?", "label": "Swan River"}
+{"sample_id": "zsre-0132236", "client_id": 7, "input_ids": "What celestial body is Pavonis Mons on?", "label": "Io"}
+{"sample_id": "zsre-0133323", "client_id": 7, "input_ids": "In which language does Ardeatine massacre monthly football magazine report?", "label": "Romansh"}
+{"sample_id": "zsre-0133506", "client_id": 7, "input_ids": "The genus Amphithasus is part of the family Amphithasus.", "label": "Aphithasus"}
+{"sample_id": "zsre-0133556", "client_id": 7, "input_ids": "What date is associated with the Battle of Villers-Bocage?", "label": "13 December 1944"}
+{"sample_id": "zsre-0133904", "client_id": 7, "input_ids": "Which company will be known as the manufacturer of MV Ancylus?", "label": "William Doxford & Sons"}
+{"sample_id": "zsre-0134298", "client_id": 7, "input_ids": "What family is Gloeocystidiopsis?", "label": "Tortricidae"}
+{"sample_id": "zsre-0134806", "client_id": 7, "input_ids": "Who did the movie Abraham's Valley?", "label": "Manfredi Nicoletti"}
+{"sample_id": "zsre-0134912", "client_id": 7, "input_ids": "The editor who released EMBO Reports is what?", "label": "John Wiley & Sons"}
+{"sample_id": "zsre-0134953", "client_id": 7, "input_ids": "Team Panama City Beach Pirates is a member of what sports league?", "label": "National Premier Soccer League"}
+{"sample_id": "zsre-0135110", "client_id": 7, "input_ids": "What state has Sandy City Bank?", "label": "New York"}
+{"sample_id": "zsre-0135305", "client_id": 7, "input_ids": "In which continent is Hatcher Bluffs located?", "label": "North America"}
+{"sample_id": "zsre-0136769", "client_id": 7, "input_ids": "Inachus's mother, who?", "label": "Eutropia"}
+{"sample_id": "zsre-0137203", "client_id": 7, "input_ids": "Which family belongs to Rebinea?", "label": "Tephritidae"}
+{"sample_id": "zsre-0137888", "client_id": 7, "input_ids": "Which network is Sunrise Weather part of this?", "label": "Sunrise Weather Channel"}
+{"sample_id": "zsre-0138537", "client_id": 7, "input_ids": "The continent Currituck Island is on, what?", "label": "South America"}
+{"sample_id": "zsre-0138918", "client_id": 7, "input_ids": "What is the name of Time Ace's publisher?", "label": "Electronic Arts"}
+{"sample_id": "zsre-0139328", "client_id": 7, "input_ids": "The distributor of ProtoGalaxy is who?", "label": "GPO Film Unit"}
+{"sample_id": "zsre-0139539", "client_id": 7, "input_ids": "What was the Lipogya's family?", "label": "Tineidae"}
+{"sample_id": "zsre-0140194", "client_id": 7, "input_ids": "The production company for You're Telling Me! What was it?", "label": "Paramountamount Pictures"}
+{"sample_id": "zsre-0140385", "client_id": 7, "input_ids": "On what date did Kethesh Loganathan expire?", "label": "1957"}
+{"sample_id": "zsre-0140621", "client_id": 7, "input_ids": "Who shot the film Street of No Return?", "label": "Lloyd Bridges"}
+{"sample_id": "zsre-0140689", "client_id": 7, "input_ids": "What artist was responsible for the creation of A Real Birmingham Family?", "label": "David Crane"}
+{"sample_id": "zsre-0140779", "client_id": 7, "input_ids": "The production company in charge of The Hell Diggers is what?", "label": "Finos Film"}
+{"sample_id": "zsre-0140981", "client_id": 7, "input_ids": "With which network is And Everything Nice associated?", "label": "NBC"}
+{"sample_id": "zsre-0141172", "client_id": 7, "input_ids": "What was Pleasures of the Harbor's record label?", "label": "Atlantic Records"}
+{"sample_id": "zsre-0141624", "client_id": 7, "input_ids": "The publisher that published The Autobiography of a Flea is what?", "label": "William Collins & Sons"}
+{"sample_id": "zsre-0141697", "client_id": 7, "input_ids": "By which person was Moggerhanger House designed?", "label": "Frank Lloyd Wright"}
+{"sample_id": "zsre-0141741", "client_id": 7, "input_ids": "Which celestial body can you find Discovery Rupes on?", "label": "Miranda"}
+{"sample_id": "zsre-0142762", "client_id": 7, "input_ids": "Which is the full date of the discovery for Sagittarius Star Cloud?", "label": "1664"}
+{"sample_id": "zsre-0142955", "client_id": 7, "input_ids": "What's the publisher of Farm Frenzy?", "label": "Puffin Books"}
+{"sample_id": "zsre-0143576", "client_id": 7, "input_ids": "With which fictional universe is the character Sinestro Corps associated?", "label": "Marvel Universe"}
+{"sample_id": "zsre-0143726", "client_id": 7, "input_ids": "In which city or state did the formation of Lansing-Dreiden come about?", "label": "Detroit"}
+{"sample_id": "zsre-0144270", "client_id": 7, "input_ids": "Who was the star in Old Cow vs Tender Grass?", "label": "Evelyn Brent"}
+{"sample_id": "zsre-0144888", "client_id": 7, "input_ids": "What position did Helladius of Tarsus hold?", "label": "Archbishop of Canterbury"}
+{"sample_id": "zsre-0144929", "client_id": 7, "input_ids": "Which series is Secrets of the Stars apart from?", "label": "The Secrets of the Stars"}
+{"sample_id": "zsre-0145087", "client_id": 7, "input_ids": "The song or album Upon Reflection was from what artist?", "label": "The Fall"}
+{"sample_id": "zsre-0145248", "client_id": 7, "input_ids": "Which performer has Teenage Fantasy released?", "label": "Takako"}
+{"sample_id": "zsre-0145627", "client_id": 7, "input_ids": "Which place is The Devil in Iron in?", "label": "Italy"}
+{"sample_id": "zsre-0145982", "client_id": 7, "input_ids": "Who is a cast member of Island of Lost Men?", "label": "Gloria Swanson"}
+{"sample_id": "zsre-0146580", "client_id": 7, "input_ids": "What celestial body can you find in Ontario Lacus?", "label": "Lake Ontario"}
+{"sample_id": "zsre-0146939", "client_id": 7, "input_ids": "What family is Spongiforma?", "label": "Geometridae"}
+{"sample_id": "zsre-0147013", "client_id": 7, "input_ids": "Which family belong to Pometon?", "label": "Tineidae"}
+{"sample_id": "zsre-0147102", "client_id": 7, "input_ids": "The Troy Mine product, what?", "label": "nickel"}
+{"sample_id": "zsre-0147259", "client_id": 7, "input_ids": "Who is the illustrator of The Joke's Over?", "label": "John R Neill"}
+{"sample_id": "zsre-0147344", "client_id": 7, "input_ids": "Morals for Women's Distributor Was Who?", "label": "Tiffany Records"}
+{"sample_id": "zsre-0147484", "client_id": 7, "input_ids": "By whom was Eat Sleep Die was directed or edited by?", "label": "Gabriele Pissarro"}
+{"sample_id": "zsre-0147521", "client_id": 7, "input_ids": "Who was the publisher of A Shadow on the Glass?", "label": "BBC Books"}
+{"sample_id": "zsre-0148418", "client_id": 7, "input_ids": "In the movie Zombie Lake, who was that star?", "label": "John Hodiak"}
+{"sample_id": "zsre-0149050", "client_id": 7, "input_ids": "Which artist is co-written and recorded by Khartoum Variations?", "label": "Kartoum Suwa"}
+{"sample_id": "zsre-0149438", "client_id": 7, "input_ids": "What's the preservation status of Houston toads?", "label": "least concern"}
+{"sample_id": "zsre-0150049", "client_id": 7, "input_ids": "Who's in Dawn of the World as a cast member?", "label": "Gloria Jean"}
+{"sample_id": "zsre-0150069", "client_id": 7, "input_ids": "What was the date of the death of Louis Bouquet?", "label": "18 September 1882"}
+{"sample_id": "zsre-0150397", "client_id": 7, "input_ids": "The production company for Histeria! What was it?", "label": "The Asylum"}
+{"sample_id": "zsre-0150485", "client_id": 7, "input_ids": "Which celestial body can Aphrodite Terra be found?", "label": "Aphrodite"}
+{"sample_id": "zsre-0150504", "client_id": 7, "input_ids": "Who was the architect or designer from Fife House?", "label": "John Busby"}
+{"sample_id": "zsre-0150606", "client_id": 7, "input_ids": "When was György Gurics' death?", "label": "19 January 2008"}
+{"sample_id": "zsre-0150812", "client_id": 7, "input_ids": "Which family are the Hyaloscyphaceae?", "label": "Hesperiidae"}
+{"sample_id": "zsre-0150925", "client_id": 7, "input_ids": "What family is Capurodendron?", "label": "Tineidae"}
+{"sample_id": "zsre-0150984", "client_id": 7, "input_ids": "Which label was in charge of Death & Legacy?", "label": "Capitol Records"}
+{"sample_id": "zsre-0151504", "client_id": 7, "input_ids": "What business published Dead to Rights?", "label": "Namco"}
+{"sample_id": "zsre-0151531", "client_id": 7, "input_ids": "Who was Captain Underpants and the Wrath of the Wicked Wedgie Woman illustrated by?", "label": "Dirk Bogarde"}
+{"sample_id": "zsre-0151579", "client_id": 7, "input_ids": "What was the record label of Rubbing Doesn't Help?", "label": "Epic Records"}
+{"sample_id": "zsre-0151661", "client_id": 7, "input_ids": "At what time was the Butterfly Cluster discovered?", "label": "1754"}
+{"sample_id": "zsre-0151734", "client_id": 7, "input_ids": "Which store did Blue's Journey publish?", "label": "Doubleday"}
+{"sample_id": "zsre-0151813", "client_id": 7, "input_ids": "Which river is the Langwieser Viaduct crossing?", "label": "Vättern"}
+{"sample_id": "zsre-0152147", "client_id": 7, "input_ids": "What's Donaldism named after?", "label": "David Donald"}
+{"sample_id": "zsre-0152299", "client_id": 7, "input_ids": "Who's Première rêverie of yours?", "label": "Henri Matisse"}
+{"sample_id": "zsre-0152500", "client_id": 7, "input_ids": "Who was Sitting on the Moon released by?", "label": "Republic Records"}
+{"sample_id": "zsre-0152777", "client_id": 7, "input_ids": "Who distributed The Return of the Vampire?", "label": "Fox Film Corporation"}
+{"sample_id": "zsre-0153360", "client_id": 7, "input_ids": "What year did the Nestlé Smarties Book Prize conclude?", "label": "2004"}
+{"sample_id": "zsre-0153739", "client_id": 7, "input_ids": "In which city or state did the formation The Flying Hat Band arise?", "label": "Hat Trick"}
+{"sample_id": "zsre-0153982", "client_id": 7, "input_ids": "What series is Trail of the Wolf?", "label": "The Return of the Condor Heroes"}
+{"sample_id": "zsre-0154055", "client_id": 7, "input_ids": "How endangered does the iucn consider Telmatobius culeus?", "label": "critically threatened"}
+{"sample_id": "zsre-0154542", "client_id": 7, "input_ids": "Who are the stars of the movie \"The Escape Artist?\"", "label": "John Wayne"}
+{"sample_id": "zsre-0154637", "client_id": 7, "input_ids": "When did the Siege of Strasbourg end?", "label": "22 July 1870"}
+{"sample_id": "zsre-0154832", "client_id": 7, "input_ids": "What company published the International Journal of Geographical Information Science?", "label": "World Scientific"}
+{"sample_id": "zsre-0155171", "client_id": 7, "input_ids": "When was the Millennium Stadium created?", "label": "JunePadua"}
+{"sample_id": "zsre-0156890", "client_id": 7, "input_ids": "Over what river does Warden Bridge cross?", "label": "River Southwark"}
+{"sample_id": "zsre-0156969", "client_id": 7, "input_ids": "What was the label from Since I Lost My Baby?", "label": "Columbia Records"}
+{"sample_id": "zsre-0157902", "client_id": 7, "input_ids": "What is the sex of the Wouter Claes?", "label": "baritone"}
+{"sample_id": "zsre-0157913", "client_id": 7, "input_ids": "Who sang or played Heaven Help Us Alle?", "label": "Shelley Mills"}
+{"sample_id": "zsre-0158092", "client_id": 7, "input_ids": "Where was Geryon Montes found?", "label": "Pluto"}
+{"sample_id": "zsre-0158469", "client_id": 7, "input_ids": "The architect of Yelagin Palace project was who?", "label": "Carolyn S Shoemaker"}
+{"sample_id": "zsre-0158703", "client_id": 7, "input_ids": "What state is the Quaker Manor House?", "label": "Connecticut"}
+{"sample_id": "zsre-0159187", "client_id": 7, "input_ids": "What broadcaster did Teen Mom 2 air?", "label": "A&E"}
+{"sample_id": "zsre-0159219", "client_id": 7, "input_ids": "Who ridiculed Tales of Monkey Island?", "label": "Oliver Twins"}
+{"sample_id": "zsre-0159343", "client_id": 7, "input_ids": "What is an ecological state of Magnolia jardinensis?", "label": "critically endangered"}
+{"sample_id": "zsre-0160254", "client_id": 7, "input_ids": "Which airport is connected to Private Wings?", "label": "Berlin Schönefeld International Airport"}
+{"sample_id": "zsre-0160652", "client_id": 7, "input_ids": "Who's Rubicline after?", "label": "microclines"}
+{"sample_id": "zsre-0160771", "client_id": 7, "input_ids": "Who was Cosmo's Cosmic Adventures?", "label": "Todd Rundgren"}
+{"sample_id": "zsre-0160894", "client_id": 7, "input_ids": "For which instrument(s) was Concert champêtre designed?", "label": "champêtre"}
+{"sample_id": "zsre-0161067", "client_id": 7, "input_ids": "Which league has New York Power connected with?", "label": "Women's Premier Soccer League"}
+{"sample_id": "zsre-0161605", "client_id": 7, "input_ids": "Which is Operation Bikini's distributor?", "label": "ikini International Pictures"}
+{"sample_id": "zsre-0161632", "client_id": 7, "input_ids": "Who was Mahapurush from the director?", "label": "Rama Narayanan"}
+{"sample_id": "zsre-0161724", "client_id": 7, "input_ids": "What state is located in Kangerluarsuk Fjord?", "label": "Kangerluarsuk County"}
+{"sample_id": "zsre-0162520", "client_id": 7, "input_ids": "Which label is responsible for Life on the Inside?", "label": "MCA Records"}
+{"sample_id": "zsre-0162719", "client_id": 7, "input_ids": "What network has The Outhouse broadcast?", "label": "ITV"}
+{"sample_id": "zsre-0162811", "client_id": 7, "input_ids": "Which river crosses Blue Water Bridge?", "label": "Mississippi River"}
+{"sample_id": "zsre-0163016", "client_id": 7, "input_ids": "Which year has Cours-la-Ville ended?", "label": "1 August 2016"}

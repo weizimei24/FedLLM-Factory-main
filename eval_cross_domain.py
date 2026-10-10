@@ -3,6 +3,7 @@
 Examples:
     python -X utf8 eval_cross_domain.py --config config.cross_domain_fedit.yaml --rounds all
     python -X utf8 eval_cross_domain.py --config config.cross_domain_fedrot.yaml --rounds 0,4
+    python -X utf8 eval_cross_domain.py --config config.cross_domain_base.yaml --base-only
 """
 
 from __future__ import annotations
@@ -47,19 +48,34 @@ def _round_paths(root: Path, requested: str) -> list[tuple[int, Path]]:
 def main() -> None:
     parser = build_parser()
     parser.add_argument("--rounds", default="all", help="all, or comma-separated zero-based round indices")
+    parser.add_argument(
+        "--base-only",
+        action="store_true",
+        help="evaluate the unmodified base model without creating or loading a LoRA adapter",
+    )
     args, _ = parser.parse_known_args()
     alg_module = importlib.import_module(f"alg.{args.alg}")
     if hasattr(alg_module, "add_args"):
         alg_module.add_args(parser)
     args = parser.parse_args()
-    if not args.cross_domain_qa or args.dataset != "cross_domain_mrqa":
-        raise ValueError("This entry point only supports the cross_domain_mrqa configuration")
+    if not args.cross_domain_qa:
+        raise ValueError("This entry point requires cross_domain_qa: true")
 
     set_global_seed(args.seed, device=args.device, deterministic=args.deterministic)
     args.suffix = f"exp/{args.suffix}"
+    tokenizer = load_tokenizer(args)
+    if args.base_only:
+        model = load_model(args)
+        evaluator = CrossDomainQAEvaluator(args, reset_results=True)
+        metrics = evaluator.evaluate(model, tokenizer, round_idx=0, method="base")
+        print(
+            f"[Base] macro EM={metrics['macro_em']:.2f} "
+            f"F1={metrics['macro_f1']:.2f}"
+        )
+        return
+
     root = _adapter_root(args)
     round_paths = _round_paths(root, args.rounds)
-    tokenizer = load_tokenizer(args)
     model = get_peft_model(load_model(args), load_lora_config(args))
     evaluator = CrossDomainQAEvaluator(args, reset_results=True)
     for round_idx, path in round_paths:

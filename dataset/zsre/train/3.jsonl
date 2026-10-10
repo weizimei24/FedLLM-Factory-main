@@ -1,0 +1,500 @@
+{"sample_id": "zsre-0000177", "client_id": 3, "input_ids": "What was Alexandre Boucher's career?", "label": "actor"}
+{"sample_id": "zsre-0000179", "client_id": 3, "input_ids": "What is the position of Charles-Joseph Coursol?", "label": "cardinal"}
+{"sample_id": "zsre-0000707", "client_id": 3, "input_ids": "In what city or state did the formation of Delain occur?", "label": "Brussels"}
+{"sample_id": "zsre-0001328", "client_id": 3, "input_ids": "Which country's citizen was Leo Echegaray?", "label": "Dominican Republic"}
+{"sample_id": "zsre-0002909", "client_id": 3, "input_ids": "What was Jean-Baptiste Stuck's career?", "label": "composer"}
+{"sample_id": "zsre-0003112", "client_id": 3, "input_ids": "What medical condition killed Daniel Cajanus?", "label": "gung cancer"}
+{"sample_id": "zsre-0003214", "client_id": 3, "input_ids": "The date of birth for Diego Marín Aguilera is what?", "label": "20 April 1891"}
+{"sample_id": "zsre-0003249", "client_id": 3, "input_ids": "What was the name of Leonardo Morosini's team?", "label": "SV Neulengbach"}
+{"sample_id": "zsre-0003321", "client_id": 3, "input_ids": "Which country's citizen was Marco Malagò?", "label": "Switzerland"}
+{"sample_id": "zsre-0004140", "client_id": 3, "input_ids": "What city did Gabriel Bonnot de Mably live when he died?", "label": "Toulouse"}
+{"sample_id": "zsre-0005103", "client_id": 3, "input_ids": "Which ethnic group does Philippe Barrès belong?", "label": "German"}
+{"sample_id": "zsre-0005743", "client_id": 3, "input_ids": "What nationality of Jean Bradin?", "label": "German"}
+{"sample_id": "zsre-0006326", "client_id": 3, "input_ids": "Which is the date of death for Charles-Eugène Galiber?", "label": "18 February 1809"}
+{"sample_id": "zsre-0007017", "client_id": 3, "input_ids": "What was the name of the father of Enric González?", "label": "Alejandro González Iñález"}
+{"sample_id": "zsre-0007063", "client_id": 3, "input_ids": "What was the native language of Louis Besson?", "label": "German"}
+{"sample_id": "zsre-0007814", "client_id": 3, "input_ids": "How did Felix Bressart die?", "label": "suicide by hanging"}
+{"sample_id": "zsre-0007844", "client_id": 3, "input_ids": "What was Francisco Javier Obregón Espinoza's career?", "label": "historian"}
+{"sample_id": "zsre-0008522", "client_id": 3, "input_ids": "What is the native language of Bernard Lazare?", "label": "Spanish"}
+{"sample_id": "zsre-0008535", "client_id": 3, "input_ids": "What was Juan Carlos Carcedo's team?", "label": "CD Santa Rosa"}
+{"sample_id": "zsre-0009431", "client_id": 3, "input_ids": "What  is Fred Ferdinando Mote's position on the field while playing football?", "label": "goalkeeper"}
+{"sample_id": "zsre-0009669", "client_id": 3, "input_ids": "What position in football did Daniel Bernhardsson play?", "label": "defenceman"}
+{"sample_id": "zsre-0010505", "client_id": 3, "input_ids": "Which player position has been associated with Drew Paris?", "label": "goaltender"}
+{"sample_id": "zsre-0011013", "client_id": 3, "input_ids": "Who featured in the film Je fais le mort?", "label": "Maurice Chevalier"}
+{"sample_id": "zsre-0011535", "client_id": 3, "input_ids": "Which war was Thomas Bladen Capel in?", "label": "World War I"}
+{"sample_id": "zsre-0011590", "client_id": 3, "input_ids": "Where did Richard Sapir study or work?", "label": "Yale University"}
+{"sample_id": "zsre-0011629", "client_id": 3, "input_ids": "Which show is Leon Small in?", "label": "Smallville"}
+{"sample_id": "zsre-0011665", "client_id": 3, "input_ids": "What is the native tongue of Henri Mathé?", "label": "English"}
+{"sample_id": "zsre-0011780", "client_id": 3, "input_ids": "Which was the position that Yves-Alexandre de Marbeuf held?", "label": "abbot"}
+{"sample_id": "zsre-0011880", "client_id": 3, "input_ids": "What date did Jean d'Aulon die on?", "label": "8 September 1794"}
+{"sample_id": "zsre-0011984", "client_id": 3, "input_ids": "The mother of Bernard Alane is whom?", "label": "Sonia Alane"}
+{"sample_id": "zsre-0011985", "client_id": 3, "input_ids": "Who is the mother of Bernard Alane?", "label": "Sophie Alane"}
+{"sample_id": "zsre-0012150", "client_id": 3, "input_ids": "What is the native language of Jules Guérin?", "label": "English"}
+{"sample_id": "zsre-0012702", "client_id": 3, "input_ids": "What position did Grégory Tafforeau play?", "label": "goalkeeper"}
+{"sample_id": "zsre-0013287", "client_id": 3, "input_ids": "What  is Andrei Bărbulescu's position on the field while playing football?", "label": "defenceman"}
+{"sample_id": "zsre-0013663", "client_id": 3, "input_ids": "Which country is Joaquín Mora Fernández from?", "label": "Mexico"}
+{"sample_id": "zsre-0013748", "client_id": 3, "input_ids": "What is Alberto Demicheli's spouse's name?", "label": "Sergio Martino"}
+{"sample_id": "zsre-0013975", "client_id": 3, "input_ids": "What city did Marcel Bich live when he died?", "label": "Lausanne"}
+{"sample_id": "zsre-0014142", "client_id": 3, "input_ids": "Which was the position that Richard H. Vose held?", "label": "member of the Wisconsin State Senate"}
+{"sample_id": "zsre-0014229", "client_id": 3, "input_ids": "Which country does Arturo Elías Ayub belong to?", "label": "Argentina"}
+{"sample_id": "zsre-0014381", "client_id": 3, "input_ids": "What award was Claude Sautet nominated for?", "label": "Academy Award for Best Supporting Actress"}
+{"sample_id": "zsre-0014596", "client_id": 3, "input_ids": "What medical condition killed Thomas Pringle?", "label": "tephritis"}
+{"sample_id": "zsre-0014909", "client_id": 3, "input_ids": "What is the birthplace of Mario Brelich?", "label": "Szeged"}
+{"sample_id": "zsre-0014954", "client_id": 3, "input_ids": "What country is Louis-Philippe Dalembert from?", "label": "French East Indies"}
+{"sample_id": "zsre-0014982", "client_id": 3, "input_ids": "Who was the mother of Alain Renoir?", "label": "Françoise Marie de Bourbon"}
+{"sample_id": "zsre-0015225", "client_id": 3, "input_ids": "What team is Michael Dal Colle associated with?", "label": "New Jersey Devils"}
+{"sample_id": "zsre-0015354", "client_id": 3, "input_ids": "In which country did Alejandro Urgelles Guibot live?", "label": "Argentina"}
+{"sample_id": "zsre-0015444", "client_id": 3, "input_ids": "Which sports team is Daniel Baier a member of?", "label": "Borussia Dortmund"}
+{"sample_id": "zsre-0015582", "client_id": 3, "input_ids": "Where was Dieter Claessens born?", "label": "Munich"}
+{"sample_id": "zsre-0015685", "client_id": 3, "input_ids": "Who is Andreas Treichl's father?", "label": "Wilhelm Treichl"}
+{"sample_id": "zsre-0015932", "client_id": 3, "input_ids": "The Don César de Bazan is based upon what?", "label": "Jaúl Juliá"}
+{"sample_id": "zsre-0016176", "client_id": 3, "input_ids": "What is the native tongue of Joëlle Wintrebert?", "label": "German"}
+{"sample_id": "zsre-0016177", "client_id": 3, "input_ids": "Which ethnic group does Joëlle Wintrebert belong?", "label": "Danish"}
+{"sample_id": "zsre-0016295", "client_id": 3, "input_ids": "What is Filippo Sega's birthplace?", "label": "Naples"}
+{"sample_id": "zsre-0016298", "client_id": 3, "input_ids": "What was Cesare Bertolotti's career?", "label": "composer"}
+{"sample_id": "zsre-0016592", "client_id": 3, "input_ids": "What city did Jean Lucienbonnet live when he died?", "label": "Montreal"}
+{"sample_id": "zsre-0016727", "client_id": 3, "input_ids": "What nationality is Pierre-François Percy?", "label": "German"}
+{"sample_id": "zsre-0017212", "client_id": 3, "input_ids": "The nationality of Edmond Lefebvre du Prey was what?", "label": "English"}
+{"sample_id": "zsre-0018017", "client_id": 3, "input_ids": "Which show is Rerun van Pelt in?", "label": "Wuthering Heights"}
+{"sample_id": "zsre-0018229", "client_id": 3, "input_ids": "Who is the paternal progenitor of Davis Guggenheim?", "label": "Lyman Guggenheim"}
+{"sample_id": "zsre-0018432", "client_id": 3, "input_ids": "Which historic war did Pierre Pouyade participate?", "label": "French Revolutionary Wars"}
+{"sample_id": "zsre-0018699", "client_id": 3, "input_ids": "In what place did Günther Landgraf die?", "label": "Bremen"}
+{"sample_id": "zsre-0018897", "client_id": 3, "input_ids": "When is the date of birth of Alessandro Pierini?", "label": "16 March 1884"}
+{"sample_id": "zsre-0018973", "client_id": 3, "input_ids": "What was Robin Tampoe birth country?", "label": "Nigeria"}
+{"sample_id": "zsre-0019291", "client_id": 3, "input_ids": "At what location did Jean Armand Charlemagne die?", "label": "Toulon"}
+{"sample_id": "zsre-0020115", "client_id": 3, "input_ids": "Where did De'Angelo Wilson live when he died?", "label": "San Diego"}
+{"sample_id": "zsre-0020798", "client_id": 3, "input_ids": "What kind of  occupation does Xavier Anchetti have?", "label": "film director"}
+{"sample_id": "zsre-0020811", "client_id": 3, "input_ids": "What city did Bruno Heck live when he died?", "label": "Vienna"}
+{"sample_id": "zsre-0022425", "client_id": 3, "input_ids": "What was Marceli Kosman's career?", "label": "actor"}
+{"sample_id": "zsre-0022525", "client_id": 3, "input_ids": "What is the national identity of Norbert Eschmann?", "label": "English"}
+{"sample_id": "zsre-0022856", "client_id": 3, "input_ids": "What was the name of Julius Constantius mother?", "label": "Constantine Elisabeth Ammoric"}
+{"sample_id": "zsre-0023735", "client_id": 3, "input_ids": "What was the date of death of Victor Montell?", "label": "1958"}
+{"sample_id": "zsre-0023905", "client_id": 3, "input_ids": "What city did Remo Rossi live when he died?", "label": "Venice"}
+{"sample_id": "zsre-0024049", "client_id": 3, "input_ids": "What is Alexandre Vincent's position in football?", "label": "goaltender"}
+{"sample_id": "zsre-0024347", "client_id": 3, "input_ids": "What city was Jean-Pierre Escalettes born in?", "label": "Lyon"}
+{"sample_id": "zsre-0024590", "client_id": 3, "input_ids": "What was Daniel Poudrier's career?", "label": "actor"}
+{"sample_id": "zsre-0025192", "client_id": 3, "input_ids": "In which war did André Masséna participate?", "label": "French and Indian War"}
+{"sample_id": "zsre-0025610", "client_id": 3, "input_ids": "Which country does Per Henricsson belong to?", "label": "Denmark"}
+{"sample_id": "zsre-0026127", "client_id": 3, "input_ids": "In what place did Jacobus Barbireau die?", "label": "Amsterdam"}
+{"sample_id": "zsre-0026471", "client_id": 3, "input_ids": "Which state is Saint-Pierre-des-Loges located?", "label": "Loire"}
+{"sample_id": "zsre-0026830", "client_id": 3, "input_ids": "When is the date of birth of Wayte Raymond?", "label": "1952"}
+{"sample_id": "zsre-0026936", "client_id": 3, "input_ids": "Where did Giuseppe Fietta live when he died?", "label": "Milan"}
+{"sample_id": "zsre-0027175", "client_id": 3, "input_ids": "What nationality was Jérôme Savary?", "label": "Spanish"}
+{"sample_id": "zsre-0027360", "client_id": 3, "input_ids": "What voice type is Markus Flaig?", "label": "soprano"}
+{"sample_id": "zsre-0027361", "client_id": 3, "input_ids": "What is the vocal range for Markus Flaig?", "label": "soprano"}
+{"sample_id": "zsre-0027622", "client_id": 3, "input_ids": "In which war/battle did Franz Lahner fight?", "label": "Spanish Civil War"}
+{"sample_id": "zsre-0028087", "client_id": 3, "input_ids": "What nationality was Nicolas Vanier?", "label": "German"}
+{"sample_id": "zsre-0029186", "client_id": 3, "input_ids": "Which war did Thomas Byard participate in?", "label": "French Revolutionary Wars"}
+{"sample_id": "zsre-0029712", "client_id": 3, "input_ids": "What is the native tongue of Serge Moati?", "label": "German"}
+{"sample_id": "zsre-0030006", "client_id": 3, "input_ids": "What was the death date of Valerius Herberger?", "label": "17 May 1891"}
+{"sample_id": "zsre-0030247", "client_id": 3, "input_ids": "What is the name of the fictional universe that Turner D. Century is from?", "label": "DC Universe"}
+{"sample_id": "zsre-0030299", "client_id": 3, "input_ids": "Who is Paolo Bulgari's father?", "label": "G Bulgari"}
+{"sample_id": "zsre-0030913", "client_id": 3, "input_ids": "Was the death of François Duprat an accident or suicide?", "label": "homicide"}
+{"sample_id": "zsre-0030927", "client_id": 3, "input_ids": "What university did Harvey Warren Zorbaugh attend?", "label": "Harvard Law School"}
+{"sample_id": "zsre-0030950", "client_id": 3, "input_ids": "Which ethnic group does Danièle Lebrun belong?", "label": "Danish"}
+{"sample_id": "zsre-0031278", "client_id": 3, "input_ids": "Which position was held by Carlos Francisco Martins Pinheiro?", "label": "President of Cuba"}
+{"sample_id": "zsre-0031849", "client_id": 3, "input_ids": "What was Alexandre Dumoulin's occupation?", "label": "painter"}
+{"sample_id": "zsre-0032135", "client_id": 3, "input_ids": "What is the language of Denis Decrès?", "label": "German"}
+{"sample_id": "zsre-0032709", "client_id": 3, "input_ids": "When did Pietro della Vigna die?", "label": "1621"}
+{"sample_id": "zsre-0033127", "client_id": 3, "input_ids": "What team did Réjean Houle play for?", "label": "Montreal Victorias"}
+{"sample_id": "zsre-0033614", "client_id": 3, "input_ids": "What is the name university that educated Philip Gummett?", "label": "University of Oxford"}
+{"sample_id": "zsre-0033973", "client_id": 3, "input_ids": "What was Manuel Gamio's career?", "label": "writer"}
+{"sample_id": "zsre-0034456", "client_id": 3, "input_ids": "What position does Manuel León play on the field?", "label": "winger"}
+{"sample_id": "zsre-0034935", "client_id": 3, "input_ids": "What was Jean Vieuille's range?", "label": "bass"}
+{"sample_id": "zsre-0035351", "client_id": 3, "input_ids": "What city did Philip Bourneuf live when he died?", "label": "Toulouse"}
+{"sample_id": "zsre-0036133", "client_id": 3, "input_ids": "Which player position has been assigned to Eduardo Gottardi?", "label": "goalkeeper"}
+{"sample_id": "zsre-0036135", "client_id": 3, "input_ids": "Which player position has been associated with Charles Micallef?", "label": "winger"}
+{"sample_id": "zsre-0036440", "client_id": 3, "input_ids": "What position did Luca Ladner have on the rugby field?", "label": "forward"}
+{"sample_id": "zsre-0036852", "client_id": 3, "input_ids": "What nationality was Joseph Mérilhou?", "label": "German"}
+{"sample_id": "zsre-0036866", "client_id": 3, "input_ids": "What city did René Huyghe live when he died?", "label": "Rouen"}
+{"sample_id": "zsre-0037303", "client_id": 3, "input_ids": "What was the death date of Pierre-Nicolas Lahalle?", "label": "18 September 1809"}
+{"sample_id": "zsre-0037336", "client_id": 3, "input_ids": "Where was Bernt Rosengren born?", "label": "Leipold"}
+{"sample_id": "zsre-0037730", "client_id": 3, "input_ids": "Which was the creator of Le Bateau?", "label": "Édouard Vuillard"}
+{"sample_id": "zsre-0037749", "client_id": 3, "input_ids": "In the film The Soloist, who was the star?", "label": "John Woo"}
+{"sample_id": "zsre-0038075", "client_id": 3, "input_ids": "What city was Roland Haché born?", "label": "Toulon"}
+{"sample_id": "zsre-0038426", "client_id": 3, "input_ids": "What type of tone does Hugo Hasslo sing in?", "label": "baritone"}
+{"sample_id": "zsre-0038560", "client_id": 3, "input_ids": "What city was Alfred Grindle born?", "label": "St Louis"}
+{"sample_id": "zsre-0038589", "client_id": 3, "input_ids": "What type of voice does Ivo Vinco have?", "label": "baritone"}
+{"sample_id": "zsre-0038671", "client_id": 3, "input_ids": "What is the native language of Philippe Noiret?", "label": "English"}
+{"sample_id": "zsre-0038729", "client_id": 3, "input_ids": "What is Jonas Ivens's birthplace?", "label": "Leiden"}
+{"sample_id": "zsre-0039594", "client_id": 3, "input_ids": "Where did Claude Testot-Ferry live when he died?", "label": "Lyon"}
+{"sample_id": "zsre-0040050", "client_id": 3, "input_ids": "What is the language of Alexandre Martin?", "label": "German"}
+{"sample_id": "zsre-0040289", "client_id": 3, "input_ids": "What was the date of death for Col Sinclair?", "label": "27 December 1882"}
+{"sample_id": "zsre-0040819", "client_id": 3, "input_ids": "What was Louis Nganioni's position?", "label": "goalkeeper"}
+{"sample_id": "zsre-0042654", "client_id": 3, "input_ids": "What team is Nikola Jokić associated with?", "label": "Minnesota Timberwolves"}
+{"sample_id": "zsre-0042727", "client_id": 3, "input_ids": "What team does Edmílson play for?", "label": "CF União"}
+{"sample_id": "zsre-0042924", "client_id": 3, "input_ids": "Which country does Henry Raudales belong to?", "label": "Spain"}
+{"sample_id": "zsre-0042987", "client_id": 3, "input_ids": "When was the birth of Leonardo de Figueroa?", "label": "1654"}
+{"sample_id": "zsre-0043134", "client_id": 3, "input_ids": "What is the national identity of Alain Hertoghe?", "label": "German"}
+{"sample_id": "zsre-0044165", "client_id": 3, "input_ids": "What city did Nicola Romeo live when he died?", "label": "Genoa"}
+{"sample_id": "zsre-0044224", "client_id": 3, "input_ids": "What was the native language of Jean Testu de Mauroy?", "label": "German"}
+{"sample_id": "zsre-0044426", "client_id": 3, "input_ids": "What team does Leon Lett play for?", "label": "New York Giants"}
+{"sample_id": "zsre-0044540", "client_id": 3, "input_ids": "What is the native language of René Donnio?", "label": "Spanish"}
+{"sample_id": "zsre-0045219", "client_id": 3, "input_ids": "Who is listed as Georges Henri Manzana Pissarro father?", "label": "Manuel Pissarro"}
+{"sample_id": "zsre-0045245", "client_id": 3, "input_ids": "On what date did William de Turbeville die?", "label": "4 May 1813"}
+{"sample_id": "zsre-0045331", "client_id": 3, "input_ids": "What is the university where Robert Antoine Pinchon went?", "label": "University of Paris"}
+{"sample_id": "zsre-0045563", "client_id": 3, "input_ids": "What is the position Bart van Brakel plays in football?", "label": "defender"}
+{"sample_id": "zsre-0045867", "client_id": 3, "input_ids": "Which was the voice type that Aldo Protti had?", "label": "countertenor"}
+{"sample_id": "zsre-0045944", "client_id": 3, "input_ids": "What is the national identity of Jean Malaquais?", "label": "English"}
+{"sample_id": "zsre-0046171", "client_id": 3, "input_ids": "In what war did Joachim Peiper fight?", "label": "Eastern Front"}
+{"sample_id": "zsre-0046997", "client_id": 3, "input_ids": "Which ethnic group does Micheline Presle belong?", "label": "German"}
+{"sample_id": "zsre-0047513", "client_id": 3, "input_ids": "What nationality is Pierre-Jean Grosley?", "label": "English"}
+{"sample_id": "zsre-0048080", "client_id": 3, "input_ids": "In what war did Gregorio Ruiz fight in?", "label": "War of the Pacific"}
+{"sample_id": "zsre-0048498", "client_id": 3, "input_ids": "What is the native tongue of Henri Attal?", "label": "English"}
+{"sample_id": "zsre-0048649", "client_id": 3, "input_ids": "What medical condition killed Tristan Corbière?", "label": "stomach cancer"}
+{"sample_id": "zsre-0048858", "client_id": 3, "input_ids": "Which ethnic group does François Cavanna belong?", "label": "German"}
+{"sample_id": "zsre-0049724", "client_id": 3, "input_ids": "What show is Lionel Luthor from?", "label": "Half-Life universe"}
+{"sample_id": "zsre-0049838", "client_id": 3, "input_ids": "Which industry is T. J. Southard associated with?", "label": "photography"}
+{"sample_id": "zsre-0049848", "client_id": 3, "input_ids": "What language is Le Chasseur français written in?", "label": "American English"}
+{"sample_id": "zsre-0050490", "client_id": 3, "input_ids": "What nationality of Simon-Joseph Pellegrin?", "label": "German"}
+{"sample_id": "zsre-0050493", "client_id": 3, "input_ids": "What is the native tongue of Marcel Bozzuffi?", "label": "German"}
+{"sample_id": "zsre-0050534", "client_id": 3, "input_ids": "Which position was held by Carlo Nocella?", "label": "Doge of Venice"}
+{"sample_id": "zsre-0050573", "client_id": 3, "input_ids": "Which country's citizen was Peter Coudrin?", "label": "Canada"}
+{"sample_id": "zsre-0050679", "client_id": 3, "input_ids": "What nationality of Gilles Aillaud?", "label": "English"}
+{"sample_id": "zsre-0050723", "client_id": 3, "input_ids": "In which war did Louis-Gaston de Sonis serve?", "label": "French Revolutionary Wars"}
+{"sample_id": "zsre-0051218", "client_id": 3, "input_ids": "At what location did Benito Quinquela Martín die?", "label": "Monte Carlo"}
+{"sample_id": "zsre-0051230", "client_id": 3, "input_ids": "What kind of  occupation does Paul-François Huart-Chapel have?", "label": "architect"}
+{"sample_id": "zsre-0052583", "client_id": 3, "input_ids": "Which city was the birthplace of Vicente Carrillo Fuentes?", "label": "Puerto Rico"}
+{"sample_id": "zsre-0052655", "client_id": 3, "input_ids": "What was the noble family that Rodrigo González de Lara was from?", "label": "D Lara family"}
+{"sample_id": "zsre-0052819", "client_id": 3, "input_ids": "Which state is Saint-Michel-de-Dèze located?", "label": "Loire"}
+{"sample_id": "zsre-0053617", "client_id": 3, "input_ids": "Where did Francesco Fontebasso live when he died?", "label": "Bologna"}
+{"sample_id": "zsre-0054105", "client_id": 3, "input_ids": "During which historic war was William Vandever an officer?", "label": "American Revolutionary War"}
+{"sample_id": "zsre-0055028", "client_id": 3, "input_ids": "Which position was held by Diego de Acebo?", "label": "bishop"}
+{"sample_id": "zsre-0055206", "client_id": 3, "input_ids": "In what city did Gilles Bilodeau die?", "label": "Lyon"}
+{"sample_id": "zsre-0055282", "client_id": 3, "input_ids": "Which historic war did Frederic Wake-Walker participate?", "label": "Second Boer War"}
+{"sample_id": "zsre-0055993", "client_id": 3, "input_ids": "What nationality was Louis Ulbach?", "label": "English"}
+{"sample_id": "zsre-0056072", "client_id": 3, "input_ids": "What voice type is Carlo Broccardi?", "label": "countertenor"}
+{"sample_id": "zsre-0056403", "client_id": 3, "input_ids": "Who was the dad of Joseph Koerner?", "label": "Lyndon Koerner"}
+{"sample_id": "zsre-0056469", "client_id": 3, "input_ids": "Which city was the birthplace of Lionel Tiger?", "label": "New Orleans"}
+{"sample_id": "zsre-0056587", "client_id": 3, "input_ids": "Which position was held by Gustave Olombe Atelumbu Musilamu?", "label": "President of Nigeria"}
+{"sample_id": "zsre-0058250", "client_id": 3, "input_ids": "What date did Carlo Giorgio Garofalo die on?", "label": "1780"}
+{"sample_id": "zsre-0058296", "client_id": 3, "input_ids": "What is the gender David Márquez is associated with?", "label": "tenor"}
+{"sample_id": "zsre-0058741", "client_id": 3, "input_ids": "What was Boris de Fast's occupation?", "label": "singer"}
+{"sample_id": "zsre-0059232", "client_id": 3, "input_ids": "What team does Marcus Kristoffersson play for?", "label": "Colorado Avalanche"}
+{"sample_id": "zsre-0059328", "client_id": 3, "input_ids": "Who fathered Édouard Bertin?", "label": "François-Marie Bertin"}
+{"sample_id": "zsre-0059407", "client_id": 3, "input_ids": "What league does Ballingarry A.F.C. participate in?", "label": "Limoges Football League"}
+{"sample_id": "zsre-0059445", "client_id": 3, "input_ids": "What voice type does Delores Ziegler have?", "label": "contralto"}
+{"sample_id": "zsre-0059882", "client_id": 3, "input_ids": "Which player position has been associated with Juan Carlos Falcón?", "label": "forward"}
+{"sample_id": "zsre-0060668", "client_id": 3, "input_ids": "What conflict involved Ronald Symond?", "label": "Vietnam War"}
+{"sample_id": "zsre-0061026", "client_id": 3, "input_ids": "What was the position of Marcus Peixoto?", "label": "goalkeeper"}
+{"sample_id": "zsre-0061342", "client_id": 3, "input_ids": "What was the death date of Roger de Bailleul?", "label": "1625"}
+{"sample_id": "zsre-0062011", "client_id": 3, "input_ids": "On what date did Lar O'Byrne expire?", "label": "5 February 2012"}
+{"sample_id": "zsre-0062299", "client_id": 3, "input_ids": "What team is Adrien Hunou associated with?", "label": "MC Orléans"}
+{"sample_id": "zsre-0062302", "client_id": 3, "input_ids": "What kind of  occupation does Charles-Auguste Lebourg have?", "label": "architect"}
+{"sample_id": "zsre-0062726", "client_id": 3, "input_ids": "What was the cause of death for Alexandre Léontieff?", "label": "leukemia"}
+{"sample_id": "zsre-0062959", "client_id": 3, "input_ids": "What nationality was Henri François Xavier Gresley?", "label": "English"}
+{"sample_id": "zsre-0063415", "client_id": 3, "input_ids": "Who was Julian Lloyd Webber's father?", "label": "William Webber"}
+{"sample_id": "zsre-0063912", "client_id": 3, "input_ids": "What city did Christian Leberecht Vogel live when he died?", "label": "Berlin"}
+{"sample_id": "zsre-0063949", "client_id": 3, "input_ids": "In which war did Gustav Leffers serve?", "label": "Napoleonic Wars"}
+{"sample_id": "zsre-0064029", "client_id": 3, "input_ids": "What is the native language of Maurice Champagne?", "label": "English"}
+{"sample_id": "zsre-0064286", "client_id": 3, "input_ids": "What city was Eugène Burnand born in?", "label": "Lausanne"}
+{"sample_id": "zsre-0064948", "client_id": 3, "input_ids": "Which language is France Inter written in?", "label": "German"}
+{"sample_id": "zsre-0065245", "client_id": 3, "input_ids": "Where did Giuseppe Sardi live when he died?", "label": "Venice"}
+{"sample_id": "zsre-0065672", "client_id": 3, "input_ids": "What was the name of the father of Luca Zuffi?", "label": "Gianni Zuffi"}
+{"sample_id": "zsre-0065711", "client_id": 3, "input_ids": "Where did Francis Costigan live when he died?", "label": "New Orleans"}
+{"sample_id": "zsre-0065976", "client_id": 3, "input_ids": "At what position on the field did Christoffer Eriksson play football?", "label": "defenceman"}
+{"sample_id": "zsre-0066158", "client_id": 3, "input_ids": "What is the native tongue of Berndt Röder?", "label": "Norwegian"}
+{"sample_id": "zsre-0066211", "client_id": 3, "input_ids": "Where did Sylvestre François Lacroix live when he died?", "label": "Toulouse"}
+{"sample_id": "zsre-0066670", "client_id": 3, "input_ids": "What nationality is Jacques Lacarrière?", "label": "German"}
+{"sample_id": "zsre-0066925", "client_id": 3, "input_ids": "What was Hillevi Martinpelto's range?", "label": "mezzo-oprano"}
+{"sample_id": "zsre-0069304", "client_id": 3, "input_ids": "The father of Louis de Vilmorin is whom?", "label": "François de Vilmorin"}
+{"sample_id": "zsre-0069547", "client_id": 3, "input_ids": "Due to which disease did Paul Mares die?", "label": "lung disease"}
+{"sample_id": "zsre-0069657", "client_id": 3, "input_ids": "Which was the nationality of Olivier Barbarant?", "label": "German"}
+{"sample_id": "zsre-0069844", "client_id": 3, "input_ids": "Which college or university is related with Edmond Warre?", "label": "University of Edinburgh"}
+{"sample_id": "zsre-0070172", "client_id": 3, "input_ids": "In what city did Henri Sérandour die?", "label": "Toulon"}
+{"sample_id": "zsre-0070819", "client_id": 3, "input_ids": "In which fictional work is Dimitri Marick a character?", "label": "The West Wing"}
+{"sample_id": "zsre-0070841", "client_id": 3, "input_ids": "The date of birth of Gabriel Ascárate is?", "label": "20 January 1986"}
+{"sample_id": "zsre-0071490", "client_id": 3, "input_ids": "What was Théodore Simon Jouffroy's career?", "label": "botanist"}
+{"sample_id": "zsre-0072009", "client_id": 3, "input_ids": "Of what country is Umberto Mozzoni a citizen?", "label": "France"}
+{"sample_id": "zsre-0072043", "client_id": 3, "input_ids": "Which city was the birthplace of Rafael Valls?", "label": "Barcelona"}
+{"sample_id": "zsre-0072373", "client_id": 3, "input_ids": "When was Marius Holst born?", "label": "20 April 1894"}
+{"sample_id": "zsre-0072624", "client_id": 3, "input_ids": "What title is held by Pierre Toussaint?", "label": "blessed"}
+{"sample_id": "zsre-0072666", "client_id": 3, "input_ids": "What was Louis-Isaac Lemaistre de Sacy's occupation?", "label": "architect"}
+{"sample_id": "zsre-0072693", "client_id": 3, "input_ids": "In which conflict did Raymond Duchamp-Villon participate?", "label": "French Revolutionary Wars"}
+{"sample_id": "zsre-0072840", "client_id": 3, "input_ids": "Which lady Charles Delaunay was born to?", "label": "Delaunay House"}
+{"sample_id": "zsre-0072894", "client_id": 3, "input_ids": "In what city did Émile Borel die?", "label": "Rouen"}
+{"sample_id": "zsre-0073133", "client_id": 3, "input_ids": "The voice type of Henri-Étienne Dérivis is what?", "label": "soprano"}
+{"sample_id": "zsre-0073540", "client_id": 3, "input_ids": "What is Cristian Bocșan's birthplace?", "label": "Vrancea County"}
+{"sample_id": "zsre-0074275", "client_id": 3, "input_ids": "What is the war during which José Videla Castillo was in the armed forces?", "label": "Spanish Civil War"}
+{"sample_id": "zsre-0075452", "client_id": 3, "input_ids": "What was the native language of François-Alexandre Tardiveau?", "label": "German"}
+{"sample_id": "zsre-0076129", "client_id": 3, "input_ids": "Who recorded Les Soul Men?", "label": "Gloria Gaynor"}
+{"sample_id": "zsre-0076471", "client_id": 3, "input_ids": "What is the native language of Louis Hémon?", "label": "Spanish"}
+{"sample_id": "zsre-0077226", "client_id": 3, "input_ids": "What nationality of Alain Savary?", "label": "German"}
+{"sample_id": "zsre-0077257", "client_id": 3, "input_ids": "Which position was held by Pope Clement IV?", "label": "pope"}
+{"sample_id": "zsre-0077483", "client_id": 3, "input_ids": "Where did Mel Dinelli live when he died?", "label": "San Francisco"}
+{"sample_id": "zsre-0077560", "client_id": 3, "input_ids": "What position does Marcin Pietroń play?", "label": "defenceman"}
+{"sample_id": "zsre-0077664", "client_id": 3, "input_ids": "What is the name of Chris van der Weerden's team?", "label": "FC Twente"}
+{"sample_id": "zsre-0078475", "client_id": 3, "input_ids": "What group was Clemente d'Olera a member of?", "label": "Cistercian"}
+{"sample_id": "zsre-0078643", "client_id": 3, "input_ids": "What was the designer of Porte Saint-Martin's name?", "label": "Pointe Noiret"}
+{"sample_id": "zsre-0078775", "client_id": 3, "input_ids": "The nationality of Julien Louis Geoffroy was what?", "label": "English"}
+{"sample_id": "zsre-0079109", "client_id": 3, "input_ids": "What was the position of Pablo Gabriel García?", "label": "defender"}
+{"sample_id": "zsre-0079145", "client_id": 3, "input_ids": "What  is Pablo Andrés Abdala Kovasevic's position on the field while playing football?", "label": "winger"}
+{"sample_id": "zsre-0079253", "client_id": 3, "input_ids": "Which position was held by Jean Frangipani?", "label": "President of Haiti"}
+{"sample_id": "zsre-0079254", "client_id": 3, "input_ids": "What is the position of Jean Frangipani?", "label": "President of Gabon"}
+{"sample_id": "zsre-0079888", "client_id": 3, "input_ids": "Which language is Le Journal de Mickey written in?", "label": "German"}
+{"sample_id": "zsre-0080170", "client_id": 3, "input_ids": "Where was Nathan Bourdeau born?", "label": "Brest"}
+{"sample_id": "zsre-0080283", "client_id": 3, "input_ids": "What was the date of Anthony Henry Holland's death?", "label": "1918"}
+{"sample_id": "zsre-0081765", "client_id": 3, "input_ids": "What is the name university that educated Mark Pitcavage?", "label": "University of Michigan"}
+{"sample_id": "zsre-0081779", "client_id": 3, "input_ids": "The cause of death for Fernand Gignac was what?", "label": "leukemia"}
+{"sample_id": "zsre-0082345", "client_id": 3, "input_ids": "Which college or university is related with Jérôme Champagne?", "label": "École Polytechnique"}
+{"sample_id": "zsre-0082428", "client_id": 3, "input_ids": "What is the name of Raúl Toro Julio's position?", "label": "goalkeeper"}
+{"sample_id": "zsre-0082781", "client_id": 3, "input_ids": "The nationality of Eugène Daumas is?", "label": "English"}
+{"sample_id": "zsre-0083196", "client_id": 3, "input_ids": "Which ethnic group does Xavier Fagnon belong?", "label": "English"}
+{"sample_id": "zsre-0083583", "client_id": 3, "input_ids": "Which was the position that Pierre Petit de Julleville held?", "label": "abbot"}
+{"sample_id": "zsre-0083651", "client_id": 3, "input_ids": "What is the position of Donal Lamont?", "label": "President of Haiti"}
+{"sample_id": "zsre-0083868", "client_id": 3, "input_ids": "What was Robert Wilfred Skeffington Lutwidge's occupation?", "label": "architect"}
+{"sample_id": "zsre-0084131", "client_id": 3, "input_ids": "What war did Harold Van Heuvelen fight in?", "label": "Vietnam War"}
+{"sample_id": "zsre-0084640", "client_id": 3, "input_ids": "For which sports team does Victor Irineu de Souza play?", "label": "Clermont Foot"}
+{"sample_id": "zsre-0085064", "client_id": 3, "input_ids": "In what city did Fabio Casartelli die?", "label": "Naples"}
+{"sample_id": "zsre-0085590", "client_id": 3, "input_ids": "What group was Jacques Restout a member of?", "label": "Franciscan"}
+{"sample_id": "zsre-0085930", "client_id": 3, "input_ids": "The nationality of Pierre-Édouard Lémontey is?", "label": "German"}
+{"sample_id": "zsre-0086169", "client_id": 3, "input_ids": "In what place did Manuel María Ponce Brousset die?", "label": "Toledo"}
+{"sample_id": "zsre-0086915", "client_id": 3, "input_ids": "Which sports team is Thomas Azevedo a member of?", "label": "FC Barcelona"}
+{"sample_id": "zsre-0087028", "client_id": 3, "input_ids": "Which war was Pierre Goybet in?", "label": "Napoleonic Wars"}
+{"sample_id": "zsre-0087187", "client_id": 3, "input_ids": "What is the national identity of Günther Maleuda?", "label": "Danish"}
+{"sample_id": "zsre-0087243", "client_id": 3, "input_ids": "What city is Daniele Giorgini associated with?", "label": "Bologna"}
+{"sample_id": "zsre-0087432", "client_id": 3, "input_ids": "What date did Lancelot de Carle die?", "label": "4 May 1882"}
+{"sample_id": "zsre-0087601", "client_id": 3, "input_ids": "Which country is Maurice Salomez a citizen of?", "label": "Switzerland"}
+{"sample_id": "zsre-0087788", "client_id": 3, "input_ids": "What was the date of Carl Vaugoin's death?", "label": "22 July 1882"}
+{"sample_id": "zsre-0088884", "client_id": 3, "input_ids": "The father of José Antonio Santesteban is whom?", "label": "Francisco Santesteban"}
+{"sample_id": "zsre-0088889", "client_id": 3, "input_ids": "What position is played by Julio Briones?", "label": "defender"}
+{"sample_id": "zsre-0089215", "client_id": 3, "input_ids": "Who was Léopoldine Hugo's mother?", "label": "Elisabeth Hugo"}
+{"sample_id": "zsre-0090173", "client_id": 3, "input_ids": "In which war did David Southard fight?", "label": "Spanish-- American War"}
+{"sample_id": "zsre-0090569", "client_id": 3, "input_ids": "What city did Pierre Paul Émile Roux live when he died?", "label": "Geneva"}
+{"sample_id": "zsre-0091226", "client_id": 3, "input_ids": "Where did José Cisneros study or work?", "label": "University of Texas at Austin"}
+{"sample_id": "zsre-0092443", "client_id": 3, "input_ids": "Who is Jean Coquelin's dad?", "label": "Daniel Coquelin"}
+{"sample_id": "zsre-0092524", "client_id": 3, "input_ids": "What is the position of Andrew Kandrevas?", "label": "member of the Pennsylvania House of Representatives"}
+{"sample_id": "zsre-0092598", "client_id": 3, "input_ids": "Who broadcasted Monsignor Renard?", "label": "CBS"}
+{"sample_id": "zsre-0093374", "client_id": 3, "input_ids": "The date of death for Henry Ferne is what?", "label": "1858"}
+{"sample_id": "zsre-0094205", "client_id": 3, "input_ids": "What is the war during which Louis Baraguey d'Hilliers was in the armed forces?", "label": "World War I"}
+{"sample_id": "zsre-0094206", "client_id": 3, "input_ids": "In which war did Louis Baraguey d'Hilliers serve?", "label": "World War I"}
+{"sample_id": "zsre-0094421", "client_id": 3, "input_ids": "What was the native language of Abel Bonnard?", "label": "English"}
+{"sample_id": "zsre-0094488", "client_id": 3, "input_ids": "What show is Cyril O'Reily from?", "label": "Criminal Minds"}
+{"sample_id": "zsre-0094542", "client_id": 3, "input_ids": "Who is the Le Iene named after?", "label": "Iene River"}
+{"sample_id": "zsre-0094547", "client_id": 3, "input_ids": "What city is Samuel Caballero from?", "label": "Montevideo"}
+{"sample_id": "zsre-0094898", "client_id": 3, "input_ids": "On which date did William Henry Dines die?", "label": "1918"}
+{"sample_id": "zsre-0095481", "client_id": 3, "input_ids": "What language is Eugene Onegin written in?", "label": "English"}
+{"sample_id": "zsre-0095612", "client_id": 3, "input_ids": "What college did Jorge Verstrynge go to?", "label": "Complutense University of Madrid"}
+{"sample_id": "zsre-0096078", "client_id": 3, "input_ids": "When was Messier 72 first discovered?", "label": "1770"}
+{"sample_id": "zsre-0096150", "client_id": 3, "input_ids": "What nationality was Armand Samuel de Marescot?", "label": "English"}
+{"sample_id": "zsre-0096701", "client_id": 3, "input_ids": "Which country's citizenship does Mohammed Ben Brahim hold?", "label": "Egypt"}
+{"sample_id": "zsre-0096824", "client_id": 3, "input_ids": "The mother of Cyril Holland is whom?", "label": "Rose Kerr"}
+{"sample_id": "zsre-0096998", "client_id": 3, "input_ids": "Where did Paolo Budinich live when he died?", "label": "Venice"}
+{"sample_id": "zsre-0097040", "client_id": 3, "input_ids": "Which country is Michel Brown from?", "label": "Canada"}
+{"sample_id": "zsre-0097420", "client_id": 3, "input_ids": "What war or battle involved Edmé-Martin Vandermaesen?", "label": "Algerian War"}
+{"sample_id": "zsre-0097512", "client_id": 3, "input_ids": "What city is Marco Crugnola from?", "label": "Venice"}
+{"sample_id": "zsre-0098165", "client_id": 3, "input_ids": "Where did Jean-Baptiste Bertrand live when he died?", "label": "Montreal"}
+{"sample_id": "zsre-0098196", "client_id": 3, "input_ids": "What was Antonio Rodríguez Dovale specialty in their profesisonal sport?", "label": "goalkeeper"}
+{"sample_id": "zsre-0098241", "client_id": 3, "input_ids": "Where did Jean-Baptiste Biot live when he died?", "label": "Lyon"}
+{"sample_id": "zsre-0098401", "client_id": 3, "input_ids": "The father of Lionello Venturi was who?", "label": "Ferrante Venturi"}
+{"sample_id": "zsre-0098402", "client_id": 3, "input_ids": "What is the position of Bruno Schettino?", "label": "cardinal"}
+{"sample_id": "zsre-0099580", "client_id": 3, "input_ids": "Which country does Hassan Tobar belong to?", "label": "Albania"}
+{"sample_id": "zsre-0099810", "client_id": 3, "input_ids": "In what war did Charles Mathieu Isidore Decaen fight?", "label": "World War I"}
+{"sample_id": "zsre-0100187", "client_id": 3, "input_ids": "Where did Giovanni Gonzaga live when he died?", "label": "Bologna"}
+{"sample_id": "zsre-0100436", "client_id": 3, "input_ids": "What is the name university that educated Ammar Eloueini?", "label": "University of Paris"}
+{"sample_id": "zsre-0100530", "client_id": 3, "input_ids": "What city is Tomáš Cibulec from?", "label": "Bratislava"}
+{"sample_id": "zsre-0101274", "client_id": 3, "input_ids": "Where was Frederick Denison Maurice born?", "label": "London"}
+{"sample_id": "zsre-0101556", "client_id": 3, "input_ids": "What city is Éric Prodon associated with?", "label": "Toulon"}
+{"sample_id": "zsre-0102538", "client_id": 3, "input_ids": "What is the native language of Germaine Dieterlen?", "label": "English"}
+{"sample_id": "zsre-0102596", "client_id": 3, "input_ids": "What nationality is Jean Théophile Victor Leclerc?", "label": "English"}
+{"sample_id": "zsre-0103762", "client_id": 3, "input_ids": "At what location did Francesco Antonio Picchiatti die?", "label": "Bologna"}
+{"sample_id": "zsre-0104160", "client_id": 3, "input_ids": "What voice type does Gustáv Papp have?", "label": "soprano"}
+{"sample_id": "zsre-0105008", "client_id": 3, "input_ids": "Which was the voice type that Edmond Clément had?", "label": "baritone"}
+{"sample_id": "zsre-0105316", "client_id": 3, "input_ids": "Which was the position that Marcel Honorat Léon Agboton held?", "label": "cardinal"}
+{"sample_id": "zsre-0105698", "client_id": 3, "input_ids": "In football, which position does Andrés Franzoia play?", "label": "winger"}
+{"sample_id": "zsre-0105725", "client_id": 3, "input_ids": "What is the national identity of Charles Baudouin?", "label": "German"}
+{"sample_id": "zsre-0105806", "client_id": 3, "input_ids": "What type of tone does Luis Mariano sing in?", "label": "bass"}
+{"sample_id": "zsre-0105996", "client_id": 3, "input_ids": "What was Arthur Nzeribe's occupation?", "label": "architect"}
+{"sample_id": "zsre-0106369", "client_id": 3, "input_ids": "At what location did Antonio Paglia die?", "label": "Venice"}
+{"sample_id": "zsre-0106703", "client_id": 3, "input_ids": "What was René Thom's city of birth?", "label": "Lyon"}
+{"sample_id": "zsre-0107086", "client_id": 3, "input_ids": "Where did Lucien Vidi live when he died?", "label": "Rome"}
+{"sample_id": "zsre-0107130", "client_id": 3, "input_ids": "Who is the paternal progenitor of Nico van der Laan?", "label": "Wilhelm van der Laan"}
+{"sample_id": "zsre-0107240", "client_id": 3, "input_ids": "On what team is Simon Lajeunesse?", "label": "Ottawa Rough Riders"}
+{"sample_id": "zsre-0107716", "client_id": 3, "input_ids": "What is the language that Le Monde libertaire is in?", "label": "American English"}
+{"sample_id": "zsre-0108595", "client_id": 3, "input_ids": "The date of birth of Luis Terrazas is?", "label": "19 January 1986"}
+{"sample_id": "zsre-0108765", "client_id": 3, "input_ids": "Which sports team is Franck Tournaire a member of?", "label": "CF União"}
+{"sample_id": "zsre-0109633", "client_id": 3, "input_ids": "What was Jan van Nickelen's occupation?", "label": "poet"}
+{"sample_id": "zsre-0110350", "client_id": 3, "input_ids": "The nationality of Jacques Doillon was what?", "label": "German"}
+{"sample_id": "zsre-0110367", "client_id": 3, "input_ids": "Who was James Lascelles's mother?", "label": "Marylin Lascelles"}
+{"sample_id": "zsre-0110422", "client_id": 3, "input_ids": "In what place did Antonio Vallisneri die?", "label": "Padua"}
+{"sample_id": "zsre-0110984", "client_id": 3, "input_ids": "What is Alejandro Bedoya's position in football?", "label": "goalkeeper"}
+{"sample_id": "zsre-0111241", "client_id": 3, "input_ids": "When was Ricardo García Mercet's death?", "label": "15 April 2014"}
+{"sample_id": "zsre-0111286", "client_id": 3, "input_ids": "What work of fiction is Oscar MacGuire located in?", "label": "Guiding Light"}
+{"sample_id": "zsre-0111331", "client_id": 3, "input_ids": "When is the date of birth of Paul Veyne?", "label": "1947"}
+{"sample_id": "zsre-0111608", "client_id": 3, "input_ids": "What position does Filippo Penna play?", "label": "goalkeeper"}
+{"sample_id": "zsre-0112028", "client_id": 3, "input_ids": "In what place did Giuseppe Levi die?", "label": "Bologna"}
+{"sample_id": "zsre-0112083", "client_id": 3, "input_ids": "Which was the position that Michel Boutant held?", "label": "archbishop"}
+{"sample_id": "zsre-0112402", "client_id": 3, "input_ids": "The birth date of William Henry Metcalf is what?", "label": "1810"}
+{"sample_id": "zsre-0112585", "client_id": 3, "input_ids": "The mother of Philip Prospero, Prince of Asturias is whom?", "label": "Maria Christina of Austria"}
+{"sample_id": "zsre-0113179", "client_id": 3, "input_ids": "Which country is Marco Antonio Muñiz from?", "label": "Mexico"}
+{"sample_id": "zsre-0113180", "client_id": 3, "input_ids": "What was Gabriel Valdés's occupation?", "label": "painter"}
+{"sample_id": "zsre-0113647", "client_id": 3, "input_ids": "What was Carlos Alexander's range?", "label": "baritone"}
+{"sample_id": "zsre-0113677", "client_id": 3, "input_ids": "What was the native language of Jean-Philippe Nilor?", "label": "English"}
+{"sample_id": "zsre-0113820", "client_id": 3, "input_ids": "What type of instrument is Davidsbündlertänze designed for?", "label": "flute"}
+{"sample_id": "zsre-0113850", "client_id": 3, "input_ids": "What piece of fiction does Peter Petrelli appear in?", "label": "Heroes"}
+{"sample_id": "zsre-0114123", "client_id": 3, "input_ids": "What was the name of the father of Nicolas Vauquelin des Yveteaux?", "label": "Jean Vauquelin de la Fresnaye"}
+{"sample_id": "zsre-0114470", "client_id": 3, "input_ids": "What disease did Jean de Brunhoff contract?", "label": "tuber"}
+{"sample_id": "zsre-0114575", "client_id": 3, "input_ids": "What year did Gustav Kramer die in?", "label": "19 July 1882"}
+{"sample_id": "zsre-0114627", "client_id": 3, "input_ids": "What is the language of Alain Guiraudie?", "label": "German"}
+{"sample_id": "zsre-0115637", "client_id": 3, "input_ids": "By which person Villa Cook has been designed?", "label": "Andrea Palladio"}
+{"sample_id": "zsre-0115817", "client_id": 3, "input_ids": "Which ethnic group does Henri Amouroux belong?", "label": "English"}
+{"sample_id": "zsre-0116414", "client_id": 3, "input_ids": "What was the date of death for Jacques Boucher de Crèvecœur de Perthes?", "label": "1680"}
+{"sample_id": "zsre-0116899", "client_id": 3, "input_ids": "The Les Trois Mousquetaires is based upon what?", "label": "The Three Fabulous Wonders"}
+{"sample_id": "zsre-0117029", "client_id": 3, "input_ids": "What nationality of Eugène Despois?", "label": "English"}
+{"sample_id": "zsre-0117179", "client_id": 3, "input_ids": "What is Andrew Lepani's country of citizenship?", "label": "Belgium"}
+{"sample_id": "zsre-0117351", "client_id": 3, "input_ids": "What is the name university that educated John Michel?", "label": "University of Paris"}
+{"sample_id": "zsre-0117538", "client_id": 3, "input_ids": "What is the native language of Régis Laspalès?", "label": "German"}
+{"sample_id": "zsre-0118091", "client_id": 3, "input_ids": "What is the language of Paul Cuttoli?", "label": "Italian"}
+{"sample_id": "zsre-0118215", "client_id": 3, "input_ids": "In football, which position does Paolo Orlandoni play?", "label": "winger"}
+{"sample_id": "zsre-0119340", "client_id": 3, "input_ids": "Which player position has been assigned to Thomas Deruda?", "label": "forward"}
+{"sample_id": "zsre-0119493", "client_id": 3, "input_ids": "In what war was André Demetz a combatant?", "label": "Napoleonic Wars"}
+{"sample_id": "zsre-0119599", "client_id": 3, "input_ids": "Which country does Cosmo Francesco Ruppi belong to?", "label": "France"}
+{"sample_id": "zsre-0119896", "client_id": 3, "input_ids": "What is the cause of death of Daniel Branca?", "label": "suicide"}
+{"sample_id": "zsre-0120413", "client_id": 3, "input_ids": "Which sports team is Michael Dal Colle a member of?", "label": "Toronto Maple Leafs"}
+{"sample_id": "zsre-0120464", "client_id": 3, "input_ids": "To which fictional work does Fabian Brandner appear in?", "label": "The West Wing"}
+{"sample_id": "zsre-0120576", "client_id": 3, "input_ids": "What is Stéphane Plaza's father's name?", "label": "Raymond Chandler Plaza"}
+{"sample_id": "zsre-0121503", "client_id": 3, "input_ids": "In which conflict did Isidro Michel López participate?", "label": "World War I"}
+{"sample_id": "zsre-0121825", "client_id": 3, "input_ids": "What was Bruno Landi's range?", "label": "baritone"}
+{"sample_id": "zsre-0122299", "client_id": 3, "input_ids": "Who is the Barremian named after?", "label": "Brisbane"}
+{"sample_id": "zsre-0122384", "client_id": 3, "input_ids": "In which position does Serge Yoffou play?", "label": "defender"}
+{"sample_id": "zsre-0122612", "client_id": 3, "input_ids": "At what location did Francesco Curradi die?", "label": "Naples"}
+{"sample_id": "zsre-0122821", "client_id": 3, "input_ids": "Which country does Louis Guy belong to?", "label": "Canada"}
+{"sample_id": "zsre-0122950", "client_id": 3, "input_ids": "In what war did Miguel Ezquerra fight?", "label": "Spanish War of Independence"}
+{"sample_id": "zsre-0123754", "client_id": 3, "input_ids": "What sex is Diego Confalonieri?", "label": "baritone"}
+{"sample_id": "zsre-0124539", "client_id": 3, "input_ids": "What year did Leon Lumsdaine die?", "label": "9 August 1966"}
+{"sample_id": "zsre-0125228", "client_id": 3, "input_ids": "What is the name of the state where Rue Dauphine is located?", "label": "Paris"}
+{"sample_id": "zsre-0125314", "client_id": 3, "input_ids": "When was Lionel Tertis's death?", "label": "22 January 1882"}
+{"sample_id": "zsre-0125336", "client_id": 3, "input_ids": "What was Gerard Jennissen's career?", "label": "poet"}
+{"sample_id": "zsre-0125925", "client_id": 3, "input_ids": "In which war did Jean Chaput serve?", "label": "French and Indian Wars"}
+{"sample_id": "zsre-0126188", "client_id": 3, "input_ids": "The date of death for Jacques Bacot is what?", "label": "15 February 1894"}
+{"sample_id": "zsre-0127027", "client_id": 3, "input_ids": "What constellation is Messier 18 part of?", "label": "Auriga"}
+{"sample_id": "zsre-0127436", "client_id": 3, "input_ids": "Which position was held by Roberto Francisco Ferrería Paz?", "label": "President of Peru"}
+{"sample_id": "zsre-0127516", "client_id": 3, "input_ids": "What is the position of François Duvalier?", "label": "President of Haiti"}
+{"sample_id": "zsre-0127792", "client_id": 3, "input_ids": "Which was the position that Charles de Hémard de Denonville held?", "label": "archbishop"}
+{"sample_id": "zsre-0127859", "client_id": 3, "input_ids": "What was Charles Duchaussois's cause of death?", "label": "cholera"}
+{"sample_id": "zsre-0127864", "client_id": 3, "input_ids": "What was Gaston Defferre's occupation?", "label": "painter"}
+{"sample_id": "zsre-0128066", "client_id": 3, "input_ids": "Which was the position that Marco Barbarigo held?", "label": "Doge of Venice"}
+{"sample_id": "zsre-0128778", "client_id": 3, "input_ids": "What is the language of François Calvet?", "label": "German"}
+{"sample_id": "zsre-0128780", "client_id": 3, "input_ids": "What nationality was Olivier Saladin?", "label": "German"}
+{"sample_id": "zsre-0128809", "client_id": 3, "input_ids": "What is France Bleu's parent company?", "label": "Radio Gaulle"}
+{"sample_id": "zsre-0129069", "client_id": 3, "input_ids": "What team is Nicolas Blanchard on?", "label": "Washington Capitals"}
+{"sample_id": "zsre-0129736", "client_id": 3, "input_ids": "Of what country is Milan Randl a citizen?", "label": "Slovakia"}
+{"sample_id": "zsre-0130216", "client_id": 3, "input_ids": "Which was the creator of Three Studies for George Dyer?", "label": "Francis H Kimball"}
+{"sample_id": "zsre-0130277", "client_id": 3, "input_ids": "In one word, how did Philippe Volter die?", "label": "assassination"}
+{"sample_id": "zsre-0130346", "client_id": 3, "input_ids": "What position did Serge Trinchero play?", "label": "goalkeeper"}
+{"sample_id": "zsre-0130588", "client_id": 3, "input_ids": "To which religious order did Joseph Roger de Benoist belong?", "label": "Trinitarian Order"}
+{"sample_id": "zsre-0130727", "client_id": 3, "input_ids": "What was Ernest Langlois's city of birth?", "label": "London"}
+{"sample_id": "zsre-0130898", "client_id": 3, "input_ids": "Where was Luis Alfredo Arango from?", "label": "Cuba"}
+{"sample_id": "zsre-0130994", "client_id": 3, "input_ids": "In what city was Fernando Romeo Lucas García born in?", "label": "Puebla"}
+{"sample_id": "zsre-0131091", "client_id": 3, "input_ids": "Which architect was responsible for Charles L. Manson House?", "label": "Charles L Manson"}
+{"sample_id": "zsre-0131261", "client_id": 3, "input_ids": "Which ethnic group does Jean Moreau belong?", "label": "German"}
+{"sample_id": "zsre-0131381", "client_id": 3, "input_ids": "The nationality of Louis-Jean-Marie Daubenton was what?", "label": "German"}
+{"sample_id": "zsre-0131386", "client_id": 3, "input_ids": "In what city did Louis Hercule Timoléon de Cossé-Brissac die?", "label": "Saint-Mihiel"}
+{"sample_id": "zsre-0131543", "client_id": 3, "input_ids": "Where was Norbert Palásthy born in?", "label": "Šiauliai"}
+{"sample_id": "zsre-0131760", "client_id": 3, "input_ids": "What city was Jules Vandooren born in?", "label": "Lyon"}
+{"sample_id": "zsre-0131795", "client_id": 3, "input_ids": "Which college or university is related with Franco Bassani?", "label": "University of Florence"}
+{"sample_id": "zsre-0132248", "client_id": 3, "input_ids": "What is Leandro Maly's sex?", "label": "baritone"}
+{"sample_id": "zsre-0132273", "client_id": 3, "input_ids": "The date of birth of Vincent Kirabo is?", "label": "1957"}
+{"sample_id": "zsre-0132609", "client_id": 3, "input_ids": "In what place did Alexandre, Chevalier de Chaumont die?", "label": "Montpellier"}
+{"sample_id": "zsre-0132803", "client_id": 3, "input_ids": "Which is the distributor of Johnny Frenchman?", "label": "Édouard Manet"}
+{"sample_id": "zsre-0132804", "client_id": 3, "input_ids": "What company distributed Johnny Frenchman?", "label": "Éditions Gallimard"}
+{"sample_id": "zsre-0132937", "client_id": 3, "input_ids": "Which college or university is related with Charles D. Ablard?", "label": "University of Wisconsin-Madison"}
+{"sample_id": "zsre-0133599", "client_id": 3, "input_ids": "What is the university where Satabdi Roy went?", "label": "Royal College, Colombo"}
+{"sample_id": "zsre-0133916", "client_id": 3, "input_ids": "What is the gender Colin Charles is known by?", "label": "baritone"}
+{"sample_id": "zsre-0134087", "client_id": 3, "input_ids": "What was Pablo Bruna's medical condition near the end of his life?", "label": "blindness of the Blind"}
+{"sample_id": "zsre-0134088", "client_id": 3, "input_ids": "What medical condition does Pablo Bruna have?", "label": "gigantism"}
+{"sample_id": "zsre-0134339", "client_id": 3, "input_ids": "What is the native language of Roger Vadim?", "label": "German"}
+{"sample_id": "zsre-0134423", "client_id": 3, "input_ids": "On which date did Filippo d'Angeli die?", "label": "1580"}
+{"sample_id": "zsre-0135330", "client_id": 3, "input_ids": "What was Charles Kaisin's career?", "label": "journalist"}
+{"sample_id": "zsre-0135920", "client_id": 3, "input_ids": "At what location did José Mange die?", "label": "Córdoba"}
+{"sample_id": "zsre-0136004", "client_id": 3, "input_ids": "In which country did Wolfgang Zelmer live?", "label": "Austria"}
+{"sample_id": "zsre-0136819", "client_id": 3, "input_ids": "What nationality of Alexis Guignard, comte de Saint-Priest?", "label": "English"}
+{"sample_id": "zsre-0136828", "client_id": 3, "input_ids": "What was the year of inception of New France?", "label": "1810"}
+{"sample_id": "zsre-0136855", "client_id": 3, "input_ids": "What constellation is where Messier 53 is?", "label": "Camelopardalis"}
+{"sample_id": "zsre-0137224", "client_id": 3, "input_ids": "What is the vocal range for Henriette Gottlieb?", "label": "mezzo-oprano"}
+{"sample_id": "zsre-0137669", "client_id": 3, "input_ids": "Which war was Manuel Peláez a part of?", "label": "Peninsular War"}
+{"sample_id": "zsre-0137795", "client_id": 3, "input_ids": "What was Mark van Platen's career?", "label": "politician"}
+{"sample_id": "zsre-0138533", "client_id": 3, "input_ids": "Where did Jules Jean-Baptiste Dehaussy live when he died?", "label": "Lyon"}
+{"sample_id": "zsre-0138802", "client_id": 3, "input_ids": "The person that is the mother of John, Prince of Asturias is who?", "label": "Isabella of Castile"}
+{"sample_id": "zsre-0138869", "client_id": 3, "input_ids": "The Le Corsaire is based upon what?", "label": "Corsica et Fantasio"}
+{"sample_id": "zsre-0139982", "client_id": 3, "input_ids": "What type of tone does Antonio Cesti sing in?", "label": "baritone"}
+{"sample_id": "zsre-0140136", "client_id": 3, "input_ids": "When did Maurice Bunau-Varilla's death occur?", "label": "5 January 1875"}
+{"sample_id": "zsre-0140520", "client_id": 3, "input_ids": "From what did Carl Civella die?", "label": "stroke"}
+{"sample_id": "zsre-0140653", "client_id": 3, "input_ids": "What year did Eugène Koeberlé die?", "label": "5 April 1875"}
+{"sample_id": "zsre-0141201", "client_id": 3, "input_ids": "The nationality of Maurice Ronet is?", "label": "English"}
+{"sample_id": "zsre-0141357", "client_id": 3, "input_ids": "The voice type of Arturo Chacón Cruz is what?", "label": "bass"}
+{"sample_id": "zsre-0141453", "client_id": 3, "input_ids": "Which was the position that Ernest Mesmin Lucien Cabo held?", "label": "President of Venezuela"}
+{"sample_id": "zsre-0141950", "client_id": 3, "input_ids": "What  is Paúl Ambrosi's position on the field while playing football?", "label": "goalkeeper"}
+{"sample_id": "zsre-0142412", "client_id": 3, "input_ids": "In what city was Giuseppe Ottavio Pitoni born in?", "label": "Bologna"}
+{"sample_id": "zsre-0143520", "client_id": 3, "input_ids": "Which position was held by Francis Arinze?", "label": "cardinal"}
+{"sample_id": "zsre-0143859", "client_id": 3, "input_ids": "When did the life of Emmanuel Carasso end?", "label": "1680"}
+{"sample_id": "zsre-0144025", "client_id": 3, "input_ids": "Who developed Portrait of Daniele Barbaro?", "label": "Caravaggio"}
+{"sample_id": "zsre-0144142", "client_id": 3, "input_ids": "Which was the nationality of Jonas Ennery?", "label": "Danish"}
+{"sample_id": "zsre-0144440", "client_id": 3, "input_ids": "Which war did Louis T. Hunt serve in?", "label": "World War I"}
+{"sample_id": "zsre-0144706", "client_id": 3, "input_ids": "When did Charles Julien Brianchon's death occur?", "label": "1866"}
+{"sample_id": "zsre-0145657", "client_id": 3, "input_ids": "Which historic war did Jacques Michael Swaab participate?", "label": "French Revolutionary Wars"}
+{"sample_id": "zsre-0145826", "client_id": 3, "input_ids": "What city did Alessandro Trotter live when he died?", "label": "Milan"}
+{"sample_id": "zsre-0146406", "client_id": 3, "input_ids": "What is the national identity of Gaston Thomson?", "label": "German"}
+{"sample_id": "zsre-0146539", "client_id": 3, "input_ids": "In what war did François Delzenne fight?", "label": "World War I"}
+{"sample_id": "zsre-0146837", "client_id": 3, "input_ids": "What was the cause of death of Jacques Bingen?", "label": "Bingen"}
+{"sample_id": "zsre-0146852", "client_id": 3, "input_ids": "What is the name of the state where Montorio Romano is located?", "label": "Venice"}
+{"sample_id": "zsre-0147335", "client_id": 3, "input_ids": "The nationality of Jean Del Val was what?", "label": "German"}
+{"sample_id": "zsre-0147405", "client_id": 3, "input_ids": "What type of instrument is Charles-Louis Hanon designed for?", "label": "violin"}
+{"sample_id": "zsre-0147466", "client_id": 3, "input_ids": "The date of death for Charles Joseph Tanret is what?", "label": "1928"}
+{"sample_id": "zsre-0147615", "client_id": 3, "input_ids": "What was Eric Vasquez's city of birth?", "label": "San Diego"}
+{"sample_id": "zsre-0147896", "client_id": 3, "input_ids": "What was Martin Dubina's occupation?", "label": "actor"}
+{"sample_id": "zsre-0147907", "client_id": 3, "input_ids": "Which ethnic group does Jacques Domergue belong?", "label": "German"}
+{"sample_id": "zsre-0148004", "client_id": 3, "input_ids": "What is David Bartek's birthplace?", "label": "London"}
+{"sample_id": "zsre-0148146", "client_id": 3, "input_ids": "What gender class does Emmanuel Yáñez belong to?", "label": "baritone"}
+{"sample_id": "zsre-0148164", "client_id": 3, "input_ids": "To which country does Christophe Roux belong as its citizen?", "label": "Switzerland"}
+{"sample_id": "zsre-0148651", "client_id": 3, "input_ids": "What country released Les Oubliées?", "label": "Belgium"}
+{"sample_id": "zsre-0148878", "client_id": 3, "input_ids": "What conflict involved Nicolas Léonard Beker?", "label": "Vietnam War"}
+{"sample_id": "zsre-0149139", "client_id": 3, "input_ids": "Which was the nationality of Fernandel?", "label": "German"}
+{"sample_id": "zsre-0149608", "client_id": 3, "input_ids": "What is the university where Henry Maden went?", "label": "Harvard University"}
+{"sample_id": "zsre-0149706", "client_id": 3, "input_ids": "Which was the position that Marcelino Palentini held?", "label": "archbishop"}
+{"sample_id": "zsre-0149857", "client_id": 3, "input_ids": "At what location did Claude Bowes-Lyon, 13th Earl of Strathmore and Kinghorne die?", "label": "Mulhouse"}
+{"sample_id": "zsre-0150182", "client_id": 3, "input_ids": "What city is Vladimír Bouzek from?", "label": "Budapest"}
+{"sample_id": "zsre-0150543", "client_id": 3, "input_ids": "In which language is Le Nouvel Économiste made in?", "label": "Catalan"}
+{"sample_id": "zsre-0150725", "client_id": 3, "input_ids": "For which sports team does Daniel Brändle play?", "label": "FC Stuttgart"}
+{"sample_id": "zsre-0150753", "client_id": 3, "input_ids": "The father of Leo Müller was who?", "label": "Ernst Müller"}
+{"sample_id": "zsre-0151099", "client_id": 3, "input_ids": "Where was Amélie Cocheteux from?", "label": "French Guiana"}
+{"sample_id": "zsre-0151498", "client_id": 3, "input_ids": "Which position was held by Enrique Manuel Hernández Rivera?", "label": "cardinal"}
+{"sample_id": "zsre-0151558", "client_id": 3, "input_ids": "Which was the position that Francisco León de la Barra held?", "label": "President of Venezuela"}
+{"sample_id": "zsre-0151642", "client_id": 3, "input_ids": "What is the birthplace of Francisco Verdugo?", "label": "Madrid"}
+{"sample_id": "zsre-0152414", "client_id": 3, "input_ids": "What was the name of Eric Fotou Kamdem's team?", "label": "MC Oran"}
+{"sample_id": "zsre-0153302", "client_id": 3, "input_ids": "What is Dante Boninfante's birthplace?", "label": "Parma"}
+{"sample_id": "zsre-0153381", "client_id": 3, "input_ids": "The voice type of François Le Roux is what?", "label": "countertenor"}
+{"sample_id": "zsre-0153522", "client_id": 3, "input_ids": "What is the name of Georges Carnus's position?", "label": "defender"}
+{"sample_id": "zsre-0154263", "client_id": 3, "input_ids": "What was the name of Paul Viardot mother?", "label": "Eva Viardot"}
+{"sample_id": "zsre-0154266", "client_id": 3, "input_ids": "Which lady gave birth to Paul Viardot?", "label": "Eleanor Viardot"}
+{"sample_id": "zsre-0154733", "client_id": 3, "input_ids": "Is Olivier Rossard a male or female?", "label": "French"}
+{"sample_id": "zsre-0155721", "client_id": 3, "input_ids": "Who fathered Henry Seymour, Lord Beauchamp?", "label": "Charles Seymour, 1st Duke of Somerset"}
+{"sample_id": "zsre-0156051", "client_id": 3, "input_ids": "What nationality was René Enjalbert?", "label": "Spanish"}
+{"sample_id": "zsre-0156382", "client_id": 3, "input_ids": "The nationality of Jean-Baptiste Mailhe is?", "label": "English"}
+{"sample_id": "zsre-0156601", "client_id": 3, "input_ids": "Who was Marco Maddaloni's mother?", "label": "Lucrezia Maddaloni"}
+{"sample_id": "zsre-0156602", "client_id": 3, "input_ids": "The person that is the mother of Marco Maddaloni is who?", "label": "Lucrezia Maddaloni"}
+{"sample_id": "zsre-0156603", "client_id": 3, "input_ids": "What was the name of Marco Maddaloni mother?", "label": "Lucrezia Tornabuoni"}
+{"sample_id": "zsre-0156637", "client_id": 3, "input_ids": "The voice type of Pavol Gábor is what?", "label": "bass"}
+{"sample_id": "zsre-0156736", "client_id": 3, "input_ids": "What was the war that Claude-Henri Belgrand de Vaubois fought in?", "label": "French Revolutionary Wars"}
+{"sample_id": "zsre-0157620", "client_id": 3, "input_ids": "What was the death date of Alain Polaniok?", "label": "16 July 2012"}
+{"sample_id": "zsre-0157676", "client_id": 3, "input_ids": "What city is Martín Cuevas from?", "label": "Mexico City"}
+{"sample_id": "zsre-0157862", "client_id": 3, "input_ids": "What is the date of death for André Breton?", "label": "16 July 1882"}
+{"sample_id": "zsre-0158018", "client_id": 3, "input_ids": "What was Tomás López Landero's career?", "label": "painter"}
+{"sample_id": "zsre-0158680", "client_id": 3, "input_ids": "What is the birthplace of Per Henricsson?", "label": "Stockholm"}
+{"sample_id": "zsre-0158696", "client_id": 3, "input_ids": "What position is played by Joelson Santos Silva?", "label": "winger"}
+{"sample_id": "zsre-0158777", "client_id": 3, "input_ids": "Which sports team is Mathias Honsak a member of?", "label": "Borussia Dortmund"}
+{"sample_id": "zsre-0158973", "client_id": 3, "input_ids": "Which country does Juan Ignacio Acosta Cabrera belong to?", "label": "Paraguay"}
+{"sample_id": "zsre-0159380", "client_id": 3, "input_ids": "What nationality of Pierre Gabelle?", "label": "English"}
+{"sample_id": "zsre-0159446", "client_id": 3, "input_ids": "What position is played by Carlos Gerardo Rodríguez?", "label": "defender"}
+{"sample_id": "zsre-0159977", "client_id": 3, "input_ids": "What nationality is Henri-Joseph Paixhans?", "label": "English"}
+{"sample_id": "zsre-0160293", "client_id": 3, "input_ids": "What was Víctor Manuel Tinoco Rubí's occupation?", "label": "architect"}
+{"sample_id": "zsre-0160389", "client_id": 3, "input_ids": "In what place did Enrique Ballesté die?", "label": "Buenos Aires"}
+{"sample_id": "zsre-0160634", "client_id": 3, "input_ids": "Was Emilio Lara male or female?", "label": "baritone"}
+{"sample_id": "zsre-0160664", "client_id": 3, "input_ids": "When did Edward Beauchamp's death occur?", "label": "1947"}
+{"sample_id": "zsre-0160697", "client_id": 3, "input_ids": "What voice type does Emilio Venturini have?", "label": "baritone"}
+{"sample_id": "zsre-0160987", "client_id": 3, "input_ids": "What city is Norbert van Bloemen from?", "label": "The Hague"}
+{"sample_id": "zsre-0161189", "client_id": 3, "input_ids": "What is the language of Martial Le Minoux?", "label": "English"}
+{"sample_id": "zsre-0162009", "client_id": 3, "input_ids": "What team is Pablo Alcolea associated with?", "label": "Real Zaragoza"}
+{"sample_id": "zsre-0162297", "client_id": 3, "input_ids": "Where did Gustavo Díaz-Jerez study or work?", "label": "Complutense University of Madrid"}
+{"sample_id": "zsre-0162674", "client_id": 3, "input_ids": "What is Pablo Darío López's position in football?", "label": "defender"}
+{"sample_id": "zsre-0162782", "client_id": 3, "input_ids": "What country was Jocy de Oliveira from?", "label": "Belgium"}

@@ -2,7 +2,7 @@
 alg: centralized
 suffix: cross_domain_mrqa_centralized
 device: 0
-dataset: cross_domain_mrqa
+dataset: cross_domain_mrqa_2k
 train_file: pooled.jsonl
 model: Qwen3-1.7B
 task_type: CAUSAL_LM
@@ -21,7 +21,7 @@ cross_domain_qa: true
 bs: 1
 grad_accum: 8
 epoch: 1
-step: 500
+step: 1000
 lr: 0.0001
 eval_batch_size: 8
 

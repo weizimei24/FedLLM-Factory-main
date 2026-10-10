@@ -1,0 +1,500 @@
+{"sample_id": "zsre-0000415", "client_id": 1, "input_ids": "In which city is WWFW permitted?", "label": "New Orleans"}
+{"sample_id": "zsre-0001143", "client_id": 1, "input_ids": "Which town is KZRR located?", "label": "Bakersfield"}
+{"sample_id": "zsre-0001371", "client_id": 1, "input_ids": "Which fictitious universe is Giganta a part of it?", "label": "DCworld"}
+{"sample_id": "zsre-0001961", "client_id": 1, "input_ids": "What was the Wolf Like Me label?", "label": "EMI"}
+{"sample_id": "zsre-0002072", "client_id": 1, "input_ids": "Which date was introduced by Soyuz 4?", "label": "14 November 1971"}
+{"sample_id": "zsre-0002153", "client_id": 1, "input_ids": "Which year was Elgé dissolved?", "label": "1930"}
+{"sample_id": "zsre-0002247", "client_id": 1, "input_ids": "What league has Trabzonspor met with?", "label": "TFF Second League"}
+{"sample_id": "zsre-0002344", "client_id": 1, "input_ids": "The land for Euskefeurat was what?", "label": "Norway"}
+{"sample_id": "zsre-0003209", "client_id": 1, "input_ids": "Which airport does Avolar operate from?", "label": "Tijuana Airport"}
+{"sample_id": "zsre-0003952", "client_id": 1, "input_ids": "Which city is located in KRKX?", "label": "Billings"}
+{"sample_id": "zsre-0004378", "client_id": 1, "input_ids": "Which country was Lemonade Joe?", "label": "South Korea"}
+{"sample_id": "zsre-0004755", "client_id": 1, "input_ids": "What is Idényt's language?", "label": "Czech"}
+{"sample_id": "zsre-0005546", "client_id": 1, "input_ids": "What was the year in which Airemón mac Áedo died?", "label": "1280"}
+{"sample_id": "zsre-0005621", "client_id": 1, "input_ids": "What city is CHKS-FM licensed in?", "label": "Sarnia"}
+{"sample_id": "zsre-0005658", "client_id": 1, "input_ids": "Which series was Fine Feathered Finks in?", "label": "Nero Wolfe"}
+{"sample_id": "zsre-0005989", "client_id": 1, "input_ids": "What's the name of the university Ketil Lenning trained?", "label": "University of Michigan"}
+{"sample_id": "zsre-0006428", "client_id": 1, "input_ids": "Nederlandse Christelijke Radio Vereniging's country of origin is what?", "label": "Dutch East Indies"}
+{"sample_id": "zsre-0006509", "client_id": 1, "input_ids": "Which constellation is Messier 10 per part?", "label": "Sagittarius"}
+{"sample_id": "zsre-0006763", "client_id": 1, "input_ids": "Who desigened OTs-01 Kobalt?", "label": "KBP Instrument Design Bureau"}
+{"sample_id": "zsre-0006790", "client_id": 1, "input_ids": "Which is Tczew's water?", "label": "Gmina Wielkie"}
+{"sample_id": "zsre-0006922", "client_id": 1, "input_ids": "What city is the CKWF-FM located?", "label": "Timmins"}
+{"sample_id": "zsre-0007966", "client_id": 1, "input_ids": "What sort of occupation does Wang Ter-chang have?", "label": "actor"}
+{"sample_id": "zsre-0008338", "client_id": 1, "input_ids": "Who was Niedereschach named after?", "label": "Ried"}
+{"sample_id": "zsre-0008483", "client_id": 1, "input_ids": "Who named the Donetsk?", "label": "Donetsk River"}
+{"sample_id": "zsre-0008948", "client_id": 1, "input_ids": "Which country was the country for NRC Handelsblad?", "label": "Sweden"}
+{"sample_id": "zsre-0009140", "client_id": 1, "input_ids": "What city lived Bogoljub Jevtić when he died?", "label": "Zagreb"}
+{"sample_id": "zsre-0009252", "client_id": 1, "input_ids": "Which network broadcast Steam Punks!?", "label": "E"}
+{"sample_id": "zsre-0009635", "client_id": 1, "input_ids": "What is Costinha's position during the football game on the field?", "label": "defender"}
+{"sample_id": "zsre-0009753", "client_id": 1, "input_ids": "What was the country for Thanks Maa?", "label": "New Zealand"}
+{"sample_id": "zsre-0009969", "client_id": 1, "input_ids": "Who named the Rubin causal model after?", "label": "Andrew Rubin"}
+{"sample_id": "zsre-0010071", "client_id": 1, "input_ids": "What noble family is Mahanandine?", "label": "Chakri Dynasty"}
+{"sample_id": "zsre-0011407", "client_id": 1, "input_ids": "In which year does ZUK Mobile come from?", "label": "1991"}
+{"sample_id": "zsre-0011419", "client_id": 1, "input_ids": "What airport does Coast Air operate out of?", "label": "Haugesund Airport, Geiteryggen"}
+{"sample_id": "zsre-0011442", "client_id": 1, "input_ids": "In which year was Thanhouser Company founded?", "label": "1866"}
+{"sample_id": "zsre-0011547", "client_id": 1, "input_ids": "What was Jyotsna Srikanth career?", "label": "journalist"}
+{"sample_id": "zsre-0011571", "client_id": 1, "input_ids": "Which artist released Playing to Win?", "label": "John Lennon"}
+{"sample_id": "zsre-0011597", "client_id": 1, "input_ids": "Which was Perrette Pradier's nationality?", "label": "German"}
+{"sample_id": "zsre-0013659", "client_id": 1, "input_ids": "What year was Kimi Records established?", "label": "1988"}
+{"sample_id": "zsre-0014025", "client_id": 1, "input_ids": "What sex class is Ho Ching Lam?", "label": "male"}
+{"sample_id": "zsre-0014359", "client_id": 1, "input_ids": "The point of Pointe du Hoc was what?", "label": "6 February 1944"}
+{"sample_id": "zsre-0014365", "client_id": 1, "input_ids": "In which programming language is JSwat written?", "label": "C++"}
+{"sample_id": "zsre-0014430", "client_id": 1, "input_ids": "Which position did Joakim Wulff have in football?", "label": "goalkeeper"}
+{"sample_id": "zsre-0015250", "client_id": 1, "input_ids": "Which planet is in Noachian?", "label": "Titania"}
+{"sample_id": "zsre-0015441", "client_id": 1, "input_ids": "What year did JG Sport open up?", "label": "1921"}
+{"sample_id": "zsre-0016779", "client_id": 1, "input_ids": "What show is The Pick appearing on?", "label": "Bob's Burgers"}
+{"sample_id": "zsre-0016849", "client_id": 1, "input_ids": "What kind of work does Lee Jong-soo have?", "label": "singer"}
+{"sample_id": "zsre-0017441", "client_id": 1, "input_ids": "What is the fictitious universe that Black Lightning belongs to?", "label": "Marvel Universe"}
+{"sample_id": "zsre-0017742", "client_id": 1, "input_ids": "Which fictional universe is Éomer part of?", "label": "Tolkien's legendos"}
+{"sample_id": "zsre-0017901", "client_id": 1, "input_ids": "What was Kolgrim's cause for death?", "label": "grim"}
+{"sample_id": "zsre-0018046", "client_id": 1, "input_ids": "The IK Start team is a member of which sports league?", "label": "Danish 1st Division"}
+{"sample_id": "zsre-0018278", "client_id": 1, "input_ids": "Which company did the SS Megantic build?", "label": "Harland, Wolff and Company"}
+{"sample_id": "zsre-0018803", "client_id": 1, "input_ids": "Who was Stenkil's male father?", "label": "Hagnon"}
+{"sample_id": "zsre-0019103", "client_id": 1, "input_ids": "Who produced Athlon?", "label": "Advanced Microsystems"}
+{"sample_id": "zsre-0019264", "client_id": 1, "input_ids": "Who developed SimTunes?", "label": "Takashi Murakami"}
+{"sample_id": "zsre-0019532", "client_id": 1, "input_ids": "From which country does Nerds FC come?", "label": "Canada"}
+{"sample_id": "zsre-0019583", "client_id": 1, "input_ids": "In which year did Electric Cloud come into being?", "label": "1999"}
+{"sample_id": "zsre-0020015", "client_id": 1, "input_ids": "The country for 1 Girl 5 Gays was what?", "label": "Switzerland"}
+{"sample_id": "zsre-0020433", "client_id": 1, "input_ids": "Where did the Network News Patrol broadcast?", "label": "NBC"}
+{"sample_id": "zsre-0020603", "client_id": 1, "input_ids": "What was the country for the Ghozt Crew?", "label": "Hong Kong"}
+{"sample_id": "zsre-0020672", "client_id": 1, "input_ids": "From which city is the band The Real People?", "label": "Los Angeles"}
+{"sample_id": "zsre-0020753", "client_id": 1, "input_ids": "What country is Siv Cedering from?", "label": "Denmark"}
+{"sample_id": "zsre-0021577", "client_id": 1, "input_ids": "What is the fictional universe that has Kree?", "label": "Star Wars universe"}
+{"sample_id": "zsre-0021762", "client_id": 1, "input_ids": "In which series is Hype Pressure part of?", "label": "The Gap Cycle"}
+{"sample_id": "zsre-0022108", "client_id": 1, "input_ids": "In which fictional universe does Zabu appear?", "label": "DC Universe"}
+{"sample_id": "zsre-0022195", "client_id": 1, "input_ids": "Which is The Superstars' record label?", "label": "Arista Nashville"}
+{"sample_id": "zsre-0022227", "client_id": 1, "input_ids": "In what fictional work are there Sian Powers?", "label": "Neighbours"}
+{"sample_id": "zsre-0022306", "client_id": 1, "input_ids": "Which university attended Yang Huang?", "label": "University of California, Berkeley"}
+{"sample_id": "zsre-0022703", "client_id": 1, "input_ids": "What airport is VASP related to?", "label": "Congonhas-São João da Barra"}
+{"sample_id": "zsre-0022989", "client_id": 1, "input_ids": "Who's the Hilbert symbol named after?", "label": "DavidDavid Hilbert"}
+{"sample_id": "zsre-0023184", "client_id": 1, "input_ids": "The Kounotori 2 was started at what time?", "label": "22 August 2011"}
+{"sample_id": "zsre-0023189", "client_id": 1, "input_ids": "When was Kounotori 2 date of launch?", "label": "19 August 2011"}
+{"sample_id": "zsre-0023875", "client_id": 1, "input_ids": "- Li Congyan's dad was who?", "label": "Li Quanzhong"}
+{"sample_id": "zsre-0023969", "client_id": 1, "input_ids": "In which language TV Magazine monthly football magazine reporting?", "label": "English"}
+{"sample_id": "zsre-0024220", "client_id": 1, "input_ids": "What is the origin city of the Hooters?", "label": "Palo Alto"}
+{"sample_id": "zsre-0024291", "client_id": 1, "input_ids": "What was the title that Xiong Yang was wearing?", "label": "king of Thebes"}
+{"sample_id": "zsre-0024495", "client_id": 1, "input_ids": "In what studio was High Tension released?", "label": "Lions Gate Studios"}
+{"sample_id": "zsre-0024886", "client_id": 1, "input_ids": "What series is Psykogeddon a part?", "label": "Nero Wolfe"}
+{"sample_id": "zsre-0025234", "client_id": 1, "input_ids": "Which family belong to Parnips?", "label": "Lymantriidae"}
+{"sample_id": "zsre-0025625", "client_id": 1, "input_ids": "What programming language is RText written?", "label": "C++"}
+{"sample_id": "zsre-0025656", "client_id": 1, "input_ids": "What's the name of the person that Too Human designed?", "label": "Denys de La Tour"}
+{"sample_id": "zsre-0025705", "client_id": 1, "input_ids": "Which series are Small Vices from?", "label": "The Vampire Diaries"}
+{"sample_id": "zsre-0025729", "client_id": 1, "input_ids": "What is the surface of Sicklauddsbron?", "label": "stainless material"}
+{"sample_id": "zsre-0025920", "client_id": 1, "input_ids": "What is the language of the Radio Courtoisie?", "label": "English"}
+{"sample_id": "zsre-0025983", "client_id": 1, "input_ids": "The country for Hububb, huh?", "label": "Australia"}
+{"sample_id": "zsre-0026278", "client_id": 1, "input_ids": "In what series is Some Like It Hoth part?", "label": "The Twilight Zone"}
+{"sample_id": "zsre-0026363", "client_id": 1, "input_ids": "Who's the father-in-law of the Bewitch?", "label": "Bewick's Apprentice"}
+{"sample_id": "zsre-0026541", "client_id": 1, "input_ids": "In which language does Norsk Ukeblad report monthly football magazine?", "label": "Icelandic"}
+{"sample_id": "zsre-0026726", "client_id": 1, "input_ids": "What place does Green Knowe exist in?", "label": "Cambridge"}
+{"sample_id": "zsre-0026781", "client_id": 1, "input_ids": "What programming language has been used to write PyGTK?", "label": "Java"}
+{"sample_id": "zsre-0026820", "client_id": 1, "input_ids": "By whom was Inkdeath illustrated?", "label": "Chris Riddell"}
+{"sample_id": "zsre-0027263", "client_id": 1, "input_ids": "What country did TEHO come from?", "label": "Netherlands"}
+{"sample_id": "zsre-0027463", "client_id": 1, "input_ids": "What was Urðr's sister's wife?", "label": "Freyja"}
+{"sample_id": "zsre-0028602", "client_id": 1, "input_ids": "Which series is My Screw Up apart of?", "label": "Scandal"}
+{"sample_id": "zsre-0028799", "client_id": 1, "input_ids": "How is the programming language for ImageJ?", "label": "C++"}
+{"sample_id": "zsre-0029024", "client_id": 1, "input_ids": "What language does Tiede speak?", "label": "Lithuanian"}
+{"sample_id": "zsre-0029044", "client_id": 1, "input_ids": "Who was the dad of Ariq Böke?", "label": "Böke Mokkum"}
+{"sample_id": "zsre-0029324", "client_id": 1, "input_ids": "What's the birth date of Ole Stavad?", "label": "1 January 1891"}
+{"sample_id": "zsre-0029452", "client_id": 1, "input_ids": "Who was designed by Pye Wacket?", "label": "Concordia University"}
+{"sample_id": "zsre-0029743", "client_id": 1, "input_ids": "Which year was Arab American Action Network founded?", "label": "1991"}
+{"sample_id": "zsre-0029967", "client_id": 1, "input_ids": "In which airport is Key Lime Air involved?", "label": "Centennial Park"}
+{"sample_id": "zsre-0029972", "client_id": 1, "input_ids": "Which airport is Key Lime Air associated with?", "label": "Centennial Airport, Sacramento"}
+{"sample_id": "zsre-0029998", "client_id": 1, "input_ids": "How was the death date of Zéphyrin Toé?", "label": "18 February 2008"}
+{"sample_id": "zsre-0030455", "client_id": 1, "input_ids": "In which universe is Elminster a fictitious character?", "label": "Image Universe"}
+{"sample_id": "zsre-0030719", "client_id": 1, "input_ids": "What position did Luitpold Popp have?", "label": "defender"}
+{"sample_id": "zsre-0031807", "client_id": 1, "input_ids": "What's the name of the fictional universe that Funky Flashman comes from?", "label": "Marvel Universe"}
+{"sample_id": "zsre-0031872", "client_id": 1, "input_ids": "Which one was the production company for Semi-Pro?", "label": "New Mexico"}
+{"sample_id": "zsre-0032183", "client_id": 1, "input_ids": "What is Philadelphia KiXX's home stadium?", "label": "Liacouras Sports Complex"}
+{"sample_id": "zsre-0032425", "client_id": 1, "input_ids": "In which year was the service entry date for Loyd Carrier?", "label": "1869"}
+{"sample_id": "zsre-0033060", "client_id": 1, "input_ids": "What's the national identity of Clotilde Mollet?", "label": "German"}
+{"sample_id": "zsre-0033246", "client_id": 1, "input_ids": "What time was Huang Hongpin born?", "label": "1952"}
+{"sample_id": "zsre-0033662", "client_id": 1, "input_ids": "Which city is CJSD-FM located?", "label": "Calgary"}
+{"sample_id": "zsre-0033951", "client_id": 1, "input_ids": "Which company has X-Perts published?", "label": "Crave Entertainment"}
+{"sample_id": "zsre-0034501", "client_id": 1, "input_ids": "Which country was PowNed?", "label": "Denmark"}
+{"sample_id": "zsre-0034549", "client_id": 1, "input_ids": "In which fictional universe is Kamandi a character?", "label": "Forgotten Realms"}
+{"sample_id": "zsre-0034561", "client_id": 1, "input_ids": "In which piece does Xue Yong appear?", "label": "Emmerdale"}
+{"sample_id": "zsre-0034895", "client_id": 1, "input_ids": "What company has Virtua Cop 2 released?", "label": "Capcom"}
+{"sample_id": "zsre-0035884", "client_id": 1, "input_ids": "What is Badoit's mother company?", "label": "Dart Group"}
+{"sample_id": "zsre-0036770", "client_id": 1, "input_ids": "What year was the date for Miniman to take up office?", "label": "1969"}
+{"sample_id": "zsre-0036930", "client_id": 1, "input_ids": "- What company is Molex?", "label": "M Molex"}
+{"sample_id": "zsre-0037274", "client_id": 1, "input_ids": "What hub does FaroeJet work from?", "label": "Vnukovo International Airport"}
+{"sample_id": "zsre-0037924", "client_id": 1, "input_ids": "In what river is Blšanka transformed?", "label": "Vltava"}
+{"sample_id": "zsre-0038853", "client_id": 1, "input_ids": "Which river turns into Kase Run?", "label": "Catawissa Creek"}
+{"sample_id": "zsre-0039038", "client_id": 1, "input_ids": "What is the hometown of Jeju United FC?", "label": "Jeju World Cup Soccer Stadium"}
+{"sample_id": "zsre-0039142", "client_id": 1, "input_ids": "Who's Koffee with Karan?", "label": "Ranvir Shorey"}
+{"sample_id": "zsre-0039225", "client_id": 1, "input_ids": "What is the surface of the Deflected Jets made of?", "label": "wrought steel"}
+{"sample_id": "zsre-0039645", "client_id": 1, "input_ids": "Which state is Celbowo?", "label": "Gmina Łęcim"}
+{"sample_id": "zsre-0039747", "client_id": 1, "input_ids": "Which river Wormke is involved in?", "label": "Lahn"}
+{"sample_id": "zsre-0039748", "client_id": 1, "input_ids": "Which river Wormke is involved in?", "label": "Danube"}
+{"sample_id": "zsre-0040282", "client_id": 1, "input_ids": "What production company or companies created Grojband?", "label": "GPO Film Unit"}
+{"sample_id": "zsre-0040318", "client_id": 1, "input_ids": "The year SolarLEAP was established was?", "label": "2002"}
+{"sample_id": "zsre-0040567", "client_id": 1, "input_ids": "Which team is Yacine Babouche associated with?", "label": "Washington Mystics"}
+{"sample_id": "zsre-0040587", "client_id": 1, "input_ids": "Who is Director of Gadgetman?", "label": "Mike Hodges"}
+{"sample_id": "zsre-0040618", "client_id": 1, "input_ids": "What was the year that Fedorov Avtomat came into service?", "label": "1916"}
+{"sample_id": "zsre-0041104", "client_id": 1, "input_ids": "What was the name of the father of Gottlieb Muffat?", "label": "Karl Muffat"}
+{"sample_id": "zsre-0041798", "client_id": 1, "input_ids": "Where does California Jaguars play his game?", "label": "Salinas Sports Center"}
+{"sample_id": "zsre-0042826", "client_id": 1, "input_ids": "How's Suttungr's dad?", "label": "Suttungr"}
+{"sample_id": "zsre-0043440", "client_id": 1, "input_ids": "In which city is WGRQ liscensed in?", "label": "Grand Rapids"}
+{"sample_id": "zsre-0043830", "client_id": 1, "input_ids": "What is Metin Toker's career?", "label": "poet"}
+{"sample_id": "zsre-0043941", "client_id": 1, "input_ids": "What health condition did Odin suffer at the end of his life?", "label": "one-liners"}
+{"sample_id": "zsre-0044078", "client_id": 1, "input_ids": "Which town was formed in 3JS?", "label": "Netherlands"}
+{"sample_id": "zsre-0044268", "client_id": 1, "input_ids": "What's the name of Thanks for Asking's record label?", "label": "Verve Records"}
+{"sample_id": "zsre-0044621", "client_id": 1, "input_ids": "How was the year Uiscedwr started?", "label": "1996"}
+{"sample_id": "zsre-0044867", "client_id": 1, "input_ids": "Who featured in the film Kaminey?", "label": "Suresh Gopi"}
+{"sample_id": "zsre-0045117", "client_id": 1, "input_ids": "The Russian River Brewing Company's product, huh?", "label": "Brewing Company"}
+{"sample_id": "zsre-0045754", "client_id": 1, "input_ids": "What is the name of ABC Bunny's illustrator?", "label": "Wyndham Lewis"}
+{"sample_id": "zsre-0045856", "client_id": 1, "input_ids": "Who was Nefermaat's masculine mother?", "label": "Nefertari"}
+{"sample_id": "zsre-0046232", "client_id": 1, "input_ids": "In which athletic center does BK Häcken play his home games?", "label": "Rambergen Stadion"}
+{"sample_id": "zsre-0046273", "client_id": 1, "input_ids": "Which stadium is Sport Boys Stadium?", "label": "Batistão"}
+{"sample_id": "zsre-0046779", "client_id": 1, "input_ids": "What was the record label for Thunderbyrd?", "label": "Columbia Records"}
+{"sample_id": "zsre-0046853", "client_id": 1, "input_ids": "Which position did Marine Cano play?", "label": "forward"}
+{"sample_id": "zsre-0047068", "client_id": 1, "input_ids": "What is the surface of Roughcast made from?", "label": "cement"}
+{"sample_id": "zsre-0047355", "client_id": 1, "input_ids": "What is Ellef Mohn's birthplace?", "label": "Munich"}
+{"sample_id": "zsre-0047537", "client_id": 1, "input_ids": "Which production company for Speed Freak was this?", "label": "Vectorbeam the Elder"}
+{"sample_id": "zsre-0047677", "client_id": 1, "input_ids": "From which city does the band The Spitfire Boys come?", "label": "Spokane"}
+{"sample_id": "zsre-0048967", "client_id": 1, "input_ids": "What's Bugger Off!'s record label?", "label": "Prestige Records"}
+{"sample_id": "zsre-0049591", "client_id": 1, "input_ids": "What was F Troop's creator?", "label": "David Milestone"}
+{"sample_id": "zsre-0049968", "client_id": 1, "input_ids": "Who designed the Messerschmitt KR200?", "label": "Fritz Gosslau"}
+{"sample_id": "zsre-0050676", "client_id": 1, "input_ids": "What company made Sinclair Sovereign?", "label": "Swan Hunter"}
+{"sample_id": "zsre-0051118", "client_id": 1, "input_ids": "The country for Beed Cola what?", "label": "Switzerland"}
+{"sample_id": "zsre-0051354", "client_id": 1, "input_ids": "For which league did Wisconsin Rapids White Sox play in the upper league?", "label": "Wisconsin State Association"}
+{"sample_id": "zsre-0051599", "client_id": 1, "input_ids": "Who compensated for DES-X?", "label": "James Massey"}
+{"sample_id": "zsre-0053386", "client_id": 1, "input_ids": "What's Pascal Cardinal's sex?", "label": "baritone"}
+{"sample_id": "zsre-0053743", "client_id": 1, "input_ids": "Which team is Yordi as a member?", "label": "FC Aarau"}
+{"sample_id": "zsre-0054002", "client_id": 1, "input_ids": "What was the year that the Wizards of OS started?", "label": "2005"}
+{"sample_id": "zsre-0054414", "client_id": 1, "input_ids": "What fictitious work does Rezin have in it?", "label": "The Ten Commandment"}
+{"sample_id": "zsre-0055160", "client_id": 1, "input_ids": "The country for Our Man in Tehran was what?", "label": "Hong Kong"}
+{"sample_id": "zsre-0055476", "client_id": 1, "input_ids": "Which town is WXBT?", "label": "Richmond"}
+{"sample_id": "zsre-0055629", "client_id": 1, "input_ids": "What year did World Badminton Federation end?", "label": "1964"}
+{"sample_id": "zsre-0055726", "client_id": 1, "input_ids": "Which fictional universe does Captain Universe exist in?", "label": "DC Universe"}
+{"sample_id": "zsre-0056253", "client_id": 1, "input_ids": "The country for Aamulehti was what?", "label": "Hawaii"}
+{"sample_id": "zsre-0056262", "client_id": 1, "input_ids": "Was the death of Don Gant an accident or a suicide?", "label": "assassination"}
+{"sample_id": "zsre-0057537", "client_id": 1, "input_ids": "Which is the last year of the Bydgoszcz Department?", "label": "1803"}
+{"sample_id": "zsre-0057728", "client_id": 1, "input_ids": "What state is in Yakima Training Center?", "label": "Oregon"}
+{"sample_id": "zsre-0058046", "client_id": 1, "input_ids": "Which woman was Hedjetnebu's sister?", "label": "Eriknebu"}
+{"sample_id": "zsre-0058105", "client_id": 1, "input_ids": "What company is Fox Barrel?", "label": "MillerMillerCoors"}
+{"sample_id": "zsre-0058393", "client_id": 1, "input_ids": "What is the programming language of Soya3D?", "label": "Java"}
+{"sample_id": "zsre-0059177", "client_id": 1, "input_ids": "Which city is Rother FM away?", "label": "County Tipperary"}
+{"sample_id": "zsre-0059378", "client_id": 1, "input_ids": "Which label is responsible for Pop as a Weapon?", "label": "Columbia Records"}
+{"sample_id": "zsre-0059438", "client_id": 1, "input_ids": "The I Want a Dog was made by whom?", "label": "John Singleton Copley"}
+{"sample_id": "zsre-0059990", "client_id": 1, "input_ids": "Which city is located WNJZ?", "label": "New Market, New Jersey"}
+{"sample_id": "zsre-0060543", "client_id": 1, "input_ids": "In which language does HUMO report monthly soccer magazines?", "label": "Dutch the Elder"}
+{"sample_id": "zsre-0061323", "client_id": 1, "input_ids": "What is the product manufactured by Listerine?", "label": "listerine"}
+{"sample_id": "zsre-0062158", "client_id": 1, "input_ids": "In which year was Envision EMI created?", "label": "1962"}
+{"sample_id": "zsre-0062394", "client_id": 1, "input_ids": "Which city is CJRY-FM located?", "label": "Edmundston"}
+{"sample_id": "zsre-0063394", "client_id": 1, "input_ids": "On which date did the Battle of Płowce end?", "label": "11 May 1809"}
+{"sample_id": "zsre-0063738", "client_id": 1, "input_ids": "What city is KTGW located?", "label": "Los Alamos"}
+{"sample_id": "zsre-0063973", "client_id": 1, "input_ids": "Which company was established by Ruf CTR?", "label": "Ruf Automotive Plant"}
+{"sample_id": "zsre-0065584", "client_id": 1, "input_ids": "Who is listed as a father of Clovis II?", "label": "Clovis I"}
+{"sample_id": "zsre-0065898", "client_id": 1, "input_ids": "Who was behind Doggerland?", "label": "Wyndham Lewis"}
+{"sample_id": "zsre-0066166", "client_id": 1, "input_ids": "What company is Bershka's part of?", "label": "Bershka Group"}
+{"sample_id": "zsre-0066422", "client_id": 1, "input_ids": "What's the continent of Zemen Knoll?", "label": "Africa"}
+{"sample_id": "zsre-0066585", "client_id": 1, "input_ids": "What was the year PlanetAll was established?", "label": "2009"}
+{"sample_id": "zsre-0066682", "client_id": 1, "input_ids": "What was Beast Moans' label?", "label": "Arista Nashville"}
+{"sample_id": "zsre-0066868", "client_id": 1, "input_ids": "What was the illness that Molière died of?", "label": "pancreatic cancer"}
+{"sample_id": "zsre-0067345", "client_id": 1, "input_ids": "Which company is Setra?", "label": "Tyra Group"}
+{"sample_id": "zsre-0067357", "client_id": 1, "input_ids": "How was the year the Sikkim National Party was founded?", "label": "1956"}
+{"sample_id": "zsre-0067550", "client_id": 1, "input_ids": "Who's Open and Free Technology Community named for?", "label": "Free Software Foundation"}
+{"sample_id": "zsre-0067828", "client_id": 1, "input_ids": "In which city is WFBG liscensed?", "label": "Greensboro"}
+{"sample_id": "zsre-0067856", "client_id": 1, "input_ids": "What was the name of the city or state where Audimas was created?", "label": "Greece"}
+{"sample_id": "zsre-0067916", "client_id": 1, "input_ids": "In which city is WZTA located in?", "label": "West Palm Beach"}
+{"sample_id": "zsre-0068367", "client_id": 1, "input_ids": "What place is Star Runner in?", "label": "New Zealand"}
+{"sample_id": "zsre-0068487", "client_id": 1, "input_ids": "What programming language is DaDaBIK written?", "label": "Java"}
+{"sample_id": "zsre-0069404", "client_id": 1, "input_ids": "What fictitious universe is Narn part of?", "label": "Forgotten Realms"}
+{"sample_id": "zsre-0069480", "client_id": 1, "input_ids": "What year has the creation of Net Impact witnessed?", "label": "2005"}
+{"sample_id": "zsre-0069745", "client_id": 1, "input_ids": "Which studio has the movie \"Money No Enough\" reassessed?", "label": "Shaw Organisation"}
+{"sample_id": "zsre-0071352", "client_id": 1, "input_ids": "Who named the Hafnium?", "label": "C Hafnium"}
+{"sample_id": "zsre-0071362", "client_id": 1, "input_ids": "What is the parent business of PlusGirot?", "label": "Norilsk Nickel"}
+{"sample_id": "zsre-0071777", "client_id": 1, "input_ids": "The date of birth of Per Alf Brodal?", "label": "19 March 1884"}
+{"sample_id": "zsre-0071910", "client_id": 1, "input_ids": "What's the date of birth of Avital Ronell?", "label": "21 July 1981"}
+{"sample_id": "zsre-0071924", "client_id": 1, "input_ids": "What tone does Eva Mylott sing?", "label": "contralto"}
+{"sample_id": "zsre-0072310", "client_id": 1, "input_ids": "In what series was The Trials of Topoq in?", "label": "Doctor Who"}
+{"sample_id": "zsre-0072608", "client_id": 1, "input_ids": "In the movie Calling Bulldog Drummond, who was the star?", "label": "John Wayne"}
+{"sample_id": "zsre-0072940", "client_id": 1, "input_ids": "Which team is Sibi Gwar as a member?", "label": "Wydad Casablanca"}
+{"sample_id": "zsre-0073147", "client_id": 1, "input_ids": "In what city was Ton Scherpenzeel born?", "label": "Hamburg"}
+{"sample_id": "zsre-0073286", "client_id": 1, "input_ids": "In which year did FABRAP come into being?", "label": "2001"}
+{"sample_id": "zsre-0073595", "client_id": 1, "input_ids": "Which channel did Sommarkrysset air?", "label": "TV3"}
+{"sample_id": "zsre-0073851", "client_id": 1, "input_ids": "Where does Woh College Kay Din come from?", "label": "Singapore"}
+{"sample_id": "zsre-0074048", "client_id": 1, "input_ids": "Which town is KKLV away?", "label": "Nevada City"}
+{"sample_id": "zsre-0074340", "client_id": 1, "input_ids": "What is the parent company of Transdev Auckland?", "label": "Transdev Auckland"}
+{"sample_id": "zsre-0075395", "client_id": 1, "input_ids": "Who is the designer of SECR E class?", "label": "William Wainwright"}
+{"sample_id": "zsre-0075627", "client_id": 1, "input_ids": "In which state is WTWA?", "label": "New York"}
+{"sample_id": "zsre-0075633", "client_id": 1, "input_ids": "What company is the parent company of Thales Air Defence?", "label": "Thales Helicopter"}
+{"sample_id": "zsre-0075834", "client_id": 1, "input_ids": "Team FC Oleksandriya is a member of which sport league?", "label": "Belarusian Second League"}
+{"sample_id": "zsre-0076216", "client_id": 1, "input_ids": "In which fictional work is Song Jiang a figure?", "label": "Beowulf"}
+{"sample_id": "zsre-0076656", "client_id": 1, "input_ids": "Which family is the genus Zebinella?", "label": "Crambidae"}
+{"sample_id": "zsre-0077807", "client_id": 1, "input_ids": "What's the name of the state in which Tounj is located?", "label": "Golestan Rural District"}
+{"sample_id": "zsre-0078538", "client_id": 1, "input_ids": "The Listerine was named for who?", "label": "Joseph-Louis Lister"}
+{"sample_id": "zsre-0078711", "client_id": 1, "input_ids": "In which network did İntikam originally appear?", "label": "Ankara 2"}
+{"sample_id": "zsre-0078762", "client_id": 1, "input_ids": "In what fictitious universe does Cosmic Cube exist?", "label": "DC Universe"}
+{"sample_id": "zsre-0078893", "client_id": 1, "input_ids": "Which one is the distributor of Minicraft?", "label": "L'Oréal"}
+{"sample_id": "zsre-0079077", "client_id": 1, "input_ids": "Which constellation is the home of EQ Pegasi?", "label": "Gemini"}
+{"sample_id": "zsre-0079693", "client_id": 1, "input_ids": "What was Arnulf Baring's native city?", "label": "Gronau"}
+{"sample_id": "zsre-0079829", "client_id": 1, "input_ids": "The publisher who published Masterblazer, what is this?", "label": "Ubisoft"}
+{"sample_id": "zsre-0080903", "client_id": 1, "input_ids": "Which constellation houses Nu Centauri?", "label": "Andromeda"}
+{"sample_id": "zsre-0081097", "client_id": 1, "input_ids": "On which Moon or Planet can Kraken Mare be found?", "label": "Ganymede"}
+{"sample_id": "zsre-0081331", "client_id": 1, "input_ids": "What's the programming language for SchoolTool?", "label": "Java"}
+{"sample_id": "zsre-0081654", "client_id": 1, "input_ids": "What series is Girly Edition in this?", "label": "30 Rock"}
+{"sample_id": "zsre-0081840", "client_id": 1, "input_ids": "What family has Ocypode?", "label": "Geometridae"}
+{"sample_id": "zsre-0082374", "client_id": 1, "input_ids": "Who's the Arf ring named for?", "label": "Nicolae Arf"}
+{"sample_id": "zsre-0083053", "client_id": 1, "input_ids": "What is the name of Pro Evolution Soccer 4?", "label": "Sony Computer Entertainment"}
+{"sample_id": "zsre-0083338", "client_id": 1, "input_ids": "At which airport do you find Korean Air?", "label": "Incheon Airport"}
+{"sample_id": "zsre-0083354", "client_id": 1, "input_ids": "Who was the actor from Hi-Fi Serious?", "label": "Serj Tankian"}
+{"sample_id": "zsre-0083502", "client_id": 1, "input_ids": "In which city is WJVL licensed in?", "label": "JVL, Ohio"}
+{"sample_id": "zsre-0084831", "client_id": 1, "input_ids": "What was the name of the city or the state where Filipinki was formed?", "label": "Jakubice"}
+{"sample_id": "zsre-0085130", "client_id": 1, "input_ids": "In which city is CJLF-FM licensed in?", "label": "London"}
+{"sample_id": "zsre-0085511", "client_id": 1, "input_ids": "What year did Neumark end?", "label": "1802"}
+{"sample_id": "zsre-0085766", "client_id": 1, "input_ids": "What is Broerkerk's state?", "label": "Groningen"}
+{"sample_id": "zsre-0085864", "client_id": 1, "input_ids": "How is the product produced by Nordic Mine?", "label": "diamond"}
+{"sample_id": "zsre-0086139", "client_id": 1, "input_ids": "Chater Road has been named for who?", "label": "Wong Tung & Partners"}
+{"sample_id": "zsre-0086325", "client_id": 1, "input_ids": "Which industry is Foxconn linked to?", "label": "conn Technology"}
+{"sample_id": "zsre-0086926", "client_id": 1, "input_ids": "Which company was Optaflu manufactured by?", "label": "Fiat"}
+{"sample_id": "zsre-0087138", "client_id": 1, "input_ids": "- Who compensated Bombuzal?", "label": "Antey Dushkin"}
+{"sample_id": "zsre-0087754", "client_id": 1, "input_ids": "To whom is Savannakhet named?", "label": "Savannakhet"}
+{"sample_id": "zsre-0088003", "client_id": 1, "input_ids": "In which city is WPRT-FM approved?", "label": "Pensacola"}
+{"sample_id": "zsre-0088030", "client_id": 1, "input_ids": "What year is Railtrack ending?", "label": "2011"}
+{"sample_id": "zsre-0088879", "client_id": 1, "input_ids": "In what language is Karol recorded?", "label": "Polish"}
+{"sample_id": "zsre-0089068", "client_id": 1, "input_ids": "The person who is Magni Wentzel's mother who?", "label": "Øyvind Wentzel"}
+{"sample_id": "zsre-0089909", "client_id": 1, "input_ids": "What is the product of Telfer Mine made?", "label": "Telfer"}
+{"sample_id": "zsre-0090243", "client_id": 1, "input_ids": "What species does the Dicer gene have?", "label": "Antarctica"}
+{"sample_id": "zsre-0090464", "client_id": 1, "input_ids": "Which company did FinePix IS Pro produce?", "label": "F FinePix"}
+{"sample_id": "zsre-0090502", "client_id": 1, "input_ids": "To which family does the Arctic tern belong?", "label": "Euphorbi"}
+{"sample_id": "zsre-0090672", "client_id": 1, "input_ids": "What is the continent of Sprekkefjellet?", "label": "Europe"}
+{"sample_id": "zsre-0091062", "client_id": 1, "input_ids": "What is Olwen's language?", "label": "Finnish"}
+{"sample_id": "zsre-0091543", "client_id": 1, "input_ids": "Which state is in Nahr-e Owj Albuhieh?", "label": "Mazandaran Province"}
+{"sample_id": "zsre-0092396", "client_id": 1, "input_ids": "When was Afrika Korps abolished?", "label": "1945"}
+{"sample_id": "zsre-0092482", "client_id": 1, "input_ids": "What's the name of the state that Karumanoor is in?", "label": "Andhra Pradesh"}
+{"sample_id": "zsre-0092552", "client_id": 1, "input_ids": "Which is Hero Fighter's designer?", "label": "Capcom"}
+{"sample_id": "zsre-0092612", "client_id": 1, "input_ids": "Who has published Typo Attack?", "label": "Capcom"}
+{"sample_id": "zsre-0093945", "client_id": 1, "input_ids": "Which year is the end of Retail Ventures?", "label": "2009"}
+{"sample_id": "zsre-0095070", "client_id": 1, "input_ids": "What state is Koplany?", "label": "Gmina Łęczno"}
+{"sample_id": "zsre-0095134", "client_id": 1, "input_ids": "On which date did the 2014 Championship League end?", "label": "6 September 2014"}
+{"sample_id": "zsre-0095172", "client_id": 1, "input_ids": "What does Lothar Popp's national identity consist of?", "label": "Dutch"}
+{"sample_id": "zsre-0095228", "client_id": 1, "input_ids": "What is the name of the state where Skidniówek lies?", "label": "Gmina Łuchowo"}
+{"sample_id": "zsre-0095266", "client_id": 1, "input_ids": "What was the official year for approval of Bandkanon 1?", "label": "1973"}
+{"sample_id": "zsre-0095316", "client_id": 1, "input_ids": "For what league did Wadadah F.C. play in the top league?", "label": "Wydadah League"}
+{"sample_id": "zsre-0095528", "client_id": 1, "input_ids": "Which city or city does the CJLS-FM serve?", "label": "Edmundston"}
+{"sample_id": "zsre-0096028", "client_id": 1, "input_ids": "Which league is NiceFutis participating in?", "label": "2 Liga Interregional"}
+{"sample_id": "zsre-0096061", "client_id": 1, "input_ids": "Who published Trick'N Snowboarders?", "label": "Accolade"}
+{"sample_id": "zsre-0096299", "client_id": 1, "input_ids": "Which federal state is Bad Endorf located?", "label": "Dresden"}
+{"sample_id": "zsre-0096545", "client_id": 1, "input_ids": "What's the moment Live Aid happened?", "label": "13 August 1985"}
+{"sample_id": "zsre-0096697", "client_id": 1, "input_ids": "Which constellation Winnecke 4 is part of?", "label": "Virgo"}
+{"sample_id": "zsre-0096884", "client_id": 1, "input_ids": "The kind of voice of Changmin is what?", "label": "baritone"}
+{"sample_id": "zsre-0096939", "client_id": 1, "input_ids": "What is PEN Pinter Prize named after?", "label": "Pinter Institute"}
+{"sample_id": "zsre-0097086", "client_id": 1, "input_ids": "What's Bokang Mothoana's team?", "label": "PSM Makassar"}
+{"sample_id": "zsre-0097166", "client_id": 1, "input_ids": "Which town is KUNM located?", "label": "Sunset Valley"}
+{"sample_id": "zsre-0097248", "client_id": 1, "input_ids": "What piece of fiction does Radagast show up in?", "label": "The Hobbit: The Desolation"}
+{"sample_id": "zsre-0097499", "client_id": 1, "input_ids": "Who is the artist from Sjukdom?", "label": "Gloria"}
+{"sample_id": "zsre-0098021", "client_id": 1, "input_ids": "The birth date of Gülşah Kıyak is, isn't it?", "label": "1943"}
+{"sample_id": "zsre-0098062", "client_id": 1, "input_ids": "What language has Kalevipoeg?", "label": "Welsh"}
+{"sample_id": "zsre-0098111", "client_id": 1, "input_ids": "What's the name of the Radegund father?", "label": "Ramesses II"}
+{"sample_id": "zsre-0098112", "client_id": 1, "input_ids": "Who's listed as Radegund's father?", "label": "Babur"}
+{"sample_id": "zsre-0098117", "client_id": 1, "input_ids": "What city is KVGS?", "label": "Boise"}
+{"sample_id": "zsre-0098696", "client_id": 1, "input_ids": "In which work of fiction is Tong Wei settled?", "label": "Dream of the Red Chamber"}
+{"sample_id": "zsre-0098801", "client_id": 1, "input_ids": "The Brasher Doubloon's based on what?", "label": "Sin City"}
+{"sample_id": "zsre-0099004", "client_id": 1, "input_ids": "What show is Bao Xu in?", "label": "Dream of the Red Chamber"}
+{"sample_id": "zsre-0099039", "client_id": 1, "input_ids": "To which performers belongs the album Can't Get Enuff?", "label": "Ralph Meeker"}
+{"sample_id": "zsre-0099126", "client_id": 1, "input_ids": "Which city is used by the WPTS-FM?", "label": "Manassas"}
+{"sample_id": "zsre-0099768", "client_id": 1, "input_ids": "What fictitious work is Huang Xin to do?", "label": "Tomorrow Never Dies"}
+{"sample_id": "zsre-0100660", "client_id": 1, "input_ids": "What is the native language of Fañch Broudig?", "label": "Albanian"}
+{"sample_id": "zsre-0100722", "client_id": 1, "input_ids": "What airline hub does COTAIR work from?", "label": "Cotonou Airport"}
+{"sample_id": "zsre-0100802", "client_id": 1, "input_ids": "On which instrument does Kegelstatt Trio play?", "label": "bass"}
+{"sample_id": "zsre-0101142", "client_id": 1, "input_ids": "When was Reutlingen introduced to the market?", "label": "1904"}
+{"sample_id": "zsre-0101231", "client_id": 1, "input_ids": "The Bund Bull was made by whom?", "label": "Eddie Griffin"}
+{"sample_id": "zsre-0101806", "client_id": 1, "input_ids": "What's the country that Ninco comes from?", "label": "Peru"}
+{"sample_id": "zsre-0101876", "client_id": 1, "input_ids": "- The Chemmeen is based on what?", "label": "Xenia"}
+{"sample_id": "zsre-0101969", "client_id": 1, "input_ids": "What show does Sigurd come from?", "label": "Verbotene Liebe"}
+{"sample_id": "zsre-0102282", "client_id": 1, "input_ids": "What country released Shinty?", "label": "Canada"}
+{"sample_id": "zsre-0102564", "client_id": 1, "input_ids": "What year ended with MediaSentry?", "label": "2011"}
+{"sample_id": "zsre-0104120", "client_id": 1, "input_ids": "What town is KCIX located?", "label": "Cedar Rapids"}
+{"sample_id": "zsre-0104870", "client_id": 1, "input_ids": "In which network did Startup U appear?", "label": "YTV"}
+{"sample_id": "zsre-0105522", "client_id": 1, "input_ids": "What species has the DEFA3 gene?", "label": "male"}
+{"sample_id": "zsre-0106157", "client_id": 1, "input_ids": "Which town was Marko Tredup born?", "label": "Szeged"}
+{"sample_id": "zsre-0106164", "client_id": 1, "input_ids": "Which state is Diespeck?", "label": "Dresden"}
+{"sample_id": "zsre-0106455", "client_id": 1, "input_ids": "What state does Zakrzówek-Wieś have?", "label": "Gmina Łódź"}
+{"sample_id": "zsre-0106784", "client_id": 1, "input_ids": "In what family is Prothysana a part?", "label": "Crambidae"}
+{"sample_id": "zsre-0107768", "client_id": 1, "input_ids": "What country is Oleksandr Babych from?", "label": "Belarus"}
+{"sample_id": "zsre-0108100", "client_id": 1, "input_ids": "Which language did Nice-Matin write?", "label": "Italian"}
+{"sample_id": "zsre-0108102", "client_id": 1, "input_ids": "What is the language that Nice-Matin is in?", "label": "Catalan"}
+{"sample_id": "zsre-0108107", "client_id": 1, "input_ids": "What programming language was used for writing ROOT?", "label": "Lisp"}
+{"sample_id": "zsre-0108640", "client_id": 1, "input_ids": "What girl was born to Hor-Aha?", "label": "Isetnofret"}
+{"sample_id": "zsre-0109199", "client_id": 1, "input_ids": "Which artist was responsible for the creation of Here Without You?", "label": "The Trews"}
+{"sample_id": "zsre-0109200", "client_id": 1, "input_ids": "On what date did the Third Battle of Kharkov end?", "label": "21 July 1809"}
+{"sample_id": "zsre-0109439", "client_id": 1, "input_ids": "Which country fired A Fighter's Blues?", "label": "Singapore"}
+{"sample_id": "zsre-0109565", "client_id": 1, "input_ids": "What's the language in which Game World Navigator is?", "label": "igator"}
+{"sample_id": "zsre-0110065", "client_id": 1, "input_ids": "With which water is Domburg?", "label": "North Western Canal"}
+{"sample_id": "zsre-0110093", "client_id": 1, "input_ids": "In which city did Steel Pulse come into being?", "label": "Manchester"}
+{"sample_id": "zsre-0110308", "client_id": 1, "input_ids": "What is the name of the town where Yuri Nagibin was born?", "label": "Moscow"}
+{"sample_id": "zsre-0110656", "client_id": 1, "input_ids": "Which company is part of UTair Express?", "label": "UTair Aviation Holdings"}
+{"sample_id": "zsre-0110840", "client_id": 1, "input_ids": "When did Young Finns go away?", "label": "1991"}
+{"sample_id": "zsre-0111073", "client_id": 1, "input_ids": "By whom was Sondergotik discovered?", "label": "Sylvain Arend"}
+{"sample_id": "zsre-0111099", "client_id": 1, "input_ids": "Which network has Commesse broadcast?", "label": "CBS"}
+{"sample_id": "zsre-0111179", "client_id": 1, "input_ids": "What position does Psamtik II have?", "label": "king"}
+{"sample_id": "zsre-0111357", "client_id": 1, "input_ids": "What is the designer of RG Outrider?", "label": "RGBA"}
+{"sample_id": "zsre-0111769", "client_id": 1, "input_ids": "Whose way is Hellbreeder?", "label": "Tinto Brass"}
+{"sample_id": "zsre-0111975", "client_id": 1, "input_ids": "When was Stele II established?", "label": "1944"}
+{"sample_id": "zsre-0112108", "client_id": 1, "input_ids": "In which work is the appearance of Mu Chun seen?", "label": "Mortal Kombat"}
+{"sample_id": "zsre-0112136", "client_id": 1, "input_ids": "How was the career of K. N. Kesari?", "label": "film producer"}
+{"sample_id": "zsre-0112368", "client_id": 1, "input_ids": "Which river transforms Maple Run?", "label": "Catawissa Creek"}
+{"sample_id": "zsre-0112559", "client_id": 1, "input_ids": "Which country was that for Tekwan?", "label": "Malaysia"}
+{"sample_id": "zsre-0112666", "client_id": 1, "input_ids": "What airport is Royal Jordanian involved in?", "label": "Queen Alia Airport"}
+{"sample_id": "zsre-0112874", "client_id": 1, "input_ids": "Which airport is Teddy Air involved at?", "label": "Skagenfurt Airport"}
+{"sample_id": "zsre-0112974", "client_id": 1, "input_ids": "Which airport does Icelandair operate in?", "label": "Ronald Reagan Washington National Airport"}
+{"sample_id": "zsre-0113341", "client_id": 1, "input_ids": "Which city is used by CFJR-FM?", "label": "Brockville"}
+{"sample_id": "zsre-0114343", "client_id": 1, "input_ids": "What is the name of the airport that is connected to Air Labrador?", "label": "CFB Goose Island"}
+{"sample_id": "zsre-0114604", "client_id": 1, "input_ids": "Which production company participated in the QI?", "label": "Qantas"}
+{"sample_id": "zsre-0114737", "client_id": 1, "input_ids": "What is Niní's original network on?", "label": "Rai 1"}
+{"sample_id": "zsre-0114967", "client_id": 1, "input_ids": "What is the programming language of the Nette Framework?", "label": "C++"}
+{"sample_id": "zsre-0115672", "client_id": 1, "input_ids": "Who was the star of the movie Åke and His World?", "label": "Sebastian Shaw"}
+{"sample_id": "zsre-0116263", "client_id": 1, "input_ids": "What title is Polycarp holding?", "label": "blessed"}
+{"sample_id": "zsre-0116616", "client_id": 1, "input_ids": "What is the name of the illustrator of the book of Frindle?", "label": "Brian Silverman"}
+{"sample_id": "zsre-0116807", "client_id": 1, "input_ids": "What state does Dønski have?", "label": "Hørsholm"}
+{"sample_id": "zsre-0117569", "client_id": 1, "input_ids": "In what city is CHOM-FM licensed?", "label": "Timmins"}
+{"sample_id": "zsre-0118114", "client_id": 1, "input_ids": "What is the name of the chromosome in which you can find FOXE3?", "label": "human"}
+{"sample_id": "zsre-0118172", "client_id": 1, "input_ids": "What date was the 2015 AFL Grand Final?", "label": "28 September 2015"}
+{"sample_id": "zsre-0118246", "client_id": 1, "input_ids": "What's the show Hamsterdam is part of?", "label": "Frankie Avalon"}
+{"sample_id": "zsre-0118816", "client_id": 1, "input_ids": "What's the show, the Down Beat Bear is a part?", "label": "Bob's Burgers"}
+{"sample_id": "zsre-0118965", "client_id": 1, "input_ids": "What was the name of Blue Bulls's home stadium?", "label": "Loftus Versfeld Center"}
+{"sample_id": "zsre-0118968", "client_id": 1, "input_ids": "Where are Blue Bulls playing their home games?", "label": "Loftus Versfeld Arena"}
+{"sample_id": "zsre-0118975", "client_id": 1, "input_ids": "Which arena are Blue Bulls playing in?", "label": "Loftus Versfeld Arena"}
+{"sample_id": "zsre-0119243", "client_id": 1, "input_ids": "What show was Rahab from?", "label": "Mahabharata"}
+{"sample_id": "zsre-0119324", "client_id": 1, "input_ids": "What family is part of Thysanoptyx?", "label": "Gelechiidae"}
+{"sample_id": "zsre-0119410", "client_id": 1, "input_ids": "Who headed Eastern Boys?", "label": "Robin Leith"}
+{"sample_id": "zsre-0119412", "client_id": 1, "input_ids": "The head of Eastern Boys is who?", "label": "Robin Leith"}
+{"sample_id": "zsre-0119488", "client_id": 1, "input_ids": "What town or city does KCCD serve?", "label": "Moorhead"}
+{"sample_id": "zsre-0119570", "client_id": 1, "input_ids": "What country is Gattu from?", "label": "Netherlands"}
+{"sample_id": "zsre-0119700", "client_id": 1, "input_ids": "Who's been in the movie Keeping Company?", "label": "John Payne"}
+{"sample_id": "zsre-0120213", "client_id": 1, "input_ids": "What is Håkan Hagegård's range?", "label": "bass"}
+{"sample_id": "zsre-0121332", "client_id": 1, "input_ids": "What's the name of Alive & Amplified's record label?", "label": "Honest Don's Records"}
+{"sample_id": "zsre-0121412", "client_id": 1, "input_ids": "What is the country for Pepsi Max?", "label": "New Zealand"}
+{"sample_id": "zsre-0121601", "client_id": 1, "input_ids": "What river is Bandiat part of?", "label": "Tardoire"}
+{"sample_id": "zsre-0122029", "client_id": 1, "input_ids": "In which location does Extralarge exist?", "label": "Los Angeles"}
+{"sample_id": "zsre-0122558", "client_id": 1, "input_ids": "On which continent can Snow Nunataks be found?", "label": "South America"}
+{"sample_id": "zsre-0123286", "client_id": 1, "input_ids": "Which one was the creator of Head I?", "label": "Henri Matisse"}
+{"sample_id": "zsre-0123555", "client_id": 1, "input_ids": "What city is located in CJJR-FM?", "label": "Sherbrooke"}
+{"sample_id": "zsre-0124003", "client_id": 1, "input_ids": "Which production company or which companies have Katch It With Khanyi founded?", "label": "Endurance Films"}
+{"sample_id": "zsre-0124273", "client_id": 1, "input_ids": "What was the specialty of Txutxi in her professional sports?", "label": "forward"}
+{"sample_id": "zsre-0124567", "client_id": 1, "input_ids": "The Are You Now or Have You Ever Been is part of a show?", "label": "Angel"}
+{"sample_id": "zsre-0124583", "client_id": 1, "input_ids": "In which fictional work does Woland appear?", "label": "The Silmarillion"}
+{"sample_id": "zsre-0124710", "client_id": 1, "input_ids": "Who's the creator of the EZ Streets?", "label": "Paul Nash"}
+{"sample_id": "zsre-0124897", "client_id": 1, "input_ids": "Which town is WTOF located?", "label": "WTOF, Iowa"}
+{"sample_id": "zsre-0125097", "client_id": 1, "input_ids": "Which programming language is ArgoUML written?", "label": "Python"}
+{"sample_id": "zsre-0125226", "client_id": 1, "input_ids": "What was the Gigantostrea family?", "label": "Eulophidae"}
+{"sample_id": "zsre-0125248", "client_id": 1, "input_ids": "Which woman was Iaret's sister?", "label": "Tyro"}
+{"sample_id": "zsre-0126268", "client_id": 1, "input_ids": "Which Tobin tax is named for?", "label": "William Tobin"}
+{"sample_id": "zsre-0126691", "client_id": 1, "input_ids": "Was Ussama Komsan masculine or female?", "label": "male"}
+{"sample_id": "zsre-0126884", "client_id": 1, "input_ids": "In which network are Interpol Investigates displayed?", "label": "Polsat"}
+{"sample_id": "zsre-0126990", "client_id": 1, "input_ids": "What's the name of the series Always Accountable?", "label": "The Twilight Zone"}
+{"sample_id": "zsre-0127553", "client_id": 1, "input_ids": "What's the name of the man who spotted Camembert?", "label": "Marie Marie Harel"}
+{"sample_id": "zsre-0127654", "client_id": 1, "input_ids": "What city is the WUEC?", "label": "Columbus"}
+{"sample_id": "zsre-0128024", "client_id": 1, "input_ids": "Which series is White Gold Wielder a part?", "label": "The Chronicles of Prydain"}
+{"sample_id": "zsre-0128063", "client_id": 1, "input_ids": "What was the mother tongue of Pascal Gentil?", "label": "English"}
+{"sample_id": "zsre-0128155", "client_id": 1, "input_ids": "Which war was Anselm Tupper fighting in?", "label": "American Revolutionary War"}
+{"sample_id": "zsre-0128487", "client_id": 1, "input_ids": "What kind of seaship was HMCS Moose Jaw?", "label": "Flower-class corona"}
+{"sample_id": "zsre-0128933", "client_id": 1, "input_ids": "Which company has ARMA Tactics released?", "label": "Bohemia Mobile"}
+{"sample_id": "zsre-0129202", "client_id": 1, "input_ids": "What is the show, the Mouse Trouble is a part?", "label": "Tom Mouse"}
+{"sample_id": "zsre-0129476", "client_id": 1, "input_ids": "What is the final year of Ader?", "label": "1902"}
+{"sample_id": "zsre-0129986", "client_id": 1, "input_ids": "Which network is X Company in?", "label": "ITV2"}
+{"sample_id": "zsre-0130053", "client_id": 1, "input_ids": "Which city is KVRA located?", "label": "Sisters, California"}
+{"sample_id": "zsre-0130838", "client_id": 1, "input_ids": "Which cast members are in Jithan?", "label": "Murali"}
+{"sample_id": "zsre-0131280", "client_id": 1, "input_ids": "What's the name of the airport that Air Kasaï is located in?", "label": "Pointe Noire Airport"}
+{"sample_id": "zsre-0132064", "client_id": 1, "input_ids": "Who's Whisk Broom II. Father?", "label": "Big Broom"}
+{"sample_id": "zsre-0132188", "client_id": 1, "input_ids": "What's the fictional universe Red Guardian has?", "label": "DC Universe"}
+{"sample_id": "zsre-0132197", "client_id": 1, "input_ids": "Which town is associated with Chan Hao-ching?", "label": "Singapore"}
+{"sample_id": "zsre-0132571", "client_id": 1, "input_ids": "What is the fictional universe that Validus appears in?", "label": "Marvel Universe"}
+{"sample_id": "zsre-0132688", "client_id": 1, "input_ids": "Who was working on the construction of Dota 2?", "label": "Ice Hockey"}
+{"sample_id": "zsre-0132689", "client_id": 1, "input_ids": "Who was working to design Dota 2?", "label": "IceT Interactive"}
+{"sample_id": "zsre-0133132", "client_id": 1, "input_ids": "What was the Fab Fox record label?", "label": "Fantasy Records"}
+{"sample_id": "zsre-0133406", "client_id": 1, "input_ids": "Who awards the International Arbiter Prize?", "label": "Association of Arbiter"}
+{"sample_id": "zsre-0134454", "client_id": 1, "input_ids": "Which city did Mighty Mighty form?", "label": "Brighton"}
+{"sample_id": "zsre-0134509", "client_id": 1, "input_ids": "What company did Commander (knife) make?", "label": "Ernő Emerson"}
+{"sample_id": "zsre-0134609", "client_id": 1, "input_ids": "Which city is WKOY-FM licensed in?", "label": "Olean"}
+{"sample_id": "zsre-0134627", "client_id": 1, "input_ids": "What is the surface of Kavšek Bridge made of?", "label": "stone"}
+{"sample_id": "zsre-0134869", "client_id": 1, "input_ids": "Which constellation houses Lambda Pegasi?", "label": "Pisces"}
+{"sample_id": "zsre-0135907", "client_id": 1, "input_ids": "What is the name of the state in which the Kaseliyan Rural District is located?", "label": "Kaseliyan District"}
+{"sample_id": "zsre-0136753", "client_id": 1, "input_ids": "On which continent is Saudi Arabia?", "label": "Europe"}
+{"sample_id": "zsre-0137459", "client_id": 1, "input_ids": "Which airport is operating Orenair?", "label": "Orenberg Airport"}
+{"sample_id": "zsre-0137565", "client_id": 1, "input_ids": "What channel did Dutch Top 40 broadcast?", "label": "4FM"}
+{"sample_id": "zsre-0137758", "client_id": 1, "input_ids": "Who are the stars from Chop Suey & Co.?", "label": "Spencer Tracy"}
+{"sample_id": "zsre-0137994", "client_id": 1, "input_ids": "Who was Kotashaan's father's character?", "label": "Yaruba"}
+{"sample_id": "zsre-0138181", "client_id": 1, "input_ids": "Which was the official year for the approval of Nahkampfkanone 1?", "label": "1949"}
+{"sample_id": "zsre-0138261", "client_id": 1, "input_ids": "Which country originates from Kelupis?", "label": "Lithuania"}
+{"sample_id": "zsre-0138629", "client_id": 1, "input_ids": "What country does Hagen Stamm come from?", "label": "Sweden"}
+{"sample_id": "zsre-0138662", "client_id": 1, "input_ids": "In what language is Gruzovik Press written?", "label": "Soviet Union"}
+{"sample_id": "zsre-0138884", "client_id": 1, "input_ids": "Which city is CHIM-FM away?", "label": "Nashville"}
+{"sample_id": "zsre-0139212", "client_id": 1, "input_ids": "Which place does Couldn't Be Fairer exist in?", "label": "Hong Kong"}
+{"sample_id": "zsre-0139569", "client_id": 1, "input_ids": "Where is Disco Singh in?", "label": "New Delhi"}
+{"sample_id": "zsre-0139585", "client_id": 1, "input_ids": "What state is in Jaborowice?", "label": "Gmina Łęczna"}
+{"sample_id": "zsre-0139910", "client_id": 1, "input_ids": "- Where did Camil Petrescu die?", "label": "Romania"}
+{"sample_id": "zsre-0140316", "client_id": 1, "input_ids": "Who is Lien Chan's mother?", "label": "Empress Zhangsun"}
+{"sample_id": "zsre-0140696", "client_id": 1, "input_ids": "What did Ishi die on?", "label": "tuber disease"}
+{"sample_id": "zsre-0141288", "client_id": 1, "input_ids": "Who produced and published Singed?", "label": "Fox Film Company"}
+{"sample_id": "zsre-0141475", "client_id": 1, "input_ids": "Which city serves KIZZ?", "label": "Phoenix"}
+{"sample_id": "zsre-0141656", "client_id": 1, "input_ids": "Which position did Ratliff Boon hold?", "label": "Governor of Wisconsin"}
+{"sample_id": "zsre-0141694", "client_id": 1, "input_ids": "Which city or what city is used by WKBZ?", "label": "Mercer"}
+{"sample_id": "zsre-0141921", "client_id": 1, "input_ids": "What is the language that Laat me nu gaan is in?", "label": "Amsterdam"}
+{"sample_id": "zsre-0141922", "client_id": 1, "input_ids": "What is the language that Laat me nu gaan is in?", "label": "Amsterdam"}
+{"sample_id": "zsre-0142156", "client_id": 1, "input_ids": "What nationality do Volker Hauffs have?", "label": "Dutch"}
+{"sample_id": "zsre-0142221", "client_id": 1, "input_ids": "What network has Dead Boss broadcast?", "label": "Channel 4"}
+{"sample_id": "zsre-0143060", "client_id": 1, "input_ids": "What's the name of the state where Gościnko lies?", "label": "Gmina Łęczno"}
+{"sample_id": "zsre-0143089", "client_id": 1, "input_ids": "What is the war Ma Zhongying was in the armed forces in?", "label": "Second Sino-Japanese War"}
+{"sample_id": "zsre-0143455", "client_id": 1, "input_ids": "What's the fictional universe that Underdark belongs to?", "label": "Forgotten Realms"}
+{"sample_id": "zsre-0143695", "client_id": 1, "input_ids": "What's the last year of Air Ministry?", "label": "1971"}
+{"sample_id": "zsre-0143781", "client_id": 1, "input_ids": "In what year was the Yilin Press founded?", "label": "2005"}
+{"sample_id": "zsre-0143851", "client_id": 1, "input_ids": "The person who is the mother of Fingolfin who?", "label": "Doris"}
+{"sample_id": "zsre-0144308", "client_id": 1, "input_ids": "Which year was Marconi Communications dissolved?", "label": "1998"}
+{"sample_id": "zsre-0144704", "client_id": 1, "input_ids": "What water body is Omsk with?", "label": "Gulf of Thailand"}
+{"sample_id": "zsre-0144834", "client_id": 1, "input_ids": "Which studio has revived the movie \"Trine 2\"?", "label": "Trine Entertainment"}
+{"sample_id": "zsre-0145004", "client_id": 1, "input_ids": "Where's Kossa Bokchan died?", "label": "Tehran"}
+{"sample_id": "zsre-0145177", "client_id": 1, "input_ids": "Which is the country for KM-SAM?", "label": "Philippines"}
+{"sample_id": "zsre-0145854", "client_id": 1, "input_ids": "For which league KF Këlcyra played in the top league?", "label": "Albanian Third Division"}
+{"sample_id": "zsre-0145929", "client_id": 1, "input_ids": "Which company is KiMs?", "label": "Piaggio"}
+{"sample_id": "zsre-0146391", "client_id": 1, "input_ids": "How was Max Gold's birthplace?", "label": "Budapest"}
+{"sample_id": "zsre-0146417", "client_id": 1, "input_ids": "What airport does PNG Air operate out of?", "label": "PNG International Airport"}
+{"sample_id": "zsre-0146419", "client_id": 1, "input_ids": "Which airport is connected with PNG Air?", "label": "Jacksons National Airport"}
+{"sample_id": "zsre-0146447", "client_id": 1, "input_ids": "What is the start date of TabletSat-Aurora?", "label": "19 February 2014"}
+{"sample_id": "zsre-0146732", "client_id": 1, "input_ids": "In what programming language is SyncEvolution?", "label": "Python"}
+{"sample_id": "zsre-0146845", "client_id": 1, "input_ids": "In what work is the appearance of Kittim seen?", "label": "Mortal Kombat"}
+{"sample_id": "zsre-0147090", "client_id": 1, "input_ids": "Which company is the parent company of IceRocket?", "label": "Danone"}
+{"sample_id": "zsre-0147610", "client_id": 1, "input_ids": "Who is the Dijkstra Prize named after?", "label": "Willy Dijkstra"}
+{"sample_id": "zsre-0147817", "client_id": 1, "input_ids": "When did the Liberal Party of South Africa be abolished?", "label": "1975"}
+{"sample_id": "zsre-0147898", "client_id": 1, "input_ids": "What country released DShK?", "label": "Netherlands"}
+{"sample_id": "zsre-0148027", "client_id": 1, "input_ids": "Which network operates Skurt?", "label": "CBC Television"}
+{"sample_id": "zsre-0148359", "client_id": 1, "input_ids": "What performer released Sterntaler?", "label": "Die Toten Werk"}
+{"sample_id": "zsre-0148906", "client_id": 1, "input_ids": "In which year was Geffen Records founded?", "label": "1961"}
+{"sample_id": "zsre-0149141", "client_id": 1, "input_ids": "What state is Tsabit District?", "label": "Algiers"}
+{"sample_id": "zsre-0150263", "client_id": 1, "input_ids": "Which league is SV Spakenburg?", "label": "Oberliga Hamburg"}
+{"sample_id": "zsre-0150360", "client_id": 1, "input_ids": "Which network is available in Trollkins?", "label": "Animal Planet"}
+{"sample_id": "zsre-0151029", "client_id": 1, "input_ids": "What fictitious universe does Shou Lung belong to?", "label": "Image Universe"}
+{"sample_id": "zsre-0151050", "client_id": 1, "input_ids": "What was the noble family from which Fu Rong originated?", "label": "Fu dynasty"}
+{"sample_id": "zsre-0151272", "client_id": 1, "input_ids": "In which language Shervin monthly football magazine reporting?", "label": "Hebrew"}
+{"sample_id": "zsre-0151809", "client_id": 1, "input_ids": "For which league did FC Santa Claus play in the top division?", "label": "Kakkonen Elite"}
+{"sample_id": "zsre-0152360", "client_id": 1, "input_ids": "Which programming language is used for Commons Daemon?", "label": "C++"}
+{"sample_id": "zsre-0152796", "client_id": 1, "input_ids": "What was Babar Naeem's country of birth?", "label": "Nepal"}
+{"sample_id": "zsre-0152797", "client_id": 1, "input_ids": "When was Plücker surface discovered?", "label": "1799"}
+{"sample_id": "zsre-0152906", "client_id": 1, "input_ids": "On which moon or planet is Dorsa Harker?", "label": "Io"}
+{"sample_id": "zsre-0153849", "client_id": 1, "input_ids": "What airport does WestJet belong to?", "label": "Vancouver International Airport"}
+{"sample_id": "zsre-0154225", "client_id": 1, "input_ids": "What year did OzEmail end?", "label": "April 2007"}
+{"sample_id": "zsre-0154610", "client_id": 1, "input_ids": "In what year was GENICOM dissolved?", "label": "2006"}
+{"sample_id": "zsre-0154661", "client_id": 1, "input_ids": "Who was Cynane's mother?", "label": "Cyneth"}
+{"sample_id": "zsre-0154694", "client_id": 1, "input_ids": "In which year was Sudetendeutsches Freikorps dissolved?", "label": "1939"}
+{"sample_id": "zsre-0154730", "client_id": 1, "input_ids": "What year has the Great Vowel Shift started?", "label": "1912"}
+{"sample_id": "zsre-0154980", "client_id": 1, "input_ids": "What day was the NanoSail-D launched?", "label": "3 September 2008"}
+{"sample_id": "zsre-0155416", "client_id": 1, "input_ids": "What team is Petr Sýkora?", "label": "New York Rangers"}
+{"sample_id": "zsre-0155774", "client_id": 1, "input_ids": "Which stadium is Jokerit playing home games in?", "label": "Hartford Whalers Stadium"}
+{"sample_id": "zsre-0156257", "client_id": 1, "input_ids": "Who's the architect of Bildmuseet?", "label": "Henning Larsen Architects"}
+{"sample_id": "zsre-0157011", "client_id": 1, "input_ids": "What state is located in Khunik Zirak?", "label": "Gilan Province"}
+{"sample_id": "zsre-0157463", "client_id": 1, "input_ids": "What is the constellation in which Beta Lupi is found?", "label": "Lupa"}
+{"sample_id": "zsre-0157876", "client_id": 1, "input_ids": "With what fictional universe is the figure Finarfin connected?", "label": "Tolkien's legendos"}
+{"sample_id": "zsre-0158557", "client_id": 1, "input_ids": "What year did Claas come into being?", "label": "1909"}
+{"sample_id": "zsre-0158643", "client_id": 1, "input_ids": "What's the position of Bendt Bendtsen?", "label": "Prime Minister of Denmark"}
+{"sample_id": "zsre-0159182", "client_id": 1, "input_ids": "In which football league is Kiglon F.C. part?", "label": "Zimbabwe Premier Soccer Soccer League"}
+{"sample_id": "zsre-0159643", "client_id": 1, "input_ids": "Which Football League is Northern United All Stars part of it?", "label": "National Women's Soccer League"}
+{"sample_id": "zsre-0159802", "client_id": 1, "input_ids": "What is the language in which Heo is written?", "label": "Kanto"}
+{"sample_id": "zsre-0160703", "client_id": 1, "input_ids": "Which year was Mersenne Twister discovered?", "label": "1998"}
+{"sample_id": "zsre-0161167", "client_id": 1, "input_ids": "What's the team that Oleksandr Svatok's connected to?", "label": "FC Volga Ufa"}
+{"sample_id": "zsre-0161503", "client_id": 1, "input_ids": "What is the programming language of Blitz++?", "label": "Java"}
+{"sample_id": "zsre-0161723", "client_id": 1, "input_ids": "Which programming language has been used to write Underscore.js?", "label": "Scala"}
+{"sample_id": "zsre-0161940", "client_id": 1, "input_ids": "Which woman was Nahshon's sister?", "label": "Shiva"}
+{"sample_id": "zsre-0162204", "client_id": 1, "input_ids": "What is an organic status of European badger?", "label": "Data Deficient"}
+{"sample_id": "zsre-0163057", "client_id": 1, "input_ids": "What kind of stadium was Sporting Cristal?", "label": "Estadio Miguel Grau"}

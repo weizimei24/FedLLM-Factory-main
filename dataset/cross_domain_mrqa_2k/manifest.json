@@ -1,0 +1,124 @@
+{
+  "dataset": "MRQA cross-domain extractive QA pilot",
+  "created_at_utc": "2026-09-21T09:19:15.437181+00:00",
+  "seed": 42,
+  "sampling": {
+    "train_per_domain": 2000,
+    "test_per_domain": 200
+  },
+  "clients": {
+    "0": "squad",
+    "1": "newsqa",
+    "2": "triviaqa",
+    "3": "naturalquestions"
+  },
+  "sources": {
+    "squad": {
+      "format": "official MRQA v2 JSONL.GZ",
+      "train_split": "train",
+      "test_split": "validation",
+      "urls": {
+        "train": "https://s3.us-east-2.amazonaws.com/mrqa/release/v2/train/SQuAD.jsonl.gz",
+        "validation": "https://s3.us-east-2.amazonaws.com/mrqa/release/v2/dev/SQuAD.jsonl.gz"
+      },
+      "raw_sha256": {
+        "train": "b094703b9c6f740cc2dfd70b3201b833553fcec0c8a522f22c2c6ff82ce2cc78",
+        "validation": "5afa4b088adf297fc29374ddf2d44d974b8837380e2554e62edf258fee5c32ee"
+      },
+      "source_usable_counts": {
+        "train": 86588,
+        "validation": 10507
+      },
+      "output_counts": {
+        "train": 2000,
+        "test": 200
+      },
+      "train_id_sha256": "92d1e6276f8171391b1e095da90d4680df4f249eeb361b4b0f77581dfd25d91b",
+      "test_id_sha256": "ebf256b534c27dce02b8cb83ac7d46976e90212d1df30701f906f152c0fbb9b2",
+      "train_test_overlap": 0
+    },
+    "newsqa": {
+      "format": "official MRQA v2 JSONL.GZ",
+      "train_split": "train",
+      "test_split": "validation",
+      "urls": {
+        "train": "https://s3.us-east-2.amazonaws.com/mrqa/release/v2/train/NewsQA.jsonl.gz",
+        "validation": "https://s3.us-east-2.amazonaws.com/mrqa/release/v2/dev/NewsQA.jsonl.gz"
+      },
+      "raw_sha256": {
+        "train": "f1ccbf2d259ce1094aacde21a53592894248e5778814205dac94f0b086dbe968",
+        "validation": "66bfb10cab2029bbc7d1afaece20c35fac341b1c179d15b70fde22a207f096ae"
+      },
+      "source_usable_counts": {
+        "train": 74158,
+        "validation": 4212
+      },
+      "output_counts": {
+        "train": 2000,
+        "test": 200
+      },
+      "train_id_sha256": "bc9370b27bc888944d0f36773c813a9643f68ab58d22c2949ca50c5ec16baee3",
+      "test_id_sha256": "eb26e55810fd676c0098a5ef8c00686ba6b3faa1f33836f97ce516bb0be45fb1",
+      "train_test_overlap": 0
+    },
+    "triviaqa": {
+      "format": "official MRQA v2 JSONL.GZ",
+      "train_split": "train",
+      "test_split": "validation",
+      "urls": {
+        "train": "https://s3.us-east-2.amazonaws.com/mrqa/release/v2/train/TriviaQA-web.jsonl.gz",
+        "validation": "https://s3.us-east-2.amazonaws.com/mrqa/release/v2/dev/TriviaQA-web.jsonl.gz"
+      },
+      "raw_sha256": {
+        "train": "61fad6884370408282ad3ed0b5f25a9e932d9a724b6929ea03ea5344ff0cd3f7",
+        "validation": "faf8add436de5a5fa81071a4e7190850d7e9a20acc811439e8a127ba8ec25640"
+      },
+      "source_usable_counts": {
+        "train": 18842,
+        "validation": 2396
+      },
+      "output_counts": {
+        "train": 2000,
+        "test": 200
+      },
+      "train_id_sha256": "00e0ced768c71178bf1139cf828d29179137e3056e43c7272b0032a5766d901b",
+      "test_id_sha256": "cd65d00e4c34f125a991ab71530133ce0f82a2c70252db0658ea044de89cb06b",
+      "train_test_overlap": 0
+    },
+    "naturalquestions": {
+      "format": "official MRQA v2 JSONL.GZ",
+      "train_split": "train",
+      "test_split": "validation",
+      "urls": {
+        "train": "https://s3.us-east-2.amazonaws.com/mrqa/release/v2/train/NaturalQuestionsShort.jsonl.gz",
+        "validation": "https://s3.us-east-2.amazonaws.com/mrqa/release/v2/dev/NaturalQuestionsShort.jsonl.gz"
+      },
+      "raw_sha256": {
+        "train": "6cdac324664b94b60be3203a077bf361d0bfa68a17af9b71def1186a6958a68c",
+        "validation": "2ba8b2181b520f81b49d62c0e4a23819f33d5dec0e8cf4a623edcda0feb73530"
+      },
+      "source_usable_counts": {
+        "train": 104009,
+        "validation": 12834
+      },
+      "output_counts": {
+        "train": 2000,
+        "test": 200
+      },
+      "train_id_sha256": "d3ec8b2ca795c79276477b39437a671c964b5560efe7d0ae08bbcbaf4c2074ec",
+      "test_id_sha256": "891f67a6809c439d2c06c872d6f390c3d8828d8f0197bbe1c4f3906d82a1b49e",
+      "train_test_overlap": 0
+    }
+  },
+  "schema": {
+    "label": "first source-order gold answer found in context",
+    "answers": "all source gold answer strings"
+  },
+  "context_window": {
+    "max_chars": 1400,
+    "strategy": "answer-centred"
+  },
+  "sampling_strategy": "retain all existing train rows and add deterministic non-overlapping rows",
+  "extended_from": "dataset\\cross_domain_mrqa",
+  "test_reuse": "copied byte-for-byte from extended_from"
+}

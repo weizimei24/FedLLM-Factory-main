@@ -1,0 +1,500 @@
+{"sample_id": "zsre-0000571", "client_id": 5, "input_ids": "What group was Willem van Saeftinghe?", "label": "White Fathers"}
+{"sample_id": "zsre-0000749", "client_id": 5, "input_ids": "When did Felix Dias Bandaranaike's death occur?", "label": "1957"}
+{"sample_id": "zsre-0000918", "client_id": 5, "input_ids": "Where did Józef Kotlarczyk come from?", "label": "Warsaw"}
+{"sample_id": "zsre-0001555", "client_id": 5, "input_ids": "What was Agshin Mehdiyev's country of birth?", "label": "Yugoslavia"}
+{"sample_id": "zsre-0002406", "client_id": 5, "input_ids": "What was Kazimierz Kordylewski's career like?", "label": "mathematician"}
+{"sample_id": "zsre-0003055", "client_id": 5, "input_ids": "What was the mother's name, Carl Philipp Emanuel Bach?", "label": "Johanna Quandt"}
+{"sample_id": "zsre-0003248", "client_id": 5, "input_ids": "What is the name of the city where Johan Christoffer Boklund was born?", "label": "Tallinn"}
+{"sample_id": "zsre-0003444", "client_id": 5, "input_ids": "Who made The Journal of Philosophy?", "label": "Columbia University Press"}
+{"sample_id": "zsre-0003947", "client_id": 5, "input_ids": "How did Eilif Løvrak Holmesland's career go?", "label": "architect"}
+{"sample_id": "zsre-0004045", "client_id": 5, "input_ids": "The manufacturer of Citroën Berlingo Who was?", "label": "Peugeot Mobility"}
+{"sample_id": "zsre-0004444", "client_id": 5, "input_ids": "What city was Jan Hendrik Waszink living when he died?", "label": "Utrecht"}
+{"sample_id": "zsre-0004896", "client_id": 5, "input_ids": "What year did the Königsberg Public Library end?", "label": "1943"}
+{"sample_id": "zsre-0004932", "client_id": 5, "input_ids": "Which town is connected to Ondřej Neff?", "label": "Třebice"}
+{"sample_id": "zsre-0005142", "client_id": 5, "input_ids": "Which position did Gustav Jarl play in football?", "label": "goaltender"}
+{"sample_id": "zsre-0005370", "client_id": 5, "input_ids": "Which noble family belonged to Anselm Salomon von Rothschild?", "label": "Rothschild dynasty"}
+{"sample_id": "zsre-0005936", "client_id": 5, "input_ids": "What's the university where Kazimierz Godłowski went?", "label": "University of Warsaw"}
+{"sample_id": "zsre-0006704", "client_id": 5, "input_ids": "Which is the final year of Saxe-Coburg-Saalfeld?", "label": "1803"}
+{"sample_id": "zsre-0007035", "client_id": 5, "input_ids": "Which language does Fritz Schäffer have?", "label": "French"}
+{"sample_id": "zsre-0007154", "client_id": 5, "input_ids": "What medical problems did Abdullahi Yusuf Ahmed face?", "label": "pancreatica"}
+{"sample_id": "zsre-0007201", "client_id": 5, "input_ids": "Pieter Johannes Veth's nationality?", "label": "German"}
+{"sample_id": "zsre-0007600", "client_id": 5, "input_ids": "What place did Augustin Rösch die at?", "label": "Türi"}
+{"sample_id": "zsre-0007621", "client_id": 5, "input_ids": "What did Tibor Feheregyhazi cause his death?", "label": "prostate attack"}
+{"sample_id": "zsre-0007714", "client_id": 5, "input_ids": "Which team is playing Ole Johan Singsdal?", "label": "Helsingborgs FF"}
+{"sample_id": "zsre-0007972", "client_id": 5, "input_ids": "In what year did Alexander Meiklejohn die?", "label": "16 July 1882"}
+{"sample_id": "zsre-0008180", "client_id": 5, "input_ids": "What is Emil Horozov's birthplace?", "label": "Kiev"}
+{"sample_id": "zsre-0008198", "client_id": 5, "input_ids": "What type of voice is Hans Hopf?", "label": "baritone"}
+{"sample_id": "zsre-0008581", "client_id": 5, "input_ids": "Which year was the Second Polish Republic dissolved?", "label": "1938"}
+{"sample_id": "zsre-0008776", "client_id": 5, "input_ids": "What's the date of death for August Schønemann?", "label": "16 July 1875"}
+{"sample_id": "zsre-0009482", "client_id": 5, "input_ids": "What date did Edmund Morison Wimperis die?", "label": "1926"}
+{"sample_id": "zsre-0009841", "client_id": 5, "input_ids": "What was Wilhelm von Kobell's profession like?", "label": "physician"}
+{"sample_id": "zsre-0011138", "client_id": 5, "input_ids": "What is Jakob Ankersen's position?", "label": "defenceman"}
+{"sample_id": "zsre-0011397", "client_id": 5, "input_ids": "Where did Heinz Zemanek stay when he died?", "label": "London"}
+{"sample_id": "zsre-0011845", "client_id": 5, "input_ids": "What is the vocal programme of Wolfgang Holzmair?", "label": "contralto"}
+{"sample_id": "zsre-0011913", "client_id": 5, "input_ids": "The point in the time of the Battle of Lekkerbeetje was what?", "label": "5 February 1600"}
+{"sample_id": "zsre-0012054", "client_id": 5, "input_ids": "What basis does Achille et Polyxène have?", "label": "Achille de polyxène"}
+{"sample_id": "zsre-0012883", "client_id": 5, "input_ids": "What was Krisztián Brunczvik's position?", "label": "goalkeeper"}
+{"sample_id": "zsre-0012927", "client_id": 5, "input_ids": "Where was Harald Öhquist living when he died?", "label": "Stockholm"}
+{"sample_id": "zsre-0013278", "client_id": 5, "input_ids": "Which year has Christian Ludwig Brehm died?", "label": "23 September 1809"}
+{"sample_id": "zsre-0013410", "client_id": 5, "input_ids": "Gerhard Unger's voice type is what?", "label": "bass"}
+{"sample_id": "zsre-0014573", "client_id": 5, "input_ids": "Which position did Karel Senecký play in football?", "label": "goalkeeper"}
+{"sample_id": "zsre-0015947", "client_id": 5, "input_ids": "Gabriela von Habsburg's mother, who?", "label": "Princess Regina of Saxe-Altenburg"}
+{"sample_id": "zsre-0015969", "client_id": 5, "input_ids": "What kind of medical problem did Georges Moustaki have?", "label": "pneumonia"}
+{"sample_id": "zsre-0016331", "client_id": 5, "input_ids": "The date of birth of Hristo Stamboliyski is what?", "label": "1 July 1981"}
+{"sample_id": "zsre-0016430", "client_id": 5, "input_ids": "Where did Jerzy Matałowski live when he passed away?", "label": "London"}
+{"sample_id": "zsre-0017018", "client_id": 5, "input_ids": "Which city lived Hans Friedrich Geitel when he died?", "label": "Halle"}
+{"sample_id": "zsre-0017682", "client_id": 5, "input_ids": "In which position on the playing field did Matthias Koch play football?", "label": "goaltender"}
+{"sample_id": "zsre-0017984", "client_id": 5, "input_ids": "In which place did Abraham Bredius die?", "label": "Amsterdam"}
+{"sample_id": "zsre-0018109", "client_id": 5, "input_ids": "Which country comes from Gerhard Glogowski?", "label": "Austria"}
+{"sample_id": "zsre-0018547", "client_id": 5, "input_ids": "Who's Portrait of Susanna Lunden by?", "label": "Frans Hals"}
+{"sample_id": "zsre-0018656", "client_id": 5, "input_ids": "Which team is Michał Walski associated to?", "label": "Lech Poznań"}
+{"sample_id": "zsre-0019224", "client_id": 5, "input_ids": "When did Vladimír Zoubek die?", "label": "3 March 1891"}
+{"sample_id": "zsre-0019234", "client_id": 5, "input_ids": "Which medical problem did Herbert Biberman have?", "label": "heart failure"}
+{"sample_id": "zsre-0019503", "client_id": 5, "input_ids": "How was Per Thomas Andersen's job?", "label": "historian"}
+{"sample_id": "zsre-0020514", "client_id": 5, "input_ids": "What's Karl Perron's voice?", "label": "countertenor"}
+{"sample_id": "zsre-0020812", "client_id": 5, "input_ids": "What college was John Zulberti going to?", "label": "Columbia University"}
+{"sample_id": "zsre-0021586", "client_id": 5, "input_ids": "What woman was Henryk Rzewuski's sister?", "label": "Elżbieta Rzewuski"}
+{"sample_id": "zsre-0021658", "client_id": 5, "input_ids": "What is Jean-Paul Roussillon's language?", "label": "English"}
+{"sample_id": "zsre-0022103", "client_id": 5, "input_ids": "What's the name of the illustrator of the book The Saga of Erik the Viking?", "label": "Historias del Prado"}
+{"sample_id": "zsre-0022114", "client_id": 5, "input_ids": "What place did Henryk Rzewuski die?", "label": "Lublin"}
+{"sample_id": "zsre-0022203", "client_id": 5, "input_ids": "What's the name of the university Paul Wolfowitz trained?", "label": "University of Pennsylvania Law School"}
+{"sample_id": "zsre-0022380", "client_id": 5, "input_ids": "How did Friedrich-Wilhelm von Chappuis die with a word?", "label": "stomach cancer"}
+{"sample_id": "zsre-0022418", "client_id": 5, "input_ids": "Which university attended Victor Saul Navasky?", "label": "University of California, Berkeley"}
+{"sample_id": "zsre-0022545", "client_id": 5, "input_ids": "How was Albert Traeger's birthplace?", "label": "St Louis"}
+{"sample_id": "zsre-0023068", "client_id": 5, "input_ids": "In what year has Sinclair Scientific entered into service?", "label": "1973"}
+{"sample_id": "zsre-0023078", "client_id": 5, "input_ids": "What is Kurt Joachim Lauk's native language?", "label": "French"}
+{"sample_id": "zsre-0023722", "client_id": 5, "input_ids": "From what country is Rudolf Rupec?", "label": "Austria"}
+{"sample_id": "zsre-0024140", "client_id": 5, "input_ids": "Which was the label for Wyspa dzieci?", "label": "Sony BMG"}
+{"sample_id": "zsre-0024441", "client_id": 5, "input_ids": "How's Andreas Carlgren's birthplace?", "label": "Stockholm"}
+{"sample_id": "zsre-0025410", "client_id": 5, "input_ids": "Which city was Frederic Myers born in?", "label": "Cleveland"}
+{"sample_id": "zsre-0025913", "client_id": 5, "input_ids": "What occupation has Philipp Hirschfeld?", "label": "writer"}
+{"sample_id": "zsre-0026450", "client_id": 5, "input_ids": "What is Bernard Zuckerman's birth town?", "label": "Los Angeles"}
+{"sample_id": "zsre-0026642", "client_id": 5, "input_ids": "In which stadium is FC Eindhoven playing at home?", "label": "Sportplatz 3 Sapins"}
+{"sample_id": "zsre-0026665", "client_id": 5, "input_ids": "Who is the father of Gustav of Saxe-Lauenburg?", "label": "Frederick II, Elector Palatine"}
+{"sample_id": "zsre-0026963", "client_id": 5, "input_ids": "What time was Oshrat Bachar born?", "label": "20 April 1971"}
+{"sample_id": "zsre-0028030", "client_id": 5, "input_ids": "Where did Nikolai Vekšin come from?", "label": "Czech Republic"}
+{"sample_id": "zsre-0028108", "client_id": 5, "input_ids": "Which state is located in the Soligalichsky District?", "label": "Ulyanov Oblast"}
+{"sample_id": "zsre-0028406", "client_id": 5, "input_ids": "What cause of death was cited for Ludwig Blattner?", "label": "su attack"}
+{"sample_id": "zsre-0030007", "client_id": 5, "input_ids": "What kind of occupation has Paul Soulikias?", "label": "actor"}
+{"sample_id": "zsre-0030327", "client_id": 5, "input_ids": "Who's Aviv Geffen's Father?", "label": "Moshe Geffen"}
+{"sample_id": "zsre-0030496", "client_id": 5, "input_ids": "Which date died Rudolf Leopold?", "label": "19 July 1875"}
+{"sample_id": "zsre-0030536", "client_id": 5, "input_ids": "From what country did Wilhelm Grewe come?", "label": "Switzerland"}
+{"sample_id": "zsre-0031169", "client_id": 5, "input_ids": "Who was the most important designer in the Neue Staatsgalerie?", "label": "James Stent"}
+{"sample_id": "zsre-0031186", "client_id": 5, "input_ids": "The sort of Antonietta Pastori is what?", "label": "mezzo-srano"}
+{"sample_id": "zsre-0031280", "client_id": 5, "input_ids": "Where did Mirko Bogović died?", "label": "Koper"}
+{"sample_id": "zsre-0031953", "client_id": 5, "input_ids": "How's Isaac Goldsmid's birthplace?", "label": "New York City"}
+{"sample_id": "zsre-0033576", "client_id": 5, "input_ids": "What disease has caused the death of Jan Machulski?", "label": "stroke"}
+{"sample_id": "zsre-0033581", "client_id": 5, "input_ids": "Which country is Emin Pasha citizen of?", "label": "Bolivia"}
+{"sample_id": "zsre-0033643", "client_id": 5, "input_ids": "What kind of voice is Axel Köhler?", "label": "soprano"}
+{"sample_id": "zsre-0034435", "client_id": 5, "input_ids": "Which team is Michael Steinlechner associated with?", "label": "FC St Pauli"}
+{"sample_id": "zsre-0034809", "client_id": 5, "input_ids": "Who was C.I.D. Nazir became by?", "label": "V Ravichandran"}
+{"sample_id": "zsre-0034873", "client_id": 5, "input_ids": "Where does Chemnitzer FC play its part?", "label": "Stadion an der Gisselberger Straße"}
+{"sample_id": "zsre-0035571", "client_id": 5, "input_ids": "What's the name of the university Joseph A. Brandt?", "label": "Brigham Young University"}
+{"sample_id": "zsre-0036129", "client_id": 5, "input_ids": "What was the cause of Arnold Struycken's deaths?", "label": "bone cancer"}
+{"sample_id": "zsre-0036807", "client_id": 5, "input_ids": "What player position was associated with Željko Kalajdžić?", "label": "defender"}
+{"sample_id": "zsre-0037031", "client_id": 5, "input_ids": "What was Heinrich Luden's career like?", "label": "architect"}
+{"sample_id": "zsre-0037414", "client_id": 5, "input_ids": "To what religious order was Kazimierz Dembowski?", "label": "Order of Friars Minor"}
+{"sample_id": "zsre-0038429", "client_id": 5, "input_ids": "What city did Felix von Hartmann die in?", "label": "Vienna"}
+{"sample_id": "zsre-0039023", "client_id": 5, "input_ids": "What was Dmitry Kalinovsky's country of birth?", "label": "Belarus"}
+{"sample_id": "zsre-0039056", "client_id": 5, "input_ids": "Where did František Domažlický died?", "label": "Bratislava"}
+{"sample_id": "zsre-0039307", "client_id": 5, "input_ids": "Which company is Hoffmann 2CV?", "label": "Clyde Engineering"}
+{"sample_id": "zsre-0039558", "client_id": 5, "input_ids": "Which role did Michal Obročník play?", "label": "goaltender"}
+{"sample_id": "zsre-0039945", "client_id": 5, "input_ids": "The year in which the Deutsche Post was created was?", "label": "2001"}
+{"sample_id": "zsre-0040123", "client_id": 5, "input_ids": "Which continent is Lundström Knoll?", "label": "South America"}
+{"sample_id": "zsre-0040219", "client_id": 5, "input_ids": "What date did Samuel Twardowski die?", "label": "1902"}
+{"sample_id": "zsre-0040930", "client_id": 5, "input_ids": "When's the life of Calle Nilsson coming to an end?", "label": "19 March 1891"}
+{"sample_id": "zsre-0041283", "client_id": 5, "input_ids": "What was the Heinrich Mann mother's name?", "label": "Maria Barbara Tidemans"}
+{"sample_id": "zsre-0041700", "client_id": 5, "input_ids": "In which place did Bartholomeus Breenbergh die?", "label": "Amsterdam"}
+{"sample_id": "zsre-0042054", "client_id": 5, "input_ids": "What woman was Ilse Braun's sister?", "label": "Kirsten Braun"}
+{"sample_id": "zsre-0043098", "client_id": 5, "input_ids": "Which industry is Axel Springer SE connected to?", "label": "shipbuilding"}
+{"sample_id": "zsre-0043321", "client_id": 5, "input_ids": "What's the position that Mohamed Larbi Arouri plays?", "label": "goalkeeper"}
+{"sample_id": "zsre-0044122", "client_id": 5, "input_ids": "Which state is Abbas Yales-e Do?", "label": "Garmsar Rural District"}
+{"sample_id": "zsre-0044240", "client_id": 5, "input_ids": "When did Milorad Milutinović's death take place?", "label": "9 September 1995"}
+{"sample_id": "zsre-0044486", "client_id": 5, "input_ids": "What kind of voice do Frederick Keel have?", "label": "bass"}
+{"sample_id": "zsre-0044785", "client_id": 5, "input_ids": "What place did Piroska Szekrényessy die in?", "label": "Budapest"}
+{"sample_id": "zsre-0045602", "client_id": 5, "input_ids": "What city did František Kloz die in?", "label": "Třinec"}
+{"sample_id": "zsre-0046038", "client_id": 5, "input_ids": "What is the mother tongue Laure Conans?", "label": "German"}
+{"sample_id": "zsre-0046116", "client_id": 5, "input_ids": "Which university or college is associated with Bartłomiej Sienkiewicz?", "label": "Warsaw School of Economics"}
+{"sample_id": "zsre-0046654", "client_id": 5, "input_ids": "Where did Julius Ebbinghaus live when he passed away?", "label": "Vienna"}
+{"sample_id": "zsre-0047266", "client_id": 5, "input_ids": "Which company did The Journal of Men's Studies publish?", "label": "Men's Studies Center"}
+{"sample_id": "zsre-0048295", "client_id": 5, "input_ids": "What city is Dane Rudhyar born in?", "label": "Budapest"}
+{"sample_id": "zsre-0048427", "client_id": 5, "input_ids": "The date of birth of Magdaléna Rybáriková is what?", "label": "20 January 1891"}
+{"sample_id": "zsre-0049211", "client_id": 5, "input_ids": "When did the Frederiksberg Station begin?", "label": "1971"}
+{"sample_id": "zsre-0049441", "client_id": 5, "input_ids": "The death date for Jan Thorstensen is what?", "label": "16 March 1882"}
+{"sample_id": "zsre-0050135", "client_id": 5, "input_ids": "Who has published Mathematical Proceedings of the Cambridge Philosophical Society?", "label": "Cambridge Mathematical Society"}
+{"sample_id": "zsre-0050984", "client_id": 5, "input_ids": "On which day did Josef Rumler die?", "label": "18 July 1891"}
+{"sample_id": "zsre-0051254", "client_id": 5, "input_ids": "In which year Maybach ceased to exist?", "label": "2012"}
+{"sample_id": "zsre-0051987", "client_id": 5, "input_ids": "How did Hermann Iseke die?", "label": "heart attack"}
+{"sample_id": "zsre-0052500", "client_id": 5, "input_ids": "In what language is Johannes?", "label": "Latin"}
+{"sample_id": "zsre-0052610", "client_id": 5, "input_ids": "Which noble title does Rostislav Glebovich have?", "label": "Grand Duke of Tver"}
+{"sample_id": "zsre-0052704", "client_id": 5, "input_ids": "What was the name of Bør Børson Jr.'s director?", "label": "Leif Sinding"}
+{"sample_id": "zsre-0052827", "client_id": 5, "input_ids": "Which team does Bartosz Kaśnikowski play for?", "label": "KS Cracovia"}
+{"sample_id": "zsre-0053187", "client_id": 5, "input_ids": "What was the sex of Slavica Kuzmanić?", "label": "midfielder"}
+{"sample_id": "zsre-0053348", "client_id": 5, "input_ids": "What is the name of the editors of The World of Carl Sandburg?", "label": "World War II"}
+{"sample_id": "zsre-0053790", "client_id": 5, "input_ids": "What is Ivana Brkljačić's gender?", "label": "male"}
+{"sample_id": "zsre-0054004", "client_id": 5, "input_ids": "Which sex or gender can Pius Bazighe be called as such?", "label": "baritone"}
+{"sample_id": "zsre-0054054", "client_id": 5, "input_ids": "In which city does Hermann Heinrich Howaldt die?", "label": "Göteberg"}
+{"sample_id": "zsre-0054070", "client_id": 5, "input_ids": "What is the name of the city where Christiaan Cicek was born?", "label": "Antwerp"}
+{"sample_id": "zsre-0054126", "client_id": 5, "input_ids": "In what language is Le Journal du Dimanche made?", "label": "Catalan"}
+{"sample_id": "zsre-0054418", "client_id": 5, "input_ids": "What war did Reinhard Gehlen participate in?", "label": "Spanish Civil War"}
+{"sample_id": "zsre-0054535", "client_id": 5, "input_ids": "What kind of work does Pieter Lastman have?", "label": "composer"}
+{"sample_id": "zsre-0054662", "client_id": 5, "input_ids": "The vocal type of Stanisława Zawadzka is what?", "label": "mezzo-oprano"}
+{"sample_id": "zsre-0054801", "client_id": 5, "input_ids": "Who is named for the Levinson's inequality?", "label": "Leonid Levinson"}
+{"sample_id": "zsre-0055214", "client_id": 5, "input_ids": "What kind of voice has Igor Durlovski?", "label": "baritone"}
+{"sample_id": "zsre-0055370", "client_id": 5, "input_ids": "Which team is Evgeny Skachkov one member?", "label": "HC Slovan Bratislava"}
+{"sample_id": "zsre-0055668", "client_id": 5, "input_ids": "What city did Ewald Kooiman live in when he died?", "label": "Cairo"}
+{"sample_id": "zsre-0055945", "client_id": 5, "input_ids": "Which year was Istanbul Kemerburgaz University founded?", "label": "2001"}
+{"sample_id": "zsre-0056307", "client_id": 5, "input_ids": "Which prize was Richard Schweizer nominated for?", "label": "Academy Award for Best Documentary Feature"}
+{"sample_id": "zsre-0056946", "client_id": 5, "input_ids": "Which city did Abraham Crijnssen live when he died?", "label": "Antwerp"}
+{"sample_id": "zsre-0057157", "client_id": 5, "input_ids": "For what instrument are Danses gothiques?", "label": "violin"}
+{"sample_id": "zsre-0057559", "client_id": 5, "input_ids": "What kind of sound does Wilhelm Troszel sing in?", "label": "baritone"}
+{"sample_id": "zsre-0057586", "client_id": 5, "input_ids": "What kind of a profession does Werner Bruschke have?", "label": "architect"}
+{"sample_id": "zsre-0057739", "client_id": 5, "input_ids": "What was Ibrahim ibn Muhammad's mother's name?", "label": "Subhashini bint Ibrahim"}
+{"sample_id": "zsre-0059366", "client_id": 5, "input_ids": "After whom was the Rammstein named?", "label": "Ramstein air base"}
+{"sample_id": "zsre-0059374", "client_id": 5, "input_ids": "Which is Oskar Mosfjeld's date of death?", "label": "17 May 1882"}
+{"sample_id": "zsre-0059389", "client_id": 5, "input_ids": "Which position of the player does Ahmad Sembiring belong to?", "label": "forward"}
+{"sample_id": "zsre-0059895", "client_id": 5, "input_ids": "What year has the Reichspostministerium ended?", "label": "1939"}
+{"sample_id": "zsre-0060111", "client_id": 5, "input_ids": "What place did Friedrich Fischer die?", "label": "Halle"}
+{"sample_id": "zsre-0060392", "client_id": 5, "input_ids": "What position did Albert Sanschagrin have?", "label": "Archbishop of Canterbury"}
+{"sample_id": "zsre-0060449", "client_id": 5, "input_ids": "What position does Joseph Alphonse de Véri have?", "label": "cardinal"}
+{"sample_id": "zsre-0060573", "client_id": 5, "input_ids": "With which team is Milenko Milošević related?", "label": "FK Vardar"}
+{"sample_id": "zsre-0061769", "client_id": 5, "input_ids": "What noble family was Walter Rothschild, 2nd Baron Rothschild Part?", "label": "Rothschild dynasty"}
+{"sample_id": "zsre-0062675", "client_id": 5, "input_ids": "Which conflict was Karl Teichmann a part of?", "label": "Napoleonic Wars"}
+{"sample_id": "zsre-0062962", "client_id": 5, "input_ids": "Which nationality is Karole Rocher?", "label": "English"}
+{"sample_id": "zsre-0063254", "client_id": 5, "input_ids": "The Osip Dymov was made by who?", "label": "Alexander Polovtsov"}
+{"sample_id": "zsre-0063445", "client_id": 5, "input_ids": "What's the birthplace of Emanuel Perrone?", "label": "Santiago"}
+{"sample_id": "zsre-0063692", "client_id": 5, "input_ids": "Is Farid Chopel's nationality?", "label": "English"}
+{"sample_id": "zsre-0063763", "client_id": 5, "input_ids": "Władysław Hasior died in what place?", "label": "Poznań"}
+{"sample_id": "zsre-0064093", "client_id": 5, "input_ids": "In which fictitious work does Hagen von Lahnstein belong?", "label": "Verbotene Liebermann"}
+{"sample_id": "zsre-0064337", "client_id": 5, "input_ids": "What war was Jürgen Wagner at?", "label": "Eastern Front"}
+{"sample_id": "zsre-0064595", "client_id": 5, "input_ids": "The father of Otto Leopold of Limburg Stirum is who?", "label": "Moritz Hermann of Limburg Stirum"}
+{"sample_id": "zsre-0064609", "client_id": 5, "input_ids": "What is the year that Griegprisen was founded?", "label": "1926"}
+{"sample_id": "zsre-0064797", "client_id": 5, "input_ids": "What team does Henrik Lundqvist have?", "label": "New Jersey Devils"}
+{"sample_id": "zsre-0064824", "client_id": 5, "input_ids": "Which position did William Marmaduke Kavanaugh take?", "label": "Governor of Vermont"}
+{"sample_id": "zsre-0065325", "client_id": 5, "input_ids": "The death date for Johann Georg Fischer is what?", "label": "18 December 1809"}
+{"sample_id": "zsre-0065524", "client_id": 5, "input_ids": "Which sports team is Mikkel Kallesøe a member?", "label": "Halmstads BK"}
+{"sample_id": "zsre-0065694", "client_id": 5, "input_ids": "In what city was Carl Heinrich Edmund von Berg born?", "label": "Vienna"}
+{"sample_id": "zsre-0065817", "client_id": 5, "input_ids": "In what war was Artur Schmitt serving?", "label": "Korean War"}
+{"sample_id": "zsre-0065903", "client_id": 5, "input_ids": "Which country is Svetlana Zalevskaya from?", "label": "Soviet Union"}
+{"sample_id": "zsre-0066839", "client_id": 5, "input_ids": "When was Luisenfriedhof III founded and built?", "label": "1881"}
+{"sample_id": "zsre-0066984", "client_id": 5, "input_ids": "From which country does Pablo Rosenberg come?", "label": "Ecuador"}
+{"sample_id": "zsre-0067196", "client_id": 5, "input_ids": "In what fictional work are Theo Sankofa?", "label": "Law & Order"}
+{"sample_id": "zsre-0067365", "client_id": 5, "input_ids": "What is the birth date of Leopold Karpeles?", "label": "22 May 1891"}
+{"sample_id": "zsre-0067819", "client_id": 5, "input_ids": "That college Micael Dahlén attended was what?", "label": "University of Copenhagen"}
+{"sample_id": "zsre-0067965", "client_id": 5, "input_ids": "In which city did Paul Sophus Epstein be born?", "label": "Lisbon"}
+{"sample_id": "zsre-0068007", "client_id": 5, "input_ids": "Which city was Jacob Folkema born in?", "label": "New York City"}
+{"sample_id": "zsre-0068339", "client_id": 5, "input_ids": "Which city was Jasmin Rosenberger born?", "label": "Vienna"}
+{"sample_id": "zsre-0068605", "client_id": 5, "input_ids": "What place did Franz Ruff die in?", "label": "Stuttgart"}
+{"sample_id": "zsre-0068760", "client_id": 5, "input_ids": "What position does Muhammad Osman Said have?", "label": "Prime Minister of Egypt"}
+{"sample_id": "zsre-0069278", "client_id": 5, "input_ids": "Where's the birthplace of Friedrich Christoph Dahlmann?", "label": "Dresden"}
+{"sample_id": "zsre-0069578", "client_id": 5, "input_ids": "What's Wolfgang Hoppe's date of birth?", "label": "19 July 1884"}
+{"sample_id": "zsre-0070199", "client_id": 5, "input_ids": "Which state is in Strukov?", "label": "Tarnobrzeg Municipality"}
+{"sample_id": "zsre-0071149", "client_id": 5, "input_ids": "How is Karl von Haimhausen's birthplace?", "label": "Munich"}
+{"sample_id": "zsre-0071546", "client_id": 5, "input_ids": "What city was Rudolf Chrobak's birth town?", "label": "Sofia"}
+{"sample_id": "zsre-0071654", "client_id": 5, "input_ids": "Which team does Mohammed Boqshan play?", "label": "Al-Najma"}
+{"sample_id": "zsre-0072386", "client_id": 5, "input_ids": "Which was the date of birth of Michaela Dorfmeister?", "label": "20 April 1964"}
+{"sample_id": "zsre-0072625", "client_id": 5, "input_ids": "How was Gheorghe Adamescu's career?", "label": "painter"}
+{"sample_id": "zsre-0073784", "client_id": 5, "input_ids": "How did Dmitri Antoni's career go?", "label": "diplomat"}
+{"sample_id": "zsre-0073977", "client_id": 5, "input_ids": "The college Ivan Kostov was what?", "label": "Moscow State Institute of International Relations"}
+{"sample_id": "zsre-0074548", "client_id": 5, "input_ids": "Which was the record label of Nilsson Schmilsson?", "label": "Warner Bros"}
+{"sample_id": "zsre-0074749", "client_id": 5, "input_ids": "Which land is Magnus Larsson?", "label": "Denmark"}
+{"sample_id": "zsre-0074835", "client_id": 5, "input_ids": "What war of history was Jan Willem de Winter's officer?", "label": "Thirty Years' War"}
+{"sample_id": "zsre-0074876", "client_id": 5, "input_ids": "The maker of Kaiser Darrin, who?", "label": "Kaiser Motor Car Company"}
+{"sample_id": "zsre-0074988", "client_id": 5, "input_ids": "To whom is the Musée Zadkine named?", "label": "Odysseas Zadkine"}
+{"sample_id": "zsre-0076612", "client_id": 5, "input_ids": "In which sport team was Lachezar Mladenov a member?", "label": "FC Atyrau"}
+{"sample_id": "zsre-0076762", "client_id": 5, "input_ids": "For which sports club does Marcin Narwojsz play?", "label": "Wisła Płock"}
+{"sample_id": "zsre-0077591", "client_id": 5, "input_ids": "What family was Sardar Mohammad Nadir Naeem?", "label": "Barakzai family"}
+{"sample_id": "zsre-0078636", "client_id": 5, "input_ids": "In which language does Radio France Internationale write?", "label": "English"}
+{"sample_id": "zsre-0078784", "client_id": 5, "input_ids": "In which series is Mehmet Osman?", "label": "Neighbours"}
+{"sample_id": "zsre-0079244", "client_id": 5, "input_ids": "How was Klaus Kotzmann's career?", "label": "politician"}
+{"sample_id": "zsre-0079310", "client_id": 5, "input_ids": "In what fictional work do you find a character called Constantin von Lahnstein?", "label": "Les Misérables"}
+{"sample_id": "zsre-0079462", "client_id": 5, "input_ids": "In which town did Frederick Charles Ferdinand, Duke of Brunswick-Lüneburg die?", "label": "Darmstadt"}
+{"sample_id": "zsre-0079534", "client_id": 5, "input_ids": "What is the birthplace Franz Novak?", "label": "Götz"}
+{"sample_id": "zsre-0079957", "client_id": 5, "input_ids": "What country has Hanif Shah al-Hussaini lived in?", "label": "Pakistan"}
+{"sample_id": "zsre-0080019", "client_id": 5, "input_ids": "In which place did Eugen Albrecht die?", "label": "Vienna"}
+{"sample_id": "zsre-0080020", "client_id": 5, "input_ids": "Which city did Eugen Albrecht die in?", "label": "Munich"}
+{"sample_id": "zsre-0080034", "client_id": 5, "input_ids": "Where did Karl Hagemeister live after he died?", "label": "Berlin"}
+{"sample_id": "zsre-0080158", "client_id": 5, "input_ids": "Where'd Gottfried Hagen die?", "label": "Vienna"}
+{"sample_id": "zsre-0080182", "client_id": 5, "input_ids": "Which sports team does Lukáš Sáblík play for?", "label": "1 FC Tatraná"}
+{"sample_id": "zsre-0080295", "client_id": 5, "input_ids": "What university or university is related to Abraham Rotstein?", "label": "University of Michigan"}
+{"sample_id": "zsre-0080415", "client_id": 5, "input_ids": "What city did Robert C. Fritz die in?", "label": "San Francisco"}
+{"sample_id": "zsre-0080812", "client_id": 5, "input_ids": "What occupation does Paul Wittgenstein have?", "label": "painter"}
+{"sample_id": "zsre-0081689", "client_id": 5, "input_ids": "What artist was responsible for the creation of The Artist in His Museum?", "label": "Pierre-Auguste Renoir"}
+{"sample_id": "zsre-0082134", "client_id": 5, "input_ids": "What's the name of the editor of the European Journal of Internal Medicine?", "label": "Springer Science+Business Media"}
+{"sample_id": "zsre-0082295", "client_id": 5, "input_ids": "Which city was František Huf?", "label": "Ljubljana"}
+{"sample_id": "zsre-0082355", "client_id": 5, "input_ids": "What is the war in which Henry Wasmuth was in the forces?", "label": "Second Boer War"}
+{"sample_id": "zsre-0083120", "client_id": 5, "input_ids": "The kind of voice of Mercedes Llopart is what?", "label": "mezzo-srano"}
+{"sample_id": "zsre-0083295", "client_id": 5, "input_ids": "What state is Nowe Sierosławice?", "label": "Gmina Łęczno"}
+{"sample_id": "zsre-0084138", "client_id": 5, "input_ids": "Who is the person who is the mother of Ratul Shankar?", "label": "Maharajkumar Shankar"}
+{"sample_id": "zsre-0084495", "client_id": 5, "input_ids": "Who played in the movie in 1732 Høtten?", "label": "Søren Elvises"}
+{"sample_id": "zsre-0085054", "client_id": 5, "input_ids": "What is the vocal bandwidth for Jyrki Niskanen?", "label": "soprano"}
+{"sample_id": "zsre-0085251", "client_id": 5, "input_ids": "In which language did Otto's encyclopedia come into being?", "label": "Romanian"}
+{"sample_id": "zsre-0085290", "client_id": 5, "input_ids": "For which league Frederikssund IK played in the top league?", "label": "3 Divisjon"}
+{"sample_id": "zsre-0085345", "client_id": 5, "input_ids": "Which company has SS John B. Lennon founded?", "label": "JA Jones International"}
+{"sample_id": "zsre-0085453", "client_id": 5, "input_ids": "What war did Erich Hahn belong to?", "label": "War of 1812"}
+{"sample_id": "zsre-0085846", "client_id": 5, "input_ids": "What was Goran Popov's position in football?", "label": "defenceman"}
+{"sample_id": "zsre-0086001", "client_id": 5, "input_ids": "What date has Bogdan Saltanov died?", "label": "17 January 2012"}
+{"sample_id": "zsre-0086150", "client_id": 5, "input_ids": "What's the death date for Mikhail Gavrilov?", "label": "19 June 2012"}
+{"sample_id": "zsre-0086354", "client_id": 5, "input_ids": "What's the name of the company that drove Ivan Veramathiri out?", "label": "UTV Motion Picture Corporation"}
+{"sample_id": "zsre-0086375", "client_id": 5, "input_ids": "Which team is Jordan Schmaltz connected with?", "label": "Stade Français"}
+{"sample_id": "zsre-0086497", "client_id": 5, "input_ids": "Which is the date of the death of Éloi Johanneau?", "label": "22 January 1882"}
+{"sample_id": "zsre-0086751", "client_id": 5, "input_ids": "Ignacy Łukasiewicz died because of what?", "label": "heart attack"}
+{"sample_id": "zsre-0086756", "client_id": 5, "input_ids": "What was Ignacy Łukasiewicz's death from?", "label": "murder"}
+{"sample_id": "zsre-0086908", "client_id": 5, "input_ids": "What is the country of citizenship of Mathilde ter Heijne?", "label": "Dutch East Indies"}
+{"sample_id": "zsre-0087080", "client_id": 5, "input_ids": "What position did Andreas Panagopoulos take?", "label": "bishop"}
+{"sample_id": "zsre-0087368", "client_id": 5, "input_ids": "In which country was Espen Lie Hansen sitting?", "label": "Sweden"}
+{"sample_id": "zsre-0087565", "client_id": 5, "input_ids": "When did R. K. Narayan die?", "label": "4 July 2008"}
+{"sample_id": "zsre-0087700", "client_id": 5, "input_ids": "Which war or battle was Karl August Adolf von Krafft?", "label": "Napoleonic War"}
+{"sample_id": "zsre-0088648", "client_id": 5, "input_ids": "What city did Joseph Ludwig Raabe live in when he died?", "label": "Munich"}
+{"sample_id": "zsre-0088798", "client_id": 5, "input_ids": "What role does Branko Rašović play?", "label": "forward"}
+{"sample_id": "zsre-0088799", "client_id": 5, "input_ids": "What position does Branko Rašović take?", "label": "defenceman"}
+{"sample_id": "zsre-0089532", "client_id": 5, "input_ids": "What country is Hermann Zapf from?", "label": "Switzerland"}
+{"sample_id": "zsre-0090214", "client_id": 5, "input_ids": "What football league is Roda JC Kerkrade?", "label": "Curaçao League"}
+{"sample_id": "zsre-0090431", "client_id": 5, "input_ids": "Who played in the comedy Andrine og Kjell?", "label": "Lau Lauritzen"}
+{"sample_id": "zsre-0090484", "client_id": 5, "input_ids": "Which year did Woermann-Linie end?", "label": "1928"}
+{"sample_id": "zsre-0090841", "client_id": 5, "input_ids": "Who has directed or edited For Ever Mozart?", "label": "Jean Vigo"}
+{"sample_id": "zsre-0090862", "client_id": 5, "input_ids": "Which position has Eggert Guðmundsson played?", "label": "goalkeeper"}
+{"sample_id": "zsre-0091953", "client_id": 5, "input_ids": "On what date did Theodoor Verstraete die?", "label": "15 April 1894"}
+{"sample_id": "zsre-0092688", "client_id": 5, "input_ids": "In what language does the Wilhelmus report monthly football magazine?", "label": "German"}
+{"sample_id": "zsre-0092931", "client_id": 5, "input_ids": "Who is Magdalene of Brandenburger Mutter?", "label": "Elisabeth of Meissen"}
+{"sample_id": "zsre-0093116", "client_id": 5, "input_ids": "In which universe is there Rudolf Sikorski?", "label": "Stargate"}
+{"sample_id": "zsre-0093579", "client_id": 5, "input_ids": "What kind of medical problems did Serge Reggiani have?", "label": "heart failure"}
+{"sample_id": "zsre-0093910", "client_id": 5, "input_ids": "What team does Fredrik Sonntag belong to?", "label": "SV Mattersburg"}
+{"sample_id": "zsre-0094053", "client_id": 5, "input_ids": "What is Ivan Šubašić ́s position?", "label": "defender"}
+{"sample_id": "zsre-0094607", "client_id": 5, "input_ids": "What causes Karel Zich to die?", "label": "heart failure"}
+{"sample_id": "zsre-0094673", "client_id": 5, "input_ids": "What part did Dariusz Jackiewicz play in football?", "label": "goalkeeper"}
+{"sample_id": "zsre-0094804", "client_id": 5, "input_ids": "What place did Emil Taubert die?", "label": "Vienna"}
+{"sample_id": "zsre-0095326", "client_id": 5, "input_ids": "From what country was Georg Dertinger?", "label": "Austria"}
+{"sample_id": "zsre-0095767", "client_id": 5, "input_ids": "In which language Łukasz is made in?", "label": "Slovak"}
+{"sample_id": "zsre-0095845", "client_id": 5, "input_ids": "What war did Otto Steinbrinck fight in?", "label": "War of 1812"}
+{"sample_id": "zsre-0095872", "client_id": 5, "input_ids": "The college Steen Eiler Rasmussen took part in was what?", "label": "Utrecht Law School"}
+{"sample_id": "zsre-0096127", "client_id": 5, "input_ids": "The birth date of Smajl Suljević?", "label": "7 August 1990"}
+{"sample_id": "zsre-0096135", "client_id": 5, "input_ids": "Which team is involved with Ken Lehmann?", "label": "Pittsburgh Pirates"}
+{"sample_id": "zsre-0096165", "client_id": 5, "input_ids": "When was Pieter Corneliszoon Plockhoy born?", "label": "1680"}
+{"sample_id": "zsre-0096207", "client_id": 5, "input_ids": "What was Eric of Brandenburg's date of birth?", "label": "1620"}
+{"sample_id": "zsre-0096775", "client_id": 5, "input_ids": "Which team belongs to Viktor Arvidsson?", "label": "New York Rangers"}
+{"sample_id": "zsre-0096776", "client_id": 5, "input_ids": "Which team does Viktor Arvidsson play in?", "label": "Nashville Capitals"}
+{"sample_id": "zsre-0097000", "client_id": 5, "input_ids": "What city was Walther Judeich born in?", "label": "Würzburg"}
+{"sample_id": "zsre-0097472", "client_id": 5, "input_ids": "What is Krasimir Kostov's position?", "label": "goalkeeper"}
+{"sample_id": "zsre-0097579", "client_id": 5, "input_ids": "Which is the native language of Frédéric Andréi?", "label": "German"}
+{"sample_id": "zsre-0098156", "client_id": 5, "input_ids": "What production company was involved in Crime that Changed Serbia?", "label": "The Guardian"}
+{"sample_id": "zsre-0098200", "client_id": 5, "input_ids": "What was Rudi van Dantzig's nationality?", "label": "English"}
+{"sample_id": "zsre-0098242", "client_id": 5, "input_ids": "Which ethnic group belongs to Lars Castellucci?", "label": "French"}
+{"sample_id": "zsre-0098309", "client_id": 5, "input_ids": "Which city did Zenon Stefaniuk live when he died?", "label": "Kiev"}
+{"sample_id": "zsre-0098396", "client_id": 5, "input_ids": "In which town was Oskar Schade born?", "label": "Mannheim"}
+{"sample_id": "zsre-0098610", "client_id": 5, "input_ids": "What position did Christoph Franz von Hutten take?", "label": "President of Austria"}
+{"sample_id": "zsre-0098860", "client_id": 5, "input_ids": "When was Zwickauer Land abolished?", "label": "2009"}
+{"sample_id": "zsre-0099407", "client_id": 5, "input_ids": "Is Eduard Hanslick's nationality?", "label": "Dutch"}
+{"sample_id": "zsre-0099938", "client_id": 5, "input_ids": "What college or college is related to Einar Sverdrup?", "label": "Harvard University"}
+{"sample_id": "zsre-0100923", "client_id": 5, "input_ids": "- Joachim Menant's nationality?", "label": "Danish"}
+{"sample_id": "zsre-0101994", "client_id": 5, "input_ids": "In what year did the Free Republic of Schwarzenberg end?", "label": "1921"}
+{"sample_id": "zsre-0102135", "client_id": 5, "input_ids": "Who is the mother of the Abdullah bin Hamad bin Isa Al Khalifa?", "label": "Sabika bint Jahsh"}
+{"sample_id": "zsre-0102137", "client_id": 5, "input_ids": "Who is the mother Abdullah bin Hamad bin Isa Al Khalifa?", "label": "Sabika bint Jahsh"}
+{"sample_id": "zsre-0102211", "client_id": 5, "input_ids": "What is the airport's name connected to Groninger Luchtvaart Maatschappij?", "label": "Groningen Airport Eelde-Zwolle"}
+{"sample_id": "zsre-0102280", "client_id": 5, "input_ids": "Which mother tongue does Thomas von der Vring have?", "label": "Danish"}
+{"sample_id": "zsre-0102423", "client_id": 5, "input_ids": "Which birthplace did Fritz Ewert have?", "label": "Vienna"}
+{"sample_id": "zsre-0102860", "client_id": 5, "input_ids": "What's Ive Jerolimov's birthplace like?", "label": "Budapest"}
+{"sample_id": "zsre-0102923", "client_id": 5, "input_ids": "What was Haskel Greenfield's career?", "label": "architect"}
+{"sample_id": "zsre-0103092", "client_id": 5, "input_ids": "What instrument is Erster Theil etlicher Choräle scored for?", "label": "flute"}
+{"sample_id": "zsre-0103097", "client_id": 5, "input_ids": "What is the musical instrument Erster Theil etlicher Choräle was intended for?", "label": "flute"}
+{"sample_id": "zsre-0103293", "client_id": 5, "input_ids": "When was Mahmoud Samimi born?", "label": "1953"}
+{"sample_id": "zsre-0103415", "client_id": 5, "input_ids": "Which city of birth is André Niklaus?", "label": "Paris"}
+{"sample_id": "zsre-0103729", "client_id": 5, "input_ids": "Who was the publisher of Mathematische Nachrichten?", "label": "Wiley-Blackwell"}
+{"sample_id": "zsre-0104425", "client_id": 5, "input_ids": "What year did Arbeitsrat für Kunst end?", "label": "1923"}
+{"sample_id": "zsre-0104755", "client_id": 5, "input_ids": "What medical condition did Bernard Rubin have at the end of his life?", "label": "tetanus"}
+{"sample_id": "zsre-0104756", "client_id": 5, "input_ids": "What kind of illness did Bernard Rubin have at the end of his life?", "label": "tuber cancer"}
+{"sample_id": "zsre-0104780", "client_id": 5, "input_ids": "What was the cause of the death of Muhammad Ahmad?", "label": "tuberculosis"}
+{"sample_id": "zsre-0104782", "client_id": 5, "input_ids": "What has caused Muhammad Ahmad's death?", "label": "tuberculosis"}
+{"sample_id": "zsre-0104973", "client_id": 5, "input_ids": "Where's Franz Lambert born?", "label": "Mannheim"}
+{"sample_id": "zsre-0105289", "client_id": 5, "input_ids": "What is the position of Jadranka Kosor?", "label": "Minister of Justice"}
+{"sample_id": "zsre-0105428", "client_id": 5, "input_ids": "The Bishop of Meath was named for whom?", "label": "Andrew"}
+{"sample_id": "zsre-0105448", "client_id": 5, "input_ids": "What disease killed Sekeletu?", "label": "heart attack"}
+{"sample_id": "zsre-0105961", "client_id": 5, "input_ids": "The birth date of Dmytro Lytvynenko is what?", "label": "12 March 1891"}
+{"sample_id": "zsre-0106439", "client_id": 5, "input_ids": "What is Tandberg's mother company?", "label": "Omnickel"}
+{"sample_id": "zsre-0106440", "client_id": 5, "input_ids": "In which company is Tandberg?", "label": "Gazprom"}
+{"sample_id": "zsre-0106694", "client_id": 5, "input_ids": "Where does Erik Bodom come from?", "label": "Switzerland"}
+{"sample_id": "zsre-0106765", "client_id": 5, "input_ids": "Which war or battle was with Georgios Mitzou?", "label": "Battle of Pindus"}
+{"sample_id": "zsre-0107044", "client_id": 5, "input_ids": "What was Christian Karl August Ludwig von Massenbach's birthplace?", "label": "Dresden"}
+{"sample_id": "zsre-0107267", "client_id": 5, "input_ids": "Which country is Arne Hertz's citizenship?", "label": "Sweden"}
+{"sample_id": "zsre-0107440", "client_id": 5, "input_ids": "What was Jugal Hansraj's career?", "label": "actor"}
+{"sample_id": "zsre-0107510", "client_id": 5, "input_ids": "What war was Konrad Krafft von Dellmensingen in the armed forces in?", "label": "Napoleonic Wars"}
+{"sample_id": "zsre-0107535", "client_id": 5, "input_ids": "What's the surface of the Asclepius of Milos?", "label": "sandstone"}
+{"sample_id": "zsre-0107673", "client_id": 5, "input_ids": "Jean Audran's father is who?", "label": "Michel Audran"}
+{"sample_id": "zsre-0107967", "client_id": 5, "input_ids": "Who's Alexander Soros's dad?", "label": "Voltaire Soros"}
+{"sample_id": "zsre-0107997", "client_id": 5, "input_ids": "What position has Thomas Blagrave taken?", "label": "Archbishop of Canterbury"}
+{"sample_id": "zsre-0108833", "client_id": 5, "input_ids": "In what state is Putimov?", "label": "Gmina Łęczno"}
+{"sample_id": "zsre-0108937", "client_id": 5, "input_ids": "What was the date of death of Heinrich Harrer?", "label": "27 September 1809"}
+{"sample_id": "zsre-0109187", "client_id": 5, "input_ids": "Who left Wassily Chair?", "label": "Marcello Gandini"}
+{"sample_id": "zsre-0109420", "client_id": 5, "input_ids": "After whom was the Hürtgenwald called?", "label": "Großes Hürtgenwald"}
+{"sample_id": "zsre-0109467", "client_id": 5, "input_ids": "Which city was Noor Uthman Muhammed from?", "label": "Guantanamo Island"}
+{"sample_id": "zsre-0109613", "client_id": 5, "input_ids": "Which series is From Prussia with Love part?", "label": "Glee"}
+{"sample_id": "zsre-0109870", "client_id": 5, "input_ids": "What was Leszek's language written?", "label": "Lithuanian"}
+{"sample_id": "zsre-0110156", "client_id": 5, "input_ids": "Which place did Krzysztof Nowak die?", "label": "Kraków"}
+{"sample_id": "zsre-0110566", "client_id": 5, "input_ids": "What role does Antons Kurakins play in soccer?", "label": "defender"}
+{"sample_id": "zsre-0111062", "client_id": 5, "input_ids": "How was the date of the death of Johannes Kuhlo?", "label": "16 July 1882"}
+{"sample_id": "zsre-0111159", "client_id": 5, "input_ids": "From which noble family was Mansour bin Abdulaziz Al Saud?", "label": "House of Dukan"}
+{"sample_id": "zsre-0111428", "client_id": 5, "input_ids": "What fictitious universe did Maxim Kammerer come from?", "label": "Forgotten Realms"}
+{"sample_id": "zsre-0111463", "client_id": 5, "input_ids": "What kind of network did Mr. Novak broadcast for the first time?", "label": "CBS"}
+{"sample_id": "zsre-0111587", "client_id": 5, "input_ids": "When is the birth date of Ödön Mikecz?", "label": "20 April 1987"}
+{"sample_id": "zsre-0112113", "client_id": 5, "input_ids": "Since when has Pieter Feddes van Harlingen died?", "label": "23 February 1882"}
+{"sample_id": "zsre-0112606", "client_id": 5, "input_ids": "The date of the birth of Domenico Cosselli is what?", "label": "1580"}
+{"sample_id": "zsre-0112770", "client_id": 5, "input_ids": "The date of death for Dušan J. Popović is like?", "label": "1929"}
+{"sample_id": "zsre-0113044", "client_id": 5, "input_ids": "What place did Rudolf Pernický die in?", "label": "Šiauliai"}
+{"sample_id": "zsre-0113139", "client_id": 5, "input_ids": "What kind of tone does Andrei Bondarenko sing in?", "label": "countertenor"}
+{"sample_id": "zsre-0113321", "client_id": 5, "input_ids": "Who is the name of Hébertists?", "label": "Franz Hébert"}
+{"sample_id": "zsre-0113491", "client_id": 5, "input_ids": "What was Palle Mikkelborg's career?", "label": "politician"}
+{"sample_id": "zsre-0113782", "client_id": 5, "input_ids": "Which city did Cornelis Springer live in when he died?", "label": "Hamburg"}
+{"sample_id": "zsre-0114405", "client_id": 5, "input_ids": "What was Friedrich Lahrs' career?", "label": "physician"}
+{"sample_id": "zsre-0114518", "client_id": 5, "input_ids": "Who made the Bokklubben World Library?", "label": "Bokklubben University"}
+{"sample_id": "zsre-0115721", "client_id": 5, "input_ids": "At what point did Joseph Ingolph Hetland die?", "label": "1917"}
+{"sample_id": "zsre-0115871", "client_id": 5, "input_ids": "What role does Nikolai Bardin play?", "label": "midfielder"}
+{"sample_id": "zsre-0116334", "client_id": 5, "input_ids": "What's the birthplace of Cornelis Springer?", "label": "Hamburg"}
+{"sample_id": "zsre-0116361", "client_id": 5, "input_ids": "What was the name of Matilda of Habsburg mother?", "label": "Elisabeth of Bavaria"}
+{"sample_id": "zsre-0116374", "client_id": 5, "input_ids": "What kind of a job does Marc Jacobs have?", "label": "designer"}
+{"sample_id": "zsre-0116607", "client_id": 5, "input_ids": "In what kind of tone does Bo Skovhus sing?", "label": "tenor"}
+{"sample_id": "zsre-0117062", "client_id": 5, "input_ids": "Which city is Trudi Musgrave associated with?", "label": "Australia"}
+{"sample_id": "zsre-0117138", "client_id": 5, "input_ids": "What is Birger Pedersen's position on the pitch?", "label": "defenceman"}
+{"sample_id": "zsre-0117155", "client_id": 5, "input_ids": "What was Alexander Kasza's conflict with?", "label": "First Balkan Wars"}
+{"sample_id": "zsre-0117315", "client_id": 5, "input_ids": "What is the name university that Misha Rachlevsky formed?", "label": "Belarusian State University"}
+{"sample_id": "zsre-0118243", "client_id": 5, "input_ids": "In which place did Emil Reisch die?", "label": "Vienna"}
+{"sample_id": "zsre-0118441", "client_id": 5, "input_ids": "In which city was Tadeusz Banachiewicz born?", "label": "Lublino"}
+{"sample_id": "zsre-0118501", "client_id": 5, "input_ids": "What team is Wágner de Andrade Borges a member of?", "label": "CFR Cluj"}
+{"sample_id": "zsre-0118834", "client_id": 5, "input_ids": "Where is Mladen Milinković's place of birth?", "label": "Vršac"}
+{"sample_id": "zsre-0118929", "client_id": 5, "input_ids": "The birth date for Faqir Mohammed is what?", "label": "1961"}
+{"sample_id": "zsre-0119059", "client_id": 5, "input_ids": "In which place did Jan Arnošt Smoler die?", "label": "Antwerp"}
+{"sample_id": "zsre-0119866", "client_id": 5, "input_ids": "In which year is the first version of the Duchy of Warsaw published?", "label": "1851"}
+{"sample_id": "zsre-0119987", "client_id": 5, "input_ids": "In which football league is the FC Grün-Weiß Piesteritz part?", "label": "Thüringenliga"}
+{"sample_id": "zsre-0120248", "client_id": 5, "input_ids": "What is the surface of Eberswalde Hoard?", "label": "bronze"}
+{"sample_id": "zsre-0120415", "client_id": 5, "input_ids": "What kind of sex or sex can Britt Synnøve Johansen be described as?", "label": "male"}
+{"sample_id": "zsre-0120469", "client_id": 5, "input_ids": "What kind of voice does Ulrich Cordes have?", "label": "bass"}
+{"sample_id": "zsre-0120971", "client_id": 5, "input_ids": "Where did Paul Khomich reside when he died?", "label": "Paris"}
+{"sample_id": "zsre-0121276", "client_id": 5, "input_ids": "What place did Wilhelm Philipp Daniel Schlich die?", "label": "Götz"}
+{"sample_id": "zsre-0122284", "client_id": 5, "input_ids": "Which day did Fritz Arnheim die?", "label": "19 July 1882"}
+{"sample_id": "zsre-0122342", "client_id": 5, "input_ids": "What is the name of the position of Vojislav Vranjković?", "label": "goalkeeper"}
+{"sample_id": "zsre-0122867", "client_id": 5, "input_ids": "What voice was Ørjan Hartveit?", "label": "bass"}
+{"sample_id": "zsre-0123251", "client_id": 5, "input_ids": "What was the career of Ewald Eberle?", "label": "physician"}
+{"sample_id": "zsre-0123732", "client_id": 5, "input_ids": "What does Laurent Stocker's national identity look like?", "label": "German"}
+{"sample_id": "zsre-0123896", "client_id": 5, "input_ids": "Who's Morten Helveg Petersen's father?", "label": "Helveg Petersen"}
+{"sample_id": "zsre-0124082", "client_id": 5, "input_ids": "What is the ending year of Holstein-Rendsburg?", "label": "1207"}
+{"sample_id": "zsre-0124615", "client_id": 5, "input_ids": "What sports team belonged to Saleh Abdulhameed?", "label": "Al-Qadisiyah"}
+{"sample_id": "zsre-0124718", "client_id": 5, "input_ids": "Was the death of Johan Robeck an accident or a suicide?", "label": "heart attack"}
+{"sample_id": "zsre-0124719", "client_id": 5, "input_ids": "Which cause of death was listed for Johan Robeck?", "label": "heart attack"}
+{"sample_id": "zsre-0125341", "client_id": 5, "input_ids": "What is the name of the Anton Dubinin team?", "label": "HC Slovan Brno"}
+{"sample_id": "zsre-0125638", "client_id": 5, "input_ids": "What is Abderrahman Ladgham country of citizenship?", "label": "Iran"}
+{"sample_id": "zsre-0125652", "client_id": 5, "input_ids": "In which war did Johann Lasi serve?", "label": "Spanish Civil War"}
+{"sample_id": "zsre-0125843", "client_id": 5, "input_ids": "What country does József Háda come from?", "label": "Slovakia"}
+{"sample_id": "zsre-0125861", "client_id": 5, "input_ids": "Which company is Schlotzsky's part?", "label": "Berkshire Hathaway"}
+{"sample_id": "zsre-0126066", "client_id": 5, "input_ids": "What is the date of birth of Alexander Hvaal?", "label": "15 February 1882"}
+{"sample_id": "zsre-0126193", "client_id": 5, "input_ids": "What crime is Charles Schmid going to commit?", "label": "fraud"}
+{"sample_id": "zsre-0126308", "client_id": 5, "input_ids": "Who is Joachim Cronman's father?", "label": "Hans Cronman"}
+{"sample_id": "zsre-0126867", "client_id": 5, "input_ids": "What is Eggert Magnússon's land of original?", "label": "Sweden"}
+{"sample_id": "zsre-0126966", "client_id": 5, "input_ids": "What university is related to Otto von Friesen?", "label": "University of Tartu"}
+{"sample_id": "zsre-0127167", "client_id": 5, "input_ids": "What place did Wolfdietrich Schnurre die in?", "label": "Vienna"}
+{"sample_id": "zsre-0127278", "client_id": 5, "input_ids": "What time did Giuseppe Pompilj die?", "label": "15 March 1875"}
+{"sample_id": "zsre-0127576", "client_id": 5, "input_ids": "Which city was Jürgen Gredig born in?", "label": "Berlin"}
+{"sample_id": "zsre-0128295", "client_id": 5, "input_ids": "Which river is a tributary of Weiherburgbach?", "label": "Wulf"}
+{"sample_id": "zsre-0128586", "client_id": 5, "input_ids": "What is the name of the editors of Internationale Politik?", "label": "Dieter Reiter"}
+{"sample_id": "zsre-0129404", "client_id": 5, "input_ids": "What is Hendrik Marsman's national identity?", "label": "German"}
+{"sample_id": "zsre-0130036", "client_id": 5, "input_ids": "The date of the death of Emanuel Bachrach-Barée is what?", "label": "16 July 1882"}
+{"sample_id": "zsre-0130190", "client_id": 5, "input_ids": "Which country is Rudolf Kühnhold from?", "label": "Switzerland"}
+{"sample_id": "zsre-0130353", "client_id": 5, "input_ids": "Which countryman was Sergey Kara-Murza?", "label": "Belarus"}
+{"sample_id": "zsre-0130521", "client_id": 5, "input_ids": "Which lady gave birth to Hedvig Elizabeth von Biron?", "label": "Benigna Gottlieb von Trotha gdynia"}
+{"sample_id": "zsre-0130728", "client_id": 5, "input_ids": "What language is The Slovenia Times written in?", "label": "Lithian"}
+{"sample_id": "zsre-0130814", "client_id": 5, "input_ids": "Who was Schmetterlinge directed or edited by?", "label": "Dieter Schmetterlinge"}
+{"sample_id": "zsre-0130872", "client_id": 5, "input_ids": "The birth date of Jóhannes Gunnarsson is?", "label": "19 July 1882"}
+{"sample_id": "zsre-0130897", "client_id": 5, "input_ids": "What is the name of the sports team Markus Lauridsen?", "label": "FC Lahti"}
+{"sample_id": "zsre-0131216", "client_id": 5, "input_ids": "On what date did Stepan Nikitich Begichev die?", "label": "19 January 2012"}
+{"sample_id": "zsre-0131476", "client_id": 5, "input_ids": "Who was Hermann IV of Hesse's paternal being?", "label": "Louis I of Hesse"}
+{"sample_id": "zsre-0132972", "client_id": 5, "input_ids": "Which stadium did FC Eintracht Bamberg have?", "label": "Bamberg-Stadion"}
+{"sample_id": "zsre-0132977", "client_id": 5, "input_ids": "What is the name of the stadium where FC Eintracht Bamberg plays its home games?", "label": "Bamberg-Stadion"}
+{"sample_id": "zsre-0133007", "client_id": 5, "input_ids": "How is the national identity of Hansjörg Schmidt?", "label": "Dutch"}
+{"sample_id": "zsre-0133135", "client_id": 5, "input_ids": "In what war did William R. Jecelin defeat himself?", "label": "Korean War"}
+{"sample_id": "zsre-0133201", "client_id": 5, "input_ids": "When will the life of Olav Aukrust be over?", "label": "22 January 2012"}
+{"sample_id": "zsre-0133514", "client_id": 5, "input_ids": "How'd Karol Karski's career go?", "label": "painter"}
+{"sample_id": "zsre-0133923", "client_id": 5, "input_ids": "At which university did Peter C. Meinig attend?", "label": "University of Washington"}
+{"sample_id": "zsre-0134417", "client_id": 5, "input_ids": "Which river is Kirnitzsch turning into?", "label": "Inn"}
+{"sample_id": "zsre-0134583", "client_id": 5, "input_ids": "What team does Libor Polášek play?", "label": "Ottawa Senators"}
+{"sample_id": "zsre-0135077", "client_id": 5, "input_ids": "What's Gunnar Gíslason's position called?", "label": "goaltender"}
+{"sample_id": "zsre-0135645", "client_id": 5, "input_ids": "What is the team that Zainurin Abdul Kadir is associated with?", "label": "Persela Dili"}
+{"sample_id": "zsre-0135787", "client_id": 5, "input_ids": "What country was Gerhard Stapelfeldt from?", "label": "Austria"}
+{"sample_id": "zsre-0135848", "client_id": 5, "input_ids": "What is the original channel that Wunderkind Little Amadeus played on?", "label": "Disney Channel"}
+{"sample_id": "zsre-0136355", "client_id": 5, "input_ids": "What is the date for Johannes Goropius Becanus' death?", "label": "4 April 1844"}
+{"sample_id": "zsre-0136360", "client_id": 5, "input_ids": "Where's Gustav Anrich's place of work?", "label": "University of Michigan"}
+{"sample_id": "zsre-0137380", "client_id": 5, "input_ids": "What did Paul Symphor's nationality consist of?", "label": "German"}
+{"sample_id": "zsre-0137543", "client_id": 5, "input_ids": "What was the career of Knud Leif Thomsen?", "label": "composer"}
+{"sample_id": "zsre-0137655", "client_id": 5, "input_ids": "What is the name of the sports team that is a member of Paweł Stolarski?", "label": "Wisła Płock"}
+{"sample_id": "zsre-0137842", "client_id": 5, "input_ids": "Where did Wilhelm Höcker live during his death?", "label": "Dresden"}
+{"sample_id": "zsre-0138282", "client_id": 5, "input_ids": "How was Jörg Bergen's birth town?", "label": "Vienna"}
+{"sample_id": "zsre-0139600", "client_id": 5, "input_ids": "What is the water body of Friedrichshain?", "label": "Danube"}
+{"sample_id": "zsre-0140252", "client_id": 5, "input_ids": "What is the name of the university Carl E. Thoresen educated?", "label": "University of California, Berkeley"}
+{"sample_id": "zsre-0140315", "client_id": 5, "input_ids": "What year was it when Bavaria Fluggesellschaft was dissolved?", "label": "1975"}
+{"sample_id": "zsre-0140388", "client_id": 5, "input_ids": "Where does Ulrich K. Goldsmith live when he died?", "label": "San Diego"}
+{"sample_id": "zsre-0140551", "client_id": 5, "input_ids": "What's the name of the city that Václav Mrázek was born in?", "label": "Budapest"}
+{"sample_id": "zsre-0140560", "client_id": 5, "input_ids": "What year did Shushinsky Uyezd end?", "label": "1924"}
+{"sample_id": "zsre-0140561", "client_id": 5, "input_ids": "What year has Shushinsky Uyezd ended?", "label": "1924"}
+{"sample_id": "zsre-0140635", "client_id": 5, "input_ids": "Which university or university is related with Manpreet Singh Badal?", "label": "Indian Institute of Management Ahmedabad"}
+{"sample_id": "zsre-0140636", "client_id": 5, "input_ids": "What type of occupation does Ivan Soll have?", "label": "writer"}
+{"sample_id": "zsre-0141236", "client_id": 5, "input_ids": "What is Joseph Breitbach's mother language?", "label": "English"}
+{"sample_id": "zsre-0141483", "client_id": 5, "input_ids": "What position did Schalk Willem Burger have?", "label": "President of South Africa"}
+{"sample_id": "zsre-0141749", "client_id": 5, "input_ids": "Who became the leader of Lower Saxony?", "label": "Karl Wulff"}
+{"sample_id": "zsre-0141904", "client_id": 5, "input_ids": "Where's Theo Wiederspahn born?", "label": "Berlin"}
+{"sample_id": "zsre-0142307", "client_id": 5, "input_ids": "What's the date of Karl Georg Otto Willibald von Kalckstein's death?", "label": "4 July 1875"}
+{"sample_id": "zsre-0142483", "client_id": 5, "input_ids": "Which college did Arnie Fielkow go to?", "label": "University of Pennsylvania Law School"}
+{"sample_id": "zsre-0142575", "client_id": 5, "input_ids": "Which war did Nicholas Oresko take part in?", "label": "American Civil War"}
+{"sample_id": "zsre-0142926", "client_id": 5, "input_ids": "What channel aired Alles außer Sex?", "label": "ProE"}
+{"sample_id": "zsre-0144536", "client_id": 5, "input_ids": "What about Idde Schultz's sex?", "label": "male"}
+{"sample_id": "zsre-0144874", "client_id": 5, "input_ids": "Which position was associated with Miloš Volešák?", "label": "defenceman"}
+{"sample_id": "zsre-0144995", "client_id": 5, "input_ids": "What kind of disease did Rien Poortvliet have?", "label": "breast cancer"}
+{"sample_id": "zsre-0145557", "client_id": 5, "input_ids": "Which city is associated with Diederik van Dijk?", "label": "Amsterdam"}
+{"sample_id": "zsre-0145637", "client_id": 5, "input_ids": "Which city did Jean Abraham Chrétien Oudemans live when he died?", "label": "Toulouse"}
+{"sample_id": "zsre-0145686", "client_id": 5, "input_ids": "In which country did Béla Zsedényi sit?", "label": "Budapest"}
+{"sample_id": "zsre-0145836", "client_id": 5, "input_ids": "Who's Pia Lindström's mother?", "label": "Lindström Eriksson"}
+{"sample_id": "zsre-0147204", "client_id": 5, "input_ids": "How was Georgi Georgiev-Getz's death cause?", "label": "kidney failure"}
+{"sample_id": "zsre-0148204", "client_id": 5, "input_ids": "Where's Iason Abramashvili's birthplace?", "label": "Tashkent"}
+{"sample_id": "zsre-0148425", "client_id": 5, "input_ids": "What is Goran Šaula's position on the pitch?", "label": "goalkeeper"}
+{"sample_id": "zsre-0148558", "client_id": 5, "input_ids": "Of which river is the Fotscherbach a tributary?", "label": "Fotballach"}
+{"sample_id": "zsre-0148604", "client_id": 5, "input_ids": "Which city did Ferdinand Raimund live in when he passed away?", "label": "Vienna"}
+{"sample_id": "zsre-0148729", "client_id": 5, "input_ids": "What occupation does Abraham Ossei Aidooh have?", "label": "journalist"}
+{"sample_id": "zsre-0149644", "client_id": 5, "input_ids": "Which team is Nikola Peković?", "label": "Minnesota Timberwolves"}
+{"sample_id": "zsre-0149647", "client_id": 5, "input_ids": "What was the date of the official opening of the Eschhofen station?", "label": "10 March 1863"}
+{"sample_id": "zsre-0149730", "client_id": 5, "input_ids": "What is The Oxford Companion to Classical Literature?", "label": "Johns Hopkins University Press"}
+{"sample_id": "zsre-0150110", "client_id": 5, "input_ids": "In which stadium is the RB Leipzig Home Games playing?", "label": "Red Bull Salzburg Stadium"}
+{"sample_id": "zsre-0151382", "client_id": 5, "input_ids": "Who was William of Aumelas' father?", "label": "William I of Montpellier"}
+{"sample_id": "zsre-0151503", "client_id": 5, "input_ids": "What was Jean Guéhenno's nationality?", "label": "German"}
+{"sample_id": "zsre-0151521", "client_id": 5, "input_ids": "What continent is Zechstein in?", "label": "Africa"}
+{"sample_id": "zsre-0151534", "client_id": 5, "input_ids": "What was Karel Vik's career like?", "label": "politician"}
+{"sample_id": "zsre-0151554", "client_id": 5, "input_ids": "In which language is Der Spiegel?", "label": "French"}
+{"sample_id": "zsre-0151811", "client_id": 5, "input_ids": "Where has Hellmuth Christian Wolff been born?", "label": "Berlin"}
+{"sample_id": "zsre-0151975", "client_id": 5, "input_ids": "What was the native language of Roland Gewalt?", "label": "Dutch"}
+{"sample_id": "zsre-0152031", "client_id": 5, "input_ids": "What was Malu Dreyer's position?", "label": "President of Ghana"}
+{"sample_id": "zsre-0152543", "client_id": 5, "input_ids": "Who's The Composer Is Dead's illustrator?", "label": "C Walter Hodges"}
+{"sample_id": "zsre-0153406", "client_id": 5, "input_ids": "What was Antonín Melka's job?", "label": "actor"}
+{"sample_id": "zsre-0153604", "client_id": 5, "input_ids": "What was the end of Appenzell?", "label": "1824"}
+{"sample_id": "zsre-0153608", "client_id": 5, "input_ids": "In which federal state is Heinz-Steyer-Stadion located?", "label": "Baden-Baden"}
+{"sample_id": "zsre-0153703", "client_id": 5, "input_ids": "From what country is Anders Björler?", "label": "Iceland"}
+{"sample_id": "zsre-0154044", "client_id": 5, "input_ids": "The nationality of Wilhelm Amsinck Burchard-Motz?", "label": "French"}
+{"sample_id": "zsre-0154107", "client_id": 5, "input_ids": "Where was John Ulrich Giesy living when he died?", "label": "Chicago"}
+{"sample_id": "zsre-0154242", "client_id": 5, "input_ids": "What country does Karl Sigmund have as a citizen?", "label": "Sweden"}
+{"sample_id": "zsre-0154645", "client_id": 5, "input_ids": "What was the name of Frederick Ayers' birthplace?", "label": "London"}
+{"sample_id": "zsre-0154794", "client_id": 5, "input_ids": "How did Boris Fraenkel die in the same word?", "label": "su attack"}
+{"sample_id": "zsre-0155432", "client_id": 5, "input_ids": "Which country has the citizenship of Gianluca Rinaldini?", "label": "Brazil"}
+{"sample_id": "zsre-0156070", "client_id": 5, "input_ids": "In what city does Johannes Riedl die?", "label": "Dresden"}
+{"sample_id": "zsre-0157247", "client_id": 5, "input_ids": "Which town did Heinz Schenk die in?", "label": "Vienna"}
+{"sample_id": "zsre-0157370", "client_id": 5, "input_ids": "In what war was Karl Emil Schäfer an opponent?", "label": "Napoleonic Wars"}
+{"sample_id": "zsre-0157634", "client_id": 5, "input_ids": "When's the Alexander Hamilton Institute opened?", "label": "1809"}
+{"sample_id": "zsre-0157783", "client_id": 5, "input_ids": "What position did Jakob von Baden hold?", "label": "Archbishop of Canterbury"}
+{"sample_id": "zsre-0157784", "client_id": 5, "input_ids": "What position did Adelbert Bleekman hold?", "label": "Governor of Wisconsin"}
+{"sample_id": "zsre-0158000", "client_id": 5, "input_ids": "Which year did Bavarian Peasants' League end?", "label": "1938"}
+{"sample_id": "zsre-0158021", "client_id": 5, "input_ids": "What's Berthold Kohler's date of birth?", "label": "19 June 1882"}
+{"sample_id": "zsre-0158918", "client_id": 5, "input_ids": "In which sports team is Danijel Radiček member?", "label": "FK Baník Sokolov"}
+{"sample_id": "zsre-0159578", "client_id": 5, "input_ids": "Which country does Theodoros Velkos belong to as a citizen?", "label": "Lithuania"}
+{"sample_id": "zsre-0159590", "client_id": 5, "input_ids": "What kind of occupation has Otto Christian Blandow?", "label": "architect"}
+{"sample_id": "zsre-0159754", "client_id": 5, "input_ids": "What sickness did Abraham Klausner complete?", "label": "Parkinson's cancer"}
+{"sample_id": "zsre-0159777", "client_id": 5, "input_ids": "On what continent is Friedmann Nunataks?", "label": "Antar"}
+{"sample_id": "zsre-0159822", "client_id": 5, "input_ids": "What's Rudi Keil's position?", "label": "goalkeeper"}
+{"sample_id": "zsre-0160162", "client_id": 5, "input_ids": "Who is the father of Ulrika Pasch?", "label": "Gerhard Pasch"}
+{"sample_id": "zsre-0160567", "client_id": 5, "input_ids": "Where did Karl Prusik be born?", "label": "Dresden"}
+{"sample_id": "zsre-0162161", "client_id": 5, "input_ids": "What place did Sławomir Maciej Bittner die?", "label": "Gdańsk"}
+{"sample_id": "zsre-0162316", "client_id": 5, "input_ids": "On which date did Johann Georg Ebeling expire?", "label": "23 July 1794"}
+{"sample_id": "zsre-0162369", "client_id": 5, "input_ids": "To which family line is August Philipp, Duke of Schleswig-Holstein-Sonderburg-Beck?", "label": "House of Habsburg"}
+{"sample_id": "zsre-0162708", "client_id": 5, "input_ids": "Which team is connected by Milison Niasexe?", "label": "ASO Chlef"}

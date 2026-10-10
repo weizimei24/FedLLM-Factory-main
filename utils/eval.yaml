@@ -26,6 +26,10 @@ datasets:
     task_type: CAUSAL_LM
     metrics: [exact_match, f1]
 
+  zsre:
+    task_type: CAUSAL_LM
+    metrics: [exact_match, f1, containment]
+
   dolly:
     task_type: CAUSAL_LM
     metrics: [perplexity, rouge, f1, mmlu]

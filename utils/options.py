@@ -64,7 +64,7 @@ def build_parser() -> argparse.ArgumentParser:
     )
     parser.add_argument(
         '--cross_domain_qa', action=argparse.BooleanOptionalAction, default=False,
-        help='use the four-domain MRQA QA protocol (one domain per client)',
+        help='use the named-domain extractive QA protocol (one domain per client)',
     )
     parser.add_argument('--eval_batch_size', type=int, default=8,
                         help='generation batch size for cross-domain QA evaluation')

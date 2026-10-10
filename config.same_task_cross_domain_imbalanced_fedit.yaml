@@ -1,0 +1,28 @@
+# Five QA domains, one client each, unequal training sizes (total 5,000).
+alg: fedit
+suffix: same_task_cross_domain_qa_imbalanced_fedit
+device: 0
+dataset: same_task_cross_domain_qa_imbalanced
+model: Qwen3-1.7B
+task_type: CAUSAL_LM
+seed: 42
+deterministic: true
+
+cn: 5
+sr: 1.0
+rnd: 10
+test_gap: 1
+cross_domain_qa: true
+
+bs: 1
+grad_accum: 8
+epoch: 1
+# Covers the largest client: 1,600 / 8 = 200 optimizer updates.
+step: 200
+lr: 0.0001
+eval_batch_size: 8
+
+mode: prototype
+lora_rank: 8
+lora_alpha: 32
+lora_dropout: 0.05

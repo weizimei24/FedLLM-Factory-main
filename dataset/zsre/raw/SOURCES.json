@@ -1,0 +1,16 @@
+{
+  "dataset": "zsRE MEND/ROME public raw files",
+  "downloaded_at_utc": "2026-09-26T18:16:17.266714+00:00",
+  "files": {
+    "zsre_mend_train.json": {
+      "url": "https://rome.baulab.info/data/dsets/zsre_mend_train.json",
+      "sha256": "4f3ac245e9c0baaf633f9e6cb765ffa8e83d594a74520a6cc3539497328c0722",
+      "bytes": 69136174
+    },
+    "zsre_mend_eval.json": {
+      "url": "https://rome.baulab.info/data/dsets/zsre_mend_eval.json",
+      "sha256": "8a371d512f8a6ab175db4ef672181d5c0e52da23298cb51e5a2eeea2f89aa9cd",
+      "bytes": 8091864
+    }
+  }
+}

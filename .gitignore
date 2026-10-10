@@ -8,6 +8,8 @@
 /dataset/cross_domain_mrqa/raw/
 /dataset/.hf_cache/
 /Qwen3-1.7B/
+/dataset/same_task_cross_domain_qa/raw/
+**/merged_weights.pt
 
 # Python-generated files
 __pycache__/

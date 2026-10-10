@@ -38,7 +38,7 @@ class Trainer:
     # ------------------------------------------------------------------
 
     def train(self, model):
-        """Run one round of local training and return the final loss."""
+        """Run one round and return the mean unscaled loss over seen batches."""
         self._set_round_seed()
         model.train()
         optimizer = AdamW(
@@ -47,9 +47,9 @@ class Trainer:
         )
         scaler = GradScaler()
 
-        loss = self._train_loop(model, optimizer, scaler)
-        self._log(loss)
-        return loss
+        train_loss = self._train_loop(model, optimizer, scaler)
+        self._log(train_loss)
+        return train_loss
 
     def train_windowed(self, model, start_time, window_end_time):
         """Run local training but stop early when the simulated window closes.
@@ -138,7 +138,8 @@ class Trainer:
     def _train_loop(self, model, optimizer, scaler):
         accumulation_steps = self.args.grad_accum
         global_step = 0
-        loss = None
+        loss_sum = None
+        batch_count = 0
         done = False
 
         optimizer.zero_grad()
@@ -146,7 +147,11 @@ class Trainer:
             if done:
                 break
             for step, batch in enumerate(self.train_loader):
-                loss = self._forward(model, batch) / accumulation_steps
+                unscaled_loss = self._forward(model, batch)
+                detached_loss = unscaled_loss.detach().float()
+                loss_sum = detached_loss if loss_sum is None else loss_sum + detached_loss
+                batch_count += 1
+                loss = unscaled_loss / accumulation_steps
                 scaler.scale(loss).backward()
 
                 if (step + 1) % accumulation_steps == 0:
@@ -159,12 +164,16 @@ class Trainer:
                     done = True
                     break
 
+        if batch_count == 0:
+            raise RuntimeError("Training DataLoader produced no batches")
         if (step + 1) % accumulation_steps != 0:
             scaler.step(optimizer)
             scaler.update()
             optimizer.zero_grad()
 
-        return loss
+        # Synchronise with the device only once per round, rather than calling
+        # ``.item()`` for every micro-batch in the hot training loop.
+        return float((loss_sum / batch_count).item())
 
     def _train_loop_windowed(self, model, optimizer, scaler, start_time, window_end_time, resume_step: int = 0, delay: float = 1.0):
         accumulation_steps = self.args.grad_accum
@@ -213,8 +222,15 @@ class Trainer:
     # ------------------------------------------------------------------
 
     def _log(self, loss):
+        # Ordinary training returns a float containing the round-average
+        # unscaled loss. Windowed training still supplies its last scaled
+        # tensor, so retain backward-compatible handling for that path.
+        if torch.is_tensor(loss):
+            loss_value = loss.item() * self.args.grad_accum
+        else:
+            loss_value = float(loss)
         print(
             f"Round {self.client.server.round} | "
             f"Client {self.client.id} | "
-            f"Loss: {loss.item() * self.args.grad_accum:.4f}"
+            f"Train Loss: {loss_value:.4f}"
         )

@@ -1,0 +1,75 @@
+{
+  "dataset": "same-task cross-domain extractive QA, ten clients",
+  "source_dataset": "same_task_cross_domain_qa",
+  "seed": 42,
+  "task": "Context + Question -> Answer",
+  "clients": {
+    "0": "squad",
+    "1": "squad",
+    "2": "newsqa",
+    "3": "newsqa",
+    "4": "bioasq",
+    "5": "bioasq",
+    "6": "duorc",
+    "7": "duorc",
+    "8": "textbookqa",
+    "9": "textbookqa"
+  },
+  "sampling": {
+    "train_per_client": 500,
+    "test_per_domain": 500
+  },
+  "split_policy": "two exact 500-row, document-disjoint clients per domain",
+  "domains": {
+    "squad": {
+      "source_train_sha256": "d8c300cea46775026a312665ae413351e189a167ee2101a814931ab516b5141a",
+      "test_sha256": "f74d7f0a36ee645331c34955c56f214ad35e16409906518f88d39068bd1f7a65",
+      "client_ids": [
+        0,
+        1
+      ],
+      "train_per_client": 500,
+      "test_rows": 500
+    },
+    "newsqa": {
+      "source_train_sha256": "3b6dc1dc31c9ec0b41de1c95cd8ace8a81290e48ba2469c962f0a0fb5fd47015",
+      "test_sha256": "672703d930189316893552233cce9346934c4c534b7f2ae2709725cc0451c96a",
+      "client_ids": [
+        2,
+        3
+      ],
+      "train_per_client": 500,
+      "test_rows": 500
+    },
+    "bioasq": {
+      "source_train_sha256": "a512bbfcd6b5593363d231b7409a40e3f9493fc43dc93603e5b2744d4c13c5b1",
+      "test_sha256": "47f8c1fa1df6b6709a7288f1a77a1234873d5f12c76c778bc1c842f9e379493d",
+      "client_ids": [
+        4,
+        5
+      ],
+      "train_per_client": 500,
+      "test_rows": 500
+    },
+    "duorc": {
+      "source_train_sha256": "72b629e39399ad9fc27151aa7573e8c43dd73ad5fc7052eb10c6bc98309c96b1",
+      "test_sha256": "6078c5fac36a87e3ae3361f046d0f4762493ad0fd9b38400da58ddfd6b6547ed",
+      "client_ids": [
+        6,
+        7
+      ],
+      "train_per_client": 500,
+      "test_rows": 500
+    },
+    "textbookqa": {
+      "source_train_sha256": "1e00bfa7729082ee349661d7e5741d06403142bb1ed852bdc66544b1be10a34d",
+      "test_sha256": "1e5779be7d49ef2e53056d7d73904edf374b020f6b0975b99c262380d0331a53",
+      "client_ids": [
+        8,
+        9
+      ],
+      "train_per_client": 500,
+      "test_rows": 500
+    }
+  }
+}

@@ -1,8 +1,20 @@
-from huggingface_hub import snapshot_download
+# from huggingface_hub import snapshot_download
 
-snapshot_download(
-    repo_id="Qwen/Qwen3-1.7B",
-    local_dir="./Qwen3-1.7B",
+# snapshot_download(
+#     repo_id="Qwen/Qwen3-1.7B",
+#     local_dir="./Qwen3-1.7B",
+# )
+
+# print("下载完成")
+
+
+
+
+from modelscope import snapshot_download
+
+model_dir = snapshot_download(
+    "Qwen/Qwen3-1.7B",
+    local_dir="./Qwen3-1.7B"
 )
 
-print("下载完成")
+print("模型路径:", model_dir)

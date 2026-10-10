@@ -108,7 +108,13 @@ def _generate_predictions(model, tokenizer, args, client_idx: int) -> list:
                 padding=True, max_length=512,
             ).to(model.device)
         with torch.no_grad():
-            pred_ids = model.generate(**enc, generation_config=generation_config)
+            # Keep evaluation greedy even when the model's bundled generation
+            # config defaults to sampling (as Qwen3 does).
+            pred_ids = model.generate(
+                **enc,
+                generation_config=generation_config,
+                use_model_defaults=False,
+            )
         # decode only the newly generated tokens
         prompt_len = enc['input_ids'].shape[1]
         pred_texts = tokenizer.batch_decode(pred_ids[:, prompt_len:], skip_special_tokens=True)

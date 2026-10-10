@@ -1,0 +1,209 @@
+{
+  "dataset": "zsRE counterfactual factual-knowledge client construction",
+  "created_at_utc": "2026-09-26T18:30:49.378160+00:00",
+  "raw_file": "dataset\\zsre\\raw\\zsre_mend_train.json",
+  "raw_sha256": "4f3ac245e9c0baaf633f9e6cb765ffa8e83d594a74520a6cc3539497328c0722",
+  "seed": 42,
+  "num_clients": 8,
+  "requested_samples_per_client": 500,
+  "selected_samples_per_client": 500,
+  "total_selected": 4000,
+  "clustering_candidate_pool": {
+    "valid_records_available": 162554,
+    "records_clustered": 10000,
+    "max_clustering_candidates": 10000,
+    "selection": "deterministic random sample without replacement"
+  },
+  "clustering_method": "MiniBatchKMeans(n_init=20, max_iter=300) on semantic sentence embeddings",
+  "embedding_backend": "sentence-transformers",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "representation": "subject when available, otherwise src/question",
+  "cluster_sizes_before_balancing": {
+    "0": 1338,
+    "1": 1561,
+    "2": 1377,
+    "3": 785,
+    "4": 1249,
+    "5": 711,
+    "6": 780,
+    "7": 2199
+  },
+  "cluster_examples": {
+    "0": [
+      {
+        "sample_id": "zsre-0000287",
+        "subject": "Charles Redmon",
+        "src": "What university did Charles Redmon attend?"
+      },
+      {
+        "sample_id": "zsre-0001104",
+        "subject": "Calvin O'Neal",
+        "src": "What is the university where Calvin O'Neal went?"
+      },
+      {
+        "sample_id": "zsre-0001341",
+        "subject": "Kelton Pell",
+        "src": "What was Kelton Pell birth country?"
+      }
+    ],
+    "1": [
+      {
+        "sample_id": "zsre-0000415",
+        "subject": "WWFW",
+        "src": "What town is WWFW liscensed in?"
+      },
+      {
+        "sample_id": "zsre-0001143",
+        "subject": "KZRR",
+        "src": "What town or city does KZRR serve?"
+      },
+      {
+        "sample_id": "zsre-0001371",
+        "subject": "Giganta",
+        "src": "What type of universe is Giganta a fictional character in?"
+      }
+    ],
+    "2": [
+      {
+        "sample_id": "zsre-0000024",
+        "subject": "Karim-Mohamed Maamoun",
+        "src": "What kind of  occupation does Karim-Mohamed Maamoun have?"
+      },
+      {
+        "sample_id": "zsre-0000934",
+        "subject": "Y No Puedo Olvidarte",
+        "src": "What is the name of the performer that released the album Y No Puedo Olvidarte?"
+      },
+      {
+        "sample_id": "zsre-0001396",
+        "subject": "Nälkämaan laulu",
+        "src": "What is the language Nälkämaan laulu is written in?"
+      }
+    ],
+    "3": [
+      {
+        "sample_id": "zsre-0000177",
+        "subject": "Alexandre Boucher",
+        "src": "What was Alexandre Boucher's career?"
+      },
+      {
+        "sample_id": "zsre-0000179",
+        "subject": "Charles-Joseph Coursol",
+        "src": "What is the position of Charles-Joseph Coursol?"
+      },
+      {
+        "sample_id": "zsre-0000707",
+        "subject": "Delain",
+        "src": "In what city or state did the formation of Delain occur?"
+      }
+    ],
+    "4": [
+      {
+        "sample_id": "zsre-0000388",
+        "subject": "Intersil 6100",
+        "src": "What year is Intersil 6100 associated with?"
+      },
+      {
+        "sample_id": "zsre-0000826",
+        "subject": "LNWR 17in Coal Engine",
+        "src": "Who desigened LNWR 17in Coal Engine?"
+      },
+      {
+        "sample_id": "zsre-0001362",
+        "subject": "Delta-S",
+        "src": "In what year was Delta-S created?"
+      }
+    ],
+    "5": [
+      {
+        "sample_id": "zsre-0000571",
+        "subject": "Willem van Saeftinghe",
+        "src": "To which religious order did Willem van Saeftinghe belong?"
+      },
+      {
+        "sample_id": "zsre-0000749",
+        "subject": "Felix Dias Bandaranaike",
+        "src": "When was Felix Dias Bandaranaike's death?"
+      },
+      {
+        "sample_id": "zsre-0000918",
+        "subject": "Józef Kotlarczyk",
+        "src": "Where was Józef Kotlarczyk from?"
+      }
+    ],
+    "6": [
+      {
+        "sample_id": "zsre-0000022",
+        "subject": "Diane Sands",
+        "src": "What was Diane Sands's occupation?"
+      },
+      {
+        "sample_id": "zsre-0000051",
+        "subject": "Karen Williams",
+        "src": "The voice type of Karen Williams is what?"
+      },
+      {
+        "sample_id": "zsre-0000142",
+        "subject": "Gloria Davy",
+        "src": "What type of tone does Gloria Davy sing in?"
+      }
+    ],
+    "7": [
+      {
+        "sample_id": "zsre-0001208",
+        "subject": "Busch Stadium",
+        "src": "Who is the architect of Busch Stadium?"
+      },
+      {
+        "sample_id": "zsre-0001674",
+        "subject": "The Yellow Canary",
+        "src": "Which director helmed the movie The Yellow Canary?"
+      },
+      {
+        "sample_id": "zsre-0001693",
+        "subject": "Toasted TV",
+        "src": "The show Toasted TV originally aired on what network?"
+      }
+    ]
+  },
+  "cleaning": {
+    "raw_examples": 163196,
+    "valid_examples": 162554,
+    "dropped_invalid_examples": 642,
+    "invalid_by_reason": {
+      "empty_alt": 641,
+      "identical_src_rephrase": 1
+    },
+    "duplicate_content_examples": 0,
+    "duplicate_sample_id_examples": 0
+  },
+  "duplicate_statistics": {
+    "content_duplicates_removed": 0,
+    "sample_id_duplicates_removed": 0
+  },
+  "original_answer_differs_from_alt": {
+    "valid_pool_count_with_original_answer": 162554,
+    "valid_pool_count_different": 158247,
+    "selected_count_with_original_answer": 4000,
+    "selected_count_different": 3877
+  },
+  "question_length": {
+    "src": {
+      "average_words": 7.7623005278246,
+      "median_words": 8.0
+    },
+    "rephrase": {
+      "average_words": 7.5045031189635445,
+      "median_words": 7.0
+    }
+  },
+  "answer_length": {
+    "average_words": 1.8646172964061174,
+    "median_words": 2.0
+  },
+  "schema": {
+    "train": "input_ids=src, label=alt",
+    "test": "input_ids=rephrase, label=alt",
+    "metadata": "sample_id, subject, src, rephrase, alt, original_answer, client_id, loc, loc_ans"
+  }
+}

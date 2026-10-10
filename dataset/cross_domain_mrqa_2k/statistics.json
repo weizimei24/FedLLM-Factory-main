@@ -1,0 +1,69 @@
+{
+  "tokenizer": "Qwen3-1.7B",
+  "domains": {
+    "squad": {
+      "train": {
+        "num_samples": 2000,
+        "avg_input_tokens": 207.366,
+        "avg_context_tokens": 160.788,
+        "avg_question_tokens": 12.7985,
+        "avg_answer_tokens": 5.0365
+      },
+      "test": {
+        "num_samples": 200,
+        "avg_input_tokens": 207.87,
+        "avg_context_tokens": 161.445,
+        "avg_question_tokens": 12.535,
+        "avg_answer_tokens": 4.915
+      }
+    },
+    "newsqa": {
+      "train": {
+        "num_samples": 2000,
+        "avg_input_tokens": 334.9765,
+        "avg_context_tokens": 291.938,
+        "avg_question_tokens": 8.267,
+        "avg_answer_tokens": 6.083
+      },
+      "test": {
+        "num_samples": 200,
+        "avg_input_tokens": 337.78,
+        "avg_context_tokens": 294.73,
+        "avg_question_tokens": 8.275,
+        "avg_answer_tokens": 6.29
+      }
+    },
+    "triviaqa": {
+      "train": {
+        "num_samples": 2000,
+        "avg_input_tokens": 382.3755,
+        "avg_context_tokens": 332.638,
+        "avg_question_tokens": 16.9645,
+        "avg_answer_tokens": 2.2575
+      },
+      "test": {
+        "num_samples": 200,
+        "avg_input_tokens": 386.19,
+        "avg_context_tokens": 336.7,
+        "avg_question_tokens": 17.5,
+        "avg_answer_tokens": 2.45
+      }
+    },
+    "naturalquestions": {
+      "train": {
+        "num_samples": 2000,
+        "avg_input_tokens": 205.368,
+        "avg_context_tokens": 180.6385,
+        "avg_question_tokens": 11.247,
+        "avg_answer_tokens": 6.837
+      },
+      "test": {
+        "num_samples": 200,
+        "avg_input_tokens": 207.645,
+        "avg_context_tokens": 190.66,
+        "avg_question_tokens": 11.465,
+        "avg_answer_tokens": 5.94
+      }
+    }
+  }
+}

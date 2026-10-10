@@ -1,0 +1,500 @@
+{"sample_id": "zsre-0000022", "client_id": 6, "input_ids": "What was Diane Sands's occupation?", "label": "singer"}
+{"sample_id": "zsre-0000051", "client_id": 6, "input_ids": "The voice type of Karen Williams is what?", "label": "mezzo-srano"}
+{"sample_id": "zsre-0000142", "client_id": 6, "input_ids": "What type of tone does Gloria Davy sing in?", "label": "mezzo soprano"}
+{"sample_id": "zsre-0000223", "client_id": 6, "input_ids": "What type of tone does Rita Cullis sing in?", "label": "mezzo-oprano"}
+{"sample_id": "zsre-0000581", "client_id": 6, "input_ids": "Where is Antoniadi Dorsum found?", "label": "Moon"}
+{"sample_id": "zsre-0000814", "client_id": 6, "input_ids": "What work of fiction is Gemma Ramsay located in?", "label": "EastEnders"}
+{"sample_id": "zsre-0001229", "client_id": 6, "input_ids": "What language is Megan written?", "label": "Finnish"}
+{"sample_id": "zsre-0001531", "client_id": 6, "input_ids": "What was Elena Mendoza's occupation?", "label": "writer"}
+{"sample_id": "zsre-0001617", "client_id": 6, "input_ids": "Who has acted in the comedy film Klondike Annie?", "label": "Mabel Normand"}
+{"sample_id": "zsre-0001683", "client_id": 6, "input_ids": "What series is She of Little Faith a part of?", "label": "The Twilight Zone"}
+{"sample_id": "zsre-0002123", "client_id": 6, "input_ids": "What country was Jade Ell in?", "label": "Sweden"}
+{"sample_id": "zsre-0002442", "client_id": 6, "input_ids": "What is the name university that educated Annette Strauss?", "label": "Columbia University"}
+{"sample_id": "zsre-0002447", "client_id": 6, "input_ids": "Of what river is Ashelman Run a tributary?", "label": "Shoalhaven River"}
+{"sample_id": "zsre-0002490", "client_id": 6, "input_ids": "What nationality of Jennifer Lauret?", "label": "German"}
+{"sample_id": "zsre-0003120", "client_id": 6, "input_ids": "What kind of  occupation does Helen Meany have?", "label": "politician"}
+{"sample_id": "zsre-0003254", "client_id": 6, "input_ids": "What caused Jacqueline S. Moore's death?", "label": "Parkinson's cancer"}
+{"sample_id": "zsre-0003966", "client_id": 6, "input_ids": "What voice type does Lina Bruna Rasa have?", "label": "mezzo-srano"}
+{"sample_id": "zsre-0004114", "client_id": 6, "input_ids": "Which sex or gender can Irina Zaitseva be described as?", "label": "male"}
+{"sample_id": "zsre-0004358", "client_id": 6, "input_ids": "What is the place of birth of Anastasia Acosta?", "label": "Puerto Rico"}
+{"sample_id": "zsre-0004985", "client_id": 6, "input_ids": "Which show is Naomi Bennett in?", "label": "One Life to Live"}
+{"sample_id": "zsre-0005198", "client_id": 6, "input_ids": "What was Anita Killi's occupation?", "label": "model"}
+{"sample_id": "zsre-0005278", "client_id": 6, "input_ids": "The date of birth of Kristin Krohn Devold is?", "label": "1954"}
+{"sample_id": "zsre-0005800", "client_id": 6, "input_ids": "Which place does Vera Drake exist in?", "label": "Liverpool"}
+{"sample_id": "zsre-0005985", "client_id": 6, "input_ids": "What team does Galih Firmansyah play for?", "label": "Persik Kediri"}
+{"sample_id": "zsre-0006063", "client_id": 6, "input_ids": "Which director worked on Frisco Sally Levy?", "label": "Frank Lloyd Wright"}
+{"sample_id": "zsre-0006102", "client_id": 6, "input_ids": "What city was Alexandra Jiménez born in?", "label": "Toledo"}
+{"sample_id": "zsre-0006527", "client_id": 6, "input_ids": "By which company, Ariane 5 has been manufactured?", "label": "Ariane Vehicle Technologies"}
+{"sample_id": "zsre-0006943", "client_id": 6, "input_ids": "What piece of fiction does Anne Shirley appear in?", "label": "Anne Boleyn"}
+{"sample_id": "zsre-0007521", "client_id": 6, "input_ids": "Who was Diane Cilento's mother?", "label": "Margaret Cilento"}
+{"sample_id": "zsre-0007571", "client_id": 6, "input_ids": "Was Rosanna Giel male or female?", "label": "male"}
+{"sample_id": "zsre-0007652", "client_id": 6, "input_ids": "Who is Princess Luise Dorothea of Prussia's mother?", "label": "Princess Elisabeth of Prussia"}
+{"sample_id": "zsre-0008069", "client_id": 6, "input_ids": "What year was Miss Dominica created in?", "label": "1961"}
+{"sample_id": "zsre-0008210", "client_id": 6, "input_ids": "Who fathered Princess Amalie Isabella of Bavaria?", "label": "Michael Isabella, Grand Duke of Bavaria"}
+{"sample_id": "zsre-0008570", "client_id": 6, "input_ids": "What is Theresa Stewart's place of employment?", "label": "Yale University"}
+{"sample_id": "zsre-0008604", "client_id": 6, "input_ids": "Who was Cheyenne Brando's mother?", "label": "TarTarTarita"}
+{"sample_id": "zsre-0008631", "client_id": 6, "input_ids": "Which sex is Judith Arias?", "label": "male"}
+{"sample_id": "zsre-0009213", "client_id": 6, "input_ids": "What country was Rebecca Tavo from?", "label": "Australia"}
+{"sample_id": "zsre-0009295", "client_id": 6, "input_ids": "What was Maria Capuana's range?", "label": "mezzo-oprano"}
+{"sample_id": "zsre-0009864", "client_id": 6, "input_ids": "When was the birth of Cai Zelin?", "label": "1 January 1995"}
+{"sample_id": "zsre-0010384", "client_id": 6, "input_ids": "Which country was Margarita Muñoz in?", "label": "Spain"}
+{"sample_id": "zsre-0010498", "client_id": 6, "input_ids": "The voice type of Irena Petkova is what?", "label": "contralto"}
+{"sample_id": "zsre-0010552", "client_id": 6, "input_ids": "What is the country Anna Pichrtová is from?", "label": "Croatia"}
+{"sample_id": "zsre-0010592", "client_id": 6, "input_ids": "The mother of Isabella of France is whom?", "label": "Isabella I of Navarre"}
+{"sample_id": "zsre-0011546", "client_id": 6, "input_ids": "What was the station that aired Erin Burnett OutFront?", "label": "CNBC"}
+{"sample_id": "zsre-0012004", "client_id": 6, "input_ids": "What is Yvonne George's sex?", "label": "soprano"}
+{"sample_id": "zsre-0013157", "client_id": 6, "input_ids": "What was the name of the father of Maria Cotescu?", "label": "Domenico Cotescu"}
+{"sample_id": "zsre-0013832", "client_id": 6, "input_ids": "What gender was Anne Hampton Brewster?", "label": "Virginia"}
+{"sample_id": "zsre-0014681", "client_id": 6, "input_ids": "What city is Cara Black from?", "label": "Belfast"}
+{"sample_id": "zsre-0014733", "client_id": 6, "input_ids": "Who acted in Girls of Today?", "label": "Maggie Cheung"}
+{"sample_id": "zsre-0014781", "client_id": 6, "input_ids": "Which college or university is related with Elizabeth Gregg Patterson?", "label": "Brown University"}
+{"sample_id": "zsre-0015406", "client_id": 6, "input_ids": "The Mímisbrunnr was named for whom?", "label": "Fatherland"}
+{"sample_id": "zsre-0016242", "client_id": 6, "input_ids": "What was Léon Nicole birth country?", "label": "Sweden"}
+{"sample_id": "zsre-0016557", "client_id": 6, "input_ids": "What is Sue Ryder's spouse's name?", "label": "Richard Ryder"}
+{"sample_id": "zsre-0016732", "client_id": 6, "input_ids": "What piece of fiction does Sarah von Lahnstein appear in?", "label": "Verbotene Lieberbach"}
+{"sample_id": "zsre-0017329", "client_id": 6, "input_ids": "Who has acted in the comedy film Joan the Woman?", "label": "Bessie Love"}
+{"sample_id": "zsre-0017415", "client_id": 6, "input_ids": "Which show is Stacey Sutton in?", "label": "Neighbours"}
+{"sample_id": "zsre-0017708", "client_id": 6, "input_ids": "In what fictional work would you find a character named Sonya Blade?", "label": "Sonya Computer Entertainment"}
+{"sample_id": "zsre-0018177", "client_id": 6, "input_ids": "Which was the position that Catherine Parr held?", "label": "Member of the National Assembly"}
+{"sample_id": "zsre-0018663", "client_id": 6, "input_ids": "Which place does Angelo My Love exist in?", "label": "London"}
+{"sample_id": "zsre-0018984", "client_id": 6, "input_ids": "What is Carrie Babcock Sherman's spouse's name?", "label": "Charles Robert Sherman"}
+{"sample_id": "zsre-0019418", "client_id": 6, "input_ids": "The mother of Judith of Bavaria, Duchess of Swabia is whom?", "label": "Gertrude of Merania"}
+{"sample_id": "zsre-0019511", "client_id": 6, "input_ids": "Where network aired Top Hooker?", "label": "CBS"}
+{"sample_id": "zsre-0020525", "client_id": 6, "input_ids": "Where can you find the show Mystery Woman?", "label": "Discovery Kids"}
+{"sample_id": "zsre-0020563", "client_id": 6, "input_ids": "The date of birth of Hannah Yelland is?", "label": "1952"}
+{"sample_id": "zsre-0021533", "client_id": 6, "input_ids": "Which is the cause of death of Helen Kane?", "label": "lymphoma"}
+{"sample_id": "zsre-0021589", "client_id": 6, "input_ids": "Which was the voice type that Johanna Gadski had?", "label": "countertenor"}
+{"sample_id": "zsre-0022446", "client_id": 6, "input_ids": "Which position was held by Nathalie Goulet?", "label": "Prime Minister of Haiti"}
+{"sample_id": "zsre-0022578", "client_id": 6, "input_ids": "What fictional work does Suzy Branning exist in?", "label": "Neighbours"}
+{"sample_id": "zsre-0022581", "client_id": 6, "input_ids": "What piece of fiction does Suzy Branning appear in?", "label": "Neighbours"}
+{"sample_id": "zsre-0022697", "client_id": 6, "input_ids": "What gender class does Lisa Michaelis belong to?", "label": "male"}
+{"sample_id": "zsre-0022771", "client_id": 6, "input_ids": "What production company or companies created Daughter of the Dragon?", "label": "Shaw Brothers Studio"}
+{"sample_id": "zsre-0023100", "client_id": 6, "input_ids": "In what fictional work would you find a character named Lily Aldrin?", "label": "Honorverse"}
+{"sample_id": "zsre-0023768", "client_id": 6, "input_ids": "Who was the star of Seven Girlfriends?", "label": "Dorothy Boyd"}
+{"sample_id": "zsre-0023947", "client_id": 6, "input_ids": "Which country's citizenship does Sylvie Courvoisier hold?", "label": "Switzerland"}
+{"sample_id": "zsre-0024620", "client_id": 6, "input_ids": "With which fictional universe is the character Face Dancer associated?", "label": "Forgotten Realms"}
+{"sample_id": "zsre-0024640", "client_id": 6, "input_ids": "What company distributed Goddess Remembered?", "label": "National Film Board of Australia"}
+{"sample_id": "zsre-0024837", "client_id": 6, "input_ids": "What type of tone does Helen Jepson sing in?", "label": "mezzo-srano"}
+{"sample_id": "zsre-0025267", "client_id": 6, "input_ids": "Who is Martina Hingis's mother?", "label": "Irene Tripod"}
+{"sample_id": "zsre-0025346", "client_id": 6, "input_ids": "Which country's citizen was Jan Õun?", "label": "Turkey"}
+{"sample_id": "zsre-0025522", "client_id": 6, "input_ids": "What is the name of Mary Hoyt Wiborg father?", "label": "George Wiborg"}
+{"sample_id": "zsre-0025721", "client_id": 6, "input_ids": "What is the vocal range for Betsy Joslyn?", "label": "mezzo-srano"}
+{"sample_id": "zsre-0026071", "client_id": 6, "input_ids": "What was the war that Blanche Charlet fought in?", "label": "French Revolutionary Wars"}
+{"sample_id": "zsre-0027704", "client_id": 6, "input_ids": "From what did Karin Stanek die?", "label": "lung cancer"}
+{"sample_id": "zsre-0027942", "client_id": 6, "input_ids": "What was Helen Gourlay's occupation?", "label": "writer"}
+{"sample_id": "zsre-0028078", "client_id": 6, "input_ids": "To which fictional work does Lily Butterfield appear in?", "label": "Shortland Street"}
+{"sample_id": "zsre-0028179", "client_id": 6, "input_ids": "The production company responsible for Artful Kate is what?", "label": "Independent Moving Picture Corporation"}
+{"sample_id": "zsre-0028184", "client_id": 6, "input_ids": "What kind of  occupation does Charlotte Morkken have?", "label": "singer"}
+{"sample_id": "zsre-0028351", "client_id": 6, "input_ids": "What is Tairrie B's gender?", "label": "male"}
+{"sample_id": "zsre-0028373", "client_id": 6, "input_ids": "What family lineage was Marie Elisabeth of France part of?", "label": "House of Bourbon"}
+{"sample_id": "zsre-0028794", "client_id": 6, "input_ids": "The date of birth of Emiliano Piedra is?", "label": "20 June 1987"}
+{"sample_id": "zsre-0029585", "client_id": 6, "input_ids": "What was the cause of death of Barbara Blida?", "label": "leukemia"}
+{"sample_id": "zsre-0029923", "client_id": 6, "input_ids": "What was the original network for Love You, Mean It with Whitney Cummings?", "label": "MTV"}
+{"sample_id": "zsre-0030218", "client_id": 6, "input_ids": "What language is Sister Carrie written in?", "label": "French"}
+{"sample_id": "zsre-0030365", "client_id": 6, "input_ids": "What is the name of university that educated Laura Duncan?", "label": "University of Leicester"}
+{"sample_id": "zsre-0030720", "client_id": 6, "input_ids": "Which player position has been associated with Alana Marshall?", "label": "forward"}
+{"sample_id": "zsre-0030887", "client_id": 6, "input_ids": "The date of birth of Irene Bentley is?", "label": "1946"}
+{"sample_id": "zsre-0030937", "client_id": 6, "input_ids": "What is the name of university that educated Pierrette Mari?", "label": "Vassar College"}
+{"sample_id": "zsre-0030940", "client_id": 6, "input_ids": "Which country was Elizabeth Rona in?", "label": "Switzerland"}
+{"sample_id": "zsre-0031081", "client_id": 6, "input_ids": "What football position did Angéla Smuczer play?", "label": "forward"}
+{"sample_id": "zsre-0031222", "client_id": 6, "input_ids": "Which medical condition does Corinne Luchaire suffer from?", "label": "tuber cancer"}
+{"sample_id": "zsre-0031224", "client_id": 6, "input_ids": "What disease did Corinne Luchaire suffer from?", "label": "lung cancer"}
+{"sample_id": "zsre-0031253", "client_id": 6, "input_ids": "When was the birth of Freda Thompson?", "label": "1957"}
+{"sample_id": "zsre-0031768", "client_id": 6, "input_ids": "What was Angela Gheorghiu's range?", "label": "mezzo soprano"}
+{"sample_id": "zsre-0032065", "client_id": 6, "input_ids": "What studio released Voodoo Woman?", "label": "American International Records"}
+{"sample_id": "zsre-0032208", "client_id": 6, "input_ids": "Which crime led to the conviction of Celeste Beard?", "label": "capital murder"}
+{"sample_id": "zsre-0032506", "client_id": 6, "input_ids": "What type of voice does Barbara Hendricks have?", "label": "mezzo-srano"}
+{"sample_id": "zsre-0032597", "client_id": 6, "input_ids": "What city is Kristína Kučová associated with?", "label": "Šebíč"}
+{"sample_id": "zsre-0032739", "client_id": 6, "input_ids": "What city did María Zambrano live when he died?", "label": "Córdoba"}
+{"sample_id": "zsre-0032824", "client_id": 6, "input_ids": "The nationality of Denise Darcel is?", "label": "German"}
+{"sample_id": "zsre-0032920", "client_id": 6, "input_ids": "What city is Anne Holck associated with?", "label": "Berlin"}
+{"sample_id": "zsre-0033058", "client_id": 6, "input_ids": "What cast members where in Life with Lucy?", "label": "Lucy Liu"}
+{"sample_id": "zsre-0033372", "client_id": 6, "input_ids": "In which state is Stary Dworek located?", "label": "Gmina Dębice"}
+{"sample_id": "zsre-0033491", "client_id": 6, "input_ids": "Which was the creator of The Buzz on Maggie?", "label": "Emily Mortimer"}
+{"sample_id": "zsre-0033765", "client_id": 6, "input_ids": "Who is the mother of Clémentine Autain?", "label": "Françoise Marie Arnaud"}
+{"sample_id": "zsre-0034278", "client_id": 6, "input_ids": "Who was Princess Elisabeth of Hesse and by Rhine's mother?", "label": "Princess Victoria Melita of Saxe-Altenburg"}
+{"sample_id": "zsre-0034701", "client_id": 6, "input_ids": "What city is Samantha Chapman associated with?", "label": "New Zealand"}
+{"sample_id": "zsre-0034738", "client_id": 6, "input_ids": "To which fictional work does Betty Applewhite belong in?", "label": "Despicable Me"}
+{"sample_id": "zsre-0035149", "client_id": 6, "input_ids": "What voice type is Kathleen Kim?", "label": "mezzo-oprano"}
+{"sample_id": "zsre-0035445", "client_id": 6, "input_ids": "Due to which disease did Barbara Lawrence die?", "label": "pneumonia"}
+{"sample_id": "zsre-0035653", "client_id": 6, "input_ids": "Which describes the sex or gender of Margareta Kozuch?", "label": "soprano"}
+{"sample_id": "zsre-0035740", "client_id": 6, "input_ids": "What is the birth date of Jean-Marie Géhu?", "label": "19 January 1894"}
+{"sample_id": "zsre-0035978", "client_id": 6, "input_ids": "Which was the position that Rita Mayfield held?", "label": "member of the Michigan House of Representatives"}
+{"sample_id": "zsre-0036660", "client_id": 6, "input_ids": "Which was the voice type that Lina Abarbanell had?", "label": "mezzo soprano"}
+{"sample_id": "zsre-0037283", "client_id": 6, "input_ids": "Who is the mother of Amythaon?", "label": "ythmus"}
+{"sample_id": "zsre-0037489", "client_id": 6, "input_ids": "What year did Trena Cox die in?", "label": "1954"}
+{"sample_id": "zsre-0037684", "client_id": 6, "input_ids": "What fictional work does Melody Bell exist in?", "label": "Home & Away"}
+{"sample_id": "zsre-0038132", "client_id": 6, "input_ids": "What was Lena Lootens's range?", "label": "mezzo soprano"}
+{"sample_id": "zsre-0038344", "client_id": 6, "input_ids": "The person that is the mother of Kate Fischer is who?", "label": "Polly Adams"}
+{"sample_id": "zsre-0038635", "client_id": 6, "input_ids": "What city is Charlotte Cortlandt Ellis from?", "label": "New Orleans"}
+{"sample_id": "zsre-0038867", "client_id": 6, "input_ids": "Which describes the sex or gender of Ann Magnuson?", "label": "male"}
+{"sample_id": "zsre-0038886", "client_id": 6, "input_ids": "Who distributed Prisoner of Her Past?", "label": "Viacom 18 Motion Pictures"}
+{"sample_id": "zsre-0038890", "client_id": 6, "input_ids": "Which was the production company for Prisoner of Her Past?", "label": "Kerstin Thompson"}
+{"sample_id": "zsre-0040739", "client_id": 6, "input_ids": "What title is held by Catherine of Alexandria?", "label": "soprano"}
+{"sample_id": "zsre-0041044", "client_id": 6, "input_ids": "What kind of family is Sabinella of?", "label": "Geometridae"}
+{"sample_id": "zsre-0041348", "client_id": 6, "input_ids": "Is Renné Toney a male or female?", "label": "French"}
+{"sample_id": "zsre-0041354", "client_id": 6, "input_ids": "To which fictional work does Kate Ramsay belong in?", "label": "EastEnders"}
+{"sample_id": "zsre-0041535", "client_id": 6, "input_ids": "The appearance of Diana Marshall is seen in what work?", "label": "Family Affairs"}
+{"sample_id": "zsre-0041583", "client_id": 6, "input_ids": "What is the original network of It's On with Alexa Chung?", "label": "VH1"}
+{"sample_id": "zsre-0041648", "client_id": 6, "input_ids": "What river does Dona Ana Bridge cross?", "label": "Zagreb"}
+{"sample_id": "zsre-0041916", "client_id": 6, "input_ids": "Which was the position that Catherine Morin-Desailly held?", "label": "bishop"}
+{"sample_id": "zsre-0041917", "client_id": 6, "input_ids": "What is the position of Catherine Morin-Desailly?", "label": "bishop"}
+{"sample_id": "zsre-0042039", "client_id": 6, "input_ids": "Who distributed The Blonde Saint?", "label": "First Star Pictures"}
+{"sample_id": "zsre-0042719", "client_id": 6, "input_ids": "What is the name of the place where Portrait of a Woman (Marie Larp) can be found?", "label": "Museo del Prado"}
+{"sample_id": "zsre-0043216", "client_id": 6, "input_ids": "What studio produced She Done Him Wrong?", "label": "Paramount Records"}
+{"sample_id": "zsre-0043319", "client_id": 6, "input_ids": "Was Esther Ayuso male or female?", "label": "male"}
+{"sample_id": "zsre-0044000", "client_id": 6, "input_ids": "What type of voice does Stacey Tappan have?", "label": "mezzo soprano"}
+{"sample_id": "zsre-0044241", "client_id": 6, "input_ids": "What gender was Kamila Filipcikova?", "label": "male"}
+{"sample_id": "zsre-0044346", "client_id": 6, "input_ids": "What was Marie Bosse cause of death?", "label": "stomach cancer"}
+{"sample_id": "zsre-0044616", "client_id": 6, "input_ids": "Who was the mother of Princess Sophie of Greece and Denmark?", "label": "Princess Alice of Battenberg-Kassel"}
+{"sample_id": "zsre-0044837", "client_id": 6, "input_ids": "What kind of  occupation does Sabine Pigalle have?", "label": "journalist"}
+{"sample_id": "zsre-0045052", "client_id": 6, "input_ids": "Which fictional universe is Jennifer Keller part of?", "label": "Marvel Universe"}
+{"sample_id": "zsre-0045515", "client_id": 6, "input_ids": "What fictional work does Cheri Love exist in?", "label": "The Young and the Beautiful"}
+{"sample_id": "zsre-0045588", "client_id": 6, "input_ids": "What city did Suzanne Bachelard live when he died?", "label": "Toulouse"}
+{"sample_id": "zsre-0045768", "client_id": 6, "input_ids": "Which country's citizen was Anna Puu?", "label": "Estonia"}
+{"sample_id": "zsre-0046349", "client_id": 6, "input_ids": "Which position was held by Linda Vissers?", "label": "member of the Illinois House of Representatives"}
+{"sample_id": "zsre-0046605", "client_id": 6, "input_ids": "What is Paris Andriopoulos's position in football?", "label": "forward"}
+{"sample_id": "zsre-0046629", "client_id": 6, "input_ids": "The Madama Butterfly is based upon what?", "label": "Madagascar"}
+{"sample_id": "zsre-0047091", "client_id": 6, "input_ids": "Where did Margaret Blair Young study or work?", "label": "Harvard University"}
+{"sample_id": "zsre-0047215", "client_id": 6, "input_ids": "What was the name of Karsten Heine's team?", "label": "FC Augsburg"}
+{"sample_id": "zsre-0047394", "client_id": 6, "input_ids": "Which show is Pauline Fowler in?", "label": "Shortland Street"}
+{"sample_id": "zsre-0047602", "client_id": 6, "input_ids": "Which city was the birthplace of Joanna Russ?", "label": "Lund"}
+{"sample_id": "zsre-0047873", "client_id": 6, "input_ids": "Of what did Judith Merkle Riley die?", "label": "illness"}
+{"sample_id": "zsre-0048204", "client_id": 6, "input_ids": "What type of tone does Maria Fontosh sing in?", "label": "mezzo-srano"}
+{"sample_id": "zsre-0048310", "client_id": 6, "input_ids": "What city did Rita Cetina Gutiérrez live when he died?", "label": "Barcelona"}
+{"sample_id": "zsre-0049006", "client_id": 6, "input_ids": "The Portrait of a Woman (Marie Larp) was made by whom?", "label": "Titian"}
+{"sample_id": "zsre-0049048", "client_id": 6, "input_ids": "Which position was held by Lynn Hunter?", "label": "member of the Minnesota House of Representatives"}
+{"sample_id": "zsre-0049119", "client_id": 6, "input_ids": "Who is Isabella of Valois, Duchess of Bourbon's mother?", "label": "Mahaut, Countess of Artois"}
+{"sample_id": "zsre-0049761", "client_id": 6, "input_ids": "The person that is the mother of Princess Katherine of Greece and Denmark is who?", "label": "Charlotte of Bourbon"}
+{"sample_id": "zsre-0050041", "client_id": 6, "input_ids": "What is the birthplace of Carmen Everts?", "label": "Lierse"}
+{"sample_id": "zsre-0050051", "client_id": 6, "input_ids": "At what location did Isabella of Clermont die?", "label": "Milan"}
+{"sample_id": "zsre-0051173", "client_id": 6, "input_ids": "Who is the mother of Agnes of the Palatinate?", "label": "Agnes of Hohenburg"}
+{"sample_id": "zsre-0051956", "client_id": 6, "input_ids": "Which city was the birthplace of Mirjana Ognjenović?", "label": "Belgrade"}
+{"sample_id": "zsre-0052388", "client_id": 6, "input_ids": "Which crime led to the conviction of Elizabeth Jeffries?", "label": "tax evasion"}
+{"sample_id": "zsre-0053308", "client_id": 6, "input_ids": "In which fictional work is Kitty Wilde a character?", "label": "Oz"}
+{"sample_id": "zsre-0053787", "client_id": 6, "input_ids": "Who is in Red Shirley as a cast member?", "label": "Diana Dors"}
+{"sample_id": "zsre-0054058", "client_id": 6, "input_ids": "In what city was Irène Pusterla born?", "label": "Paris"}
+{"sample_id": "zsre-0055176", "client_id": 6, "input_ids": "What is the series called that Madeline Pratt belongs to?", "label": "Marvel Universe"}
+{"sample_id": "zsre-0055185", "client_id": 6, "input_ids": "What is the birth date of Kinnie Laisné?", "label": "20 December 1981"}
+{"sample_id": "zsre-0055494", "client_id": 6, "input_ids": "Due to which disease did Leah Rabin die?", "label": "heart attack"}
+{"sample_id": "zsre-0055495", "client_id": 6, "input_ids": "What was the cause of death for Leah Rabin?", "label": "stomach cancer"}
+{"sample_id": "zsre-0056168", "client_id": 6, "input_ids": "What work of fiction is Viktoria Wolf located in?", "label": "Inspector Morse"}
+{"sample_id": "zsre-0056855", "client_id": 6, "input_ids": "Which lady gave birth to Joanna Sophia of Bavaria?", "label": "Therese of Saxe-Altenburg"}
+{"sample_id": "zsre-0058131", "client_id": 6, "input_ids": "What disease did Daphney Hlomuka have?", "label": "kidney failure"}
+{"sample_id": "zsre-0058734", "client_id": 6, "input_ids": "Who is Lady Louise Windsor's mother?", "label": "Caroline of Ansbach"}
+{"sample_id": "zsre-0059171", "client_id": 6, "input_ids": "Where did Daisy Wood live when he died?", "label": "Cape Town"}
+{"sample_id": "zsre-0059442", "client_id": 6, "input_ids": "The song She's Taken a Shine is by what artist?", "label": "The Moody Blues"}
+{"sample_id": "zsre-0059891", "client_id": 6, "input_ids": "What state is Melrose House located?", "label": "New York"}
+{"sample_id": "zsre-0060742", "client_id": 6, "input_ids": "What was Janine Micheau birth country?", "label": "Germany"}
+{"sample_id": "zsre-0060857", "client_id": 6, "input_ids": "Which place does Selma, Lord, Selma exist in?", "label": "Kentucky"}
+{"sample_id": "zsre-0061089", "client_id": 6, "input_ids": "In which fictional work is Riley Parker a character?", "label": "EastEnders"}
+{"sample_id": "zsre-0061228", "client_id": 6, "input_ids": "Which was the creator of Lady Lilith?", "label": "Dante Alighieri"}
+{"sample_id": "zsre-0062096", "client_id": 6, "input_ids": "Who fathered Agnes of Rochlitz?", "label": "Frederick II, Margrave of Rochlitz"}
+{"sample_id": "zsre-0062184", "client_id": 6, "input_ids": "What work of fiction is Ryder Lynn located in?", "label": "CSI: Crime City"}
+{"sample_id": "zsre-0062250", "client_id": 6, "input_ids": "What kind of  occupation does Namjilyn Norovbanzad have?", "label": "poet"}
+{"sample_id": "zsre-0063962", "client_id": 6, "input_ids": "In which fictional work is Florence Jean Castleberry a character?", "label": "Sin City"}
+{"sample_id": "zsre-0064004", "client_id": 6, "input_ids": "The person that is the mother of Lucía Pinochet is who?", "label": "Augusta Carolina Pinochet"}
+{"sample_id": "zsre-0064411", "client_id": 6, "input_ids": "The appearance of Ella Hart is seen in what work?", "label": "Shortland Street"}
+{"sample_id": "zsre-0064436", "client_id": 6, "input_ids": "What university did Yvonne Scannell attend?", "label": "Yale University"}
+{"sample_id": "zsre-0064962", "client_id": 6, "input_ids": "What is the native tongue of Eva Gerlach?", "label": "German"}
+{"sample_id": "zsre-0065113", "client_id": 6, "input_ids": "What was Natallia Arsiennieva's career?", "label": "poet"}
+{"sample_id": "zsre-0065199", "client_id": 6, "input_ids": "What is the native language of Régis Debray?", "label": "German"}
+{"sample_id": "zsre-0065821", "client_id": 6, "input_ids": "Where is Monan Patera found?", "label": "Iapetus"}
+{"sample_id": "zsre-0066163", "client_id": 6, "input_ids": "Who is the mother of Beatrice Alda?", "label": "Alda Carpi"}
+{"sample_id": "zsre-0066445", "client_id": 6, "input_ids": "What was the date of birth of Mika Masoe?", "label": "20 January 1981"}
+{"sample_id": "zsre-0066754", "client_id": 6, "input_ids": "What team does Josephine Owino belong to?", "label": "Indiana Fever"}
+{"sample_id": "zsre-0066921", "client_id": 6, "input_ids": "For what crime was Sarah Balabagan prosecuted?", "label": "crime against humanity"}
+{"sample_id": "zsre-0067449", "client_id": 6, "input_ids": "What is the name of Siamese Kat's record label?", "label": "Sony Music Entertainment"}
+{"sample_id": "zsre-0068165", "client_id": 6, "input_ids": "The Faith Hilling is part of a what series?", "label": "The Simpsons"}
+{"sample_id": "zsre-0068575", "client_id": 6, "input_ids": "What was the noble family that Princess Ingrid Alexandra of Norway was from?", "label": "Solomonic dynasty"}
+{"sample_id": "zsre-0068899", "client_id": 6, "input_ids": "Who is the director of The Girl of the Night?", "label": "William A Weller"}
+{"sample_id": "zsre-0069154", "client_id": 6, "input_ids": "What was Thelma Votipka's range?", "label": "mezzo-srano"}
+{"sample_id": "zsre-0069967", "client_id": 6, "input_ids": "What kind of  occupation does Elladj Baldé have?", "label": "writer"}
+{"sample_id": "zsre-0070221", "client_id": 6, "input_ids": "By which body of water is Queenhithe located?", "label": "River Medina"}
+{"sample_id": "zsre-0070236", "client_id": 6, "input_ids": "What was Olga Zhanibekova's gender?", "label": "male"}
+{"sample_id": "zsre-0070288", "client_id": 6, "input_ids": "Who is the mother of Barbara Boggs Sigmund?", "label": "Lindsay Lohan"}
+{"sample_id": "zsre-0070507", "client_id": 6, "input_ids": "What type of tone does Janet Price sing in?", "label": "contralto"}
+{"sample_id": "zsre-0070725", "client_id": 6, "input_ids": "What is the national identity of Lola Dewaere?", "label": "German"}
+{"sample_id": "zsre-0071007", "client_id": 6, "input_ids": "What was the name of Isabella of Castile, Duchess of York mother?", "label": "Isabella of Angoulême"}
+{"sample_id": "zsre-0071395", "client_id": 6, "input_ids": "What year was Miss Global Zimbabwe founded?", "label": "2011"}
+{"sample_id": "zsre-0072609", "client_id": 6, "input_ids": "Which was the voice type that Marie Caroline Miolan-Carvalho had?", "label": "mezzo soprano"}
+{"sample_id": "zsre-0073107", "client_id": 6, "input_ids": "What artist was responsible for the creation of A Mother's Duty?", "label": "Gustave Courbet"}
+{"sample_id": "zsre-0073127", "client_id": 6, "input_ids": "What gender is Lily Isabel Maude Addison of?", "label": "male"}
+{"sample_id": "zsre-0073217", "client_id": 6, "input_ids": "What is the birth place of  Ella Nicholas?", "label": "Montreal"}
+{"sample_id": "zsre-0074517", "client_id": 6, "input_ids": "Who is Lynda Lopez's sister?", "label": "Luis Lopez"}
+{"sample_id": "zsre-0074586", "client_id": 6, "input_ids": "To which country does Berthe-Evelyne Agbo belong as its citizen?", "label": "Cameroon"}
+{"sample_id": "zsre-0074610", "client_id": 6, "input_ids": "What studio produced Princess of Mars?", "label": "The Jim Henson Company"}
+{"sample_id": "zsre-0074759", "client_id": 6, "input_ids": "Which show is Tiffany Aching in?", "label": "Dracula"}
+{"sample_id": "zsre-0074820", "client_id": 6, "input_ids": "What city did Jeanne Chauvin live when he died?", "label": "Montreal"}
+{"sample_id": "zsre-0074924", "client_id": 6, "input_ids": "What was Maria Gay's range?", "label": "mezzo-oprano"}
+{"sample_id": "zsre-0075470", "client_id": 6, "input_ids": "What was the first network that Girl Code was on?", "label": "E"}
+{"sample_id": "zsre-0075546", "client_id": 6, "input_ids": "What was the original network of Mama Malone?", "label": "NBC"}
+{"sample_id": "zsre-0075853", "client_id": 6, "input_ids": "Which lady gave birth to Princess Louise Auguste of Denmark?", "label": "Charlotte Amalie of Hesse-Darmstadt"}
+{"sample_id": "zsre-0075867", "client_id": 6, "input_ids": "What gender was Hanne Liland?", "label": "male"}
+{"sample_id": "zsre-0077088", "client_id": 6, "input_ids": "What type of voice does Camilla Tilling have?", "label": "mezzo soprano"}
+{"sample_id": "zsre-0077143", "client_id": 6, "input_ids": "What was Brigitte Roy's career?", "label": "journalist"}
+{"sample_id": "zsre-0077206", "client_id": 6, "input_ids": "Which ethnic group does Marie Sallé belong?", "label": "soprano"}
+{"sample_id": "zsre-0077213", "client_id": 6, "input_ids": "What university did Susan Weil attend?", "label": "University of California, Berkeley"}
+{"sample_id": "zsre-0077214", "client_id": 6, "input_ids": "Which college or university is related with Susan Weil?", "label": "University of Michigan"}
+{"sample_id": "zsre-0077367", "client_id": 6, "input_ids": "What year did Susana Agüero die in?", "label": "1957"}
+{"sample_id": "zsre-0077641", "client_id": 6, "input_ids": "Who is the paternal progenitor of Mille-Marie Treschow?", "label": "Heinrich Aage Treschow"}
+{"sample_id": "zsre-0077842", "client_id": 6, "input_ids": "What city was Lena Baker born in?", "label": "New Orleans"}
+{"sample_id": "zsre-0078011", "client_id": 6, "input_ids": "Where did Carol Rodland study or work?", "label": "University of Michigan"}
+{"sample_id": "zsre-0078321", "client_id": 6, "input_ids": "How did Grace Darling die?", "label": "tuber cancer"}
+{"sample_id": "zsre-0078518", "client_id": 6, "input_ids": "Which was the record label for Offend Maggie?", "label": "Sire Records"}
+{"sample_id": "zsre-0078924", "client_id": 6, "input_ids": "Which lady gave birth to Princess Eugenie of York?", "label": "Sarah, Princess of Wales"}
+{"sample_id": "zsre-0079609", "client_id": 6, "input_ids": "What material was used for A Mother's Duty?", "label": "marble"}
+{"sample_id": "zsre-0079657", "client_id": 6, "input_ids": "What is the birthplace of Celina Murga?", "label": "Seville"}
+{"sample_id": "zsre-0079787", "client_id": 6, "input_ids": "What is the gender of Natalie Taylor?", "label": "male"}
+{"sample_id": "zsre-0080307", "client_id": 6, "input_ids": "What was the name of Sophie Ellis-Bextor mother?", "label": "Margaret Ellis"}
+{"sample_id": "zsre-0080691", "client_id": 6, "input_ids": "Who is Louise Élisabeth d'Orléans's mother?", "label": "Françoise Marie-Marie de Bourbon"}
+{"sample_id": "zsre-0081074", "client_id": 6, "input_ids": "The father of Elizabeth de Bohun is whom?", "label": "John de Bohun, 1st Earl of Northampton"}
+{"sample_id": "zsre-0081121", "client_id": 6, "input_ids": "What is the city of birth of Jeannot Moes?", "label": "Paris"}
+{"sample_id": "zsre-0081134", "client_id": 6, "input_ids": "What network did Chez Hélène originally appear on?", "label": "France 2"}
+{"sample_id": "zsre-0082240", "client_id": 6, "input_ids": "Who is Celina Szymanowska's mother?", "label": "Elżbieta Szymanowska"}
+{"sample_id": "zsre-0082620", "client_id": 6, "input_ids": "What was Natallia Solohub's occupation?", "label": "poet"}
+{"sample_id": "zsre-0083284", "client_id": 6, "input_ids": "What was Dorothy Sarnoff's range?", "label": "mezzo-oprano"}
+{"sample_id": "zsre-0083525", "client_id": 6, "input_ids": "Who is Idril's mother?", "label": "Nefertari"}
+{"sample_id": "zsre-0084121", "client_id": 6, "input_ids": "What is Natalie Talmadge's spouse's name?", "label": "David Talmadge"}
+{"sample_id": "zsre-0084253", "client_id": 6, "input_ids": "In what city was Lisa Bradley born?", "label": "San Francisco"}
+{"sample_id": "zsre-0084974", "client_id": 6, "input_ids": "What is the birth place of  Julia Montgomery?", "label": "Rochester"}
+{"sample_id": "zsre-0085506", "client_id": 6, "input_ids": "Who broadcasted Kay O'Brien?", "label": "NBC"}
+{"sample_id": "zsre-0085879", "client_id": 6, "input_ids": "Why did Sister Dora die?", "label": "lung cancer"}
+{"sample_id": "zsre-0086016", "client_id": 6, "input_ids": "What kind of medical issue did Lynne Cohen have?", "label": "breast cancer"}
+{"sample_id": "zsre-0086214", "client_id": 6, "input_ids": "Who was the director of Queen X?", "label": "John G Robinson"}
+{"sample_id": "zsre-0086315", "client_id": 6, "input_ids": "What was Louise McCarthy's career?", "label": "writer"}
+{"sample_id": "zsre-0086496", "client_id": 6, "input_ids": "Who is the paternal progenitor of Eva Bonnier?", "label": "José Bonnier"}
+{"sample_id": "zsre-0086918", "client_id": 6, "input_ids": "When is the date of birth of Lola Pagnani?", "label": "1953"}
+{"sample_id": "zsre-0087176", "client_id": 6, "input_ids": "What piece of fiction does Sophie Ramsay appear in?", "label": "Home and Away"}
+{"sample_id": "zsre-0087306", "client_id": 6, "input_ids": "The gender of Anna Brackett is what?", "label": "male"}
+{"sample_id": "zsre-0087540", "client_id": 6, "input_ids": "What family does Uelia belong?", "label": "Tephritidae"}
+{"sample_id": "zsre-0087733", "client_id": 6, "input_ids": "What was Joyce Barker's range?", "label": "mezzo-srano"}
+{"sample_id": "zsre-0087837", "client_id": 6, "input_ids": "In which fictional work is Carrie Owen a character?", "label": "Grey's Anatomy"}
+{"sample_id": "zsre-0088295", "client_id": 6, "input_ids": "In what fictional work would you find a character named Deborah Fiderer?", "label": "EastEnders"}
+{"sample_id": "zsre-0088525", "client_id": 6, "input_ids": "In what city did Andrea Pazienza die?", "label": "Bologna"}
+{"sample_id": "zsre-0089547", "client_id": 6, "input_ids": "What is the name of the publisher of Conjure Wife?", "label": "Cinematronics"}
+{"sample_id": "zsre-0089570", "client_id": 6, "input_ids": "What is the birth date of Toni Savevski?", "label": "12 January 1995"}
+{"sample_id": "zsre-0089837", "client_id": 6, "input_ids": "What illness did Helen Boehm suffer from?", "label": "Parkinson's cancer"}
+{"sample_id": "zsre-0089838", "client_id": 6, "input_ids": "Which medical condition afflicts Helen Boehm?", "label": "Parkinson's cancer"}
+{"sample_id": "zsre-0089888", "client_id": 6, "input_ids": "What year was GAIL founded?", "label": "1961"}
+{"sample_id": "zsre-0090238", "client_id": 6, "input_ids": "Which was the production company for Polly Ann?", "label": "TriStar Pictures"}
+{"sample_id": "zsre-0090385", "client_id": 6, "input_ids": "What gender class does Lucia Valerio belong to?", "label": "midfielder"}
+{"sample_id": "zsre-0090498", "client_id": 6, "input_ids": "What is the position of Frances Nunziata?", "label": "cardinal"}
+{"sample_id": "zsre-0090597", "client_id": 6, "input_ids": "Where is Asha Patera found?", "label": "Iapetus"}
+{"sample_id": "zsre-0090601", "client_id": 6, "input_ids": "Which planet is Asha Patera located?", "label": "Iapetus"}
+{"sample_id": "zsre-0091367", "client_id": 6, "input_ids": "Which country is Radha Burnier from?", "label": "Pakistan"}
+{"sample_id": "zsre-0091664", "client_id": 6, "input_ids": "Which was the position that Felix Maria Davídek held?", "label": "President of Malta"}
+{"sample_id": "zsre-0091796", "client_id": 6, "input_ids": "When did Empress Qiang die?", "label": "936"}
+{"sample_id": "zsre-0092006", "client_id": 6, "input_ids": "Which lady Joan of Acre was born to?", "label": "Joan of Brittany"}
+{"sample_id": "zsre-0092193", "client_id": 6, "input_ids": "What medical condition did Hannah Van Buren have?", "label": "deafness"}
+{"sample_id": "zsre-0092198", "client_id": 6, "input_ids": "What diseased did Hannah Van Buren struggle with?", "label": "tephritis"}
+{"sample_id": "zsre-0093454", "client_id": 6, "input_ids": "Which show is Carmela Soprano in?", "label": "Hollyoaks"}
+{"sample_id": "zsre-0094337", "client_id": 6, "input_ids": "Of which country is Bonnie Dobson a citizen?", "label": "South Africa"}
+{"sample_id": "zsre-0094901", "client_id": 6, "input_ids": "What is Jodi Leigh Miller's gender?", "label": "male"}
+{"sample_id": "zsre-0095047", "client_id": 6, "input_ids": "When did Nancy Perriam die?", "label": "1954"}
+{"sample_id": "zsre-0095621", "client_id": 6, "input_ids": "What is the native tongue of Elisabeth Schwarzhaupt?", "label": "French"}
+{"sample_id": "zsre-0095718", "client_id": 6, "input_ids": "The date of birth of Antoinette Uys is?", "label": "20 January 1894"}
+{"sample_id": "zsre-0096666", "client_id": 6, "input_ids": "Player Katrina Colleton played for which team?", "label": "Los Alamos Sparks"}
+{"sample_id": "zsre-0096669", "client_id": 6, "input_ids": "What team is Katrina Colleton associated with?", "label": "Minnesota Lynx"}
+{"sample_id": "zsre-0096739", "client_id": 6, "input_ids": "What studio produced Madonna of the Seven Moons?", "label": "Gainsborough Studios"}
+{"sample_id": "zsre-0096996", "client_id": 6, "input_ids": "What team does Whitney Boddie belong to?", "label": "Houston Rockets"}
+{"sample_id": "zsre-0097275", "client_id": 6, "input_ids": "Which language is The Lady with the Dog written in?", "label": "Old English"}
+{"sample_id": "zsre-0097277", "client_id": 6, "input_ids": "What is the language The Lady with the Dog is written in?", "label": "Old Irish"}
+{"sample_id": "zsre-0097790", "client_id": 6, "input_ids": "What is the national identity of Marie-Hélène Lefaucheux?", "label": "female"}
+{"sample_id": "zsre-0098317", "client_id": 6, "input_ids": "What is the cause of death of Jill Costello?", "label": "Jill's disease"}
+{"sample_id": "zsre-0098393", "client_id": 6, "input_ids": "The voice type of Eliza Biscaccianti is what?", "label": "mezzo-oprano"}
+{"sample_id": "zsre-0098942", "client_id": 6, "input_ids": "What is the native tongue of Irène Tunc?", "label": "German"}
+{"sample_id": "zsre-0099131", "client_id": 6, "input_ids": "What was Frances Goodrich's cause of death?", "label": "heart failure"}
+{"sample_id": "zsre-0099738", "client_id": 6, "input_ids": "The nationality of Catherine Enjolet was what?", "label": "Spanish"}
+{"sample_id": "zsre-0099752", "client_id": 6, "input_ids": "Who was Mary Stewart, Countess of Arran's mother?", "label": "Margaret of Arran"}
+{"sample_id": "zsre-0099814", "client_id": 6, "input_ids": "The nationality of Dominique Chaboche was what?", "label": "English"}
+{"sample_id": "zsre-0100413", "client_id": 6, "input_ids": "What voice type is Stéphanie d'Oustrac?", "label": "contralto"}
+{"sample_id": "zsre-0100467", "client_id": 6, "input_ids": "Is Vivian St. John a male or female?", "label": "male"}
+{"sample_id": "zsre-0100958", "client_id": 6, "input_ids": "What is the birth place of  Valerie Sanderson?", "label": "New Orleans"}
+{"sample_id": "zsre-0101616", "client_id": 6, "input_ids": "The year Chandra Kintala died was what?", "label": "4 May 2014"}
+{"sample_id": "zsre-0101700", "client_id": 6, "input_ids": "The artwork Maria Gloriosa was by who?", "label": "Vittorio De Sica"}
+{"sample_id": "zsre-0102142", "client_id": 6, "input_ids": "When is the date of birth of Delio Tessa?", "label": "20 April 1884"}
+{"sample_id": "zsre-0102150", "client_id": 6, "input_ids": "What was Grace Moore's range?", "label": "contralto"}
+{"sample_id": "zsre-0102337", "client_id": 6, "input_ids": "What college did Ivy Austin go to?", "label": "Yale University"}
+{"sample_id": "zsre-0102402", "client_id": 6, "input_ids": "To which series does Moaning Lisa belong?", "label": "House"}
+{"sample_id": "zsre-0103112", "client_id": 6, "input_ids": "Which player position has been assigned to Sirina Camara?", "label": "goalkeeper"}
+{"sample_id": "zsre-0103444", "client_id": 6, "input_ids": "What university did Jeanne Ruark Hoff attend?", "label": "University of Michigan"}
+{"sample_id": "zsre-0103630", "client_id": 6, "input_ids": "What is the birthplace of Ann Bilansky?", "label": "Chicago"}
+{"sample_id": "zsre-0104136", "client_id": 6, "input_ids": "What was the cause of death of Mary Marcy?", "label": "bladder cancer"}
+{"sample_id": "zsre-0104390", "client_id": 6, "input_ids": "To which fictional work does Elle Greenaway belong in?", "label": "Cinderella"}
+{"sample_id": "zsre-0104455", "client_id": 6, "input_ids": "Which family is Valerietta a part of?", "label": "Geometridae"}
+{"sample_id": "zsre-0104575", "client_id": 6, "input_ids": "What date did Grace Barnsley die on?", "label": "1957"}
+{"sample_id": "zsre-0104602", "client_id": 6, "input_ids": "What is the musical instrument Fantasía Bética was intended for?", "label": "violin"}
+{"sample_id": "zsre-0104939", "client_id": 6, "input_ids": "Which was the position that Diane Loeffler held?", "label": "member of the Minnesota House of Representatives"}
+{"sample_id": "zsre-0106321", "client_id": 6, "input_ids": "In what fictional work would you find a character named Melanie Costello?", "label": "As the World Turns"}
+{"sample_id": "zsre-0106713", "client_id": 6, "input_ids": "Who was the publisher of Star Dancer?", "label": "Electronic Arts"}
+{"sample_id": "zsre-0107981", "client_id": 6, "input_ids": "Who was the film director that directed She's Gotta Have It?", "label": "Spike Millican"}
+{"sample_id": "zsre-0108405", "client_id": 6, "input_ids": "Who was Princess Maria Elizabeth of Sweden's mother?", "label": "Caroline of Ansbach"}
+{"sample_id": "zsre-0109218", "client_id": 6, "input_ids": "Which crime Penelope Kenny is considered to have commited?", "label": "capital murder"}
+{"sample_id": "zsre-0109329", "client_id": 6, "input_ids": "What was Juliana Alves's occupation?", "label": "journalist"}
+{"sample_id": "zsre-0109377", "client_id": 6, "input_ids": "Which ethnic group does Maria Barnas belong?", "label": "Dutch"}
+{"sample_id": "zsre-0109414", "client_id": 6, "input_ids": "In what city was Johanna ter Steege born?", "label": "Leiden"}
+{"sample_id": "zsre-0109473", "client_id": 6, "input_ids": "What was Flora Woodman's range?", "label": "contralto"}
+{"sample_id": "zsre-0109538", "client_id": 6, "input_ids": "Which was the voice type that Elsie Griffin had?", "label": "contralto"}
+{"sample_id": "zsre-0110181", "client_id": 6, "input_ids": "What is the series called that She Gets Revenge belongs to?", "label": "30 Rock"}
+{"sample_id": "zsre-0110478", "client_id": 6, "input_ids": "What was Barbara Lynn's occupation?", "label": "politician"}
+{"sample_id": "zsre-0110627", "client_id": 6, "input_ids": "What fictional universe is Artemis Entreri a part of?", "label": "Image Universe"}
+{"sample_id": "zsre-0110943", "client_id": 6, "input_ids": "What is the name of the place where Ansidei Madonna can be found?", "label": "National Gallery"}
+{"sample_id": "zsre-0110974", "client_id": 6, "input_ids": "What was Monna Bell's cause of death?", "label": "multiple myeloma"}
+{"sample_id": "zsre-0111254", "client_id": 6, "input_ids": "What language is Albina Românească written?", "label": "French"}
+{"sample_id": "zsre-0111322", "client_id": 6, "input_ids": "Who is the director of Lex and Rory?", "label": "Andrew Lau"}
+{"sample_id": "zsre-0112400", "client_id": 6, "input_ids": "Who was the designor of Albert and Edith Adelman House?", "label": "Frank Gehry"}
+{"sample_id": "zsre-0112401", "client_id": 6, "input_ids": "The Albert and Edith Adelman House project's architect was who?", "label": "Frank Lloyd Webber"}
+{"sample_id": "zsre-0113184", "client_id": 6, "input_ids": "What position was played by Kecia Morway?", "label": "defender"}
+{"sample_id": "zsre-0113489", "client_id": 6, "input_ids": "What is the surface of Aisy cendré made of?", "label": "ivory"}
+{"sample_id": "zsre-0113901", "client_id": 6, "input_ids": "Which was the gender of Vanessa Virgen?", "label": "male"}
+{"sample_id": "zsre-0113911", "client_id": 6, "input_ids": "What is the name university that educated Rebecca Coleman Curtis?", "label": "Tufts University"}
+{"sample_id": "zsre-0114125", "client_id": 6, "input_ids": "What is the name of the state where Eyn Savleh is located?", "label": "Kermanshah Province"}
+{"sample_id": "zsre-0114279", "client_id": 6, "input_ids": "Which network is Katy Brand's Big Ass Show a part of?", "label": "ITV"}
+{"sample_id": "zsre-0114817", "client_id": 6, "input_ids": "The production company responsible for Dancing Mothers is what?", "label": "Pixar"}
+{"sample_id": "zsre-0115126", "client_id": 6, "input_ids": "The cause of death for Miriam Mone was what?", "label": "ovarian sclerosis"}
+{"sample_id": "zsre-0115384", "client_id": 6, "input_ids": "What medical condition killed María Julia Hernández?", "label": "breast cancer"}
+{"sample_id": "zsre-0115727", "client_id": 6, "input_ids": "Which was the position that Hervé Maurey held?", "label": "President of Haiti"}
+{"sample_id": "zsre-0115788", "client_id": 6, "input_ids": "In what place did Kathleen Maguire die?", "label": "Toronto"}
+{"sample_id": "zsre-0115899", "client_id": 6, "input_ids": "What killed Ethel MacDonald?", "label": "lung cancer"}
+{"sample_id": "zsre-0115972", "client_id": 6, "input_ids": "Which was the voice type that Nadine Secunde had?", "label": "mezzo-oprano"}
+{"sample_id": "zsre-0116155", "client_id": 6, "input_ids": "What is the birthplace of Elizabeth Gill Lui?", "label": "Hong Kong"}
+{"sample_id": "zsre-0116623", "client_id": 6, "input_ids": "What is the native language of Laura Smet?", "label": "English"}
+{"sample_id": "zsre-0116751", "client_id": 6, "input_ids": "What nationality was Geneviève Gaillard?", "label": "German"}
+{"sample_id": "zsre-0117330", "client_id": 6, "input_ids": "The My Princess is part of a what series?", "label": "The Simpsons"}
+{"sample_id": "zsre-0117696", "client_id": 6, "input_ids": "Where was Israel Singer born?", "label": "Los Angeles"}
+{"sample_id": "zsre-0118355", "client_id": 6, "input_ids": "In what fictional work would you find a character named Stella Crawford?", "label": "Neighbours"}
+{"sample_id": "zsre-0118369", "client_id": 6, "input_ids": "What fictional work does Jade Mitchell exist in?", "label": "Shortland Street"}
+{"sample_id": "zsre-0118437", "client_id": 6, "input_ids": "What is the name of the company which distributed Women in the Wind?", "label": "Warner Pictures"}
+{"sample_id": "zsre-0118456", "client_id": 6, "input_ids": "To which fictional work does Anne Foster appear in?", "label": "EastEnders"}
+{"sample_id": "zsre-0118536", "client_id": 6, "input_ids": "Which was the record label for Boogie On Reggae Woman?", "label": "Atlantic Records"}
+{"sample_id": "zsre-0119071", "client_id": 6, "input_ids": "What was Ana Milena Muñoz Gómez birth country?", "label": "Venezuela"}
+{"sample_id": "zsre-0120088", "client_id": 6, "input_ids": "What was Alice Taticchi's career?", "label": "politician"}
+{"sample_id": "zsre-0120281", "client_id": 6, "input_ids": "What kind of  occupation does Cristina Ferreira have?", "label": "politician"}
+{"sample_id": "zsre-0120457", "client_id": 6, "input_ids": "What vessel type is Costa Serena?", "label": "Concordia class cruise ship"}
+{"sample_id": "zsre-0120651", "client_id": 6, "input_ids": "What year did Judy Sowinski die?", "label": "1958"}
+{"sample_id": "zsre-0120871", "client_id": 6, "input_ids": "Which player position does Gemma Gili belong to?", "label": "defender"}
+{"sample_id": "zsre-0120969", "client_id": 6, "input_ids": "Which sports team is Sarah Groenewald a member of?", "label": "Borussia Dortmund"}
+{"sample_id": "zsre-0121520", "client_id": 6, "input_ids": "What is the country OzGirl is from?", "label": "United Kingdom"}
+{"sample_id": "zsre-0121774", "client_id": 6, "input_ids": "Who is Lena Stolze's dad?", "label": "Stolze Haeckel"}
+{"sample_id": "zsre-0122093", "client_id": 6, "input_ids": "What country is Nicole Grimaudo from?", "label": "France"}
+{"sample_id": "zsre-0122154", "client_id": 6, "input_ids": "What piece of fiction does Lily Hassan appear in?", "label": "Emmerdale"}
+{"sample_id": "zsre-0123448", "client_id": 6, "input_ids": "In what city was Tammy Cochran born in?", "label": "Jacksonville"}
+{"sample_id": "zsre-0123936", "client_id": 6, "input_ids": "The nationality of Anna Judic is?", "label": "English"}
+{"sample_id": "zsre-0124154", "client_id": 6, "input_ids": "What caused Connee Boswell's death?", "label": "breast cancer"}
+{"sample_id": "zsre-0124490", "client_id": 6, "input_ids": "What piece of fiction does Emily Kirk appear in?", "label": "Emperor"}
+{"sample_id": "zsre-0125282", "client_id": 6, "input_ids": "The date of death for Karin Smirnov is what?", "label": "19 March 2012"}
+{"sample_id": "zsre-0125295", "client_id": 6, "input_ids": "What is Kim Vicente's place of employment?", "label": "University of Southern California"}
+{"sample_id": "zsre-0126009", "client_id": 6, "input_ids": "What war or battle did Joseph Maria Gordon fight in?", "label": "American Civil War"}
+{"sample_id": "zsre-0126086", "client_id": 6, "input_ids": "Which place does The Tyra Banks Show exist in?", "label": "Miami"}
+{"sample_id": "zsre-0126477", "client_id": 6, "input_ids": "What is the fictional universe that Salusa Secundus belong to?", "label": "Dorado universe"}
+{"sample_id": "zsre-0126894", "client_id": 6, "input_ids": "Who was the director of Lianna?", "label": "William A Wellman"}
+{"sample_id": "zsre-0127043", "client_id": 6, "input_ids": "What killed Vishnu Kant Shastri?", "label": "prostate cancer"}
+{"sample_id": "zsre-0127243", "client_id": 6, "input_ids": "The father of Ethel Barrymore was who?", "label": "William Barrymore"}
+{"sample_id": "zsre-0127996", "client_id": 6, "input_ids": "Who is Nina Companeez's sister?", "label": "Alma Companeez"}
+{"sample_id": "zsre-0128389", "client_id": 6, "input_ids": "In one word, how did Charlotte Canda die?", "label": "capital punishment"}
+{"sample_id": "zsre-0128390", "client_id": 6, "input_ids": "What cause of death was listed for Charlotte Canda?", "label": "capital punishment"}
+{"sample_id": "zsre-0128816", "client_id": 6, "input_ids": "Which place does Agnes Browne exist in?", "label": "Belfast"}
+{"sample_id": "zsre-0128840", "client_id": 6, "input_ids": "What country was Dana Hussain in?", "label": "Iraq"}
+{"sample_id": "zsre-0129131", "client_id": 6, "input_ids": "What is the vocal range for Alexis Dupont?", "label": "mezzo soprano"}
+{"sample_id": "zsre-0129339", "client_id": 6, "input_ids": "Which was the gender of Pamela London?", "label": "male"}
+{"sample_id": "zsre-0129448", "client_id": 6, "input_ids": "What is the cause of death for Evelyn Lauder?", "label": "ovarian disease"}
+{"sample_id": "zsre-0130035", "client_id": 6, "input_ids": "What type of tone does Gwynne Geyer sing in?", "label": "mezzo soprano"}
+{"sample_id": "zsre-0131435", "client_id": 6, "input_ids": "Which team is Martina Šalek a member of?", "label": "Spartak Myjava"}
+{"sample_id": "zsre-0131550", "client_id": 6, "input_ids": "What college did Laura Brod go to?", "label": "University of Minnesota"}
+{"sample_id": "zsre-0131882", "client_id": 6, "input_ids": "The cause of death for Ina Claire was what?", "label": "stroke"}
+{"sample_id": "zsre-0132041", "client_id": 6, "input_ids": "Which lady Tamara Desni was born to?", "label": "Vympel Desni"}
+{"sample_id": "zsre-0132123", "client_id": 6, "input_ids": "What is Pauline Sillett's birthplace?", "label": "Lancaster"}
+{"sample_id": "zsre-0133342", "client_id": 6, "input_ids": "What is the name of the person who discovered 541 Deborah?", "label": "Paul Götz"}
+{"sample_id": "zsre-0133371", "client_id": 6, "input_ids": "Who is the mother of Duchess Marie of Mecklenburg?", "label": "Duchess Elisabeth of Anhalt"}
+{"sample_id": "zsre-0133751", "client_id": 6, "input_ids": "What was the noble family that Marie Louise de La Tour d'Auvergne was from?", "label": "D'Auvergne"}
+{"sample_id": "zsre-0133775", "client_id": 6, "input_ids": "What voice type is Louise Le Baron?", "label": "mezzo soprano"}
+{"sample_id": "zsre-0134310", "client_id": 6, "input_ids": "Due to which disease did Aline MacMahon die?", "label": "multiple sclerosis"}
+{"sample_id": "zsre-0134520", "client_id": 6, "input_ids": "The father of Sancha Raimúndez is whom?", "label": "Raimúndez Guzmán"}
+{"sample_id": "zsre-0136285", "client_id": 6, "input_ids": "What was the name of Cokie Roberts mother?", "label": "Lindsay Roberts"}
+{"sample_id": "zsre-0137555", "client_id": 6, "input_ids": "Who is listed as Bridget Bendish father?", "label": "Henry Hobson Bendish"}
+{"sample_id": "zsre-0138060", "client_id": 6, "input_ids": "The artwork Woman with Flowered Hat was by who?", "label": "Roy Clarke"}
+{"sample_id": "zsre-0138223", "client_id": 6, "input_ids": "The date of birth of Mallory Reaves is?", "label": "1954"}
+{"sample_id": "zsre-0139237", "client_id": 6, "input_ids": "Who is in Stranger from Venus as a cast member?", "label": "Maurice Elvey"}
+{"sample_id": "zsre-0139516", "client_id": 6, "input_ids": "When was the birth of Amanda Lamb?", "label": "1952"}
+{"sample_id": "zsre-0139567", "client_id": 6, "input_ids": "What was Kari Lehtonen's team?", "label": "Feyenoord"}
+{"sample_id": "zsre-0139697", "client_id": 6, "input_ids": "Which crime led to the conviction of Sarah Simpson?", "label": "crime against humanity"}
+{"sample_id": "zsre-0139780", "client_id": 6, "input_ids": "On what network did Katie & Peter first play?", "label": "ITV4"}
+{"sample_id": "zsre-0140152", "client_id": 6, "input_ids": "Which is the body of water by Abbey of Woney?", "label": "Danube"}
+{"sample_id": "zsre-0141411", "client_id": 6, "input_ids": "What medical condition was Nancy Talbot suffering from?", "label": "Parkinson's disease"}
+{"sample_id": "zsre-0141416", "client_id": 6, "input_ids": "Which medical condition afflicts Nancy Talbot?", "label": "Parkinson's disease"}
+{"sample_id": "zsre-0141451", "client_id": 6, "input_ids": "What is the native tongue of Corinne Narassiguin?", "label": "Catalan"}
+{"sample_id": "zsre-0142244", "client_id": 6, "input_ids": "Which place does A Social Celebrity exist in?", "label": "Pittsburgh"}
+{"sample_id": "zsre-0142257", "client_id": 6, "input_ids": "What is the university where Alice Temperley went?", "label": "Royal Military Academy, Woolwich"}
+{"sample_id": "zsre-0142258", "client_id": 6, "input_ids": "The college Alice Temperley attended was what?", "label": "Royal College of Art"}
+{"sample_id": "zsre-0142259", "client_id": 6, "input_ids": "What university did Alice Temperley attend?", "label": "Royal College of Art"}
+{"sample_id": "zsre-0142280", "client_id": 6, "input_ids": "Who is Bianca of Savoy's mother?", "label": "Gian Lorenzo Bernini"}
+{"sample_id": "zsre-0142494", "client_id": 6, "input_ids": "To which fictional work does Nikki Warrington appear in?", "label": "One Life to Live"}
+{"sample_id": "zsre-0142529", "client_id": 6, "input_ids": "What is the original network of Audrina?", "label": "CBS"}
+{"sample_id": "zsre-0143694", "client_id": 6, "input_ids": "The song Donna d'Onna was by whom?", "label": "Gianni Pisano"}
+{"sample_id": "zsre-0144251", "client_id": 6, "input_ids": "In what city or state did the formation of Lady Gaga occur?", "label": "New Orleans"}
+{"sample_id": "zsre-0145933", "client_id": 6, "input_ids": "What is the name of university that educated Jess Fink?", "label": "University of Southern California"}
+{"sample_id": "zsre-0146660", "client_id": 6, "input_ids": "The date of birth of Yvonne Todd is?", "label": "1961"}
+{"sample_id": "zsre-0147057", "client_id": 6, "input_ids": "What is Frances Hellman's place of employment?", "label": "Yale University"}
+{"sample_id": "zsre-0147253", "client_id": 6, "input_ids": "The main director of Sis Hopkins was who?", "label": "George Blair"}
+{"sample_id": "zsre-0147276", "client_id": 6, "input_ids": "The voice type of Elisabeth Schumann is what?", "label": "mezzo-srano"}
+{"sample_id": "zsre-0147630", "client_id": 6, "input_ids": "To which fictional work does Shirley Carter appear in?", "label": "Private Practice"}
+{"sample_id": "zsre-0147737", "client_id": 6, "input_ids": "Which gender does Mabel Howard belong to?", "label": "male"}
+{"sample_id": "zsre-0148070", "client_id": 6, "input_ids": "What fictional work does Ellen Lowell exist in?", "label": "Law & Order"}
+{"sample_id": "zsre-0148187", "client_id": 6, "input_ids": "Who was Queen Zixi of Ix illustrated by?", "label": "Wyndham Lewis"}
+{"sample_id": "zsre-0148230", "client_id": 6, "input_ids": "What show is Rhona Goskirk from?", "label": "Shortland Street"}
+{"sample_id": "zsre-0148325", "client_id": 6, "input_ids": "What country did Olga Gere originate?", "label": "Turkey"}
+{"sample_id": "zsre-0148692", "client_id": 6, "input_ids": "Which country's citizen was Isabella Fraser?", "label": "Scotland"}
+{"sample_id": "zsre-0148695", "client_id": 6, "input_ids": "What is the birth date of Lady Arbella Stuart?", "label": "1747"}
+{"sample_id": "zsre-0148864", "client_id": 6, "input_ids": "What is the gender Laura Combes is known by?", "label": "soprano"}
+{"sample_id": "zsre-0149230", "client_id": 6, "input_ids": "What nationality is Gina Manès?", "label": "German"}
+{"sample_id": "zsre-0149426", "client_id": 6, "input_ids": "What fictional work does Molly Bloom exist in?", "label": "Ugly Americans"}
+{"sample_id": "zsre-0149582", "client_id": 6, "input_ids": "Which team is Lena Düsterhöft a member of?", "label": "SV Mattersburg"}
+{"sample_id": "zsre-0150273", "client_id": 6, "input_ids": "What work of fiction is Kate Mitchell located in?", "label": "Shortland Street"}
+{"sample_id": "zsre-0150430", "client_id": 6, "input_ids": "What was the cause of Eileen Beasley's death?", "label": "pancreatica"}
+{"sample_id": "zsre-0150681", "client_id": 6, "input_ids": "Who is listed as Marta Jandová father?", "label": "Petr Jandová"}
+{"sample_id": "zsre-0150734", "client_id": 6, "input_ids": "What network did McMillan & Wife originally appear on?", "label": "Channel 4"}
+{"sample_id": "zsre-0151197", "client_id": 6, "input_ids": "Who fathered Didia Clara?", "label": "Manuel I of Rome"}
+{"sample_id": "zsre-0151334", "client_id": 6, "input_ids": "When is the date of birth of Edith Addams?", "label": "1956"}
+{"sample_id": "zsre-0151343", "client_id": 6, "input_ids": "Which sex or gender can Theresa Arnold be described as?", "label": "male"}
+{"sample_id": "zsre-0152653", "client_id": 6, "input_ids": "In what fictional work would you find a character named Alexis Meade?", "label": "Home and Away"}
+{"sample_id": "zsre-0152711", "client_id": 6, "input_ids": "How did Ava Helen Pauling die?", "label": "heart attack"}
+{"sample_id": "zsre-0153062", "client_id": 6, "input_ids": "What is the name of the city Carmen Julia Álvarez was born in?", "label": "Toledo"}
+{"sample_id": "zsre-0153157", "client_id": 6, "input_ids": "What voice type is Gabriella Gatti?", "label": "contralto"}
+{"sample_id": "zsre-0153253", "client_id": 6, "input_ids": "Which was the voice type that Dwayne Croft had?", "label": "countertenor"}
+{"sample_id": "zsre-0153433", "client_id": 6, "input_ids": "What was Sylvia Jebiwott Kibet's career?", "label": "swimmer"}
+{"sample_id": "zsre-0153545", "client_id": 6, "input_ids": "The date of birth of Sabine Haudepin is?", "label": "1957"}
+{"sample_id": "zsre-0153571", "client_id": 6, "input_ids": "What was the cause of death of Shirley Graham Du Bois?", "label": "lung cancer"}
+{"sample_id": "zsre-0153575", "client_id": 6, "input_ids": "What is the sex of Holly Trostle Brigham?", "label": "male"}
+{"sample_id": "zsre-0153691", "client_id": 6, "input_ids": "Where did Cornelia Connelly live when he died?", "label": "Portsmouth"}
+{"sample_id": "zsre-0153842", "client_id": 6, "input_ids": "In what city did Marie Gasquet die?", "label": "Montreal"}
+{"sample_id": "zsre-0154075", "client_id": 6, "input_ids": "What was Jane Bathori's range?", "label": "mezzo-srano"}
+{"sample_id": "zsre-0154471", "client_id": 6, "input_ids": "What is the language that Jenő is in?", "label": "Estonian"}
+{"sample_id": "zsre-0154488", "client_id": 6, "input_ids": "Who developed Betty Applewhite?", "label": "Raymond Chandler"}
+{"sample_id": "zsre-0154666", "client_id": 6, "input_ids": "Where did Denise Morelle live when he died?", "label": "Rochester"}
+{"sample_id": "zsre-0155204", "client_id": 6, "input_ids": "Which lady Rose Wilder Lane was born to?", "label": "Maura Wilder"}
+{"sample_id": "zsre-0155926", "client_id": 6, "input_ids": "What team did Brittany Boyd play for?", "label": "New York Liberty"}
+{"sample_id": "zsre-0157033", "client_id": 6, "input_ids": "In what city did Chrystal Herne die?", "label": "Chicago"}
+{"sample_id": "zsre-0157369", "client_id": 6, "input_ids": "In which fictional work is Natalie Evans a character?", "label": "Neighbours"}
+{"sample_id": "zsre-0157396", "client_id": 6, "input_ids": "The voice type of Andrea Rost is what?", "label": "contralto"}
+{"sample_id": "zsre-0158350", "client_id": 6, "input_ids": "Which country's citizen was Lucie Svrčinová?", "label": "Lithuania"}
+{"sample_id": "zsre-0159040", "client_id": 6, "input_ids": "What work of fiction is Maya Herrera located in?", "label": "All My Children"}
+{"sample_id": "zsre-0159070", "client_id": 6, "input_ids": "What city did Susan Paul live when he died?", "label": "San Diego"}
+{"sample_id": "zsre-0159168", "client_id": 6, "input_ids": "On what continent can Nusha Hill be found?", "label": "South America"}
+{"sample_id": "zsre-0159363", "client_id": 6, "input_ids": "What was the name of Princess Charlotte of Cambridge mother?", "label": "Diana, Princess of Wales"}
+{"sample_id": "zsre-0159417", "client_id": 6, "input_ids": "What network first aired Valiant Lady?", "label": "Fox Film Corporation"}
+{"sample_id": "zsre-0159427", "client_id": 6, "input_ids": "What is the name university that educated Leena Gade?", "label": "University of Chicago"}
+{"sample_id": "zsre-0159537", "client_id": 6, "input_ids": "What voice type is Lisa Vroman?", "label": "mezzo soprano"}
+{"sample_id": "zsre-0159540", "client_id": 6, "input_ids": "Who was Duchess Marie Antoinette of Mecklenburg's mother?", "label": "Princess Marie of Schwarzburg-Rudolstadt"}
+{"sample_id": "zsre-0160098", "client_id": 6, "input_ids": "In which war did Charlotte Stanley, Countess of Derby fight?", "label": "World War I"}
+{"sample_id": "zsre-0160112", "client_id": 6, "input_ids": "Which show is Ida Barlow in?", "label": "Criminal Minds"}
+{"sample_id": "zsre-0160320", "client_id": 6, "input_ids": "The mother of Duchess Therese Petrovna of Oldenburg is whom?", "label": "Duchess Therese of Nassau-Usingen"}
+{"sample_id": "zsre-0161352", "client_id": 6, "input_ids": "Who served as director for Johansson and Vestman?", "label": "Magnús Scheving"}
+{"sample_id": "zsre-0161446", "client_id": 6, "input_ids": "What noble family was Elizabeth of York part of?", "label": "House"}
+{"sample_id": "zsre-0161624", "client_id": 6, "input_ids": "What disease did Patricia Courtney have?", "label": "heart attack"}
+{"sample_id": "zsre-0162037", "client_id": 6, "input_ids": "What title is held by Saint Sarah?", "label": "blessed"}
+{"sample_id": "zsre-0162463", "client_id": 6, "input_ids": "What fictional work does Christine Appleby exist in?", "label": "Glee"}
+{"sample_id": "zsre-0162738", "client_id": 6, "input_ids": "Who gives out the Academy Award for Best Actress award?", "label": "Academy of Motion Pictures"}
+{"sample_id": "zsre-0163095", "client_id": 6, "input_ids": "Who was Anari directed or edited by?", "label": "Manoj Kumar"}
+{"sample_id": "zsre-0163101", "client_id": 6, "input_ids": "Who is the director of Anari?", "label": "Anil Kumar"}
+{"sample_id": "zsre-0163113", "client_id": 6, "input_ids": "What is the name university that educated Catherine Colonna?", "label": "École Polytechnique"}

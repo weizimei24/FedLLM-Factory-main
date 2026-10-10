@@ -1,0 +1,74 @@
+{
+  "dataset": "same-task cross-domain extractive QA, imbalanced training",
+  "source_dataset": "same_task_cross_domain_qa",
+  "source_manifest_sha256": "2401589b6101675fb6efee5fb3050b568c7afbc86f08927acaf8cad7af58d4ba",
+  "seed": 42,
+  "task": "Context + Question -> Answer",
+  "schema": [
+    "context",
+    "question",
+    "answer"
+  ],
+  "clients": {
+    "0": "squad",
+    "1": "newsqa",
+    "2": "bioasq",
+    "3": "duorc",
+    "4": "textbookqa"
+  },
+  "sampling": {
+    "train_per_client": {
+      "0": 1600,
+      "1": 1400,
+      "2": 500,
+      "3": 700,
+      "4": 800
+    },
+    "total_train": 5000,
+    "test_per_domain": 500
+  },
+  "sources": {
+    "squad": {
+      "sampling_policy": "retain original 1000; add from same MRQA train source",
+      "source_train_sha256": "d8c300cea46775026a312665ae413351e189a167ee2101a814931ab516b5141a",
+      "test_sha256": "f74d7f0a36ee645331c34955c56f214ad35e16409906518f88d39068bd1f7a65",
+      "train_rows": 1600,
+      "test_rows": 500,
+      "raw_train_sha256": "b094703b9c6f740cc2dfd70b3201b833553fcec0c8a522f22c2c6ff82ce2cc78",
+      "added_rows": 600
+    },
+    "newsqa": {
+      "sampling_policy": "retain original 1000; add from same MRQA train source",
+      "source_train_sha256": "3b6dc1dc31c9ec0b41de1c95cd8ace8a81290e48ba2469c962f0a0fb5fd47015",
+      "test_sha256": "672703d930189316893552233cce9346934c4c534b7f2ae2709725cc0451c96a",
+      "train_rows": 1400,
+      "test_rows": 500,
+      "raw_train_sha256": "f1ccbf2d259ce1094aacde21a53592894248e5778814205dac94f0b086dbe968",
+      "added_rows": 400
+    },
+    "bioasq": {
+      "sampling_policy": "sample subset of original 1000 training rows",
+      "source_train_sha256": "a512bbfcd6b5593363d231b7409a40e3f9493fc43dc93603e5b2744d4c13c5b1",
+      "test_sha256": "47f8c1fa1df6b6709a7288f1a77a1234873d5f12c76c778bc1c842f9e379493d",
+      "train_rows": 500,
+      "test_rows": 500,
+      "added_rows": 0
+    },
+    "duorc": {
+      "sampling_policy": "sample subset of original 1000 training rows",
+      "source_train_sha256": "72b629e39399ad9fc27151aa7573e8c43dd73ad5fc7052eb10c6bc98309c96b1",
+      "test_sha256": "6078c5fac36a87e3ae3361f046d0f4762493ad0fd9b38400da58ddfd6b6547ed",
+      "train_rows": 700,
+      "test_rows": 500,
+      "added_rows": 0
+    },
+    "textbookqa": {
+      "sampling_policy": "sample subset of original 1000 training rows",
+      "source_train_sha256": "1e00bfa7729082ee349661d7e5741d06403142bb1ed852bdc66544b1be10a34d",
+      "test_sha256": "1e5779be7d49ef2e53056d7d73904edf374b020f6b0975b99c262380d0331a53",
+      "train_rows": 800,
+      "test_rows": 500,
+      "added_rows": 0
+    }
+  }
+}

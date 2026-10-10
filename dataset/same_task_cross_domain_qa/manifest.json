@@ -1,0 +1,101 @@
+{
+  "dataset": "same-task cross-domain extractive QA",
+  "created_at_utc": "2026-09-22T15:54:06.246191+00:00",
+  "seed": 42,
+  "clients": {
+    "0": "squad",
+    "1": "newsqa",
+    "2": "bioasq",
+    "3": "duorc",
+    "4": "textbookqa"
+  },
+  "sampling": {
+    "train_per_domain": 1000,
+    "test_per_domain": 500
+  },
+  "task": "Context + Question -> Answer",
+  "schema": [
+    "context",
+    "question",
+    "answer"
+  ],
+  "document_split": "complete MRQA context SHA-256; no context hash is shared across train/test",
+  "sources": {
+    "squad": {
+      "mrqa_mode": "released_splits",
+      "train_url": "https://s3.us-east-2.amazonaws.com/mrqa/release/v2/train/SQuAD.jsonl.gz",
+      "test_url": "https://s3.us-east-2.amazonaws.com/mrqa/release/v2/dev/SQuAD.jsonl.gz",
+      "raw_sha256": {
+        "train": "b094703b9c6f740cc2dfd70b3201b833553fcec0c8a522f22c2c6ff82ce2cc78",
+        "test": "5afa4b088adf297fc29374ddf2d44d974b8837380e2554e62edf258fee5c32ee"
+      },
+      "usable_rows": {
+        "train": 86588,
+        "test": 10507
+      },
+      "train_candidates_after_test_document_exclusion": 86588,
+      "output_rows": {
+        "train": 1000,
+        "test": 500
+      },
+      "train_test_question_overlap": 0,
+      "train_test_document_overlap": 0
+    },
+    "newsqa": {
+      "mrqa_mode": "released_splits",
+      "train_url": "https://s3.us-east-2.amazonaws.com/mrqa/release/v2/train/NewsQA.jsonl.gz",
+      "test_url": "https://s3.us-east-2.amazonaws.com/mrqa/release/v2/dev/NewsQA.jsonl.gz",
+      "raw_sha256": {
+        "train": "f1ccbf2d259ce1094aacde21a53592894248e5778814205dac94f0b086dbe968",
+        "test": "66bfb10cab2029bbc7d1afaece20c35fac341b1c179d15b70fde22a207f096ae"
+      },
+      "usable_rows": {
+        "train": 74160,
+        "test": 4212
+      },
+      "train_candidates_after_test_document_exclusion": 73935,
+      "output_rows": {
+        "train": 1000,
+        "test": 500
+      },
+      "train_test_question_overlap": 0,
+      "train_test_document_overlap": 0
+    },
+    "bioasq": {
+      "mrqa_mode": "partition_single_mrqa_file",
+      "source_url": "https://participants-area.bioasq.org/MRQA2019/",
+      "raw_sha256": "d8f237baea33bd0f4a664ef37ccd893cc682fd9458383dc1d1b8eb4685bb9efc",
+      "usable_rows": 1504,
+      "output_rows": {
+        "train": 1000,
+        "test": 500
+      },
+      "train_test_question_overlap": 0,
+      "train_test_document_overlap": 0
+    },
+    "duorc": {
+      "mrqa_mode": "partition_single_mrqa_file",
+      "source_url": "https://s3.us-east-2.amazonaws.com/mrqa/release/v2/dev/DuoRC.ParaphraseRC.jsonl.gz",
+      "raw_sha256": "aeb8b9a31044be2ba3d62a456d61b2d447ff76dabe6fa77260b6efed0fb4c010",
+      "usable_rows": 1501,
+      "output_rows": {
+        "train": 1000,
+        "test": 500
+      },
+      "train_test_question_overlap": 0,
+      "train_test_document_overlap": 0
+    },
+    "textbookqa": {
+      "mrqa_mode": "partition_single_mrqa_file",
+      "source_url": "https://s3.us-east-2.amazonaws.com/mrqa/release/v2/dev/TextbookQA.jsonl.gz",
+      "raw_sha256": "1e861f197e739ead1947c60fa0917a02205dd48a559502194d7085ccd8608b64",
+      "usable_rows": 1503,
+      "output_rows": {
+        "train": 1000,
+        "test": 500
+      },
+      "train_test_question_overlap": 0,
+      "train_test_document_overlap": 0
+    }
+  }
+}

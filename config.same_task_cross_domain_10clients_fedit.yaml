@@ -1,0 +1,28 @@
+# Ten-client FedIT: two 500-row clients for each of five QA domains.
+alg: fedit
+suffix: same_task_cross_domain_qa_10clients_fedit
+device: 0
+dataset: same_task_cross_domain_qa_10clients
+model: Qwen3-1.7B
+task_type: CAUSAL_LM
+seed: 42
+deterministic: true
+
+cn: 10
+sr: 1.0
+rnd: 10
+test_gap: 1
+cross_domain_qa: true
+
+bs: 1
+grad_accum: 8
+epoch: 1
+# 500 batches give 62 full accumulation updates plus one final partial update.
+step: 63
+lr: 0.0001
+eval_batch_size: 8
+
+mode: prototype
+lora_rank: 8
+lora_alpha: 32
+lora_dropout: 0.05

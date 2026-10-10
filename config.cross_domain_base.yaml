@@ -1,0 +1,22 @@
+# Untrained Qwen3 base-model evaluation on the fixed four-domain QA test sets.
+alg: base
+suffix: cross_domain_mrqa_2k_base
+device: 0
+dataset: cross_domain_mrqa_2k
+model: Qwen3-1.7B
+task_type: CAUSAL_LM
+seed: 42
+deterministic: true
+
+# These fields preserve the shared experiment metadata; no clients are trained.
+cn: 4
+sr: 1.0
+rnd: 1
+test_gap: 1
+cross_domain_qa: true
+eval_batch_size: 8
+
+mode: prototype
+lora_rank: 8
+lora_alpha: 32
+lora_dropout: 0.05

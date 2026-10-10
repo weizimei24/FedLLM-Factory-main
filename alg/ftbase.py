@@ -17,12 +17,13 @@ class FTBaseClient(BaseClient):
         self.tokenizer = load_tokenizer(args)
         self.dataset = load_data(args=args, idx=self.id)
         self.lora = {}
+        self.last_train_loss = None
         self.trainer = Trainer(args=args, dataset=self.dataset, client=self)
         self.evaluator = None if (args.global_test or getattr(args, 'cross_domain_qa', False)) else Evaluator(args=args, dataset=self.dataset)
 
     @time_record
     def run(self, model):
-        self.trainer.train(model)
+        self.last_train_loss = self.trainer.train(model)
         self.lora = {k: v.clone() for k, v in model.state_dict().items() if "lora_" in k}
 
     def local_test(self, model):
@@ -89,7 +90,7 @@ class FTBaseServer(BaseServer):
 
     def test_all(self):
         if getattr(self.args, 'cross_domain_qa', False):
-            print("Testing aggregated global model on four named MRQA domain test sets ...")
+            print("Testing aggregated global model on named extractive-QA domain test sets ...")
             return self.global_evaluator.evaluate(
                 self.model, self.clients[0].tokenizer, round_idx=self.round, method=self.args.alg
             )

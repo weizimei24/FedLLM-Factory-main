@@ -3,6 +3,12 @@
 Run from the repository root:
     python -X utf8 dataset/prepare_cross_domain_mrqa.py
 
+To create a nested 2,000-example-per-domain variant while preserving the
+existing test files exactly:
+    python -X utf8 dataset/prepare_cross_domain_mrqa.py --train-size 2000 \
+        --test-size 200 --output-dir dataset/cross_domain_mrqa_2k \
+        --extend-from dataset/cross_domain_mrqa
+
 The Hugging Face ``mrqa`` builder supplies a common extractive-QA schema for
 all four sources. Train data are sampled only from ``train``; test data prefer
 ``validation`` (then ``dev`` or ``test`` if a builder exposes a different
@@ -182,6 +188,13 @@ def _write_jsonl(path: Path, rows: list[dict]) -> None:
             handle.write(json.dumps(row, ensure_ascii=False) + "\n")
 
 
+def _read_jsonl(path: Path) -> list[dict]:
+    if not path.is_file():
+        raise FileNotFoundError(f"Missing JSONL file: {path}")
+    with path.open("r", encoding="utf-8") as handle:
+        return [json.loads(line) for line in handle if line.strip()]
+
+
 def _ids_hash(rows: list[dict]) -> str:
     return hashlib.sha256("\n".join(sorted(row["id"] for row in rows)).encode("utf-8")).hexdigest()
 
@@ -205,6 +218,50 @@ def _sample_rows(dataset, domain: str, count: int, seed: int) -> tuple[list[dict
     return random.Random(seed).sample(usable, count), len(usable)
 
 
+def _extend_rows(
+    dataset,
+    domain: str,
+    count: int,
+    seed: int,
+    existing_rows: list[dict],
+) -> tuple[list[dict], int]:
+    """Deterministically extend an existing sample without replacing its rows."""
+    usable = []
+    for row in dataset:
+        converted = _canonicalise(row, domain)
+        if converted is not None:
+            usable.append(converted)
+
+    existing_ids = {str(row["id"]) for row in existing_rows}
+    if len(existing_ids) != len(existing_rows):
+        raise ValueError(f"{domain}: existing training sample contains duplicate IDs")
+    if len(existing_rows) > count:
+        raise ValueError(
+            f"{domain}: existing sample has {len(existing_rows)} rows, exceeding requested {count}"
+        )
+
+    usable_ids = {str(row["id"]) for row in usable}
+    missing = existing_ids - usable_ids
+    if missing:
+        raise ValueError(
+            f"{domain}: {len(missing)} existing IDs are absent from the current MRQA train source"
+        )
+
+    candidates = [row for row in usable if str(row["id"]) not in existing_ids]
+    needed = count - len(existing_rows)
+    if len(candidates) < needed:
+        raise ValueError(
+            f"{domain}: requested {needed} additional rows but found only {len(candidates)}"
+        )
+    additions = random.Random(seed).sample(candidates, needed)
+    return list(existing_rows) + additions, len(usable)
+
+
+def _resolve_project_path(value: str | Path) -> Path:
+    path = Path(value)
+    return path if path.is_absolute() else PROJECT_ROOT / path
+
+
 def _statistics(rows: list[dict], tokenizer) -> dict:
     def average(field: str) -> float:
         return sum(len(tokenizer(row[field], add_special_tokens=False)["input_ids"]) for row in rows) / len(rows)
@@ -225,8 +282,42 @@ def main() -> int:
     parser.add_argument("--train-size", type=int, default=TRAIN_SIZE)
     parser.add_argument("--test-size", type=int, default=TEST_SIZE)
     parser.add_argument("--tokenizer", default="Qwen3-1.7B", help="tokenizer used for saved length statistics")
+    parser.add_argument(
+        "--output-dir",
+        default=str(OUTPUT_DIR),
+        help="output dataset directory (absolute or relative to the repository root)",
+    )
+    parser.add_argument(
+        "--extend-from",
+        default=None,
+        help=(
+            "existing dataset directory whose train rows are retained and whose test files "
+            "are copied byte-for-byte"
+        ),
+    )
+    parser.add_argument(
+        "--raw-dir",
+        default=None,
+        help="optional shared MRQA download directory; defaults to <extend-from>/raw when extending",
+    )
     args = parser.parse_args()
+    output_dir = _resolve_project_path(args.output_dir)
+    extend_from = _resolve_project_path(args.extend_from) if args.extend_from else None
+    if extend_from is not None and output_dir.resolve() == extend_from.resolve():
+        raise ValueError("--output-dir must differ from --extend-from to preserve the source dataset")
+    raw_dir = (
+        _resolve_project_path(args.raw_dir)
+        if args.raw_dir
+        else (extend_from / "raw" if extend_from is not None else output_dir / "raw")
+    )
     tokenizer = AutoTokenizer.from_pretrained(args.tokenizer)
+
+    base_manifest = {}
+    if extend_from is not None:
+        manifest_path = extend_from / "manifest.json"
+        if not manifest_path.is_file():
+            raise FileNotFoundError(f"Missing source manifest: {manifest_path}")
+        base_manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
 
     manifest = {
         "dataset": "MRQA cross-domain extractive QA pilot",
@@ -238,10 +329,13 @@ def main() -> int:
         "schema": {"label": "first source-order gold answer found in context", "answers": "all source gold answer strings"},
         "context_window": {"max_chars": CONTEXT_WINDOW_CHARS, "strategy": "answer-centred"},
     }
+    if extend_from is not None:
+        manifest["sampling_strategy"] = "retain all existing train rows and add deterministic non-overlapping rows"
+        manifest["extended_from"] = str(extend_from.relative_to(PROJECT_ROOT))
+        manifest["test_reuse"] = "copied byte-for-byte from extended_from"
     statistics = {"tokenizer": args.tokenizer, "domains": {}}
     for client_id, domain in enumerate(DOMAINS):
         print(f"Downloading/checking MRQA {domain} train and validation ...")
-        raw_dir = OUTPUT_DIR / "raw"
         train_url = f"{MRQA_BASE_URL}/train/{SOURCES[domain]['train']}"
         test_url = f"{MRQA_BASE_URL}/dev/{SOURCES[domain]['validation']}"
         train_path = raw_dir / f"{domain}_train.jsonl.gz"
@@ -249,17 +343,42 @@ def main() -> int:
         _download(train_url, train_path)
         _download(test_url, test_path)
         # Different deterministic streams prevent accidental same-index choices.
-        train_rows, train_source_count = _sample_rows(
-            _iter_mrqa_rows(train_path), domain, args.train_size, args.seed + client_id * 100
-        )
-        test_rows, test_source_count = _sample_rows(
-            _iter_mrqa_rows(test_path), domain, args.test_size, args.seed + client_id * 100 + 1
-        )
+        if extend_from is None:
+            train_rows, train_source_count = _sample_rows(
+                _iter_mrqa_rows(train_path), domain, args.train_size, args.seed + client_id * 100
+            )
+            test_rows, test_source_count = _sample_rows(
+                _iter_mrqa_rows(test_path), domain, args.test_size, args.seed + client_id * 100 + 1
+            )
+        else:
+            existing_train = _read_jsonl(extend_from / "train" / f"{client_id}.jsonl")
+            train_rows, train_source_count = _extend_rows(
+                _iter_mrqa_rows(train_path),
+                domain,
+                args.train_size,
+                args.seed + client_id * 100,
+                existing_train,
+            )
+            source_test_path = extend_from / "test" / f"{domain}.jsonl"
+            test_rows = _read_jsonl(source_test_path)
+            if len(test_rows) != args.test_size:
+                raise ValueError(
+                    f"{domain}: source test has {len(test_rows)} rows, expected {args.test_size}"
+                )
+            test_source_count = int(
+                base_manifest.get("sources", {}).get(domain, {})
+                .get("source_usable_counts", {}).get("validation", len(test_rows))
+            )
         train_ids, test_ids = {row["id"] for row in train_rows}, {row["id"] for row in test_rows}
         if train_ids & test_ids:
             raise RuntimeError(f"{domain}: train/test ID overlap detected")
-        _write_jsonl(OUTPUT_DIR / "train" / f"{client_id}.jsonl", train_rows)
-        _write_jsonl(OUTPUT_DIR / "test" / f"{domain}.jsonl", test_rows)
+        _write_jsonl(output_dir / "train" / f"{client_id}.jsonl", train_rows)
+        output_test_path = output_dir / "test" / f"{domain}.jsonl"
+        if extend_from is None:
+            _write_jsonl(output_test_path, test_rows)
+        else:
+            output_test_path.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copy2(extend_from / "test" / f"{domain}.jsonl", output_test_path)
         manifest["sources"][domain] = {
             "format": "official MRQA v2 JSONL.GZ",
             "train_split": "train",
@@ -278,9 +397,9 @@ def main() -> int:
         }
         print(f"{domain}: train={len(train_rows)}, test={len(test_rows)}")
 
-    (OUTPUT_DIR / "manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    (OUTPUT_DIR / "statistics.json").write_text(json.dumps(statistics, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(f"Prepared data under {OUTPUT_DIR}")
+    (output_dir / "manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    (output_dir / "statistics.json").write_text(json.dumps(statistics, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    print(f"Prepared data under {output_dir}")
     return 0
 
 

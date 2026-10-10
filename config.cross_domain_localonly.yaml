@@ -1,0 +1,29 @@
+# Four independent domain-local LoRA baselines; no federated aggregation.
+alg: localonly
+suffix: cross_domain_mrqa_2k_localonly
+device: 0
+dataset: cross_domain_mrqa_2k
+model: Qwen3-1.7B
+task_type: CAUSAL_LM
+seed: 42
+deterministic: true
+
+# One client per domain; all four train independently in every round.
+cn: 4
+sr: 1.0
+rnd: 10
+test_gap: 1
+cross_domain_qa: true
+
+# 2,000 examples / (batch size 1 * accumulation 8) = 250 updates per round.
+bs: 1
+grad_accum: 8
+epoch: 1
+step: 250
+lr: 0.0001
+eval_batch_size: 8
+
+mode: prototype
+lora_rank: 8
+lora_alpha: 32
+lora_dropout: 0.05

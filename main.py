@@ -45,8 +45,29 @@ class FedSim:
                 self.server.round = rnd
                 self.server.run()
 
-                # A snapshot is taken immediately after aggregation, before
-                # evaluation, so every reported point can be reproduced later.
+                # A one-client run is the repository's centralized baseline
+                # (both ``alg: centralized`` and the legacy SQuAD ``cn: 1``
+                # configuration). Record its round-average training loss even
+                # when evaluation is skipped by ``test_gap``.
+                if hasattr(self.server, 'get_round_train_metrics'):
+                    train_metrics = self.server.get_round_train_metrics()
+                elif self.args.cn == 1:
+                    train_loss = getattr(self.server.sampled_clients[0], 'last_train_loss', None)
+                    train_metrics = {} if train_loss is None else {'train_loss': train_loss}
+                else:
+                    train_metrics = {}
+                if train_metrics:
+                    train_metrics_str = '  '.join(
+                        f'{key}: {value:.4f}' for key, value in train_metrics.items()
+                    )
+                    self.logger.info(
+                        f'[Round {rnd}] {train_metrics_str}  '
+                        f'wall_clock: {self.server.wall_clock_time}'
+                    )
+
+                # Post-round state is captured before evaluation. Federated
+                # methods save client states plus a global adapter; local-only
+                # saves only its four independent client states.
                 if getattr(self.args, 'cross_domain_qa', False) and hasattr(self.server, 'save_round_adapter'):
                     self.server.save_client_updates(rnd)   # 新增：保存 4 个 Δ_i
                     self.server.save_round_adapter(rnd)

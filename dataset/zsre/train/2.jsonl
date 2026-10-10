@@ -1,0 +1,500 @@
+{"sample_id": "zsre-0000024", "client_id": 2, "input_ids": "What kind of  occupation does Karim-Mohamed Maamoun have?", "label": "architect"}
+{"sample_id": "zsre-0000934", "client_id": 2, "input_ids": "What is the name of the performer that released the album Y No Puedo Olvidarte?", "label": "Sancha García"}
+{"sample_id": "zsre-0001396", "client_id": 2, "input_ids": "What is the language Nälkämaan laulu is written in?", "label": "Estonian"}
+{"sample_id": "zsre-0001800", "client_id": 2, "input_ids": "In which country did Imam-Quli Khan live?", "label": "Afghanistan"}
+{"sample_id": "zsre-0002060", "client_id": 2, "input_ids": "What state is Kondamuru located?", "label": "Uttarakhand"}
+{"sample_id": "zsre-0002099", "client_id": 2, "input_ids": "What caused Leon Botha's death?", "label": "prostate cancer"}
+{"sample_id": "zsre-0002194", "client_id": 2, "input_ids": "What network did O Rei do Gado originally appear on?", "label": "Rai 1"}
+{"sample_id": "zsre-0002467", "client_id": 2, "input_ids": "Who was the director for Japon İşi?", "label": "Man Ray"}
+{"sample_id": "zsre-0002781", "client_id": 2, "input_ids": "Which is the body of water by Karelia?", "label": "White Sea"}
+{"sample_id": "zsre-0003001", "client_id": 2, "input_ids": "What is the position of Mirza Hameedullah Beg?", "label": "Defence Minister of Afghanistan"}
+{"sample_id": "zsre-0003131", "client_id": 2, "input_ids": "What cause of death was listed for Marthe Hanau?", "label": "hunting accident"}
+{"sample_id": "zsre-0003714", "client_id": 2, "input_ids": "Which country is Ramadan Abdel Rehim Mansour from?", "label": "Syria"}
+{"sample_id": "zsre-0003816", "client_id": 2, "input_ids": "On what moon or planet can Huo Hsing Vallis be found?", "label": "Mercury"}
+{"sample_id": "zsre-0004268", "client_id": 2, "input_ids": "Which was the family of Collinia?", "label": "Noctuidae"}
+{"sample_id": "zsre-0004274", "client_id": 2, "input_ids": "What is Sergio Buenacasa's position in football?", "label": "goalkeeper"}
+{"sample_id": "zsre-0004325", "client_id": 2, "input_ids": "Which state is Sangarcía located?", "label": "Puebla"}
+{"sample_id": "zsre-0004772", "client_id": 2, "input_ids": "What sports team was Wanderson Maciel Sousa Campos a member of?", "label": "CF União"}
+{"sample_id": "zsre-0005127", "client_id": 2, "input_ids": "Which original network is part of El retrato de un canalla?", "label": "Canal+"}
+{"sample_id": "zsre-0005221", "client_id": 2, "input_ids": "What is the name of the stadium where Deportes Melipilla plays home games?", "label": "Estadio Municipal Professor Dario Rodrigues Leite"}
+{"sample_id": "zsre-0005457", "client_id": 2, "input_ids": "What league was Bakılı PFK?", "label": "Azerbaijan Premier League"}
+{"sample_id": "zsre-0005476", "client_id": 2, "input_ids": "Where do Associação Esportiva Tiradentes play their home games?", "label": "Serejão"}
+{"sample_id": "zsre-0006530", "client_id": 2, "input_ids": "What is the vocal range for Tancredi Pasero?", "label": "bass"}
+{"sample_id": "zsre-0006560", "client_id": 2, "input_ids": "What is the status of Syncaris pacifica?", "label": "endangered endangered"}
+{"sample_id": "zsre-0007087", "client_id": 2, "input_ids": "What company made Infiniti Kuraza?", "label": "Isuzu Motors"}
+{"sample_id": "zsre-0009040", "client_id": 2, "input_ids": "The voice type of Essi Wuorela is what?", "label": "mezzo soprano"}
+{"sample_id": "zsre-0009905", "client_id": 2, "input_ids": "In which state is Lannen located?", "label": "Hesse"}
+{"sample_id": "zsre-0010289", "client_id": 2, "input_ids": "What is the name of István Lakatos's team?", "label": "Debreceni VSC"}
+{"sample_id": "zsre-0010693", "client_id": 2, "input_ids": "Where are the home games of San Marino Calcio played?", "label": "Stadion an der Gellertstraße"}
+{"sample_id": "zsre-0010704", "client_id": 2, "input_ids": "The college Toma Barbu Socolescu attended was what?", "label": "National Autonomous University of Mexico"}
+{"sample_id": "zsre-0010801", "client_id": 2, "input_ids": "What team is Florin Nanu affiliated with?", "label": "FC Costuleni"}
+{"sample_id": "zsre-0010802", "client_id": 2, "input_ids": "Where did Ladislau Biernaski live when he died?", "label": "Saint-Pier"}
+{"sample_id": "zsre-0011204", "client_id": 2, "input_ids": "What is Mengu-Timur's father's name?", "label": "Mengu-nirari"}
+{"sample_id": "zsre-0011505", "client_id": 2, "input_ids": "What is the astronomical body that Thomagata Patera is located on?", "label": "Ion"}
+{"sample_id": "zsre-0011874", "client_id": 2, "input_ids": "Which family does Bourgueticrinida belong to?", "label": "Tineidae"}
+{"sample_id": "zsre-0012157", "client_id": 2, "input_ids": "What was the designer of Villa Jeanneret-Perret's name?", "label": "Le Corbusier the Elder"}
+{"sample_id": "zsre-0012371", "client_id": 2, "input_ids": "What is the home arena for Real Garcilaso?", "label": "Garcilaso"}
+{"sample_id": "zsre-0012389", "client_id": 2, "input_ids": "What team does Saša Zečević play for?", "label": "FK Senica"}
+{"sample_id": "zsre-0013076", "client_id": 2, "input_ids": "Which planet is Dazhbog Patera located?", "label": "Iberia"}
+{"sample_id": "zsre-0013205", "client_id": 2, "input_ids": "What was Auricélio Soares dos Santos's position?", "label": "goalkeeper"}
+{"sample_id": "zsre-0013377", "client_id": 2, "input_ids": "What was the noble family that Philippine de Rothschild was from?", "label": "Rothschild dynasty"}
+{"sample_id": "zsre-0014254", "client_id": 2, "input_ids": "How endangered does the iucn consider Capoeta pestai?", "label": "endangered species"}
+{"sample_id": "zsre-0014255", "client_id": 2, "input_ids": "What is the endangered status of Capoeta pestai?", "label": "critically threatened"}
+{"sample_id": "zsre-0014428", "client_id": 2, "input_ids": "What production company was involved in Chittod Ki Rani Padmini Ka Johur?", "label": "Jyoti Productions"}
+{"sample_id": "zsre-0014504", "client_id": 2, "input_ids": "Which ethnic group does Stanislas Merhar belong?", "label": "Spanish"}
+{"sample_id": "zsre-0014867", "client_id": 2, "input_ids": "Who was Rodolfo De Benedetti's paternal figure?", "label": "Gian Lorenzo De Benedetti"}
+{"sample_id": "zsre-0015176", "client_id": 2, "input_ids": "On what instrument is Sur le même accord played?", "label": "accordion"}
+{"sample_id": "zsre-0015514", "client_id": 2, "input_ids": "Which country is Frieder Nake a citizen of?", "label": "Switzerland"}
+{"sample_id": "zsre-0015770", "client_id": 2, "input_ids": "What is the name of the airport associated with Grozny Avia?", "label": "Grozny Airport, Kraków"}
+{"sample_id": "zsre-0016652", "client_id": 2, "input_ids": "The date of birth for Aristóbulo Istúriz is what?", "label": "19 March 1990"}
+{"sample_id": "zsre-0016926", "client_id": 2, "input_ids": "What was Ermonela Jaho's range?", "label": "countertenor"}
+{"sample_id": "zsre-0017129", "client_id": 2, "input_ids": "Which state is Anuanurunga located?", "label": "Tampere"}
+{"sample_id": "zsre-0017246", "client_id": 2, "input_ids": "On what planet is Ladoga Lacus on?", "label": "Lake Ladoga"}
+{"sample_id": "zsre-0017718", "client_id": 2, "input_ids": "What was Marija Lucija Stupica's occupation?", "label": "painter"}
+{"sample_id": "zsre-0017825", "client_id": 2, "input_ids": "What is the name of the Estádio José Alvalade architect?", "label": "René Magritte"}
+{"sample_id": "zsre-0017855", "client_id": 2, "input_ids": "What river is Rolava a tributary of?", "label": "Danube"}
+{"sample_id": "zsre-0018020", "client_id": 2, "input_ids": "In what city was Amin-Salim Jarjora born?", "label": "Dakar"}
+{"sample_id": "zsre-0018704", "client_id": 2, "input_ids": "Who desigened Canon de 24 de Vallière?", "label": "Florent Nédélec"}
+{"sample_id": "zsre-0019195", "client_id": 2, "input_ids": "The country for Urakara was what?", "label": "Netherlands"}
+{"sample_id": "zsre-0019480", "client_id": 2, "input_ids": "What is the year 47 Tucanae discovered?", "label": "1752"}
+{"sample_id": "zsre-0019542", "client_id": 2, "input_ids": "In which country did Graziella Curreli live?", "label": "France"}
+{"sample_id": "zsre-0019888", "client_id": 2, "input_ids": "In what language is LaLa DX?", "label": "DX"}
+{"sample_id": "zsre-0020137", "client_id": 2, "input_ids": "What is Dele Adeleye's country of original?", "label": "Kenya"}
+{"sample_id": "zsre-0020472", "client_id": 2, "input_ids": "Which family is Afilia a part of?", "label": "Tephritidae"}
+{"sample_id": "zsre-0020569", "client_id": 2, "input_ids": "Who are the stars of the film Le Garçu?", "label": "Gérard Depardieu"}
+{"sample_id": "zsre-0020787", "client_id": 2, "input_ids": "To which fictional work does Ahasuerus belong in?", "label": "The Silmarils"}
+{"sample_id": "zsre-0020931", "client_id": 2, "input_ids": "What was Iago Beceiro's team?", "label": "Real Zaragoza"}
+{"sample_id": "zsre-0021072", "client_id": 2, "input_ids": "Which country is Nikiforos Diamandouros from?", "label": "Lithuania"}
+{"sample_id": "zsre-0022074", "client_id": 2, "input_ids": "On what celestial body is Licus Vallis located?", "label": "Moon"}
+{"sample_id": "zsre-0022359", "client_id": 2, "input_ids": "What is the language that Kiitos ei ole kirosana is in?", "label": "Estonian"}
+{"sample_id": "zsre-0023594", "client_id": 2, "input_ids": "What was Torben Boye's team?", "label": "EHC Black Wings"}
+{"sample_id": "zsre-0023692", "client_id": 2, "input_ids": "What kind of family is Sedenia of?", "label": "Tineidae"}
+{"sample_id": "zsre-0023990", "client_id": 2, "input_ids": "Which gender does Ayşe Melis Gürkaynak belong to?", "label": "male"}
+{"sample_id": "zsre-0024100", "client_id": 2, "input_ids": "The cause of death for Athos Bulcão was what?", "label": "Parkinson's cancer"}
+{"sample_id": "zsre-0024162", "client_id": 2, "input_ids": "Which was the country for Padharo Mhare Des?", "label": "Telangana"}
+{"sample_id": "zsre-0024201", "client_id": 2, "input_ids": "What production company or companies created Ustaadon Ka Ustaad?", "label": "Yash Raj Films"}
+{"sample_id": "zsre-0024370", "client_id": 2, "input_ids": "What is the birth date of José Teña?", "label": "18 March 1891"}
+{"sample_id": "zsre-0024898", "client_id": 2, "input_ids": "The voice type of Cesira Ferrani is what?", "label": "contralto"}
+{"sample_id": "zsre-0025469", "client_id": 2, "input_ids": "What show is Tol Eressëa from?", "label": "Game of Thrones"}
+{"sample_id": "zsre-0026432", "client_id": 2, "input_ids": "In what city was Gonzalo Morales Sáurez born?", "label": "Toluca"}
+{"sample_id": "zsre-0026587", "client_id": 2, "input_ids": "Where does Esporte Clube São Judas Tadeu play its game?", "label": "Baenão"}
+{"sample_id": "zsre-0027888", "client_id": 2, "input_ids": "What football position did Edon Hasani play?", "label": "goalkeeper"}
+{"sample_id": "zsre-0028061", "client_id": 2, "input_ids": "What kind of family is Sanderia of?", "label": "Geometridae"}
+{"sample_id": "zsre-0028464", "client_id": 2, "input_ids": "What type of universe is Vala Mal Doran a fictional character in?", "label": "Forgotten Realms"}
+{"sample_id": "zsre-0028491", "client_id": 2, "input_ids": "What is the name of the state where Kulak-e Bordabal is located?", "label": "Kulak Rural District"}
+{"sample_id": "zsre-0028691", "client_id": 2, "input_ids": "Which player position does Vicente Flor belong to?", "label": "defender"}
+{"sample_id": "zsre-0028759", "client_id": 2, "input_ids": "What is the name of the person who designed USRA Light Mikado?", "label": "United StatesRA"}
+{"sample_id": "zsre-0028778", "client_id": 2, "input_ids": "Which family is Crisilla a part of?", "label": "Geometridae"}
+{"sample_id": "zsre-0029195", "client_id": 2, "input_ids": "In what place did Agostino Barbarigo die?", "label": "Genoa"}
+{"sample_id": "zsre-0029874", "client_id": 2, "input_ids": "What is an ecological status of Andean flamingo?", "label": "flamingo"}
+{"sample_id": "zsre-0030022", "client_id": 2, "input_ids": "Which family does Huperzia belong to?", "label": "Geometridae"}
+{"sample_id": "zsre-0030204", "client_id": 2, "input_ids": "Who directed the film La dottoressa sotto il lenzuolo?", "label": "Mario Morra"}
+{"sample_id": "zsre-0030538", "client_id": 2, "input_ids": "Which family is Fuciniceras a part of?", "label": "Noctuidae"}
+{"sample_id": "zsre-0030558", "client_id": 2, "input_ids": "Which country does Harshad Khadiwale belong to?", "label": "Pakistan"}
+{"sample_id": "zsre-0030783", "client_id": 2, "input_ids": "What is the cause of death of Nowroji Saklatwala?", "label": "accident"}
+{"sample_id": "zsre-0031823", "client_id": 2, "input_ids": "What noble family was José, Prince of Brazil part of?", "label": "Hohenzollern"}
+{"sample_id": "zsre-0031986", "client_id": 2, "input_ids": "Which college or university is related with Amol Sarva?", "label": "Harvard University"}
+{"sample_id": "zsre-0032080", "client_id": 2, "input_ids": "Which city was the birthplace of Yann Bonato?", "label": "Santiago"}
+{"sample_id": "zsre-0032110", "client_id": 2, "input_ids": "What is the place of birth of Yulia Lipnitskaya?", "label": "Baku"}
+{"sample_id": "zsre-0032539", "client_id": 2, "input_ids": "What league was FC Dinamo MVD Bishkek?", "label": "Belarusian Second League"}
+{"sample_id": "zsre-0032540", "client_id": 2, "input_ids": "What football league is FC Dinamo MVD Bishkek a part of?", "label": "Umaglesi Liga"}
+{"sample_id": "zsre-0032810", "client_id": 2, "input_ids": "What is the country Ecaterina Cercheza is from?", "label": "Spain"}
+{"sample_id": "zsre-0033054", "client_id": 2, "input_ids": "Of what country is Te Mete Raukawa a citizen?", "label": "Cook Islands"}
+{"sample_id": "zsre-0034013", "client_id": 2, "input_ids": "What kind of  occupation does Ludovico Rusconi Sassi have?", "label": "architect"}
+{"sample_id": "zsre-0034325", "client_id": 2, "input_ids": "What is the position of Loukima Tamoukini?", "label": "President of Mauritius"}
+{"sample_id": "zsre-0034427", "client_id": 2, "input_ids": "The designer for Casa Serra was?", "label": "Josep Puigcorbé"}
+{"sample_id": "zsre-0034835", "client_id": 2, "input_ids": "Where do La Paz F.C. play their home games?", "label": "Estadio Hernando Gaitán"}
+{"sample_id": "zsre-0034836", "client_id": 2, "input_ids": "What is the home arena for La Paz F.C.?", "label": "Estadio La Paz"}
+{"sample_id": "zsre-0035970", "client_id": 2, "input_ids": "What was the name of Cao Ang mother?", "label": "Empress Zhangsun"}
+{"sample_id": "zsre-0036114", "client_id": 2, "input_ids": "What was Muideen Akanji's occupation?", "label": "singer"}
+{"sample_id": "zsre-0036220", "client_id": 2, "input_ids": "Which company manufactured Autobianchi Primula?", "label": "Fiat Motors"}
+{"sample_id": "zsre-0036276", "client_id": 2, "input_ids": "What network hosts Buniyaad?", "label": "Zee TV"}
+{"sample_id": "zsre-0037305", "client_id": 2, "input_ids": "The L'abbaye truquée is part of a what series?", "label": "Les Rougon-Macquart"}
+{"sample_id": "zsre-0037841", "client_id": 2, "input_ids": "On what celestial body is Tyrrhena Terra located?", "label": "Pluto"}
+{"sample_id": "zsre-0037842", "client_id": 2, "input_ids": "Where is Tyrrhena Terra found?", "label": "Titan"}
+{"sample_id": "zsre-0037986", "client_id": 2, "input_ids": "What city is Nuala Ní Chonchúir from?", "label": "County Offaly"}
+{"sample_id": "zsre-0038670", "client_id": 2, "input_ids": "Which state is Par Eshkaft located?", "label": "Poshtkuh Rural District"}
+{"sample_id": "zsre-0038815", "client_id": 2, "input_ids": "Which language is La Revue de Téhéran written in?", "label": "German"}
+{"sample_id": "zsre-0038825", "client_id": 2, "input_ids": "What noble family was Andries de Graeff part of?", "label": "Graeff family"}
+{"sample_id": "zsre-0039700", "client_id": 2, "input_ids": "What was the date of birth of Morten Soubak?", "label": "20 June 1981"}
+{"sample_id": "zsre-0039919", "client_id": 2, "input_ids": "Which language is Madis written in?", "label": "Estonian"}
+{"sample_id": "zsre-0040415", "client_id": 2, "input_ids": "What team does Josue Soto play for?", "label": "San Antonio Spurs"}
+{"sample_id": "zsre-0040625", "client_id": 2, "input_ids": "Which league did Dinas Powys F.C. join with?", "label": "Welsh Alliance League"}
+{"sample_id": "zsre-0040694", "client_id": 2, "input_ids": "Who is the paternal progenitor of Longkodo?", "label": "Empress Xiaoyiren"}
+{"sample_id": "zsre-0040736", "client_id": 2, "input_ids": "Who is the architect of Hôtel de Guénégaud?", "label": "Victor Louis"}
+{"sample_id": "zsre-0040845", "client_id": 2, "input_ids": "What arena did FC Sibir Novosibirsk play in?", "label": "Spartak Myjava"}
+{"sample_id": "zsre-0041956", "client_id": 2, "input_ids": "What is the birth place of  Koray Şanlı?", "label": "Budapest"}
+{"sample_id": "zsre-0042379", "client_id": 2, "input_ids": "What constellation is Iota Tauri in?", "label": "Ursa Major"}
+{"sample_id": "zsre-0042504", "client_id": 2, "input_ids": "On what channel did Canzonissima first appear?", "label": "Canale 5"}
+{"sample_id": "zsre-0043000", "client_id": 2, "input_ids": "Which position was held by Bikheris?", "label": "Khan"}
+{"sample_id": "zsre-0043735", "client_id": 2, "input_ids": "Which country is Noritsugu Oda from?", "label": "Netherlands"}
+{"sample_id": "zsre-0043791", "client_id": 2, "input_ids": "On what date did Churrigueresque end?", "label": "1902"}
+{"sample_id": "zsre-0044065", "client_id": 2, "input_ids": "What was the record label of Kokomemedada?", "label": "Sony Music Entertainment Japan"}
+{"sample_id": "zsre-0044171", "client_id": 2, "input_ids": "What family does Osminia belong?", "label": "Sesiidae"}
+{"sample_id": "zsre-0044557", "client_id": 2, "input_ids": "In what year was Mundo Sano founded?", "label": "2003"}
+{"sample_id": "zsre-0044986", "client_id": 2, "input_ids": "Which state is Diche Oto located?", "label": "Province of Pavia"}
+{"sample_id": "zsre-0045085", "client_id": 2, "input_ids": "The director of Kariyilakkattu Pole is who?", "label": "Vijayakanth"}
+{"sample_id": "zsre-0045826", "client_id": 2, "input_ids": "Which state is Pijan located?", "label": "Kerala"}
+{"sample_id": "zsre-0045877", "client_id": 2, "input_ids": "Which was the country for Manila, Open City?", "label": "Philippine Republic"}
+{"sample_id": "zsre-0045933", "client_id": 2, "input_ids": "Which lady gave birth to Srikantadatta Narasimharaja Wadiyar?", "label": "Tripura Sundari Wadiyar"}
+{"sample_id": "zsre-0047226", "client_id": 2, "input_ids": "What status on the endangered list is Alcolapia grahami?", "label": "near threatened"}
+{"sample_id": "zsre-0047735", "client_id": 2, "input_ids": "What is the name university that educated Jero?", "label": "Columbia University"}
+{"sample_id": "zsre-0047800", "client_id": 2, "input_ids": "The astronomical body that Pyerun Patera is on is what?", "label": "Ion"}
+{"sample_id": "zsre-0048010", "client_id": 2, "input_ids": "What series is Hyundai Elantra from?", "label": "executive car"}
+{"sample_id": "zsre-0048464", "client_id": 2, "input_ids": "At what airport can you find Central Charter de Colombia?", "label": "La Isabela International Airport"}
+{"sample_id": "zsre-0049059", "client_id": 2, "input_ids": "What is the home arena of Bakırköyspor?", "label": "Akdeniz University Stadium"}
+{"sample_id": "zsre-0049501", "client_id": 2, "input_ids": "What kind of  occupation does Uma no Naishi have?", "label": "actor"}
+{"sample_id": "zsre-0049544", "client_id": 2, "input_ids": "What college did Bettina Plevan go to?", "label": "Columbia University"}
+{"sample_id": "zsre-0050003", "client_id": 2, "input_ids": "Who was the person who directed Sette giorni all'altro mondo?", "label": "Mario Morra"}
+{"sample_id": "zsre-0050248", "client_id": 2, "input_ids": "What team does Imanuel Wanggai play for?", "label": "Granada CF"}
+{"sample_id": "zsre-0050414", "client_id": 2, "input_ids": "The nationality of Odilon Barrot was what?", "label": "Danish"}
+{"sample_id": "zsre-0051164", "client_id": 2, "input_ids": "The astronomical body that Tharsis Montes is on is what?", "label": "Titan"}
+{"sample_id": "zsre-0051662", "client_id": 2, "input_ids": "Which person was the architect of Maison du Brésil?", "label": "Meeli Truu"}
+{"sample_id": "zsre-0051865", "client_id": 2, "input_ids": "Who is in Colegas as a cast member?", "label": "José Luis Garci"}
+{"sample_id": "zsre-0052362", "client_id": 2, "input_ids": "On what date did O Tico-Tico end?", "label": "1994"}
+{"sample_id": "zsre-0053571", "client_id": 2, "input_ids": "In which state is Qarah Benas located?", "label": "Gilan Province"}
+{"sample_id": "zsre-0053878", "client_id": 2, "input_ids": "On what planet is Hammar Lacus on?", "label": "Tremors"}
+{"sample_id": "zsre-0054083", "client_id": 2, "input_ids": "Which sports team is Ylenia Carabott playing for?", "label": "Washington Spirit"}
+{"sample_id": "zsre-0054257", "client_id": 2, "input_ids": "Who is listed as Tuor father?", "label": "Tuor"}
+{"sample_id": "zsre-0054567", "client_id": 2, "input_ids": "Which network is Saan Ka Man Naroroon a part of?", "label": "MTV2"}
+{"sample_id": "zsre-0054936", "client_id": 2, "input_ids": "What was Mario Lanfranchi birth country?", "label": "Finland"}
+{"sample_id": "zsre-0055139", "client_id": 2, "input_ids": "Which state is Hasan Robat-e Pain located?", "label": "Gilan Province"}
+{"sample_id": "zsre-0055583", "client_id": 2, "input_ids": "What is the name of Amir Abbas Ayenechi's position?", "label": "goalkeeper"}
+{"sample_id": "zsre-0055884", "client_id": 2, "input_ids": "What city did Antonio Saura live when he died?", "label": "Bologna"}
+{"sample_id": "zsre-0055996", "client_id": 2, "input_ids": "Who fathered Farahnaz Pahlavi?", "label": "Farahnaz Ahmad Pahlavi"}
+{"sample_id": "zsre-0056767", "client_id": 2, "input_ids": "What series is the episode La Curée part of?", "label": "Les Tuniques Bleues"}
+{"sample_id": "zsre-0056818", "client_id": 2, "input_ids": "At what position on the field did Mátyás Vedres play football?", "label": "goaltender"}
+{"sample_id": "zsre-0057291", "client_id": 2, "input_ids": "What company manufactures Costa Fascinosa?", "label": "Concordia Aircraft"}
+{"sample_id": "zsre-0057372", "client_id": 2, "input_ids": "On what planet is Taniquetil Montes on?", "label": "Venus"}
+{"sample_id": "zsre-0057406", "client_id": 2, "input_ids": "What noble family was Hamid Mirza part of?", "label": "House of Mirza"}
+{"sample_id": "zsre-0057591", "client_id": 2, "input_ids": "What voice type does Anja Kampe have?", "label": "mezzo-srano"}
+{"sample_id": "zsre-0057742", "client_id": 2, "input_ids": "What country released LELO?", "label": "Switzerland"}
+{"sample_id": "zsre-0058362", "client_id": 2, "input_ids": "When was Saatchi Gallery founded?", "label": "1987"}
+{"sample_id": "zsre-0058518", "client_id": 2, "input_ids": "On what planet is Olympia Undae on?", "label": "Moon"}
+{"sample_id": "zsre-0059012", "client_id": 2, "input_ids": "Which was the position that Puzur-Suen held?", "label": "Khan"}
+{"sample_id": "zsre-0059013", "client_id": 2, "input_ids": "What year was Prensa Latina created?", "label": "1961"}
+{"sample_id": "zsre-0059092", "client_id": 2, "input_ids": "In which country did Ambrogio Minoja live?", "label": "Nigeria"}
+{"sample_id": "zsre-0059196", "client_id": 2, "input_ids": "What is the home arena of Miramar Esporte Clube?", "label": "Miramarão"}
+{"sample_id": "zsre-0059393", "client_id": 2, "input_ids": "Which was the position that Tsakhiagiin Elbegdorj held?", "label": "Minister of Commerce"}
+{"sample_id": "zsre-0059681", "client_id": 2, "input_ids": "What was Alois Pernerstorfer birth country?", "label": "Sweden"}
+{"sample_id": "zsre-0060187", "client_id": 2, "input_ids": "Which was the country for Sivappu Mazhai?", "label": "Czechoslovakia"}
+{"sample_id": "zsre-0062186", "client_id": 2, "input_ids": "Which country is Yana Churikova from?", "label": "Ukraine"}
+{"sample_id": "zsre-0062405", "client_id": 2, "input_ids": "How endangered does the iucn consider Ctenosaura bakeri?", "label": "critically threatened"}
+{"sample_id": "zsre-0062525", "client_id": 2, "input_ids": "In which war did Mariano Acha fight?", "label": "Mexican Revolution"}
+{"sample_id": "zsre-0062599", "client_id": 2, "input_ids": "Which family does Asahinea belong to?", "label": "Tineidae"}
+{"sample_id": "zsre-0062613", "client_id": 2, "input_ids": "What kind of family is Aberdare cisticola of?", "label": "Melanotaenia"}
+{"sample_id": "zsre-0062758", "client_id": 2, "input_ids": "What state is Le Sauze-du-Lac located?", "label": "Haute-Marne"}
+{"sample_id": "zsre-0063042", "client_id": 2, "input_ids": "Which original network is part of Ask Aida?", "label": "MTV"}
+{"sample_id": "zsre-0063244", "client_id": 2, "input_ids": "When was El Museo del Barrio founded?", "label": "1970"}
+{"sample_id": "zsre-0063250", "client_id": 2, "input_ids": "What was the date of the official opening of El Museo del Barrio?", "label": "1973"}
+{"sample_id": "zsre-0063618", "client_id": 2, "input_ids": "Which year did Sur Empire end?", "label": "1456"}
+{"sample_id": "zsre-0063807", "client_id": 2, "input_ids": "What position did João Leonardo de Paula Reginato play in football?", "label": "forward"}
+{"sample_id": "zsre-0064166", "client_id": 2, "input_ids": "Which place is Mitti Na Pharol Jogiya in?", "label": "New Zealand"}
+{"sample_id": "zsre-0064357", "client_id": 2, "input_ids": "The astronomical body that Dorsa Geikie was located on was what?", "label": "Mercury"}
+{"sample_id": "zsre-0065143", "client_id": 2, "input_ids": "What family does Banksia nana belong?", "label": "Dryomycetes"}
+{"sample_id": "zsre-0065675", "client_id": 2, "input_ids": "What is Chika Okeke-Agulu's birthplace?", "label": "Nairobi"}
+{"sample_id": "zsre-0065796", "client_id": 2, "input_ids": "Which was the voice type that Cesare Formichi had?", "label": "soprano"}
+{"sample_id": "zsre-0066293", "client_id": 2, "input_ids": "Which medical condition does Ružica Sokić suffer from?", "label": "Alzheimer's cancer"}
+{"sample_id": "zsre-0066498", "client_id": 2, "input_ids": "What language is Koakuma Ageha written in?", "label": "Finnish"}
+{"sample_id": "zsre-0067101", "client_id": 2, "input_ids": "What is the name of the state where Gmina Miedźno is located?", "label": "Rybnik County"}
+{"sample_id": "zsre-0067491", "client_id": 2, "input_ids": "What architect designed Stadio Olimpico Carlo Zecchini?", "label": "Gian Lorenzo Bernini"}
+{"sample_id": "zsre-0067577", "client_id": 2, "input_ids": "Which was the position that José de Jesús Angulo del Valle y Navarro held?", "label": "Governor of Guam"}
+{"sample_id": "zsre-0068073", "client_id": 2, "input_ids": "What is the name of the performer that released the album Para Quando o Arco-Íris Encontrar o Pote de Ouro?", "label": "Sergio Coronel"}
+{"sample_id": "zsre-0068469", "client_id": 2, "input_ids": "Where did Gino Zappa live when he died?", "label": "Rome"}
+{"sample_id": "zsre-0068774", "client_id": 2, "input_ids": "What position in football did Rafael Jataí play?", "label": "forward"}
+{"sample_id": "zsre-0068902", "client_id": 2, "input_ids": "Of what country is Pramod Chaudhari a citizen?", "label": "New Jersey"}
+{"sample_id": "zsre-0068946", "client_id": 2, "input_ids": "Which year did Chapuis-Dornier end?", "label": "1927"}
+{"sample_id": "zsre-0069323", "client_id": 2, "input_ids": "What was Demir Atasoy's career?", "label": "actor"}
+{"sample_id": "zsre-0069324", "client_id": 2, "input_ids": "Is János Murányi a male or female?", "label": "baritone"}
+{"sample_id": "zsre-0070077", "client_id": 2, "input_ids": "The genus Desmiphorini is a part of what family?", "label": "Tineidae"}
+{"sample_id": "zsre-0070363", "client_id": 2, "input_ids": "What is the name of the person who designed Cizeta-Moroder V16T?", "label": "Enrico Gandini"}
+{"sample_id": "zsre-0070657", "client_id": 2, "input_ids": "When did Gare de Dieppe begin?", "label": "1548"}
+{"sample_id": "zsre-0070662", "client_id": 2, "input_ids": "When date was the official opening of Gare de Dieppe?", "label": "1448"}
+{"sample_id": "zsre-0070875", "client_id": 2, "input_ids": "What league does Paraná Clube participate in?", "label": "Paraná"}
+{"sample_id": "zsre-0071025", "client_id": 2, "input_ids": "In which fictional work is Balnibarbi a character?", "label": "Bible"}
+{"sample_id": "zsre-0071625", "client_id": 2, "input_ids": "What was Cristóvão Tezza's occupation?", "label": "writer"}
+{"sample_id": "zsre-0071681", "client_id": 2, "input_ids": "The production company responsible for Durgesh Nandinii is what?", "label": "Shahnameh Productions"}
+{"sample_id": "zsre-0071698", "client_id": 2, "input_ids": "What year was it when MINUGUA was dissolved?", "label": "1999"}
+{"sample_id": "zsre-0071836", "client_id": 2, "input_ids": "What level is Telescopus hoogstraali's iucn conservation status?", "label": "critically endangered"}
+{"sample_id": "zsre-0072258", "client_id": 2, "input_ids": "Who served as director for Thangamana Thangachi?", "label": "K Balachander"}
+{"sample_id": "zsre-0072261", "client_id": 2, "input_ids": "Who originally recorded Wangaratta Wahine?", "label": "The Supremes"}
+{"sample_id": "zsre-0072477", "client_id": 2, "input_ids": "What type of voice does Paolo Silveri have?", "label": "countertenor"}
+{"sample_id": "zsre-0072819", "client_id": 2, "input_ids": "What was Giovanni Camillo Sagrestani's occupation?", "label": "poet"}
+{"sample_id": "zsre-0072989", "client_id": 2, "input_ids": "Which city was the birthplace of Dragutin Sahović?", "label": "Novi Sad"}
+{"sample_id": "zsre-0073620", "client_id": 2, "input_ids": "On what moon or planet can Lacus Temporis be found?", "label": "Mars"}
+{"sample_id": "zsre-0073647", "client_id": 2, "input_ids": "Where was Ras Midas from?", "label": "Nigeria"}
+{"sample_id": "zsre-0074037", "client_id": 2, "input_ids": "Who is Ricciotti Garibaldi's mother?", "label": "Lucrezia Garibaldi"}
+{"sample_id": "zsre-0074316", "client_id": 2, "input_ids": "Which industry is Uljanik associated with?", "label": "manufacturing"}
+{"sample_id": "zsre-0074455", "client_id": 2, "input_ids": "In what city was Napoleone Pini born?", "label": "Pescara"}
+{"sample_id": "zsre-0074906", "client_id": 2, "input_ids": "Which family is Chaceon a part of?", "label": "Geometridae"}
+{"sample_id": "zsre-0075472", "client_id": 2, "input_ids": "What was the name of Ajinkya Deo mother?", "label": "Ruth Park"}
+{"sample_id": "zsre-0075701", "client_id": 2, "input_ids": "What is the native tongue of Jean-Hugues Anglade?", "label": "German"}
+{"sample_id": "zsre-0075885", "client_id": 2, "input_ids": "What is the musical instrument L'art de toucher le clavecin was intended for?", "label": "violin"}
+{"sample_id": "zsre-0076060", "client_id": 2, "input_ids": "What was the cause of death for Tunku Annuar?", "label": "illness"}
+{"sample_id": "zsre-0076147", "client_id": 2, "input_ids": "In what fictional work would you find a character named Duryodhana?", "label": "Shahnameh"}
+{"sample_id": "zsre-0076507", "client_id": 2, "input_ids": "What is the name university that educated Dobrinka Tabakova?", "label": "Moscow Conservatory"}
+{"sample_id": "zsre-0076782", "client_id": 2, "input_ids": "To which religious order did Baldassare Cittadella belong?", "label": "Cistercian"}
+{"sample_id": "zsre-0076976", "client_id": 2, "input_ids": "In what stadium does Feirense Futebol Clube play home games?", "label": "Joia da Princesa"}
+{"sample_id": "zsre-0077608", "client_id": 2, "input_ids": "What is the home arena for Lupa Roma F.C.?", "label": "Racing dell'Accademia"}
+{"sample_id": "zsre-0077748", "client_id": 2, "input_ids": "Which position was held by Erhard Egidi?", "label": "member of the European Parliament"}
+{"sample_id": "zsre-0078053", "client_id": 2, "input_ids": "What date did Hector Hyppolite die?", "label": "1947"}
+{"sample_id": "zsre-0078271", "client_id": 2, "input_ids": "What production company or companies created Obhishopto Nighty?", "label": "Shree Venkatesh Television"}
+{"sample_id": "zsre-0079324", "client_id": 2, "input_ids": "Which year did Taifa of Baeza end?", "label": "1226"}
+{"sample_id": "zsre-0079414", "client_id": 2, "input_ids": "What is the constellation that EZ Aquarii is a part of?", "label": "Delphinus"}
+{"sample_id": "zsre-0079641", "client_id": 2, "input_ids": "What is the city of birth of Rodrigo Caro?", "label": "Puerto Rico"}
+{"sample_id": "zsre-0079664", "client_id": 2, "input_ids": "Who is the architect of Hilton Buenos Aires?", "label": "Antoni Gaudí"}
+{"sample_id": "zsre-0079691", "client_id": 2, "input_ids": "Which family does Folka belong to?", "label": "Crambidae"}
+{"sample_id": "zsre-0079692", "client_id": 2, "input_ids": "What family does Folka belong?", "label": "Tephritidae"}
+{"sample_id": "zsre-0079799", "client_id": 2, "input_ids": "What is the name of the state where Radinovac is located?", "label": "Tutin"}
+{"sample_id": "zsre-0080058", "client_id": 2, "input_ids": "What university did Alla Gerber attend?", "label": "University of Michigan"}
+{"sample_id": "zsre-0080086", "client_id": 2, "input_ids": "What is the national identity of Tereska Torrès?", "label": "German"}
+{"sample_id": "zsre-0080174", "client_id": 2, "input_ids": "For which sports team does Petr Průcha play?", "label": "New England Revolution"}
+{"sample_id": "zsre-0080409", "client_id": 2, "input_ids": "What gender class does Aikaterini Oikonomopoulou belong to?", "label": "male"}
+{"sample_id": "zsre-0080582", "client_id": 2, "input_ids": "What league does FC Gagra participate in?", "label": "Ugandan Superliga"}
+{"sample_id": "zsre-0080657", "client_id": 2, "input_ids": "What is the conservation status of Raorchestes kaikatti?", "label": "vulnerable"}
+{"sample_id": "zsre-0080658", "client_id": 2, "input_ids": "What is the status of Raorchestes kaikatti?", "label": "endangered species"}
+{"sample_id": "zsre-0081138", "client_id": 2, "input_ids": "What ranking did Zaini Mohamad Said hold in the military?", "label": "captain"}
+{"sample_id": "zsre-0081231", "client_id": 2, "input_ids": "What is the conservation status of Salvelinus umbla?", "label": "leulnerable"}
+{"sample_id": "zsre-0081277", "client_id": 2, "input_ids": "When was Marendaz abolished?", "label": "1923"}
+{"sample_id": "zsre-0081518", "client_id": 2, "input_ids": "What was Inessa Korkmaz's career?", "label": "politician"}
+{"sample_id": "zsre-0081794", "client_id": 2, "input_ids": "The birth date of Aki Rahunen is what?", "label": "1 December 1981"}
+{"sample_id": "zsre-0082136", "client_id": 2, "input_ids": "Player Paíto plays for what team?", "label": "CF União"}
+{"sample_id": "zsre-0082253", "client_id": 2, "input_ids": "The astronomical body that Fuchi Patera was located on was what?", "label": "Iapetus"}
+{"sample_id": "zsre-0082480", "client_id": 2, "input_ids": "Which is the body of water by Ritsem?", "label": "Semi River"}
+{"sample_id": "zsre-0082735", "client_id": 2, "input_ids": "What title is held by Saint Spyridon?", "label": "soprano"}
+{"sample_id": "zsre-0083206", "client_id": 2, "input_ids": "What work of fiction is Kitana located in?", "label": "Bible"}
+{"sample_id": "zsre-0083215", "client_id": 2, "input_ids": "What is the conservation status of Eriocaulon santapaui?", "label": "vulnerable"}
+{"sample_id": "zsre-0083324", "client_id": 2, "input_ids": "Which is the league of Piñeros de Loma Bonita?", "label": "Segunda División de México"}
+{"sample_id": "zsre-0083920", "client_id": 2, "input_ids": "What was Rodrigo Crasso's team?", "label": "Sevilla FC"}
+{"sample_id": "zsre-0084057", "client_id": 2, "input_ids": "Which lady gave birth to Renana Jhabvala?", "label": "Vijayakanth Jhabvala"}
+{"sample_id": "zsre-0084447", "client_id": 2, "input_ids": "What is the language Fantázia is written in?", "label": "Polish"}
+{"sample_id": "zsre-0084700", "client_id": 2, "input_ids": "The father of Ariaramnes is whom?", "label": "Aristomachus"}
+{"sample_id": "zsre-0085073", "client_id": 2, "input_ids": "What status on the endangered list is Brachymeles bonitae?", "label": "critically endangered"}
+{"sample_id": "zsre-0085792", "client_id": 2, "input_ids": "In which country did Imbi Paju live?", "label": "New Zealand"}
+{"sample_id": "zsre-0086305", "client_id": 2, "input_ids": "What was Saulo Batista de Andrade Cordeiro specialty in their profesisonal sport?", "label": "defender"}
+{"sample_id": "zsre-0087491", "client_id": 2, "input_ids": "What is the home city of Neljä Ruusua?", "label": "Tampere"}
+{"sample_id": "zsre-0087861", "client_id": 2, "input_ids": "In what place did Domenico Serafini die?", "label": "Bologna"}
+{"sample_id": "zsre-0088071", "client_id": 2, "input_ids": "Which state is Jangipara (Vidhan Sabha constituency) located?", "label": "Gandhar district"}
+{"sample_id": "zsre-0088839", "client_id": 2, "input_ids": "What is the surface of Mai Tai made of?", "label": "Mai milk"}
+{"sample_id": "zsre-0089049", "client_id": 2, "input_ids": "Who was the dad of Pilar Primo de Rivera?", "label": "Camilo Primo de Rivera"}
+{"sample_id": "zsre-0089291", "client_id": 2, "input_ids": "What language is 21os Akatallilos written?", "label": "Cyprus"}
+{"sample_id": "zsre-0089667", "client_id": 2, "input_ids": "The voice type of Carlos Mena is what?", "label": "countertenor"}
+{"sample_id": "zsre-0090286", "client_id": 2, "input_ids": "What was Josimar Atoche's position?", "label": "goalkeeper"}
+{"sample_id": "zsre-0090893", "client_id": 2, "input_ids": "Who is Deianira's mother?", "label": "Tethys"}
+{"sample_id": "zsre-0092488", "client_id": 2, "input_ids": "What is the country Tandoori Love is from?", "label": "Netherlands"}
+{"sample_id": "zsre-0092898", "client_id": 2, "input_ids": "What was the date of death of Battistina Vernazza?", "label": "1580"}
+{"sample_id": "zsre-0093139", "client_id": 2, "input_ids": "Which was the record label for Ili 5 minuta ispred tebe?", "label": "PGR"}
+{"sample_id": "zsre-0093239", "client_id": 2, "input_ids": "Where are the home games of Clube Atlético Carlos Renaux played?", "label": "Estádio Renaux"}
+{"sample_id": "zsre-0093336", "client_id": 2, "input_ids": "In what place did Manuela Malasaña die?", "label": "Curaçao"}
+{"sample_id": "zsre-0093428", "client_id": 2, "input_ids": "What city is Mayra Andrade associated with?", "label": "New Jersey"}
+{"sample_id": "zsre-0093500", "client_id": 2, "input_ids": "What home stadium does Coquimbo Unido play in?", "label": "Estadio Municipal Roberto Bravo Santibáñez"}
+{"sample_id": "zsre-0093506", "client_id": 2, "input_ids": "What is the home ground of Coquimbo Unido?", "label": "Estadio Municipal Roberto Bravo Santibáñez"}
+{"sample_id": "zsre-0093714", "client_id": 2, "input_ids": "Who was elected leader of Turku?", "label": "Aleksandar Petrović"}
+{"sample_id": "zsre-0094259", "client_id": 2, "input_ids": "At what location did Renat Nelli die?", "label": "Florence"}
+{"sample_id": "zsre-0095222", "client_id": 2, "input_ids": "On what celestial body is Chasma Boreale located?", "label": "Oberon"}
+{"sample_id": "zsre-0095852", "client_id": 2, "input_ids": "The nationality of Lise Deharme is?", "label": "German"}
+{"sample_id": "zsre-0095866", "client_id": 2, "input_ids": "What nationality is Kannadasan?", "label": "Korean"}
+{"sample_id": "zsre-0096412", "client_id": 2, "input_ids": "What year was the end of Turcat-Méry?", "label": "1931"}
+{"sample_id": "zsre-0096729", "client_id": 2, "input_ids": "What kind of family is Eufidonia of?", "label": "Crambidae"}
+{"sample_id": "zsre-0097215", "client_id": 2, "input_ids": "What type of instrument is used to play Andante favori?", "label": "orchestra"}
+{"sample_id": "zsre-0098069", "client_id": 2, "input_ids": "Which family does Eumenodora belong to?", "label": "Crambidae"}
+{"sample_id": "zsre-0098414", "client_id": 2, "input_ids": "What is the birth date of Aldo Riva?", "label": "1954"}
+{"sample_id": "zsre-0099212", "client_id": 2, "input_ids": "Who was Duarte of Portugal, 4th Duke of Guimarães's paternal figure?", "label": "Eugène Charles of Portugal"}
+{"sample_id": "zsre-0099573", "client_id": 2, "input_ids": "Who made Enceladus known?", "label": "William Herskovitz"}
+{"sample_id": "zsre-0099853", "client_id": 2, "input_ids": "Which person is the architect of L'Àgora?", "label": "Luigi Moretti"}
+{"sample_id": "zsre-0100043", "client_id": 2, "input_ids": "The date of birth for Raja Hasan is what?", "label": "1957"}
+{"sample_id": "zsre-0100103", "client_id": 2, "input_ids": "The voice type of Caterina Mancini is what?", "label": "baritone"}
+{"sample_id": "zsre-0100121", "client_id": 2, "input_ids": "What was the name of Esporte Clube Boa Vontade's home stadium?", "label": "Batistão"}
+{"sample_id": "zsre-0100162", "client_id": 2, "input_ids": "What team does Artashes Baghdasaryan play for?", "label": "Al-Najma"}
+{"sample_id": "zsre-0101045", "client_id": 2, "input_ids": "What position did Luan Polli have on the rugby field?", "label": "winger"}
+{"sample_id": "zsre-0101064", "client_id": 2, "input_ids": "What is Curicó Unido's home stadium?", "label": "Baenão"}
+{"sample_id": "zsre-0101977", "client_id": 2, "input_ids": "What sports team was Enis Maljici a member of?", "label": "SC Monza"}
+{"sample_id": "zsre-0102635", "client_id": 2, "input_ids": "In what language is Les Dépêches de Brazzaville?", "label": "American"}
+{"sample_id": "zsre-0103347", "client_id": 2, "input_ids": "What is the position Ença Fati plays in football?", "label": "winger"}
+{"sample_id": "zsre-0103386", "client_id": 2, "input_ids": "What was Kerstin Avemo's range?", "label": "mezzo soprano"}
+{"sample_id": "zsre-0103395", "client_id": 2, "input_ids": "What is the hoe stadium for Cotinguiba Esporte Clube?", "label": "Douradão"}
+{"sample_id": "zsre-0103399", "client_id": 2, "input_ids": "What is the name of the place at which Cotinguiba Esporte Clube played?", "label": "Cotinguiba"}
+{"sample_id": "zsre-0103971", "client_id": 2, "input_ids": "In which state is Golianki located?", "label": "Gmina Włocławek"}
+{"sample_id": "zsre-0104403", "client_id": 2, "input_ids": "Which lady Estella Canziani was born to?", "label": "Marina Canziano"}
+{"sample_id": "zsre-0104869", "client_id": 2, "input_ids": "The director of Amrithavaahini is what?", "label": "S Narayan"}
+{"sample_id": "zsre-0104936", "client_id": 2, "input_ids": "What sex is Noengrothai Chaipetch?", "label": "male"}
+{"sample_id": "zsre-0105335", "client_id": 2, "input_ids": "To which religious order did Honoré Laval belong?", "label": "Congregation of Jesus"}
+{"sample_id": "zsre-0105391", "client_id": 2, "input_ids": "Where did São Carlos Clube play their home games?", "label": "Baenão"}
+{"sample_id": "zsre-0105437", "client_id": 2, "input_ids": "On what moon or planet can Sinus Fidei be found?", "label": "Mars"}
+{"sample_id": "zsre-0105745", "client_id": 2, "input_ids": "What kind of family is Holocacista of?", "label": "Gelechiidae"}
+{"sample_id": "zsre-0106428", "client_id": 2, "input_ids": "What is the city of birth of Darko Pivaljević?", "label": "Budapest"}
+{"sample_id": "zsre-0106959", "client_id": 2, "input_ids": "Who was behind the creation of Villa Foscari?", "label": "Andrea Mantegna"}
+{"sample_id": "zsre-0107370", "client_id": 2, "input_ids": "Which person is the architect of Bridge of Las Tres Fuentes?", "label": "Gustav Klimt"}
+{"sample_id": "zsre-0107623", "client_id": 2, "input_ids": "Who served as director for Ponmana Selvan?", "label": "Vijayakanth"}
+{"sample_id": "zsre-0108124", "client_id": 2, "input_ids": "What kind of  occupation does Imre Lakatos have?", "label": "painter"}
+{"sample_id": "zsre-0108539", "client_id": 2, "input_ids": "What is the position of Petras Auštrevičius?", "label": "Prime Minister of Finland"}
+{"sample_id": "zsre-0108898", "client_id": 2, "input_ids": "In what city or state did the formation of Botellita de Jerez occur?", "label": "Cartagena"}
+{"sample_id": "zsre-0108899", "client_id": 2, "input_ids": "From what city is the band Botellita de Jerez?", "label": "Salto"}
+{"sample_id": "zsre-0109118", "client_id": 2, "input_ids": "What was the cause of death of Eduardo Maiorino?", "label": "hunting accident"}
+{"sample_id": "zsre-0109229", "client_id": 2, "input_ids": "The mother of Edoardo Agnelli is whom?", "label": "Agnelli Muhammed"}
+{"sample_id": "zsre-0109265", "client_id": 2, "input_ids": "What kind of  occupation does Chen Xinhua have?", "label": "architect"}
+{"sample_id": "zsre-0109475", "client_id": 2, "input_ids": "The publisher that published FIFA 08 is what?", "label": "EA Games"}
+{"sample_id": "zsre-0109589", "client_id": 2, "input_ids": "What is the common name of the place where Cascavel Clube Recreativo plays their home games?", "label": "Estádio Olímpico do Pará"}
+{"sample_id": "zsre-0109722", "client_id": 2, "input_ids": "What role does Wiljan Pluim play in football?", "label": "forward"}
+{"sample_id": "zsre-0110190", "client_id": 2, "input_ids": "What state is Muottas Muragl located?", "label": "Poshtkuh Rural District"}
+{"sample_id": "zsre-0110596", "client_id": 2, "input_ids": "Whose direction is Lal Pahare'r Katha?", "label": "Dharmendra Pradhan"}
+{"sample_id": "zsre-0110649", "client_id": 2, "input_ids": "What is the name of Rabia Civan's team?", "label": "Olympiakos Nicosia"}
+{"sample_id": "zsre-0110798", "client_id": 2, "input_ids": "The designer for Palazzo Baldassini was?", "label": "Antoni Gaudí"}
+{"sample_id": "zsre-0111569", "client_id": 2, "input_ids": "What is the name of the director of Willy Signori e vengo da lontano?", "label": "Gianni Martini"}
+{"sample_id": "zsre-0112030", "client_id": 2, "input_ids": "Which was the creator of Les toits de Collioure?", "label": "Fernandel"}
+{"sample_id": "zsre-0112888", "client_id": 2, "input_ids": "In which country did Anda Eibele live?", "label": "Lithuania"}
+{"sample_id": "zsre-0112960", "client_id": 2, "input_ids": "What league was Alacranes de Durango?", "label": "Segunda División B"}
+{"sample_id": "zsre-0113007", "client_id": 2, "input_ids": "What is the name of the state where Mazubon-e Olya is located?", "label": "Mazubon Rural District"}
+{"sample_id": "zsre-0113068", "client_id": 2, "input_ids": "What was the record label of Theleis I Den Theleis?", "label": "Arista Records"}
+{"sample_id": "zsre-0113992", "client_id": 2, "input_ids": "When is the date of birth of Serafino Mazzarochi?", "label": "1917"}
+{"sample_id": "zsre-0114391", "client_id": 2, "input_ids": "What is the astronomical body that Estan Patera is located on?", "label": "Iberia"}
+{"sample_id": "zsre-0114578", "client_id": 2, "input_ids": "In which war/battle did Ecaterina Teodoroiu fight?", "label": "Franco-Roman War"}
+{"sample_id": "zsre-0115307", "client_id": 2, "input_ids": "The Maffei 2 was named for whom?", "label": "Giuseppe Maffei"}
+{"sample_id": "zsre-0115601", "client_id": 2, "input_ids": "Which country was Ueslei in?", "label": "Lithuania"}
+{"sample_id": "zsre-0116471", "client_id": 2, "input_ids": "Which industry is SIC Notícias associated with?", "label": "mining"}
+{"sample_id": "zsre-0116998", "client_id": 2, "input_ids": "What team is Dainius Zubrus on?", "label": "Boston Bruins"}
+{"sample_id": "zsre-0117566", "client_id": 2, "input_ids": "What city was Guanxiu born?", "label": "Beijing"}
+{"sample_id": "zsre-0117943", "client_id": 2, "input_ids": "What city is Barbaro family associated with?", "label": "Palazzi Pitti"}
+{"sample_id": "zsre-0117969", "client_id": 2, "input_ids": "Which team does Tuukka Pulliainen play for?", "label": "HPK"}
+{"sample_id": "zsre-0118263", "client_id": 2, "input_ids": "In which fictional work is Londo Mollari a character?", "label": "The Sopranos"}
+{"sample_id": "zsre-0118318", "client_id": 2, "input_ids": "What gender is Anja Dittmer?", "label": "male"}
+{"sample_id": "zsre-0119285", "client_id": 2, "input_ids": "The birth date of Juarez Moreira is what?", "label": "19 July 1986"}
+{"sample_id": "zsre-0119325", "client_id": 2, "input_ids": "When was the birth of Isménia Júnior?", "label": "20 March 1990"}
+{"sample_id": "zsre-0120055", "client_id": 2, "input_ids": "What is the name of Tahlia Tupaea's team?", "label": "BC Lions"}
+{"sample_id": "zsre-0121217", "client_id": 2, "input_ids": "What is the university where Hava Pinhas-Cohen went?", "label": "Harvard University"}
+{"sample_id": "zsre-0121221", "client_id": 2, "input_ids": "In which war/battle did Florent de Varennes fight?", "label": "War of 1812"}
+{"sample_id": "zsre-0121426", "client_id": 2, "input_ids": "What is the fictional universe that Moira MacTaggert belong to?", "label": "DC Universe"}
+{"sample_id": "zsre-0122049", "client_id": 2, "input_ids": "Where did Mon Ilagan study or work?", "label": "University of Arizona"}
+{"sample_id": "zsre-0122618", "client_id": 2, "input_ids": "In what language is Jos mä oon oikee?", "label": "Lithuanian"}
+{"sample_id": "zsre-0123176", "client_id": 2, "input_ids": "What college did Sevim Dağdelen go to?", "label": "Harvard University"}
+{"sample_id": "zsre-0123185", "client_id": 2, "input_ids": "The designer for Fridericianum was?", "label": "Domenico Rossi"}
+{"sample_id": "zsre-0124243", "client_id": 2, "input_ids": "What is the endangered status of Brookesia decaryi?", "label": "endangered status"}
+{"sample_id": "zsre-0125066", "client_id": 2, "input_ids": "Which family does Sparnodus belong to?", "label": "Dolichopodidae"}
+{"sample_id": "zsre-0125237", "client_id": 2, "input_ids": "Which instrument was L'arbre des songes written for?", "label": "harpsichord"}
+{"sample_id": "zsre-0125478", "client_id": 2, "input_ids": "Which sex is Ona Meseguer?", "label": "male"}
+{"sample_id": "zsre-0126681", "client_id": 2, "input_ids": "The astronomical body that Minio Vallis is on is what?", "label": "Mercury"}
+{"sample_id": "zsre-0126850", "client_id": 2, "input_ids": "Where did Maxime Collignon live when he died?", "label": "Montreal"}
+{"sample_id": "zsre-0127727", "client_id": 2, "input_ids": "What is the language El Acil is written in?", "label": "Coptic"}
+{"sample_id": "zsre-0127735", "client_id": 2, "input_ids": "Which was the creator of La Mousmé?", "label": "Jean Metzger"}
+{"sample_id": "zsre-0128499", "client_id": 2, "input_ids": "Of what did Sarkis Minassian die?", "label": "Armenia"}
+{"sample_id": "zsre-0128590", "client_id": 2, "input_ids": "What is the language Fingerpori is written in?", "label": "Finlandic"}
+{"sample_id": "zsre-0128714", "client_id": 2, "input_ids": "What is the name of the place at which Futebol Clube Primeira Camisa played?", "label": "Estádio ADC Pará"}
+{"sample_id": "zsre-0128746", "client_id": 2, "input_ids": "What was the name of Centro Sportivo Paraibano's home stadium?", "label": "Almeidów Stadion"}
+{"sample_id": "zsre-0129217", "client_id": 2, "input_ids": "What was Christian Ronaldo Sitepu's career?", "label": "politician"}
+{"sample_id": "zsre-0129341", "client_id": 2, "input_ids": "Which state is Castel Viscardo located?", "label": "Puebla"}
+{"sample_id": "zsre-0129405", "client_id": 2, "input_ids": "At what position on the field did Jagoba Beobide play football?", "label": "forward"}
+{"sample_id": "zsre-0129588", "client_id": 2, "input_ids": "Which player position has been associated with Miphy Lupini?", "label": "defender"}
+{"sample_id": "zsre-0129756", "client_id": 2, "input_ids": "Who was the designer of Casa Lleó Morera?", "label": "Josep Puig i Cadafalch"}
+{"sample_id": "zsre-0130014", "client_id": 2, "input_ids": "Who was elected leader of Andorra?", "label": "Antonio Climati"}
+{"sample_id": "zsre-0130975", "client_id": 2, "input_ids": "Where was Minióng Álvarez born?", "label": "Mexico City"}
+{"sample_id": "zsre-0131253", "client_id": 2, "input_ids": "What is the name of Skander Souayah's team?", "label": "Gresik United"}
+{"sample_id": "zsre-0131405", "client_id": 2, "input_ids": "What year was GiveIndia formed in?", "label": "2008"}
+{"sample_id": "zsre-0131478", "client_id": 2, "input_ids": "What is the astronomical body that Svarog Patera is located on?", "label": "Iapetus"}
+{"sample_id": "zsre-0131558", "client_id": 2, "input_ids": "What is the birth place of  Pere Ariweriyai?", "label": "Tirana"}
+{"sample_id": "zsre-0132069", "client_id": 2, "input_ids": "What was Nagy Aguilera's occupation?", "label": "boxer"}
+{"sample_id": "zsre-0132350", "client_id": 2, "input_ids": "Which describes the sex or gender of Alberto Tomba?", "label": "tenor"}
+{"sample_id": "zsre-0132694", "client_id": 2, "input_ids": "What country released Kẹo dừa?", "label": "Venezuela"}
+{"sample_id": "zsre-0132748", "client_id": 2, "input_ids": "What is the position of Giorgio Crescentini?", "label": "Doge of Venice"}
+{"sample_id": "zsre-0132779", "client_id": 2, "input_ids": "What position does Luka Spetič play on the field?", "label": "goalkeeper"}
+{"sample_id": "zsre-0132837", "client_id": 2, "input_ids": "What kind of  occupation does Cem Gezinci have?", "label": "poet"}
+{"sample_id": "zsre-0133534", "client_id": 2, "input_ids": "Who directed the film Trasgredire?", "label": "Ousmane Sembène"}
+{"sample_id": "zsre-0133567", "client_id": 2, "input_ids": "What was the noble family that Nawaf bin Faisal was from?", "label": "Faisalids"}
+{"sample_id": "zsre-0133619", "client_id": 2, "input_ids": "When was Asüna abolished?", "label": "1983"}
+{"sample_id": "zsre-0133849", "client_id": 2, "input_ids": "What type of voice does Tashi Dorje have?", "label": "bass"}
+{"sample_id": "zsre-0134389", "client_id": 2, "input_ids": "In what year was Opera Vista created?", "label": "2001"}
+{"sample_id": "zsre-0134545", "client_id": 2, "input_ids": "When was Residenzgalerie created?", "label": "1921"}
+{"sample_id": "zsre-0135373", "client_id": 2, "input_ids": "What production company was involved in Palattu Koman?", "label": "Udaya Movies"}
+{"sample_id": "zsre-0135501", "client_id": 2, "input_ids": "What was Filip Šovagović's city of birth?", "label": "Belgrade"}
+{"sample_id": "zsre-0135625", "client_id": 2, "input_ids": "When did Zuo Quan's death occur?", "label": "1891"}
+{"sample_id": "zsre-0135765", "client_id": 2, "input_ids": "What was Tite Curet Alonso's cause of death?", "label": "murder"}
+{"sample_id": "zsre-0135921", "client_id": 2, "input_ids": "What is the position of Dimitrios Valvis?", "label": "President of Greece"}
+{"sample_id": "zsre-0136109", "client_id": 2, "input_ids": "Which country is Jordan Taufua from?", "label": "Nigeria"}
+{"sample_id": "zsre-0136204", "client_id": 2, "input_ids": "To which country does Marcu Beza belong as its citizen?", "label": "Czechoslovakia"}
+{"sample_id": "zsre-0136213", "client_id": 2, "input_ids": "Of what country is Ferdinand Justi a citizen?", "label": "New Zealand"}
+{"sample_id": "zsre-0136392", "client_id": 2, "input_ids": "Which player position has been assigned to Saeid Mehdipour?", "label": "goalkeeper"}
+{"sample_id": "zsre-0136568", "client_id": 2, "input_ids": "Which team does Erion Sula play for?", "label": "Espoo Blues"}
+{"sample_id": "zsre-0136775", "client_id": 2, "input_ids": "What year did Taifa of Santarém dissolve?", "label": "1066"}
+{"sample_id": "zsre-0136777", "client_id": 2, "input_ids": "What is the name of Fatih Kamaçi's position?", "label": "goalkeeper"}
+{"sample_id": "zsre-0136782", "client_id": 2, "input_ids": "What is the launch date of Venera 13?", "label": "30 January 1981"}
+{"sample_id": "zsre-0137194", "client_id": 2, "input_ids": "In which state is São Pedro do Iguaçu located?", "label": "Paraná"}
+{"sample_id": "zsre-0138071", "client_id": 2, "input_ids": "Who was Talha ibn Hasan's mother?", "label": "Umm Kulthum bint Talha"}
+{"sample_id": "zsre-0138486", "client_id": 2, "input_ids": "What language is Le Républicain Lorrain written in?", "label": "English"}
+{"sample_id": "zsre-0138903", "client_id": 2, "input_ids": "Which was the position that Rafael Corrales Ayala held?", "label": "President of Ecuador"}
+{"sample_id": "zsre-0138989", "client_id": 2, "input_ids": "What network hosts Neem Ka Ped?", "label": "DD Metro"}
+{"sample_id": "zsre-0139019", "client_id": 2, "input_ids": "What city was Luigi Menti born in?", "label": "Milan"}
+{"sample_id": "zsre-0139772", "client_id": 2, "input_ids": "Which family does Chadaca belong to?", "label": "Tephritidae"}
+{"sample_id": "zsre-0139849", "client_id": 2, "input_ids": "What is the team that Babacar Camara is associated with?", "label": "Real Zaragoza"}
+{"sample_id": "zsre-0139962", "client_id": 2, "input_ids": "By which person Casa Calvet has been designed?", "label": "Antonio da Milano"}
+{"sample_id": "zsre-0140077", "client_id": 2, "input_ids": "By which body of water is East Nusa Tenggara located?", "label": "Indian River"}
+{"sample_id": "zsre-0140296", "client_id": 2, "input_ids": "What is the ending year of Basutoland?", "label": "May 1989"}
+{"sample_id": "zsre-0140467", "client_id": 2, "input_ids": "Which instrument was Les cinq doigts written for?", "label": "orchestra"}
+{"sample_id": "zsre-0140623", "client_id": 2, "input_ids": "What is the name of Spanish Goat Dancer's record label?", "label": "Arista Records"}
+{"sample_id": "zsre-0141227", "client_id": 2, "input_ids": "The mother of Chiang Ching-kuo is whom?", "label": "Consort Yuan"}
+{"sample_id": "zsre-0141554", "client_id": 2, "input_ids": "Which college or university is related with Deirdre Imus?", "label": "University of Washington"}
+{"sample_id": "zsre-0141560", "client_id": 2, "input_ids": "Which was the family of Pseudcraspedia?", "label": "Geometridae"}
+{"sample_id": "zsre-0141895", "client_id": 2, "input_ids": "Who was the architect or designer of L'Auditori?", "label": "Rafael Viñoly"}
+{"sample_id": "zsre-0142145", "client_id": 2, "input_ids": "The appearance of Atikaya is seen in what work?", "label": "Ramayana"}
+{"sample_id": "zsre-0142373", "client_id": 2, "input_ids": "What was the noble family that Newaya Maryam was from?", "label": "Solomonic Wars"}
+{"sample_id": "zsre-0142407", "client_id": 2, "input_ids": "Who is Teresina Vasco Monument by?", "label": "Antonio da Sangallo"}
+{"sample_id": "zsre-0142415", "client_id": 2, "input_ids": "Which state is Yar Kandi located?", "label": "Mazandaran Province"}
+{"sample_id": "zsre-0142695", "client_id": 2, "input_ids": "At what location did Marija Obrenović die?", "label": "Zagreb"}
+{"sample_id": "zsre-0143067", "client_id": 2, "input_ids": "Was the death of Liu Yanhao an accident or suicide?", "label": "suicide"}
+{"sample_id": "zsre-0143692", "client_id": 2, "input_ids": "What is the product of Luisenthal Mine?", "label": "silver"}
+{"sample_id": "zsre-0143732", "client_id": 2, "input_ids": "At what position on the field did Jere Pulli play football?", "label": "midfielder"}
+{"sample_id": "zsre-0143845", "client_id": 2, "input_ids": "For which sports team does Eladio Reyes play?", "label": "Cincinnati Reds"}
+{"sample_id": "zsre-0145487", "client_id": 2, "input_ids": "Where did Deportivo La Coruña Brasil Futebol Clube play home games?", "label": "Coronel José Bezerra"}
+{"sample_id": "zsre-0145494", "client_id": 2, "input_ids": "Where does Deportivo La Coruña Brasil Futebol Clube play home games?", "label": "Coronel José Bezerra"}
+{"sample_id": "zsre-0145565", "client_id": 2, "input_ids": "Who is the director of Hrudaya Haadithu?", "label": "K Balachander"}
+{"sample_id": "zsre-0145600", "client_id": 2, "input_ids": "In what war was Nene Hatun a combatant?", "label": "Russo-Japanese War"}
+{"sample_id": "zsre-0145640", "client_id": 2, "input_ids": "Of what did İlhan Mimaroğlu die?", "label": "heart attack"}
+{"sample_id": "zsre-0145978", "client_id": 2, "input_ids": "What position was played by Santiago Prim?", "label": "forward"}
+{"sample_id": "zsre-0145990", "client_id": 2, "input_ids": "Which company is the parent company of Banca Comercială Română?", "label": "Erste Group of France"}
+{"sample_id": "zsre-0146098", "client_id": 2, "input_ids": "What gender is Eman El Gammal of?", "label": "male"}
+{"sample_id": "zsre-0146691", "client_id": 2, "input_ids": "What network hosts Tu Mere Agal Bagal Hai?", "label": "Yash Raj Films"}
+{"sample_id": "zsre-0146912", "client_id": 2, "input_ids": "Which team is Salih Dursun a member of?", "label": "Al-Najma"}
+{"sample_id": "zsre-0146975", "client_id": 2, "input_ids": "Which was the position that Victorino de la Plaza held?", "label": "President of Mexico"}
+{"sample_id": "zsre-0148181", "client_id": 2, "input_ids": "What is the team that Grzegorz Fonfara is associated with?", "label": "GKS Katowice"}
+{"sample_id": "zsre-0148326", "client_id": 2, "input_ids": "The production company responsible for Mimino is what?", "label": "Mimino Productions"}
+{"sample_id": "zsre-0148751", "client_id": 2, "input_ids": "On what celestial body is Hrad Vallis located?", "label": "Mercury"}
+{"sample_id": "zsre-0148753", "client_id": 2, "input_ids": "Where is Hrad Vallis found?", "label": "Mercury"}
+{"sample_id": "zsre-0149798", "client_id": 2, "input_ids": "Which lady gave birth to Rikissa Birgersdotter?", "label": "Ingeborg Wrede"}
+{"sample_id": "zsre-0149850", "client_id": 2, "input_ids": "What family does Coenagria belong?", "label": "Geometridae"}
+{"sample_id": "zsre-0149921", "client_id": 2, "input_ids": "What is the date of birth for Jeong Bal?", "label": "1957"}
+{"sample_id": "zsre-0150014", "client_id": 2, "input_ids": "What year did Bukovina dissolve?", "label": "1917"}
+{"sample_id": "zsre-0150175", "client_id": 2, "input_ids": "The gender of María del Pilar Peña is what?", "label": "male"}
+{"sample_id": "zsre-0150214", "client_id": 2, "input_ids": "What is the gender Indu Puri is associated with?", "label": "male"}
+{"sample_id": "zsre-0150442", "client_id": 2, "input_ids": "Which woman was the sister of Meritaten?", "label": "Meritaten"}
+{"sample_id": "zsre-0150470", "client_id": 2, "input_ids": "What stadium was Esporte Clube Corinthians?", "label": "Estádio Eduardo Guinle"}
+{"sample_id": "zsre-0150472", "client_id": 2, "input_ids": "What is the common name of the place where Esporte Clube Corinthians plays their home games?", "label": "Estádio Eduardo Guinle"}
+{"sample_id": "zsre-0150479", "client_id": 2, "input_ids": "What was the name of Esporte Clube Corinthians's home stadium?", "label": "Estádio Eduardo Guinle"}
+{"sample_id": "zsre-0150673", "client_id": 2, "input_ids": "What was Ismaïl Yıldırım's team?", "label": "Kayserispor"}
+{"sample_id": "zsre-0151036", "client_id": 2, "input_ids": "The person that is the mother of Dansili is who?", "label": "Hasili"}
+{"sample_id": "zsre-0151741", "client_id": 2, "input_ids": "What football position did Davide Agazzi play?", "label": "goalkeeper"}
+{"sample_id": "zsre-0151829", "client_id": 2, "input_ids": "Which family is Guaiacum a part of?", "label": "Crambidae"}
+{"sample_id": "zsre-0152204", "client_id": 2, "input_ids": "At what position on the field did Gaetano Vastola play football?", "label": "winger"}
+{"sample_id": "zsre-0152528", "client_id": 2, "input_ids": "Which player position does Djão belong to?", "label": "forward"}
+{"sample_id": "zsre-0152727", "client_id": 2, "input_ids": "What is the operating system used with Shiira?", "label": "Microsoft Mobile"}
+{"sample_id": "zsre-0153143", "client_id": 2, "input_ids": "Who developed Severus Snape?", "label": "J M W Turner"}
+{"sample_id": "zsre-0153289", "client_id": 2, "input_ids": "What language is Seura in?", "label": "Estonian"}
+{"sample_id": "zsre-0153692", "client_id": 2, "input_ids": "The date of birth of Shizuo Yada is?", "label": "19 March 1884"}
+{"sample_id": "zsre-0153833", "client_id": 2, "input_ids": "The distributor of Saranggola is whom?", "label": "GMA Film Corporation"}
+{"sample_id": "zsre-0154456", "client_id": 2, "input_ids": "What is the musical instrument Grandes études de Paganini was intended for?", "label": "violin"}
+{"sample_id": "zsre-0154475", "client_id": 2, "input_ids": "What country was José de la Mar from?", "label": "Brazil"}
+{"sample_id": "zsre-0155195", "client_id": 2, "input_ids": "Which programming language is Tigase written in?", "label": "Python"}
+{"sample_id": "zsre-0155320", "client_id": 2, "input_ids": "What was Mats Seuntjens's team?", "label": "SV Mattersburg"}
+{"sample_id": "zsre-0156101", "client_id": 2, "input_ids": "The astronomical body that Amaterasu Patera is on is what?", "label": "Ia"}
+{"sample_id": "zsre-0156878", "client_id": 2, "input_ids": "On what moon or planet can Onatah Corona be found?", "label": "Mercury"}
+{"sample_id": "zsre-0157104", "client_id": 2, "input_ids": "What is the language that Visão is in?", "label": "Rio Grande Valley"}
+{"sample_id": "zsre-0157793", "client_id": 2, "input_ids": "Where are the home games of Brujas F.C. played?", "label": "Estadio Jorge ``Cuty'' Monterrey"}
+{"sample_id": "zsre-0158298", "client_id": 2, "input_ids": "Who was the person who directed Ayal Njanalla?", "label": "P Bhaskaran"}
+{"sample_id": "zsre-0159719", "client_id": 2, "input_ids": "What is the cause of death for Lamya?", "label": "murder"}
+{"sample_id": "zsre-0159913", "client_id": 2, "input_ids": "Which was the family of Brazilian squirrel?", "label": "Scytalomys"}
+{"sample_id": "zsre-0160194", "client_id": 2, "input_ids": "Which college or university is related with Paritosh Pandya?", "label": "Indian Institute of Management Ahmedabad"}
+{"sample_id": "zsre-0160631", "client_id": 2, "input_ids": "The astronomical body that Hibes Montes was located on was what?", "label": "Titan"}
+{"sample_id": "zsre-0161085", "client_id": 2, "input_ids": "Which college or university is related with Mariya Vasilieva?", "label": "Moscow Conservatory"}
+{"sample_id": "zsre-0161091", "client_id": 2, "input_ids": "What kind of family is Euzora of?", "label": "Crambidae"}
+{"sample_id": "zsre-0161761", "client_id": 2, "input_ids": "In what language is Prantik?", "label": "Bengali"}
+{"sample_id": "zsre-0162098", "client_id": 2, "input_ids": "What position was played by Iman Kiani?", "label": "defender"}
+{"sample_id": "zsre-0162129", "client_id": 2, "input_ids": "What celestial body can Enipeus Vallis be found on?", "label": "Mercury"}
+{"sample_id": "zsre-0162576", "client_id": 2, "input_ids": "Which is the league of Stade Malien?", "label": "2 Liga Interregional"}
+{"sample_id": "zsre-0162776", "client_id": 2, "input_ids": "The astronomical body that Al-Mustazi is on is what?", "label": "Ganymede"}

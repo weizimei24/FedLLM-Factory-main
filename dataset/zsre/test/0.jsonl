@@ -1,0 +1,500 @@
+{"sample_id": "zsre-0000287", "client_id": 0, "input_ids": "Which university attended Charles Redmon?", "label": "Harvard University"}
+{"sample_id": "zsre-0001104", "client_id": 0, "input_ids": "What's the university Calvin O'Neal went to?", "label": "Princeton University"}
+{"sample_id": "zsre-0001341", "client_id": 0, "input_ids": "What was the country of birth of Kelton Pell?", "label": "Canada"}
+{"sample_id": "zsre-0001594", "client_id": 0, "input_ids": "What killed Edie Adams?", "label": "stroke"}
+{"sample_id": "zsre-0002074", "client_id": 0, "input_ids": "Which team is Glen Seabrooke in?", "label": "Dallas Stars"}
+{"sample_id": "zsre-0002476", "client_id": 0, "input_ids": "Who's Lee Bass' dad?", "label": "John Bass"}
+{"sample_id": "zsre-0002523", "client_id": 0, "input_ids": "What type of employment does Reggie Redding have?", "label": "basketball coach"}
+{"sample_id": "zsre-0002561", "client_id": 0, "input_ids": "What team is John Elders playing?", "label": "Cleveland Cavaliers"}
+{"sample_id": "zsre-0002821", "client_id": 0, "input_ids": "What was Fergus Wallace's career?", "label": "rugby league player"}
+{"sample_id": "zsre-0003614", "client_id": 0, "input_ids": "What tone does Yvie Burnett sing?", "label": "mezzo-srano"}
+{"sample_id": "zsre-0003662", "client_id": 0, "input_ids": "The college Stephen McNeff attended, what was that?", "label": "Harvard University"}
+{"sample_id": "zsre-0003830", "client_id": 0, "input_ids": "What voice does Ian Bostridge have?", "label": "baritone"}
+{"sample_id": "zsre-0004392", "client_id": 0, "input_ids": "When's Chester David Hartranft born?", "label": "1866"}
+{"sample_id": "zsre-0004901", "client_id": 0, "input_ids": "What is the university Brook Byers went to?", "label": "University of Michigan"}
+{"sample_id": "zsre-0005775", "client_id": 0, "input_ids": "Which field position does José Daniel Álvarez have?", "label": "defender"}
+{"sample_id": "zsre-0006240", "client_id": 0, "input_ids": "What was Iain Jamieson's birth date?", "label": "21 July 1884"}
+{"sample_id": "zsre-0006316", "client_id": 0, "input_ids": "What was Joe-Max Moore's position?", "label": "forward"}
+{"sample_id": "zsre-0006532", "client_id": 0, "input_ids": "What did Júlio Dinis die from?", "label": "tetanus"}
+{"sample_id": "zsre-0006682", "client_id": 0, "input_ids": "What is the water Murray Mouth is close to?", "label": "River Thames"}
+{"sample_id": "zsre-0006864", "client_id": 0, "input_ids": "Which is Henry Twells' date of birth?", "label": "1847"}
+{"sample_id": "zsre-0007555", "client_id": 0, "input_ids": "What fictional universe is Baron Bedlam from?", "label": "Marvel Universe"}
+{"sample_id": "zsre-0007693", "client_id": 0, "input_ids": "What was Horatio Nelson Young's conflict?", "label": "World War I"}
+{"sample_id": "zsre-0007799", "client_id": 0, "input_ids": "What sports team was Danny Salazar in?", "label": "San Francisco Giants"}
+{"sample_id": "zsre-0009123", "client_id": 0, "input_ids": "What is Norman Swartz' place of work?", "label": "Yale University"}
+{"sample_id": "zsre-0009639", "client_id": 0, "input_ids": "Which city is Manthor?", "label": "Tiraspol"}
+{"sample_id": "zsre-0009686", "client_id": 0, "input_ids": "Where was Arthur Cunningham living when he died?", "label": "Cleveland"}
+{"sample_id": "zsre-0009961", "client_id": 0, "input_ids": "What country did Tadhg Murphy get from?", "label": "County Cork"}
+{"sample_id": "zsre-0011152", "client_id": 0, "input_ids": "What kind of medical problem had Sam Treiman?", "label": "prostate cancer"}
+{"sample_id": "zsre-0011753", "client_id": 0, "input_ids": "Which college was Raymond Hawkins at?", "label": "Bedford School"}
+{"sample_id": "zsre-0012169", "client_id": 0, "input_ids": "What work of fiction does Will Griggs lie in?", "label": "Lifestories"}
+{"sample_id": "zsre-0012820", "client_id": 0, "input_ids": "Brian McGinty's date of birth is what?", "label": "1957"}
+{"sample_id": "zsre-0012821", "client_id": 0, "input_ids": "What war did George Price Hays fight at?", "label": "Vietnam War"}
+{"sample_id": "zsre-0012913", "client_id": 0, "input_ids": "What war was Gordon Byrom Rogers serving in?", "label": "Vietnam War"}
+{"sample_id": "zsre-0013819", "client_id": 0, "input_ids": "What date did William York Tindall die on?", "label": "1918"}
+{"sample_id": "zsre-0013824", "client_id": 0, "input_ids": "Where's Joseph Boxhall died?", "label": "New York City"}
+{"sample_id": "zsre-0013898", "client_id": 0, "input_ids": "What fictional work would you find a character named Anthony Moon in?", "label": "Shortland Street"}
+{"sample_id": "zsre-0014335", "client_id": 0, "input_ids": "What conflict was there in George Pomutz?", "label": "American Revolutionary War"}
+{"sample_id": "zsre-0014495", "client_id": 0, "input_ids": "What gender class is Lawrence Berry Washington?", "label": "baritone"}
+{"sample_id": "zsre-0014496", "client_id": 0, "input_ids": "What gender is Lawrence Berry Washington associated with?", "label": "baritone"}
+{"sample_id": "zsre-0014981", "client_id": 0, "input_ids": "Which team is Luke Witkowski playing?", "label": "Tulsa Shock"}
+{"sample_id": "zsre-0015430", "client_id": 0, "input_ids": "On what continent is Cape Hodgson?", "label": "South America"}
+{"sample_id": "zsre-0015614", "client_id": 0, "input_ids": "What war has Eugene Blair waged?", "label": "Second Boer War"}
+{"sample_id": "zsre-0015817", "client_id": 0, "input_ids": "And who is Thompson Cooper's father?", "label": "Thomas Cooper"}
+{"sample_id": "zsre-0015921", "client_id": 0, "input_ids": "What is the series The Good Husband of Zebra Drive is a part of?", "label": "Dad's Army"}
+{"sample_id": "zsre-0016337", "client_id": 0, "input_ids": "In which player position does Matt Berquist belong?", "label": "goaltender"}
+{"sample_id": "zsre-0016683", "client_id": 0, "input_ids": "Which college is Jerry Sichting at?", "label": "University of Michigan Law School"}
+{"sample_id": "zsre-0017792", "client_id": 0, "input_ids": "Which team is Barry Sumpter in?", "label": "San Francisco 49ers"}
+{"sample_id": "zsre-0017794", "client_id": 0, "input_ids": "With which team is Barry Sumpter associated?", "label": "Sacramento Kings"}
+{"sample_id": "zsre-0017897", "client_id": 0, "input_ids": "Which singer-songwriter is You Don't Mess Around with Jim the fifth studio album by?", "label": "Jim Croce"}
+{"sample_id": "zsre-0018071", "client_id": 0, "input_ids": "Which team is Lance Dunbar connected?", "label": "Toronto Argonauts"}
+{"sample_id": "zsre-0018327", "client_id": 0, "input_ids": "What city was Guy Wilthew living in when he died?", "label": "Cape Town"}
+{"sample_id": "zsre-0018419", "client_id": 0, "input_ids": "Where did Arran Lee-Barrett born?", "label": "Houston"}
+{"sample_id": "zsre-0018540", "client_id": 0, "input_ids": "What is the cause of death for Floyd Cramer?", "label": "multiple myeloma"}
+{"sample_id": "zsre-0018554", "client_id": 0, "input_ids": "Who was Warren Adams' dad?", "label": "John Adams"}
+{"sample_id": "zsre-0018807", "client_id": 0, "input_ids": "The college Ken Keeler was in was what?", "label": "Columbia University"}
+{"sample_id": "zsre-0018995", "client_id": 0, "input_ids": "What team is Paul McIntosh in?", "label": "New York Rangers"}
+{"sample_id": "zsre-0019670", "client_id": 0, "input_ids": "When did Gilly Coman get born?", "label": "20 January 1986"}
+{"sample_id": "zsre-0019831", "client_id": 0, "input_ids": "What's the date of birth of Allan Musoke?", "label": "19 March 1875"}
+{"sample_id": "zsre-0019941", "client_id": 0, "input_ids": "What was the name Peter Riva's mother?", "label": "Katharina Riva"}
+{"sample_id": "zsre-0020151", "client_id": 0, "input_ids": "Who established James McBean Residence?", "label": "Le Corbusier"}
+{"sample_id": "zsre-0020155", "client_id": 0, "input_ids": "Who was the architect who was dealing with James McBean Residence?", "label": "Frank Borzage"}
+{"sample_id": "zsre-0020257", "client_id": 0, "input_ids": "With what date did Karl-Erik Palmér die?", "label": "18 July 1882"}
+{"sample_id": "zsre-0020330", "client_id": 0, "input_ids": "What's the position of Raymond Vall?", "label": "bishop"}
+{"sample_id": "zsre-0020713", "client_id": 0, "input_ids": "Who is the star of Jake Speed?", "label": "Dane Clark"}
+{"sample_id": "zsre-0020794", "client_id": 0, "input_ids": "What war did Martin K. Davis serve in?", "label": "Korean War"}
+{"sample_id": "zsre-0021134", "client_id": 0, "input_ids": "Which war was George J. Peters in?", "label": "Spanish-- American War"}
+{"sample_id": "zsre-0021276", "client_id": 0, "input_ids": "What place is Mr. and Mrs. Gambler in?", "label": "Los Angeles"}
+{"sample_id": "zsre-0021282", "client_id": 0, "input_ids": "Where's Fred Iltis dying?", "label": "New Orleans"}
+{"sample_id": "zsre-0021320", "client_id": 0, "input_ids": "What disease did Robert Alan Aurthur suffer?", "label": "heart attack"}
+{"sample_id": "zsre-0021370", "client_id": 0, "input_ids": "What position did Samuel Henry Strong occupy?", "label": "Governor of Connecticut"}
+{"sample_id": "zsre-0021463", "client_id": 0, "input_ids": "Where did Simon Slater be born?", "label": "Leeds"}
+{"sample_id": "zsre-0022546", "client_id": 0, "input_ids": "What was Derek Collins' birth town?", "label": "Glasgow"}
+{"sample_id": "zsre-0022827", "client_id": 0, "input_ids": "Which position did Lloyd H. Kincaid take?", "label": "member of the Illinois House of Representatives"}
+{"sample_id": "zsre-0023010", "client_id": 0, "input_ids": "What is the gender of MacKinzie Kline?", "label": "male"}
+{"sample_id": "zsre-0023076", "client_id": 0, "input_ids": "Who's being performed as William Gawdy's father?", "label": "William Gawdy"}
+{"sample_id": "zsre-0023452", "client_id": 0, "input_ids": "On what date did the RAF Wildenrath end?", "label": "1962"}
+{"sample_id": "zsre-0023559", "client_id": 0, "input_ids": "What's the team Glen Saville's being associated with?", "label": "Toronto Argonauts"}
+{"sample_id": "zsre-0023748", "client_id": 0, "input_ids": "Which university did Matthew C. Stephenson attend?", "label": "Columbia University"}
+{"sample_id": "zsre-0023778", "client_id": 0, "input_ids": "The film \"Meet Maxwell Archer\" was directed by whom?", "label": "William Garwood"}
+{"sample_id": "zsre-0023803", "client_id": 0, "input_ids": "What's David Limberský playing for?", "label": "FC Viktoria Plzeň"}
+{"sample_id": "zsre-0023811", "client_id": 0, "input_ids": "What war served Albert O'Connor?", "label": "Spanish-- American War"}
+{"sample_id": "zsre-0024014", "client_id": 0, "input_ids": "What performer did the album Apprentice of the Universe release?", "label": "Kiss"}
+{"sample_id": "zsre-0024019", "client_id": 0, "input_ids": "In what war did Francis James Ralph participate?", "label": "Napoleonic Wars"}
+{"sample_id": "zsre-0024352", "client_id": 0, "input_ids": "When's the birth of Clyde Lee Conrad?", "label": "1955"}
+{"sample_id": "zsre-0024384", "client_id": 0, "input_ids": "What was the position of Bryce Moon on the rugby field?", "label": "midfielder"}
+{"sample_id": "zsre-0024832", "client_id": 0, "input_ids": "What place is Man in Blues?", "label": "New Zealand"}
+{"sample_id": "zsre-0025111", "client_id": 0, "input_ids": "What is the name of the state where Capt. Peter Rice House lies?", "label": "New York"}
+{"sample_id": "zsre-0025117", "client_id": 0, "input_ids": "What position did Brandon Curran have in football?", "label": "goalkeeper"}
+{"sample_id": "zsre-0025256", "client_id": 0, "input_ids": "What role does Ralph Dain play?", "label": "defender"}
+{"sample_id": "zsre-0025426", "client_id": 0, "input_ids": "When is Joseph Chatt born?", "label": "1 July 1894"}
+{"sample_id": "zsre-0025800", "client_id": 0, "input_ids": "What's Mark Hartsell's team?", "label": "New York Jets"}
+{"sample_id": "zsre-0025876", "client_id": 0, "input_ids": "What occupation does Robert Fergusson have?", "label": "architect"}
+{"sample_id": "zsre-0026463", "client_id": 0, "input_ids": "What is the country of Walter Romberg citizenship?", "label": "Switzerland"}
+{"sample_id": "zsre-0026525", "client_id": 0, "input_ids": "When will the life of George Edmund Butler end?", "label": "1917"}
+{"sample_id": "zsre-0026966", "client_id": 0, "input_ids": "Which college is Lawrence Humphrey in?", "label": "Princeton University"}
+{"sample_id": "zsre-0027011", "client_id": 0, "input_ids": "What is the name of the state in which J. Warren Smith House is located?", "label": "Ohio"}
+{"sample_id": "zsre-0027605", "client_id": 0, "input_ids": "Which team played Adam Mair?", "label": "New York Islanders"}
+{"sample_id": "zsre-0027972", "client_id": 0, "input_ids": "- Who's Thomas Penn's father?", "label": "Robert Penn"}
+{"sample_id": "zsre-0028029", "client_id": 0, "input_ids": "In which city did Carl Braden die?", "label": "Lima"}
+{"sample_id": "zsre-0028996", "client_id": 0, "input_ids": "What team does Sebastian Bonecki play for?", "label": "FC Zbrojovka Brno"}
+{"sample_id": "zsre-0029296", "client_id": 0, "input_ids": "What war does Giles Alexander Smith fight in?", "label": "American Revolutionary War"}
+{"sample_id": "zsre-0029493", "client_id": 0, "input_ids": "What cause of death has Joseph Stilwell?", "label": "stilwell disease"}
+{"sample_id": "zsre-0029986", "client_id": 0, "input_ids": "How was the date of death for Ernest Chitty?", "label": "1952"}
+{"sample_id": "zsre-0030069", "client_id": 0, "input_ids": "What date of birth did Alexander Zick have?", "label": "18 February 1884"}
+{"sample_id": "zsre-0030322", "client_id": 0, "input_ids": "Who was the performer of the Loverman?", "label": "Lionel Richie"}
+{"sample_id": "zsre-0030513", "client_id": 0, "input_ids": "What is the surface of The Hill Climber made of?", "label": "wood"}
+{"sample_id": "zsre-0030611", "client_id": 0, "input_ids": "What kind of town was Ruby Myers born?", "label": "Melbourne"}
+{"sample_id": "zsre-0031154", "client_id": 0, "input_ids": "What is Ali Osman's work of fiction?", "label": "Shortland Street"}
+{"sample_id": "zsre-0031387", "client_id": 0, "input_ids": "What is Alan-Michael Spaulding's work of fiction?", "label": "Guided by Voices"}
+{"sample_id": "zsre-0031571", "client_id": 0, "input_ids": "What is the date of death for James Whyte Kelly?", "label": "1926"}
+{"sample_id": "zsre-0031588", "client_id": 0, "input_ids": "When was Rob Goswin's birth?", "label": "20 June 1981"}
+{"sample_id": "zsre-0032172", "client_id": 0, "input_ids": "What was the father's name of Samuel Wilberforce?", "label": "Sir Thomas Wilberforce"}
+{"sample_id": "zsre-0032863", "client_id": 0, "input_ids": "Who's The Kid and the Cowboy Director?", "label": "William A Wellman"}
+{"sample_id": "zsre-0033527", "client_id": 0, "input_ids": "What conflict was William F. Marsh involved in?", "label": "Korean War"}
+{"sample_id": "zsre-0033752", "client_id": 0, "input_ids": "What made Paul Sills die?", "label": "prostate cancer"}
+{"sample_id": "zsre-0033909", "client_id": 0, "input_ids": "What sort of water was Little Wittenham next to him?", "label": "River Great Ouse"}
+{"sample_id": "zsre-0034070", "client_id": 0, "input_ids": "What fictitious universe does Isaiah Bradley have?", "label": "DC Universe"}
+{"sample_id": "zsre-0034412", "client_id": 0, "input_ids": "Which team is Brayton Biekman?", "label": "Brisbane Broncos"}
+{"sample_id": "zsre-0036803", "client_id": 0, "input_ids": "What fiction does Jason Bourne play in?", "label": "Bourne Ultimatum"}
+{"sample_id": "zsre-0036804", "client_id": 0, "input_ids": "What piece of fiction does Jason Bourne appear in?", "label": "Bourne Ultimatum"}
+{"sample_id": "zsre-0036863", "client_id": 0, "input_ids": "What's the name of Ali Sunan's position?", "label": "goalkeeper"}
+{"sample_id": "zsre-0037239", "client_id": 0, "input_ids": "What disease has led Andrew Ray to death?", "label": "prostate cancer"}
+{"sample_id": "zsre-0037428", "client_id": 0, "input_ids": "What's the water of Moulsford?", "label": "Firth of Thames"}
+{"sample_id": "zsre-0037578", "client_id": 0, "input_ids": "What year died Axel Gudbrand Blytt?", "label": "11 May 1882"}
+{"sample_id": "zsre-0037615", "client_id": 0, "input_ids": "What position does Milton Batista Vieira Júnior have?", "label": "defender"}
+{"sample_id": "zsre-0037877", "client_id": 0, "input_ids": "Which show is Homer the Great appearing?", "label": "Rome"}
+{"sample_id": "zsre-0038316", "client_id": 0, "input_ids": "What crime has been committed by Charles Thomas Wooldridge?", "label": "tax evasion"}
+{"sample_id": "zsre-0038804", "client_id": 0, "input_ids": "What college is Tom Alberg at?", "label": "Harvard University"}
+{"sample_id": "zsre-0038995", "client_id": 0, "input_ids": "In what fictional work would you find a figure called Cole Turner?", "label": "All My Children"}
+{"sample_id": "zsre-0039456", "client_id": 0, "input_ids": "What was Richard Maitland's career?", "label": "journalist"}
+{"sample_id": "zsre-0039477", "client_id": 0, "input_ids": "Who played The Master Detective in the film?", "label": "Dorothy Lamour"}
+{"sample_id": "zsre-0039795", "client_id": 0, "input_ids": "In which war did John Fastolf fight?", "label": "World War II"}
+{"sample_id": "zsre-0039829", "client_id": 0, "input_ids": "What is the native Clément Hararis?", "label": "Algerian"}
+{"sample_id": "zsre-0039950", "client_id": 0, "input_ids": "What kind of a profession does William Tandy Senter have?", "label": "lawyer"}
+{"sample_id": "zsre-0040599", "client_id": 0, "input_ids": "What kind of material was used for Man with a Glove?", "label": "bronze"}
+{"sample_id": "zsre-0040643", "client_id": 0, "input_ids": "Where is Julio Rivera born?", "label": "Mexico City"}
+{"sample_id": "zsre-0040686", "client_id": 0, "input_ids": "Who did Pin Heel Surfer?", "label": "The Knife"}
+{"sample_id": "zsre-0042124", "client_id": 0, "input_ids": "What was Kevin Thomson's specialty in her professional sports?", "label": "defender"}
+{"sample_id": "zsre-0042164", "client_id": 0, "input_ids": "When did Walter Fraser Oakeshott's death occur?", "label": "27 September 1966"}
+{"sample_id": "zsre-0042190", "client_id": 0, "input_ids": "What's Cameron Howat's team?", "label": "North Melbourne Football Club"}
+{"sample_id": "zsre-0042686", "client_id": 0, "input_ids": "How did Duane Davis' career go?", "label": "film director"}
+{"sample_id": "zsre-0043123", "client_id": 0, "input_ids": "When did Huw Warren get born?", "label": "20 March 1884"}
+{"sample_id": "zsre-0043436", "client_id": 0, "input_ids": "What illness was Daniel Kish struggling with?", "label": "deafness"}
+{"sample_id": "zsre-0043698", "client_id": 0, "input_ids": "Which series does Gary Blauman belong to?", "label": "The Simpsons"}
+{"sample_id": "zsre-0043792", "client_id": 0, "input_ids": "What war did Jeremiah Mahoney have in store for?", "label": "Seven Years' War"}
+{"sample_id": "zsre-0045209", "client_id": 0, "input_ids": "Where did Ray Hutchison died?", "label": "Los Angeles"}
+{"sample_id": "zsre-0045233", "client_id": 0, "input_ids": "What kind of universe is Crimesmith a fictitious figure in?", "label": "DCworld"}
+{"sample_id": "zsre-0045509", "client_id": 0, "input_ids": "Where did Martin Maloney study or worked?", "label": "University of Sussex"}
+{"sample_id": "zsre-0045841", "client_id": 0, "input_ids": "What position does Henry A. Staab have?", "label": "member of the Pennsylvania House of Representatives"}
+{"sample_id": "zsre-0046099", "client_id": 0, "input_ids": "The year George Lackington died, right?", "label": "9 November 1844"}
+{"sample_id": "zsre-0046839", "client_id": 0, "input_ids": "What is Alexander Stirling Calder's birthplace?", "label": "Toronto"}
+{"sample_id": "zsre-0046979", "client_id": 0, "input_ids": "The date of birth of Bambi Jones is what?", "label": "1957"}
+{"sample_id": "zsre-0047113", "client_id": 0, "input_ids": "Nathan Ruegger's mother is who?", "label": "Adrienne Alexander-Couch"}
+{"sample_id": "zsre-0047117", "client_id": 0, "input_ids": "Nathan Ruegger's mom, who?", "label": "Adolphe Alexander Ruegger"}
+{"sample_id": "zsre-0047155", "client_id": 0, "input_ids": "What is the university where Mickey Vernon was?", "label": "Harvard University"}
+{"sample_id": "zsre-0047187", "client_id": 0, "input_ids": "What's the date of the death for Sidney Rosenthal?", "label": "1958"}
+{"sample_id": "zsre-0049170", "client_id": 0, "input_ids": "In what fictitious work do you find a character named Moses?", "label": "The Ten Commandments"}
+{"sample_id": "zsre-0049243", "client_id": 0, "input_ids": "What position did Richard M. Siddoway have?", "label": "member of the Michigan House of Representatives"}
+{"sample_id": "zsre-0049371", "client_id": 0, "input_ids": "Which team plays Jesse Wallin?", "label": "New York Rangers"}
+{"sample_id": "zsre-0049576", "client_id": 0, "input_ids": "What position did Don W. McGeorge take?", "label": "member of the Illinois House of Representatives"}
+{"sample_id": "zsre-0049985", "client_id": 0, "input_ids": "Which studio has revived the film \"Man and His Soul\"?", "label": "Paramount Pictures"}
+{"sample_id": "zsre-0050028", "client_id": 0, "input_ids": "Where is Dougal Dixon's birthplace?", "label": "Bristol"}
+{"sample_id": "zsre-0050217", "client_id": 0, "input_ids": "What caused David Blewitt to die?", "label": "Parkinson'sculosis"}
+{"sample_id": "zsre-0050667", "client_id": 0, "input_ids": "What's Michael Rummenigge's birth date?", "label": "1952"}
+{"sample_id": "zsre-0051924", "client_id": 0, "input_ids": "Is Zhang Xianghua male or female?", "label": "male"}
+{"sample_id": "zsre-0052285", "client_id": 0, "input_ids": "Which team is Jerry Newsom associated with?", "label": "Philadelphia 76ers"}
+{"sample_id": "zsre-0052441", "client_id": 0, "input_ids": "What's the name of the sports team whose member is David Petrus?", "label": "FC Groningen"}
+{"sample_id": "zsre-0052550", "client_id": 0, "input_ids": "What sports team belongs to Janny Rivera?", "label": "New York Mets"}
+{"sample_id": "zsre-0052948", "client_id": 0, "input_ids": "In what war did E. Richard Barnes argue?", "label": "Spanish-- American War"}
+{"sample_id": "zsre-0052987", "client_id": 0, "input_ids": "How was Morgan Cassius Fitzpatrick's job?", "label": "architect"}
+{"sample_id": "zsre-0053053", "client_id": 0, "input_ids": "What war did William John Gillespie take part in?", "label": "Second Boer War"}
+{"sample_id": "zsre-0053381", "client_id": 0, "input_ids": "In what fictional work is Jack Hollins a character?", "label": "Shortland Street"}
+{"sample_id": "zsre-0053418", "client_id": 0, "input_ids": "What was that college Kelly D. Patterson attended?", "label": "University of Texas at Austin"}
+{"sample_id": "zsre-0053689", "client_id": 0, "input_ids": "Which range did Richard Edgar-Wilson have?", "label": "bass"}
+{"sample_id": "zsre-0053825", "client_id": 0, "input_ids": "Which crime Arthur William Hodge committed?", "label": "blasphemy"}
+{"sample_id": "zsre-0054191", "client_id": 0, "input_ids": "Which state lies Benjamin Aldrich Homestead?", "label": "Connecticut"}
+{"sample_id": "zsre-0054237", "client_id": 0, "input_ids": "What disease did Lil Bub have in common?", "label": "ostomach cancer"}
+{"sample_id": "zsre-0054443", "client_id": 0, "input_ids": "What was David Drysdale's date of birth?", "label": "27 September 1986"}
+{"sample_id": "zsre-0054466", "client_id": 0, "input_ids": "The illness Cornelius Vanderbilt III died of was what?", "label": "stroke"}
+{"sample_id": "zsre-0054805", "client_id": 0, "input_ids": "What was the college Gary P. Gillum attended?", "label": "Harvard University"}
+{"sample_id": "zsre-0055745", "client_id": 0, "input_ids": "Which sports team is George Ikenne for?", "label": "Borussia Dortmund"}
+{"sample_id": "zsre-0056316", "client_id": 0, "input_ids": "What's the director's name for Strictly Sinatra?", "label": "George Seaton"}
+{"sample_id": "zsre-0056731", "client_id": 0, "input_ids": "What team has Paul George?", "label": "Boston Celtics"}
+{"sample_id": "zsre-0056735", "client_id": 0, "input_ids": "Which team is Paul George assigned?", "label": "Milwaukee Bucks"}
+{"sample_id": "zsre-0056737", "client_id": 0, "input_ids": "What crew is Paul George in?", "label": "Boston Celtics"}
+{"sample_id": "zsre-0057075", "client_id": 0, "input_ids": "Which position was held by Miles Benjamin McSweeney?", "label": "Governor of New York"}
+{"sample_id": "zsre-0057608", "client_id": 0, "input_ids": "What college was John Gofman in?", "label": "Columbia University"}
+{"sample_id": "zsre-0058086", "client_id": 0, "input_ids": "Where's Elmer Ellis' place of work?", "label": "Harvard University"}
+{"sample_id": "zsre-0058356", "client_id": 0, "input_ids": "What is Christopher Greenup's birth date?", "label": "21 July 1884"}
+{"sample_id": "zsre-0058568", "client_id": 0, "input_ids": "What's Joe Barry Carroll's team called?", "label": "Pittsburgh Steelers"}
+{"sample_id": "zsre-0058658", "client_id": 0, "input_ids": "What college or university is related to Craig Titley?", "label": "Trinity College"}
+{"sample_id": "zsre-0059009", "client_id": 0, "input_ids": "What position did David Assouline assume?", "label": "Member of the National Assembly for Wales"}
+{"sample_id": "zsre-0059525", "client_id": 0, "input_ids": "What's the Thomas Mann's father?", "label": "Maurice Mann"}
+{"sample_id": "zsre-0059773", "client_id": 0, "input_ids": "What was Tommy Quickly's career?", "label": "songwriter"}
+{"sample_id": "zsre-0061100", "client_id": 0, "input_ids": "What position was Stanley Okoroigwe playing?", "label": "forward"}
+{"sample_id": "zsre-0061210", "client_id": 0, "input_ids": "Who was Boyd Martin's father's figure?", "label": "John Martin"}
+{"sample_id": "zsre-0061424", "client_id": 0, "input_ids": "What's Murray Dickie's voice?", "label": "soprano"}
+{"sample_id": "zsre-0061461", "client_id": 0, "input_ids": "What college or university is associated with Jeremy McNeil?", "label": "Trinity College"}
+{"sample_id": "zsre-0061488", "client_id": 0, "input_ids": "What's the position of Drew Darby?", "label": "member of the Pennsylvania House of Representatives"}
+{"sample_id": "zsre-0061669", "client_id": 0, "input_ids": "In which country is Percy Beveridge active?", "label": "Australia"}
+{"sample_id": "zsre-0061921", "client_id": 0, "input_ids": "In what war was George H. Littlefield in the army?", "label": "World War I"}
+{"sample_id": "zsre-0062139", "client_id": 0, "input_ids": "Which football position did Greg Lalas play?", "label": "midfielder"}
+{"sample_id": "zsre-0062423", "client_id": 0, "input_ids": "What kind of occupation is Robert Curry Cameron doing?", "label": "actor"}
+{"sample_id": "zsre-0062775", "client_id": 0, "input_ids": "What voice was Ian Partridge?", "label": "countertenor"}
+{"sample_id": "zsre-0062838", "client_id": 0, "input_ids": "What position did Jim Mather occupy?", "label": "member of the Illinois House of Representatives"}
+{"sample_id": "zsre-0064407", "client_id": 0, "input_ids": "What was the date for Robert Marnock's death?", "label": "17 May 1875"}
+{"sample_id": "zsre-0064722", "client_id": 0, "input_ids": "What year died Jacob Kamm?", "label": "1880"}
+{"sample_id": "zsre-0065078", "client_id": 0, "input_ids": "Where did Michael Rune come from?", "label": "Sweden"}
+{"sample_id": "zsre-0065126", "client_id": 0, "input_ids": "What's Jeff Louis' date of birth?", "label": "1957"}
+{"sample_id": "zsre-0065351", "client_id": 0, "input_ids": "Who was Andrew Parks's mother?", "label": "Marian Parks"}
+{"sample_id": "zsre-0065943", "client_id": 0, "input_ids": "What river does Västerbron cross?", "label": "Göta älv"}
+{"sample_id": "zsre-0065978", "client_id": 0, "input_ids": "What state does Great Bradley have?", "label": "Essex"}
+{"sample_id": "zsre-0066296", "client_id": 0, "input_ids": "What conflict was connected to Lloyd Andrews Hamilton?", "label": "Second Boer War"}
+{"sample_id": "zsre-0066513", "client_id": 0, "input_ids": "Which team plays Alan Kováč?", "label": "Vancouver Canucks"}
+{"sample_id": "zsre-0066786", "client_id": 0, "input_ids": "What war or battle did Paul A. Hodgson have in mind?", "label": "Korean War"}
+{"sample_id": "zsre-0067078", "client_id": 0, "input_ids": "What threw at members where in The Unknown Policeman?", "label": "Gustav Fröbe"}
+{"sample_id": "zsre-0067250", "client_id": 0, "input_ids": "What company produced You, John Jones!?", "label": "Metro Pictures"}
+{"sample_id": "zsre-0068231", "client_id": 0, "input_ids": "How does Emmett Kelly die?", "label": "pneumonia"}
+{"sample_id": "zsre-0069220", "client_id": 0, "input_ids": "What mother tongue does Guy Marchand have?", "label": "German"}
+{"sample_id": "zsre-0069283", "client_id": 0, "input_ids": "When did the death of Joaquín Collar Serra take place?", "label": "18 February 1891"}
+{"sample_id": "zsre-0069520", "client_id": 0, "input_ids": "What was Michael Briere prosecuted for?", "label": "capital murder"}
+{"sample_id": "zsre-0069588", "client_id": 0, "input_ids": "Who's Jonathan Brewster's father?", "label": "John Brewster"}
+{"sample_id": "zsre-0069854", "client_id": 0, "input_ids": "Which disease caused the death of George Kuchar?", "label": "heart attack"}
+{"sample_id": "zsre-0069911", "client_id": 0, "input_ids": "What's the position of Leroy Peterson?", "label": "member of the Texas House of Representatives"}
+{"sample_id": "zsre-0070142", "client_id": 0, "input_ids": "What's the position that Darren Petrie plays?", "label": "goalkeeper"}
+{"sample_id": "zsre-0070255", "client_id": 0, "input_ids": "What was the cause of the death of Frank Lovejoy?", "label": "heart failure"}
+{"sample_id": "zsre-0071515", "client_id": 0, "input_ids": "What ethnic group has Damien Luce?", "label": "German"}
+{"sample_id": "zsre-0071553", "client_id": 0, "input_ids": "What illness was a factor in the death of Peter Cheeseman?", "label": "Parkinson'sculosis"}
+{"sample_id": "zsre-0071939", "client_id": 0, "input_ids": "Which woman was born John Mitchell Kemble?", "label": "Constance Kemble"}
+{"sample_id": "zsre-0072109", "client_id": 0, "input_ids": "Which place does The Book of Dave exist in?", "label": "Yorkshire"}
+{"sample_id": "zsre-0072435", "client_id": 0, "input_ids": "For what did Corey Perry play?", "label": "Anaheim Senators"}
+{"sample_id": "zsre-0072986", "client_id": 0, "input_ids": "What's the name of the sports team whose member is Éric Gélinas?", "label": "Clermont Foot"}
+{"sample_id": "zsre-0073208", "client_id": 0, "input_ids": "What series is Rubber Man a part of?", "label": "The Goodies"}
+{"sample_id": "zsre-0073292", "client_id": 0, "input_ids": "Who was Grover Cleveland's male parent?", "label": "James Cleveland"}
+{"sample_id": "zsre-0074180", "client_id": 0, "input_ids": "Which river is crossing Senator Robert D. Fleming Bridge?", "label": "Ohio River"}
+{"sample_id": "zsre-0074494", "client_id": 0, "input_ids": "Who is the distributor of Man of the Forest?", "label": "Paradox Interactive"}
+{"sample_id": "zsre-0074499", "client_id": 0, "input_ids": "Which company has Man of the Forest been dismissed?", "label": "Paradox Interactive"}
+{"sample_id": "zsre-0074917", "client_id": 0, "input_ids": "What kind of voice has Charles Santley?", "label": "countertenor"}
+{"sample_id": "zsre-0074992", "client_id": 0, "input_ids": "Father of Manon Gropius, who?", "label": "Algirdas Gropius"}
+{"sample_id": "zsre-0075799", "client_id": 0, "input_ids": "Which team is Gerald Small a member?", "label": "Tampa Bay Lightning"}
+{"sample_id": "zsre-0075919", "client_id": 0, "input_ids": "When did John Edmund Greene appear?", "label": "1880"}
+{"sample_id": "zsre-0077385", "client_id": 0, "input_ids": "Which state does Jim Kelly Field have?", "label": "Minnesota"}
+{"sample_id": "zsre-0077777", "client_id": 0, "input_ids": "What's the date of birth of John Ezell?", "label": "1957"}
+{"sample_id": "zsre-0078574", "client_id": 0, "input_ids": "What was the year when Matford was dissolved?", "label": "1940"}
+{"sample_id": "zsre-0078877", "client_id": 0, "input_ids": "Which war was James Mitchell Varnum in?", "label": "World War I"}
+{"sample_id": "zsre-0078883", "client_id": 0, "input_ids": "What was Remember Who I Am's label?", "label": "Warner Bros"}
+{"sample_id": "zsre-0078918", "client_id": 0, "input_ids": "The work of art Dr. Watson was by who?", "label": "William Hogarth"}
+{"sample_id": "zsre-0079058", "client_id": 0, "input_ids": "Which sports team was Jack Dixon with?", "label": "Cleveland Browns"}
+{"sample_id": "zsre-0079185", "client_id": 0, "input_ids": "Where's Arthur John Arberry died?", "label": "Sydney"}
+{"sample_id": "zsre-0079233", "client_id": 0, "input_ids": "Where is the birthplace of John Martin Scripps?", "label": "London"}
+{"sample_id": "zsre-0079559", "client_id": 0, "input_ids": "The birth date for Daniel McMaster is what?", "label": "19 March 1989"}
+{"sample_id": "zsre-0079978", "client_id": 0, "input_ids": "What college were Andrew H. Hedges in?", "label": "Harvard University"}
+{"sample_id": "zsre-0081127", "client_id": 0, "input_ids": "Where did Victor Heck be born?", "label": "Halle"}
+{"sample_id": "zsre-0081289", "client_id": 0, "input_ids": "Why'd John Button die?", "label": "tuberculosis"}
+{"sample_id": "zsre-0082464", "client_id": 0, "input_ids": "What illness does William Baines have?", "label": "tuber cancer"}
+{"sample_id": "zsre-0082469", "client_id": 0, "input_ids": "What cause of death had William Baines?", "label": "tuber disease"}
+{"sample_id": "zsre-0082711", "client_id": 0, "input_ids": "What's Edwin Myrwyn Rowlands' position?", "label": "Governor of New Jersey"}
+{"sample_id": "zsre-0082767", "client_id": 0, "input_ids": "In what fictional work is Terese Willis appearing?", "label": "All My Children"}
+{"sample_id": "zsre-0083261", "client_id": 0, "input_ids": "Where's the university where Alan Missen went?", "label": "University of Liverpool"}
+{"sample_id": "zsre-0083472", "client_id": 0, "input_ids": "What kind of occupation is Martin Bohman?", "label": "architect"}
+{"sample_id": "zsre-0083676", "client_id": 0, "input_ids": "What year was Manatt, Phelps & Phillips established?", "label": "1947"}
+{"sample_id": "zsre-0084338", "client_id": 0, "input_ids": "In which town was Troy Duffy born?", "label": "Troy"}
+{"sample_id": "zsre-0084462", "client_id": 0, "input_ids": "In what work do you see the appearance of Governor James Devlin?", "label": "Babylon 5"}
+{"sample_id": "zsre-0084620", "client_id": 0, "input_ids": "What was William D. Curry's job?", "label": "screenwriter"}
+{"sample_id": "zsre-0084694", "client_id": 0, "input_ids": "For which team does Dennis Flinta play?", "label": "New Jersey Devils"}
+{"sample_id": "zsre-0084775", "client_id": 0, "input_ids": "Which team does Simón Colina play?", "label": "Deportivo Quito"}
+{"sample_id": "zsre-0085180", "client_id": 0, "input_ids": "What's the date of Neil Conlan's death?", "label": "9 August 2012"}
+{"sample_id": "zsre-0085328", "client_id": 0, "input_ids": "Where is the university Mark J. Roe was at?", "label": "University of California, Berkeley"}
+{"sample_id": "zsre-0085473", "client_id": 0, "input_ids": "What country is Tim Crichton a citizen from?", "label": "South Africa"}
+{"sample_id": "zsre-0086000", "client_id": 0, "input_ids": "Which college is Algernon Fuller at?", "label": "Princeton University"}
+{"sample_id": "zsre-0086355", "client_id": 0, "input_ids": "What position does George W. Jackson have?", "label": "member of the Illinois House of Representatives"}
+{"sample_id": "zsre-0086997", "client_id": 0, "input_ids": "Which college went PewDiePie to?", "label": "Yale University"}
+{"sample_id": "zsre-0087713", "client_id": 0, "input_ids": "Which player position has Maxim Fedin been allocated?", "label": "goaltender"}
+{"sample_id": "zsre-0087772", "client_id": 0, "input_ids": "What team was Don Biggs playing for?", "label": "Minnesota Wild"}
+{"sample_id": "zsre-0088937", "client_id": 0, "input_ids": "What's Tim Nichols' place of birth?", "label": "Belfast"}
+{"sample_id": "zsre-0088940", "client_id": 0, "input_ids": "Robert Templeton's father, who was that?", "label": "Robert Templeton"}
+{"sample_id": "zsre-0089100", "client_id": 0, "input_ids": "How endangered does the Iucn Amur falcon keep?", "label": "near threatened"}
+{"sample_id": "zsre-0089448", "client_id": 0, "input_ids": "What kind of occupation has Nathan Jung?", "label": "screenwriter"}
+{"sample_id": "zsre-0089527", "client_id": 0, "input_ids": "In what capacity was Tim Söderström playing football?", "label": "defenceman"}
+{"sample_id": "zsre-0089804", "client_id": 0, "input_ids": "Who in the movie Clint the Stranger was the star?", "label": "George Brent"}
+{"sample_id": "zsre-0089939", "client_id": 0, "input_ids": "To which series does Guy Walks into a Psychiatrist's Office... belong?", "label": "The Twilight Zone"}
+{"sample_id": "zsre-0090183", "client_id": 0, "input_ids": "What university has Hugh Bellamy attended?", "label": "Royal Military Academy, Sandhurst"}
+{"sample_id": "zsre-0091066", "client_id": 0, "input_ids": "How was the founding year of Kane/Miller?", "label": "2001"}
+{"sample_id": "zsre-0091398", "client_id": 0, "input_ids": "What is the programming language for ActorFoundry?", "label": "JavaScript"}
+{"sample_id": "zsre-0091815", "client_id": 0, "input_ids": "On what date did Nicholas Barnewall, 3rd Viscount Barnewall die?", "label": "15 September 1766"}
+{"sample_id": "zsre-0092516", "client_id": 0, "input_ids": "To which fictional work does Sunny Lee belong in?", "label": "EastEnders"}
+{"sample_id": "zsre-0092681", "client_id": 0, "input_ids": "What tone does Anthony Michaels-Moore sing in?", "label": "countertenor"}
+{"sample_id": "zsre-0092698", "client_id": 0, "input_ids": "In which sport team is Chris Schuler a member?", "label": "Cleveland Indians"}
+{"sample_id": "zsre-0093056", "client_id": 0, "input_ids": "What was the date William Pinckney Mason died?", "label": "1918"}
+{"sample_id": "zsre-0093205", "client_id": 0, "input_ids": "What illness did Joseph Stannard suffer from?", "label": "tuber cancer"}
+{"sample_id": "zsre-0093525", "client_id": 0, "input_ids": "What is the name of the sports team Jordan Murdoch?", "label": "Newcastle Falcons"}
+{"sample_id": "zsre-0094796", "client_id": 0, "input_ids": "What war does Daniel Milliken serve in?", "label": "American Revolutionary War"}
+{"sample_id": "zsre-0094799", "client_id": 0, "input_ids": "What war did Robert Eugene Bush participate in?", "label": "Spanish-- American War"}
+{"sample_id": "zsre-0094800", "client_id": 0, "input_ids": "What position did George David Cummins assume?", "label": "Governor of Guam"}
+{"sample_id": "zsre-0094809", "client_id": 0, "input_ids": "What is the vocal program for Peter Glossop?", "label": "contralto"}
+{"sample_id": "zsre-0095030", "client_id": 0, "input_ids": "Which crime is Guy Paul Morin considered committed?", "label": "crime against humanity"}
+{"sample_id": "zsre-0096573", "client_id": 0, "input_ids": "What artist was responsible for Young Abe Lincoln's creation?", "label": "George Lincoln"}
+{"sample_id": "zsre-0096908", "client_id": 0, "input_ids": "What is the cause of Harry Frazee's death?", "label": "accident"}
+{"sample_id": "zsre-0097082", "client_id": 0, "input_ids": "What war or battle was connected with William Mayes Fry?", "label": "Second Boer War"}
+{"sample_id": "zsre-0098456", "client_id": 0, "input_ids": "What war has Alexander Slidell MacKenzie been involved in?", "label": "War of 1812"}
+{"sample_id": "zsre-0098481", "client_id": 0, "input_ids": "Who was in the film The Strength of Donald McKenzie?", "label": "Edmund Leighton"}
+{"sample_id": "zsre-0098611", "client_id": 0, "input_ids": "Where's Andrew Blain's place of work?", "label": "Yale University"}
+{"sample_id": "zsre-0099217", "client_id": 0, "input_ids": "When was Matthew Brettingham the Younger's birth?", "label": "1715"}
+{"sample_id": "zsre-0099295", "client_id": 0, "input_ids": "What position has Harmon Caldwell Drew taken?", "label": "Governor of New Jersey"}
+{"sample_id": "zsre-0100022", "client_id": 0, "input_ids": "Which is Row Lewis's country of citizenship?", "label": "United Kingdom"}
+{"sample_id": "zsre-0100409", "client_id": 0, "input_ids": "What's the team that Elliot Dee's connected to?", "label": "Cleveland Browns"}
+{"sample_id": "zsre-0100470", "client_id": 0, "input_ids": "What's Francis George Scott's job?", "label": "officer"}
+{"sample_id": "zsre-0100529", "client_id": 0, "input_ids": "What type of occupation does Robert Glaser have?", "label": "film director"}
+{"sample_id": "zsre-0100655", "client_id": 0, "input_ids": "What noble title does Sir Edward Turner, 1st Baronet hold?", "label": "Baron Turner"}
+{"sample_id": "zsre-0100740", "client_id": 0, "input_ids": "What place did Antonio Nibby die in?", "label": "Naples"}
+{"sample_id": "zsre-0101148", "client_id": 0, "input_ids": "What university did Oliver Miles take part in?", "label": "Royal Military College Sandhurst"}
+{"sample_id": "zsre-0101168", "client_id": 0, "input_ids": "Who was Lee Lozowick's dad?", "label": "Lorenzo Lozowick"}
+{"sample_id": "zsre-0101407", "client_id": 0, "input_ids": "What nationality is Simon Heere Heeresma?", "label": "German"}
+{"sample_id": "zsre-0101893", "client_id": 0, "input_ids": "Who was James Scott, Earl of Dalkeith's dad?", "label": "James Scott, 3rd Earl of Dalkeith"}
+{"sample_id": "zsre-0102407", "client_id": 0, "input_ids": "What position did Edward Shippen have?", "label": "United States Senator"}
+{"sample_id": "zsre-0102416", "client_id": 0, "input_ids": "Which university is related to Andrew Kaslow?", "label": "Columbia University"}
+{"sample_id": "zsre-0103125", "client_id": 0, "input_ids": "What's the date of the death for John Simcoe Macaulay?", "label": "1918"}
+{"sample_id": "zsre-0103664", "client_id": 0, "input_ids": "Which city did Wilbur Little live when he died?", "label": "Worcester"}
+{"sample_id": "zsre-0103903", "client_id": 0, "input_ids": "What's the birth date of Geoffrey Sumner?", "label": "1942"}
+{"sample_id": "zsre-0104810", "client_id": 0, "input_ids": "What was the voice type Sylvester Groth had?", "label": "bass"}
+{"sample_id": "zsre-0105638", "client_id": 0, "input_ids": "What's Barry Merrell's position?", "label": "forward"}
+{"sample_id": "zsre-0106273", "client_id": 0, "input_ids": "What killed Tito Burns?", "label": "prostate disease"}
+{"sample_id": "zsre-0106406", "client_id": 0, "input_ids": "Which company was Do You Know the Muffin Man? by?", "label": "ABC1"}
+{"sample_id": "zsre-0106525", "client_id": 0, "input_ids": "What is the name Hubert Bland?", "label": "John Scott"}
+{"sample_id": "zsre-0106658", "client_id": 0, "input_ids": "Where did James Edward Corea learn or worked?", "label": "Royal Military College Sandhurst"}
+{"sample_id": "zsre-0106718", "client_id": 0, "input_ids": "What crime did Johnson Aziga commit?", "label": "blasphemy"}
+{"sample_id": "zsre-0106854", "client_id": 0, "input_ids": "Which team is Rod Dallman on?", "label": "New Jersey Devils"}
+{"sample_id": "zsre-0106856", "client_id": 0, "input_ids": "What team is Rod Dallman?", "label": "New Jersey Devils"}
+{"sample_id": "zsre-0106981", "client_id": 0, "input_ids": "The college James Felder went to was what?", "label": "University of Michigan"}
+{"sample_id": "zsre-0107756", "client_id": 0, "input_ids": "What's the position that Tony McFadden plays?", "label": "midfielder"}
+{"sample_id": "zsre-0107924", "client_id": 0, "input_ids": "What fictional universe is the figure Leland McCauley connected to?", "label": "Marvel Universe"}
+{"sample_id": "zsre-0108134", "client_id": 0, "input_ids": "What fictitious work is Nick Page on?", "label": "Home and Away"}
+{"sample_id": "zsre-0108438", "client_id": 0, "input_ids": "When did Andreas Wittwer be born?", "label": "20 April 1894"}
+{"sample_id": "zsre-0108513", "client_id": 0, "input_ids": "In what conflict was Reuben Lindsay Walker a part?", "label": "World War I"}
+{"sample_id": "zsre-0108514", "client_id": 0, "input_ids": "What type of voice is Mario Altéry?", "label": "countertenor"}
+{"sample_id": "zsre-0108960", "client_id": 0, "input_ids": "Which team is Kevin van Kippersluist?", "label": "FC Twente"}
+{"sample_id": "zsre-0109068", "client_id": 0, "input_ids": "Which place is Alan & Naomi?", "label": "New Zealand"}
+{"sample_id": "zsre-0109383", "client_id": 0, "input_ids": "What crime has Washington Goode been charged with?", "label": "blasphemy"}
+{"sample_id": "zsre-0109461", "client_id": 0, "input_ids": "Which year did Charles Brickett Haddock die?", "label": "1891"}
+{"sample_id": "zsre-0109701", "client_id": 0, "input_ids": "On what date did William Marlott die?", "label": "1918"}
+{"sample_id": "zsre-0109895", "client_id": 0, "input_ids": "What year did Cosworth come into being?", "label": "1951"}
+{"sample_id": "zsre-0110042", "client_id": 0, "input_ids": "What's the position Maurice Elliott plays in football?", "label": "defender"}
+{"sample_id": "zsre-0110294", "client_id": 0, "input_ids": "Which team has Connor McDavid?", "label": "New York Rangers"}
+{"sample_id": "zsre-0110426", "client_id": 0, "input_ids": "Which team is David Watkinson playing for?", "label": "Cleveland Cavaliers"}
+{"sample_id": "zsre-0110547", "client_id": 0, "input_ids": "Which continent is Mount George Murray on?", "label": "South America"}
+{"sample_id": "zsre-0110758", "client_id": 0, "input_ids": "What does the surface of John Grandisson Triptych consist of?", "label": "bronze"}
+{"sample_id": "zsre-0110994", "client_id": 0, "input_ids": "Which player position does George Woolston Pyke belong in?", "label": "defender"}
+{"sample_id": "zsre-0111009", "client_id": 0, "input_ids": "What is Percy Hooper's position on the field at the football game?", "label": "defender"}
+{"sample_id": "zsre-0111153", "client_id": 0, "input_ids": "What war or battle did Harold Dale Meyerkord have?", "label": "World War I"}
+{"sample_id": "zsre-0111199", "client_id": 0, "input_ids": "What kind of job does Blake Richards have?", "label": "politician"}
+{"sample_id": "zsre-0111504", "client_id": 0, "input_ids": "What's the position Shaun Weatherhead plays?", "label": "inside forward"}
+{"sample_id": "zsre-0111824", "client_id": 0, "input_ids": "Which town was Noel Peyton born in?", "label": "Portsmouth"}
+{"sample_id": "zsre-0111883", "client_id": 0, "input_ids": "That college David Strange attended was what?", "label": "Royal Military College London"}
+{"sample_id": "zsre-0111979", "client_id": 0, "input_ids": "The college that Halsey Stevens attended, what?", "label": "Harvard University"}
+{"sample_id": "zsre-0112567", "client_id": 0, "input_ids": "The date of birth of Dee Ferris, what?", "label": "1956"}
+{"sample_id": "zsre-0112681", "client_id": 0, "input_ids": "What was Elias Ntaganda speciality in their professional sport?", "label": "defender"}
+{"sample_id": "zsre-0113018", "client_id": 0, "input_ids": "What war was Robert Meier at?", "label": "Korean War"}
+{"sample_id": "zsre-0113041", "client_id": 0, "input_ids": "What war was Russell M. Cox?", "label": "American Civil War"}
+{"sample_id": "zsre-0113132", "client_id": 0, "input_ids": "Who are cast members of Cadet Kelly?", "label": "Dane Clark"}
+{"sample_id": "zsre-0113323", "client_id": 0, "input_ids": "What range did Adam Flowers have?", "label": "soprano"}
+{"sample_id": "zsre-0113708", "client_id": 0, "input_ids": "What position did Daniel Burley Woolfall maintain?", "label": "Governor of Vermont"}
+{"sample_id": "zsre-0114088", "client_id": 0, "input_ids": "From what is the surface of Steinerner Steg?", "label": "cow milk"}
+{"sample_id": "zsre-0114141", "client_id": 0, "input_ids": "What kind of medical problems had James E. Mayo?", "label": "pneumonia"}
+{"sample_id": "zsre-0114232", "client_id": 0, "input_ids": "Who is William Henry Fitzhugh Lee's father?", "label": "James Lee"}
+{"sample_id": "zsre-0114266", "client_id": 0, "input_ids": "What was the war Joshua James Guppey fought in?", "label": "Battle of the Wilderness"}
+{"sample_id": "zsre-0114797", "client_id": 0, "input_ids": "For which prize was Gabourey Sidibe nominated?", "label": "Academy Award for Best Foreign Language Film"}
+{"sample_id": "zsre-0114800", "client_id": 0, "input_ids": "Which sports team was Dave Finzer a member of?", "label": "San Francisco Giants"}
+{"sample_id": "zsre-0115983", "client_id": 0, "input_ids": "What is the cause of death for Merton Beckwith-Smith?", "label": "kidney failure"}
+{"sample_id": "zsre-0116192", "client_id": 0, "input_ids": "What war or struggle did Kurt Nachod wage?", "label": "Battle of the Wilderness"}
+{"sample_id": "zsre-0116303", "client_id": 0, "input_ids": "What was Dan John Miller's career like?", "label": "singer"}
+{"sample_id": "zsre-0116842", "client_id": 0, "input_ids": "To what religious order was Haymo of Faversham?", "label": "Dominican Order"}
+{"sample_id": "zsre-0117176", "client_id": 0, "input_ids": "What fictitious work would you find a character named Marc MacKenzie in?", "label": "Shortland Street"}
+{"sample_id": "zsre-0117261", "client_id": 0, "input_ids": "Which college did John Trillo go to?", "label": "University of California, Berkeley"}
+{"sample_id": "zsre-0117314", "client_id": 0, "input_ids": "What's the name of the university Mike Nguyen formed?", "label": "Stanford University"}
+{"sample_id": "zsre-0117669", "client_id": 0, "input_ids": "What year Thomas Clydesdale died?", "label": "1864"}
+{"sample_id": "zsre-0118559", "client_id": 0, "input_ids": "What football position was Johnny Rollo playing?", "label": "forward"}
+{"sample_id": "zsre-0119052", "client_id": 0, "input_ids": "In what war has Hugh Rodman fought?", "label": "World War I"}
+{"sample_id": "zsre-0119950", "client_id": 0, "input_ids": "Where's William Cecil Slingsby's birth place?", "label": "New Zealand"}
+{"sample_id": "zsre-0120355", "client_id": 0, "input_ids": "From what country is Daniel Málek a citizen?", "label": "Bolivia"}
+{"sample_id": "zsre-0120796", "client_id": 0, "input_ids": "That's the birth date of Barry O'Toole?", "label": "1957"}
+{"sample_id": "zsre-0120908", "client_id": 0, "input_ids": "What date did Walter Giller die on?", "label": "1958"}
+{"sample_id": "zsre-0121320", "client_id": 0, "input_ids": "Which team is Brett MacDonald playing for?", "label": "Vancouver Kings"}
+{"sample_id": "zsre-0122391", "client_id": 0, "input_ids": "What is Edward Quist's birth place?", "label": "Oxford"}
+{"sample_id": "zsre-0123220", "client_id": 0, "input_ids": "How was the date of Sylvester Stein's death?", "label": "19 March 2015"}
+{"sample_id": "zsre-0123267", "client_id": 0, "input_ids": "Who was headed or edited by Chimmie Fadden Out West?", "label": "Cecilia Cheung"}
+{"sample_id": "zsre-0123771", "client_id": 0, "input_ids": "How was the war in which Jock Cunningham fought?", "label": "Spanish-- American War"}
+{"sample_id": "zsre-0123832", "client_id": 0, "input_ids": "What cause of death was listed by Max Alsberg?", "label": "smallpox"}
+{"sample_id": "zsre-0124740", "client_id": 0, "input_ids": "Nick Afoa's voice, what?", "label": "bass"}
+{"sample_id": "zsre-0124903", "client_id": 0, "input_ids": "The father of Matthew Karatz is Who?", "label": "Michael Karatz"}
+{"sample_id": "zsre-0125067", "client_id": 0, "input_ids": "Which is the death date of George Stavrinos?", "label": "1929"}
+{"sample_id": "zsre-0125186", "client_id": 0, "input_ids": "The date for Michael Szwarc's death is what?", "label": "18 February 1891"}
+{"sample_id": "zsre-0125202", "client_id": 0, "input_ids": "What day Murdo Macfarlane died?", "label": "5 December 1989"}
+{"sample_id": "zsre-0125483", "client_id": 0, "input_ids": "Where does Jan Mikusiński die?", "label": "London"}
+{"sample_id": "zsre-0126161", "client_id": 0, "input_ids": "What conflict was Noel Birch a part of?", "label": "World War I"}
+{"sample_id": "zsre-0126420", "client_id": 0, "input_ids": "Who's the creator of Why, Charlie Brown, Why???", "label": "Charles Mowbray"}
+{"sample_id": "zsre-0126646", "client_id": 0, "input_ids": "Who's the mother of Sir William Maule?", "label": "Christine de Bohun"}
+{"sample_id": "zsre-0126759", "client_id": 0, "input_ids": "What was Waldy Dzikowski's job like?", "label": "composer"}
+{"sample_id": "zsre-0126842", "client_id": 0, "input_ids": "The artwork Portrait of a Young Englishman was by whom?", "label": "Peter Paul Rubens"}
+{"sample_id": "zsre-0127094", "client_id": 0, "input_ids": "What is John Earp's position?", "label": "defender"}
+{"sample_id": "zsre-0127183", "client_id": 0, "input_ids": "What location is Barney Miller?", "label": "San Francisco"}
+{"sample_id": "zsre-0127312", "client_id": 0, "input_ids": "In what country is John Goodricke a citizen?", "label": "Canada"}
+{"sample_id": "zsre-0127442", "client_id": 0, "input_ids": "In what country was Roderick Briffa?", "label": "Ireland"}
+{"sample_id": "zsre-0128076", "client_id": 0, "input_ids": "What was Lewis Washington's father?", "label": "George Corbin Washington"}
+{"sample_id": "zsre-0128459", "client_id": 0, "input_ids": "What position has Charles Tupper taken?", "label": "Governor of Connecticut"}
+{"sample_id": "zsre-0131161", "client_id": 0, "input_ids": "What's the date Frank Cochrane died?", "label": "1962"}
+{"sample_id": "zsre-0131166", "client_id": 0, "input_ids": "What position does Larry Woodford have?", "label": "member of the Wisconsin State Assembly"}
+{"sample_id": "zsre-0131297", "client_id": 0, "input_ids": "What position did Nathan Buddle play football in?", "label": "goalkeeper"}
+{"sample_id": "zsre-0131544", "client_id": 0, "input_ids": "For which team does Mario Sonnleitner play?", "label": "FC Augsburg"}
+{"sample_id": "zsre-0131566", "client_id": 0, "input_ids": "Which college or university is related to Herb Jackson?", "label": "University of Michigan"}
+{"sample_id": "zsre-0131771", "client_id": 0, "input_ids": "What is the name of the sports team that Joel Bowden is?", "label": "New York Giants"}
+{"sample_id": "zsre-0132058", "client_id": 0, "input_ids": "Player Paul Osbaldiston plays for which team?", "label": "Winnipeg Jets"}
+{"sample_id": "zsre-0132065", "client_id": 0, "input_ids": "In which city was George Gibb born?", "label": "Glasgow"}
+{"sample_id": "zsre-0132114", "client_id": 0, "input_ids": "What voice is Nicholas Isherwood?", "label": "countertenor"}
+{"sample_id": "zsre-0132906", "client_id": 0, "input_ids": "Who's the star of Mugworth?", "label": "John Cleese"}
+{"sample_id": "zsre-0134056", "client_id": 0, "input_ids": "Where did Matthew Pierce study or worked?", "label": "University of Michigan"}
+{"sample_id": "zsre-0134146", "client_id": 0, "input_ids": "What's the position of Howard Ferguson?", "label": "Premier of Nova Scotia"}
+{"sample_id": "zsre-0134854", "client_id": 0, "input_ids": "What position did Joseph Höffner maintain?", "label": "cardinal"}
+{"sample_id": "zsre-0134876", "client_id": 0, "input_ids": "What kind of occupation has George Kemp, 1st Baron Rochdale?", "label": "judge"}
+{"sample_id": "zsre-0136017", "client_id": 0, "input_ids": "What crime was Rocky Barton accused of?", "label": "capital murder"}
+{"sample_id": "zsre-0136147", "client_id": 0, "input_ids": "Which country is Neil Kerley a citizen in?", "label": "Ireland"}
+{"sample_id": "zsre-0136231", "client_id": 0, "input_ids": "What city of birth does Tom Vilsack have?", "label": "Chicago"}
+{"sample_id": "zsre-0136563", "client_id": 0, "input_ids": "Because of what disease Thomas Gilcrease died?", "label": "crease"}
+{"sample_id": "zsre-0137009", "client_id": 0, "input_ids": "What is the birth date of Nigel Noble?", "label": "1942"}
+{"sample_id": "zsre-0137662", "client_id": 0, "input_ids": "The birth date of William McCombie?", "label": "1810"}
+{"sample_id": "zsre-0137663", "client_id": 0, "input_ids": "What position did Brian Harradine hold?", "label": "member of the Michigan House of Representatives"}
+{"sample_id": "zsre-0137845", "client_id": 0, "input_ids": "What was the date George Thornewell died?", "label": "27 June 1882"}
+{"sample_id": "zsre-0137855", "client_id": 0, "input_ids": "What fictional work does Solomon belong to?", "label": "The Divine Comedy"}
+{"sample_id": "zsre-0137997", "client_id": 0, "input_ids": "Which city is John Bardeen assigned to?", "label": "Boston"}
+{"sample_id": "zsre-0138377", "client_id": 0, "input_ids": "What is Mel Stewart's medical condition?", "label": "Alzheimer's cancer"}
+{"sample_id": "zsre-0138497", "client_id": 0, "input_ids": "What company did Long Cecil start?", "label": "Deutsche Bahn"}
+{"sample_id": "zsre-0138522", "client_id": 0, "input_ids": "The father of Thomas FitzMaurice FitzGerald. Who?", "label": "Gerald FitzGerald, Lord of Lanstephan"}
+{"sample_id": "zsre-0138695", "client_id": 0, "input_ids": "What is the date of birth of Alex Ball?", "label": "21 July 1981"}
+{"sample_id": "zsre-0139422", "client_id": 0, "input_ids": "When was Edward Pierce dead?", "label": "1917"}
+{"sample_id": "zsre-0139715", "client_id": 0, "input_ids": "What college is Greg Lindquist at?", "label": "University of Washington"}
+{"sample_id": "zsre-0140596", "client_id": 0, "input_ids": "The editor who published The Cambridge Companion to Bob Dylan, what is this?", "label": "Charles Scribner's Magazine"}
+{"sample_id": "zsre-0140954", "client_id": 0, "input_ids": "What war or what battle did Gordon Budd Irving take with him?", "label": "Second Boer War"}
+{"sample_id": "zsre-0141202", "client_id": 0, "input_ids": "Where did Ralph Vary Chamberlin live when he passed away?", "label": "San Diego"}
+{"sample_id": "zsre-0141308", "client_id": 0, "input_ids": "What's Carey Price's position?", "label": "winger"}
+{"sample_id": "zsre-0141350", "client_id": 0, "input_ids": "In what war was Joseph J. Cicchetti involved?", "label": "American Civil War"}
+{"sample_id": "zsre-0142018", "client_id": 0, "input_ids": "What sports team was Dale Potter a member?", "label": "New York Rangers"}
+{"sample_id": "zsre-0142162", "client_id": 0, "input_ids": "What is Brent Goulet's football position?", "label": "winger"}
+{"sample_id": "zsre-0143021", "client_id": 0, "input_ids": "Which country does Luke Owen Pike live in?", "label": "Canada"}
+{"sample_id": "zsre-0143277", "client_id": 0, "input_ids": "Which college or college are related to Brad Hendricks?", "label": "University of Wisconsin-Madison"}
+{"sample_id": "zsre-0144217", "client_id": 0, "input_ids": "What was Chip an' Dale's nominated for?", "label": "Academy Award for Program of the Year"}
+{"sample_id": "zsre-0144337", "client_id": 0, "input_ids": "The year that Malcolm Vaughan died was what?", "label": "9 September 2008"}
+{"sample_id": "zsre-0144846", "client_id": 0, "input_ids": "In which war was Samuel Harriman?", "label": "War of 1812"}
+{"sample_id": "zsre-0145184", "client_id": 0, "input_ids": "What type of occupation does Ambrose Dyson have?", "label": "poet"}
+{"sample_id": "zsre-0145954", "client_id": 0, "input_ids": "What broadcasting company has Glenroe broadcast?", "label": "CBC Television"}
+{"sample_id": "zsre-0146043", "client_id": 0, "input_ids": "What's Owen Tudor's father?", "label": "Henry Tudor, 2nd Earl of Northampton"}
+{"sample_id": "zsre-0146169", "client_id": 0, "input_ids": "What date did George Enticknap die?", "label": "5 February 1882"}
+{"sample_id": "zsre-0147071", "client_id": 0, "input_ids": "When is the date of the birth of William George Nicholson Geddes?", "label": "1926"}
+{"sample_id": "zsre-0147185", "client_id": 0, "input_ids": "What war of history was William Madden's officer in?", "label": "World War I"}
+{"sample_id": "zsre-0147819", "client_id": 0, "input_ids": "What is Andy Tod's birthplace?", "label": "Belfast"}
+{"sample_id": "zsre-0147854", "client_id": 0, "input_ids": "That's Bert Boromeo's birth date?", "label": "19 March 1875"}
+{"sample_id": "zsre-0147940", "client_id": 0, "input_ids": "How did Joseph Curr die?", "label": "yellow fever"}
+{"sample_id": "zsre-0148210", "client_id": 0, "input_ids": "The editor that published Owen Wister Review, huh?", "label": "University of Wisconsin-Madison"}
+{"sample_id": "zsre-0149375", "client_id": 0, "input_ids": "How is Wilson Edgar Pereira Alegre's birthplace?", "label": "São Paulo"}
+{"sample_id": "zsre-0149390", "client_id": 0, "input_ids": "In what country is Alfred Frith?", "label": "Canada"}
+{"sample_id": "zsre-0149522", "client_id": 0, "input_ids": "Which place did Smiley Lewis die?", "label": "Raleigh"}
+{"sample_id": "zsre-0150410", "client_id": 0, "input_ids": "Which city has Simon Stadler been associated with?", "label": "Vienna"}
+{"sample_id": "zsre-0151076", "client_id": 0, "input_ids": "Which was the date of birth of Arnold Neilson Smith?", "label": "1947"}
+{"sample_id": "zsre-0151295", "client_id": 0, "input_ids": "What was the birth date of George Dreyfus?", "label": "1898"}
+{"sample_id": "zsre-0151943", "client_id": 0, "input_ids": "What date did The Legend of Bruce Lee end?", "label": "11 December 2007"}
+{"sample_id": "zsre-0152021", "client_id": 0, "input_ids": "Who is in Confidential Agent as a cast member?", "label": "Jackie Chan"}
+{"sample_id": "zsre-0152049", "client_id": 0, "input_ids": "What city was Richard Herd born in?", "label": "Berlin"}
+{"sample_id": "zsre-0152099", "client_id": 0, "input_ids": "In what war was James Henry Carleton part?", "label": "Napoleonic Wars"}
+{"sample_id": "zsre-0152294", "client_id": 0, "input_ids": "What's the publisher's name of Celebrity Sports Showdown?", "label": "Eidos"}
+{"sample_id": "zsre-0152629", "client_id": 0, "input_ids": "Who did Walter V. Davidson House?", "label": "Irving Gill"}
+{"sample_id": "zsre-0152842", "client_id": 0, "input_ids": "What noble title did Walter Gilbey have?", "label": "Earl of Lincoln"}
+{"sample_id": "zsre-0153438", "client_id": 0, "input_ids": "What position does Tim Schaffer have?", "label": "member of the Pennsylvania House of Representatives"}
+{"sample_id": "zsre-0153606", "client_id": 0, "input_ids": "Where was Carl Neumann living when he died?", "label": "Riga"}
+{"sample_id": "zsre-0154616", "client_id": 0, "input_ids": "When does the life of Richard Paget Murray end?", "label": "1917"}
+{"sample_id": "zsre-0155113", "client_id": 0, "input_ids": "What career was Robert Gossett's?", "label": "lawyer"}
+{"sample_id": "zsre-0156240", "client_id": 0, "input_ids": "Which year was Meyer-Whitworth Award founded?", "label": "1991"}
+{"sample_id": "zsre-0156854", "client_id": 0, "input_ids": "What's the position of John W. Anunsen?", "label": "member of the Illinois House of Representatives"}
+{"sample_id": "zsre-0156968", "client_id": 0, "input_ids": "What was Thomas Wyss' position like?", "label": "forward"}
+{"sample_id": "zsre-0157259", "client_id": 0, "input_ids": "What's Christian Gerhaher's voice?", "label": "bass"}
+{"sample_id": "zsre-0157365", "client_id": 0, "input_ids": "What is Toby Swift's place of work?", "label": "Yale Law School"}
+{"sample_id": "zsre-0157455", "client_id": 0, "input_ids": "What position did Charles the Bald have?", "label": "abbot"}
+{"sample_id": "zsre-0158476", "client_id": 0, "input_ids": "What's the name of Mitchell Report editor?", "label": "Commissioner of Baseball and Baseball"}
+{"sample_id": "zsre-0158477", "client_id": 0, "input_ids": "What is the publisher of Mitchell Report?", "label": "Commissioner of Baseball of India"}
+{"sample_id": "zsre-0159138", "client_id": 0, "input_ids": "Who published Bassin's Black Bass with Hank Parker?", "label": "Virgin Records"}
+{"sample_id": "zsre-0159263", "client_id": 0, "input_ids": "In which year was Barry University established?", "label": "1951"}
+{"sample_id": "zsre-0159325", "client_id": 0, "input_ids": "Which state is in Charles B. Holt House?", "label": "New York"}
+{"sample_id": "zsre-0159467", "client_id": 0, "input_ids": "That college Dick Kimball went to was what?", "label": "University of California, Berkeley"}
+{"sample_id": "zsre-0159563", "client_id": 0, "input_ids": "What occupation does Jacob Tonson have?", "label": "composer"}
+{"sample_id": "zsre-0160037", "client_id": 0, "input_ids": "When has Kerr-McGee been abolished?", "label": "1958"}
+{"sample_id": "zsre-0160569", "client_id": 0, "input_ids": "What's the university that C. Josh Donlan was at?", "label": "Harvard University"}
+{"sample_id": "zsre-0160741", "client_id": 0, "input_ids": "Which team is Danny Fuchs playing for?", "label": "Borussia Dortmund"}
+{"sample_id": "zsre-0160938", "client_id": 0, "input_ids": "Which university did James D. Gordon III take part in?", "label": "Harvard University"}
+{"sample_id": "zsre-0161227", "client_id": 0, "input_ids": "What was the original network of Throwdown! with Bobby Flay?", "label": "Food Network"}
+{"sample_id": "zsre-0161322", "client_id": 0, "input_ids": "What was the war that Thomas Wynford Rees was involved in?", "label": "War of 1812"}
+{"sample_id": "zsre-0161356", "client_id": 0, "input_ids": "Is that the date of birth of Alex Partridge?", "label": "1961"}
+{"sample_id": "zsre-0161561", "client_id": 0, "input_ids": "What sex is Madlyn Davis?", "label": "male"}
+{"sample_id": "zsre-0161673", "client_id": 0, "input_ids": "What was Malcolm Currie's death date?", "label": "27 September 2005"}
+{"sample_id": "zsre-0162141", "client_id": 0, "input_ids": "Which sports team was Craig Lambert a member of?", "label": "Toronto Argonauts"}
+{"sample_id": "zsre-0162211", "client_id": 0, "input_ids": "What place did Henry William Carless Davis die at?", "label": "Chicago"}
+{"sample_id": "zsre-0162252", "client_id": 0, "input_ids": "What did Robert Brownjohn die from?", "label": "lung cancer"}
+{"sample_id": "zsre-0162678", "client_id": 0, "input_ids": "The year that Beilby Thompson died was what?", "label": "5 May 1882"}
+{"sample_id": "zsre-0162830", "client_id": 0, "input_ids": "What was the designer of the name of Isaac H. Lionberger House?", "label": "Irving Gill"}

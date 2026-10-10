@@ -3,6 +3,7 @@ import os
 from datasets import load_dataset
 from utils.model_utils import load_tokenizer
 from utils.qa_utils import encode_squad_training_example
+from utils.zsre_utils import encode_zsre_training_example
 
 
 DATASET_CACHE_DIR = os.path.join('dataset', '.hf_cache')
@@ -12,7 +13,7 @@ def load_data(args, idx):
     train_filename = getattr(args, 'train_file', '') or f'{idx}.jsonl'
     train_dir = os.path.join('dataset', dataset, 'train', train_filename)
     data_files = {'train': train_dir}
-    # Cross-domain QA keeps four named server-side test files.  They are
+    # Cross-domain QA keeps named server-side test files.  They are
     # deliberately not exposed as client-indexed ``test/<id>.jsonl`` files;
     # the cross-domain evaluator reads and reports every domain separately.
     if not getattr(args, 'global_test', False) and not getattr(args, 'cross_domain_qa', False):
@@ -69,6 +70,12 @@ def get_format_func(args, tokenizer):
             }
         return _format_classification
     elif args.task_type == 'CAUSAL_LM':
+        if args.dataset == 'zsre':
+            def _format_zsre(example):
+                tokenizer.padding_side = 'right'
+                return encode_zsre_training_example(tokenizer, example)
+            return _format_zsre
+
         if args.dataset.startswith('squad_v1') or getattr(args, 'cross_domain_qa', False):
             def _format_squad(example):
                 tokenizer.padding_side = 'right'
