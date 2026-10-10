@@ -8,7 +8,7 @@ import json
 from pathlib import Path
 
 
-KNOWN_METHODS = ("base", "local", "centralized", "fedit", "fedrotlora", "rolora", "flora", "fedexlora", "ffalora", "flexlora", "ilora")
+KNOWN_METHODS = ("base", "local", "centralized", "fedit", "fedrotlora", "rolora", "flora", "fedexlora", "ffalora", "flexlora", "ilora", "fedfh")
 
 
 def main() -> int:
@@ -60,7 +60,7 @@ def main() -> int:
             row["rolora_consolidation_gap"] = values["local"] - values["rolora"]
         if "flora" in methods:
             row["flora_consolidation_gap"] = values["local"] - values["flora"]
-        for method in ("fedexlora", "ffalora", "flexlora", "ilora"):
+        for method in ("fedexlora", "ffalora", "flexlora", "ilora", "fedfh"):
             if method in methods:
                 row[f"{method}_consolidation_gap"] = values["local"] - values[method]
         rows.append(row)
@@ -74,7 +74,7 @@ def main() -> int:
         macro["rolora_consolidation_gap"] = macro_values["local"] - macro_values["rolora"]
     if "flora" in methods:
         macro["flora_consolidation_gap"] = macro_values["local"] - macro_values["flora"]
-    for method in ("fedexlora", "ffalora", "flexlora", "ilora"):
+    for method in ("fedexlora", "ffalora", "flexlora", "ilora", "fedfh"):
         if method in methods:
             macro[f"{method}_consolidation_gap"] = macro_values["local"] - macro_values[method]
     rows.append(macro)
@@ -92,7 +92,7 @@ def main() -> int:
             fieldnames.append("rolora_consolidation_gap")
         if "flora" in methods:
             fieldnames.append("flora_consolidation_gap")
-        for method in ("fedexlora", "ffalora", "flexlora", "ilora"):
+        for method in ("fedexlora", "ffalora", "flexlora", "ilora", "fedfh"):
             if method in methods:
                 fieldnames.append(f"{method}_consolidation_gap")
         writer = csv.DictWriter(handle, fieldnames=fieldnames)

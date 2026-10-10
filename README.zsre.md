@@ -205,3 +205,35 @@ After ILoRA and the other three additional methods have all been evaluated:
 ```powershell
 & 'D:\sofrware\anaconda3\envs\wzm\python.exe' -X utf8 summarize_stage1.py --run zsre8_chat_eos_v2 --methods base,local,centralized,fedit,fedrotlora,fedexlora,ffalora,flexlora,ilora --centralized-dir centralized_roundwise --metric em --output stage1_summary_em_extra_lora_ilora.csv
 ```
+
+## FedFH extension (ours)
+
+`alg/fedfh.py` keeps FedIT's local training unchanged. After training, each
+client runs one gradient-free pass over its training rows and uploads, per
+decoder layer, the top-`fh_k` eigenpairs of the LoRA input second moment
+(q_proj and v_proj read the same input and share it), its trace and the
+(k+1)-th eigenvalue. The server returns the optimal rank-8 LoRA of the
+input-geometry-weighted objective via a whitened truncated SVD, re-gauged to
+FlexLoRA's factor convention; base weights are never modified, so evaluation
+loads only `lora_weights.pt`. `fh_gamma -> infinity` reduces exactly to
+FlexLoRA, so FlexLoRA is the primary comparison. Per-round diagnostics are
+appended to `fh_diagnostics.jsonl` next to the adapter.
+
+Offline checks (CPU, tiny random Qwen3, no downloads):
+
+```powershell
+& 'D:\sofrware\anaconda3\envs\wzm\python.exe' -X utf8 -m unittest tests.test_fedfh -v
+```
+
+Check that `exp/zsre8_chat_eos_v2/fedfh` is unused, then:
+
+```powershell
+& 'D:\sofrware\anaconda3\envs\wzm\python.exe' -X utf8 -u main.py --config config.zsre_fedfh.yaml
+& 'D:\sofrware\anaconda3\envs\wzm\python.exe' -X utf8 -u eval_zsre.py --config config.zsre_fedfh.yaml --method fedfh
+```
+
+If FlexLoRA has not been evaluated yet, run it first (see above), then:
+
+```powershell
+& 'D:\sofrware\anaconda3\envs\wzm\python.exe' -X utf8 summarize_stage1.py --run zsre8_chat_eos_v2 --methods base,local,centralized,fedit,flexlora,fedfh --centralized-dir centralized_roundwise --metric em --output stage1_summary_em_with_fedfh.csv
+```
