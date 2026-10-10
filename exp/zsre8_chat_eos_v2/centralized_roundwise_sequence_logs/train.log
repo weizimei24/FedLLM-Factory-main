@@ -1,0 +1,146 @@
+Reproducibility: seed=42, deterministic=True
+Loading clients...:   0%|          | 0/1 [00:00<?, ?it/s]Loading clients...: 100%|██████████| 1/1 [00:00<00:00,  1.35it/s]Loading clients...: 100%|██████████| 1/1 [00:00<00:00,  1.35it/s]
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.23s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.60it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.40it/s]
+Communication round:   0%|          | 0/10 [00:00<?, ?it/s]Round 0 | Client 0 | Train Loss: 2.2548
+Aggregated model updated.
+2026-09-28 11:51:57 | [Round 0] train_loss: 2.2548  wall_clock: 38193.2727098465
+Round 0 adapter saved to exp/zsre8_chat_eos_v2/centralized_roundwise\adapter\centralized_zsre_Qwen3-1.7B_1c_1E_lr0.0001\round_000
+You're using a Qwen2TokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+Round 0 | test group 0 | EM: 8.20 F1: 18.19 n: 500
+Round 0 | test group 1 | EM: 4.40 F1: 10.22 n: 500
+Round 0 | test group 2 | EM: 5.80 F1: 11.94 n: 500
+Round 0 | test group 3 | EM: 16.40 F1: 24.11 n: 500
+Round 0 | test group 4 | EM: 3.20 F1: 10.41 n: 500
+Round 0 | test group 5 | EM: 9.60 F1: 15.71 n: 500
+Round 0 | test group 6 | EM: 9.20 F1: 18.28 n: 500
+Round 0 | test group 7 | EM: 5.20 F1: 9.97 n: 500
+Round 0 | all 8 test groups | EM: 7.75 F1: 14.85
+2026-09-28 11:57:12 | [Round 0] em: 7.7500  f1: 14.8537  containment: 7.9500  wall_clock: 38193.2727098465
+Communication round:  10%|█         | 1/10 [17:58<2:41:50, 1078.91s/it]Round 1 | Client 0 | Train Loss: 1.8330
+Aggregated model updated.
+2026-09-28 12:15:26 | [Round 1] train_loss: 1.8330  wall_clock: 92888.76761198044
+Round 1 adapter saved to exp/zsre8_chat_eos_v2/centralized_roundwise\adapter\centralized_zsre_Qwen3-1.7B_1c_1E_lr0.0001\round_001
+Round 1 | test group 0 | EM: 8.40 F1: 19.32 n: 500
+Round 1 | test group 1 | EM: 6.60 F1: 13.60 n: 500
+Round 1 | test group 2 | EM: 10.60 F1: 16.91 n: 500
+Round 1 | test group 3 | EM: 16.20 F1: 23.70 n: 500
+Round 1 | test group 4 | EM: 7.20 F1: 15.21 n: 500
+Round 1 | test group 5 | EM: 13.20 F1: 19.68 n: 500
+Round 1 | test group 6 | EM: 10.00 F1: 18.84 n: 500
+Round 1 | test group 7 | EM: 7.80 F1: 13.07 n: 500
+Round 1 | all 8 test groups | EM: 10.00 F1: 17.54
+2026-09-28 12:20:34 | [Round 1] em: 10.0000  f1: 17.5405  containment: 10.1500  wall_clock: 92888.76761198044
+Communication round:  20%|██        | 2/10 [41:21<2:49:13, 1269.14s/it]Round 2 | Client 0 | Train Loss: 1.6347
+Aggregated model updated.
+2026-09-28 12:39:22 | [Round 2] train_loss: 1.6347  wall_clock: 149320.13391256332
+Round 2 adapter saved to exp/zsre8_chat_eos_v2/centralized_roundwise\adapter\centralized_zsre_Qwen3-1.7B_1c_1E_lr0.0001\round_002
+Round 2 | test group 0 | EM: 11.40 F1: 22.00 n: 500
+Round 2 | test group 1 | EM: 7.80 F1: 14.98 n: 500
+Round 2 | test group 2 | EM: 14.40 F1: 20.61 n: 500
+Round 2 | test group 3 | EM: 20.80 F1: 27.95 n: 500
+Round 2 | test group 4 | EM: 7.80 F1: 15.72 n: 500
+Round 2 | test group 5 | EM: 14.40 F1: 21.68 n: 500
+Round 2 | test group 6 | EM: 15.60 F1: 23.35 n: 500
+Round 2 | test group 7 | EM: 9.20 F1: 14.41 n: 500
+Round 2 | all 8 test groups | EM: 12.68 F1: 20.09
+2026-09-28 12:45:03 | [Round 2] em: 12.6750  f1: 20.0860  containment: 12.8500  wall_clock: 149320.13391256332
+Communication round:  30%|███       | 3/10 [1:05:50<2:38:42, 1360.41s/it]Round 3 | Client 0 | Train Loss: 1.4564
+Aggregated model updated.
+2026-09-28 13:03:16 | [Round 3] train_loss: 1.4564  wall_clock: 203959.122133255
+Round 3 adapter saved to exp/zsre8_chat_eos_v2/centralized_roundwise\adapter\centralized_zsre_Qwen3-1.7B_1c_1E_lr0.0001\round_003
+Round 3 | test group 0 | EM: 16.00 F1: 26.87 n: 500
+Round 3 | test group 1 | EM: 12.20 F1: 19.39 n: 500
+Round 3 | test group 2 | EM: 16.00 F1: 22.55 n: 500
+Round 3 | test group 3 | EM: 24.20 F1: 31.95 n: 500
+Round 3 | test group 4 | EM: 10.20 F1: 17.19 n: 500
+Round 3 | test group 5 | EM: 18.40 F1: 25.56 n: 500
+Round 3 | test group 6 | EM: 18.20 F1: 26.19 n: 500
+Round 3 | test group 7 | EM: 12.40 F1: 17.09 n: 500
+Round 3 | all 8 test groups | EM: 15.95 F1: 23.35
+2026-09-28 13:08:55 | [Round 3] em: 15.9500  f1: 23.3487  containment: 16.0500  wall_clock: 203959.122133255
+Communication round:  40%|████      | 4/10 [1:29:42<2:18:53, 1388.88s/it]Round 4 | Client 0 | Train Loss: 1.2865
+Aggregated model updated.
+2026-09-28 13:28:21 | [Round 4] train_loss: 1.2865  wall_clock: 262233.46470594406
+Round 4 adapter saved to exp/zsre8_chat_eos_v2/centralized_roundwise\adapter\centralized_zsre_Qwen3-1.7B_1c_1E_lr0.0001\round_004
+Round 4 | test group 0 | EM: 17.80 F1: 27.41 n: 500
+Round 4 | test group 1 | EM: 13.20 F1: 20.52 n: 500
+Round 4 | test group 2 | EM: 16.20 F1: 22.54 n: 500
+Round 4 | test group 3 | EM: 26.20 F1: 33.37 n: 500
+Round 4 | test group 4 | EM: 12.80 F1: 19.39 n: 500
+Round 4 | test group 5 | EM: 18.60 F1: 25.44 n: 500
+Round 4 | test group 6 | EM: 16.20 F1: 25.40 n: 500
+Round 4 | test group 7 | EM: 14.40 F1: 20.11 n: 500
+Round 4 | all 8 test groups | EM: 16.93 F1: 24.27
+2026-09-28 13:34:47 | [Round 4] em: 16.9250  f1: 24.2707  containment: 17.1750  wall_clock: 262233.46470594406
+Communication round:  50%|█████     | 5/10 [1:55:33<2:00:37, 1447.43s/it]Round 5 | Client 0 | Train Loss: 1.1129
+Aggregated model updated.
+2026-09-28 13:52:54 | [Round 5] train_loss: 1.1129  wall_clock: 316600.131547451
+Round 5 adapter saved to exp/zsre8_chat_eos_v2/centralized_roundwise\adapter\centralized_zsre_Qwen3-1.7B_1c_1E_lr0.0001\round_005
+Round 5 | test group 0 | EM: 21.80 F1: 30.83 n: 500
+Round 5 | test group 1 | EM: 16.60 F1: 22.47 n: 500
+Round 5 | test group 2 | EM: 19.00 F1: 25.03 n: 500
+Round 5 | test group 3 | EM: 30.20 F1: 36.97 n: 500
+Round 5 | test group 4 | EM: 15.40 F1: 22.84 n: 500
+Round 5 | test group 5 | EM: 21.80 F1: 28.76 n: 500
+Round 5 | test group 6 | EM: 20.80 F1: 27.40 n: 500
+Round 5 | test group 7 | EM: 16.60 F1: 21.96 n: 500
+Round 5 | all 8 test groups | EM: 20.28 F1: 27.03
+2026-09-28 13:58:56 | [Round 5] em: 20.2750  f1: 27.0329  containment: 20.4500  wall_clock: 316600.131547451
+Communication round:  60%|██████    | 6/10 [2:19:43<1:36:32, 1448.05s/it]Round 6 | Client 0 | Train Loss: 0.9601
+Aggregated model updated.
+2026-09-28 14:17:52 | [Round 6] train_loss: 0.9601  wall_clock: 373402.5332689285
+Round 6 adapter saved to exp/zsre8_chat_eos_v2/centralized_roundwise\adapter\centralized_zsre_Qwen3-1.7B_1c_1E_lr0.0001\round_006
+Round 6 | test group 0 | EM: 27.40 F1: 37.25 n: 500
+Round 6 | test group 1 | EM: 16.40 F1: 22.68 n: 500
+Round 6 | test group 2 | EM: 22.00 F1: 28.01 n: 500
+Round 6 | test group 3 | EM: 32.20 F1: 39.27 n: 500
+Round 6 | test group 4 | EM: 16.40 F1: 22.97 n: 500
+Round 6 | test group 5 | EM: 23.20 F1: 29.59 n: 500
+Round 6 | test group 6 | EM: 25.00 F1: 31.97 n: 500
+Round 6 | test group 7 | EM: 21.80 F1: 27.17 n: 500
+Round 6 | all 8 test groups | EM: 23.05 F1: 29.86
+2026-09-28 14:23:44 | [Round 6] em: 23.0500  f1: 29.8637  containment: 23.2250  wall_clock: 373402.5332689285
+Communication round:  70%|███████   | 7/10 [2:44:30<1:13:03, 1461.01s/it]Round 7 | Client 0 | Train Loss: 0.8153
+Aggregated model updated.
+2026-09-28 14:42:12 | [Round 7] train_loss: 0.8153  wall_clock: 428831.5520763397
+Round 7 adapter saved to exp/zsre8_chat_eos_v2/centralized_roundwise\adapter\centralized_zsre_Qwen3-1.7B_1c_1E_lr0.0001\round_007
+Round 7 | test group 0 | EM: 27.60 F1: 36.53 n: 500
+Round 7 | test group 1 | EM: 21.40 F1: 27.75 n: 500
+Round 7 | test group 2 | EM: 25.60 F1: 31.20 n: 500
+Round 7 | test group 3 | EM: 37.00 F1: 43.04 n: 500
+Round 7 | test group 4 | EM: 18.00 F1: 24.39 n: 500
+Round 7 | test group 5 | EM: 26.80 F1: 32.83 n: 500
+Round 7 | test group 6 | EM: 24.60 F1: 32.01 n: 500
+Round 7 | test group 7 | EM: 21.60 F1: 26.40 n: 500
+Round 7 | all 8 test groups | EM: 25.32 F1: 31.77
+2026-09-28 14:48:04 | [Round 7] em: 25.3250  f1: 31.7686  containment: 25.5250  wall_clock: 428831.5520763397
+Communication round:  80%|████████  | 8/10 [3:08:51<48:41, 1460.86s/it]  Round 8 | Client 0 | Train Loss: 0.6858
+Aggregated model updated.
+2026-09-28 15:06:28 | [Round 8] train_loss: 0.6858  wall_clock: 484008.22517871857
+Round 8 adapter saved to exp/zsre8_chat_eos_v2/centralized_roundwise\adapter\centralized_zsre_Qwen3-1.7B_1c_1E_lr0.0001\round_008
+Round 8 | test group 0 | EM: 30.40 F1: 39.21 n: 500
+Round 8 | test group 1 | EM: 23.20 F1: 29.78 n: 500
+Round 8 | test group 2 | EM: 26.80 F1: 32.25 n: 500
+Round 8 | test group 3 | EM: 39.00 F1: 45.22 n: 500
+Round 8 | test group 4 | EM: 18.40 F1: 24.51 n: 500
+Round 8 | test group 5 | EM: 27.00 F1: 33.05 n: 500
+Round 8 | test group 6 | EM: 26.40 F1: 33.07 n: 500
+Round 8 | test group 7 | EM: 24.20 F1: 29.36 n: 500
+Round 8 | all 8 test groups | EM: 26.93 F1: 33.31
+2026-09-28 15:12:03 | [Round 8] em: 26.9250  f1: 33.3053  containment: 27.1500  wall_clock: 484008.22517871857
+Communication round:  90%|█████████ | 9/10 [3:32:50<24:14, 1454.11s/it]Round 9 | Client 0 | Train Loss: 0.5674
+Aggregated model updated.
+2026-09-28 15:30:18 | [Round 9] train_loss: 0.5674  wall_clock: 538761.8490338326
+Round 9 adapter saved to exp/zsre8_chat_eos_v2/centralized_roundwise\adapter\centralized_zsre_Qwen3-1.7B_1c_1E_lr0.0001\round_009
+Round 9 | test group 0 | EM: 33.00 F1: 41.79 n: 500
+Round 9 | test group 1 | EM: 24.60 F1: 31.28 n: 500
+Round 9 | test group 2 | EM: 31.00 F1: 36.40 n: 500
+Round 9 | test group 3 | EM: 40.20 F1: 46.00 n: 500
+Round 9 | test group 4 | EM: 22.20 F1: 28.79 n: 500
+Round 9 | test group 5 | EM: 29.20 F1: 34.20 n: 500
+Round 9 | test group 6 | EM: 26.80 F1: 34.55 n: 500
+Round 9 | test group 7 | EM: 26.40 F1: 31.25 n: 500
+Round 9 | all 8 test groups | EM: 29.18 F1: 35.53
+2026-09-28 15:36:19 | [Round 9] em: 29.1750  f1: 35.5315  containment: 29.3250  wall_clock: 538761.8490338326
+Communication round: 100%|██████████| 10/10 [3:57:05<00:00, 1454.43s/it]                                                                        Adapter saved to exp/zsre8_chat_eos_v2/centralized_roundwise\adapter\centralized_zsre_Qwen3-1.7B_1c_1E_lr0.0001

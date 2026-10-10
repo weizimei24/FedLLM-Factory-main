@@ -1,0 +1,22 @@
+{
+  "pid": 11652,
+  "python": "D:\\sofrware\\anaconda3\\envs\\wzm\\python.exe",
+  "status": "failed",
+  "completed": [],
+  "step": "train",
+  "command": [
+    "D:\\sofrware\\anaconda3\\envs\\wzm\\python.exe",
+    "-X",
+    "utf8",
+    "-u",
+    "main.py",
+    "--config",
+    "config.zsre_centralized.yaml",
+    "--suffix",
+    "zsre8_chat_eos_v2/centralized"
+  ],
+  "log": "C:\\Users\\admin\\Desktop\\FedLLM-Factory-main\\FedLLM-Factory-main\\exp\\zsre8_chat_eos_v2\\centralized_sequence_logs\\train.log",
+  "child_pid": null,
+  "updated_at": "2026-09-28T03:38:54.265888+00:00",
+  "error": "train exited with code 4294967295; see C:\\Users\\admin\\Desktop\\FedLLM-Factory-main\\FedLLM-Factory-main\\exp\\zsre8_chat_eos_v2\\centralized_sequence_logs\\train.log"
+}

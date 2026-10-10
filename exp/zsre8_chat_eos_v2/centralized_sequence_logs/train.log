@@ -1,0 +1,59 @@
+Reproducibility: seed=42, deterministic=True
+Loading clients...:   0%|          | 0/1 [00:00<?, ?it/s]
+Generating train split: 0 examples [00:00, ? examples/s][AGenerating train split: 4000 examples [00:00, 153840.38 examples/s]
+
+Generating test split: 0 examples [00:00, ? examples/s][AGenerating test split: 500 examples [00:00, 71426.45 examples/s]
+
+Map:   0%|          | 0/4000 [00:00<?, ? examples/s][A
+Map:   3%|▎         | 125/4000 [00:00<00:03, 1219.23 examples/s][A
+Map:   8%|▊         | 329/4000 [00:00<00:02, 1672.64 examples/s][A
+Map:  13%|█▎        | 537/4000 [00:00<00:01, 1843.40 examples/s][A
+Map:  19%|█▉        | 754/4000 [00:00<00:01, 1959.14 examples/s][A
+Map:  24%|██▍       | 954/4000 [00:00<00:01, 1970.06 examples/s][A
+Map:  30%|███       | 1204/4000 [00:00<00:02, 939.92 examples/s][A
+Map:  34%|███▍      | 1369/4000 [00:01<00:02, 1062.49 examples/s][A
+Map:  38%|███▊      | 1523/4000 [00:01<00:02, 1156.27 examples/s][A
+Map:  43%|████▎     | 1703/4000 [00:01<00:01, 1294.27 examples/s][A
+Map:  47%|████▋     | 1880/4000 [00:01<00:01, 1406.33 examples/s][A
+Map:  52%|█████▏    | 2089/4000 [00:01<00:02, 890.72 examples/s] [A
+Map:  56%|█████▋    | 2258/4000 [00:01<00:01, 1024.04 examples/s][A
+Map:  61%|██████    | 2428/4000 [00:01<00:01, 1154.71 examples/s][A
+Map:  65%|██████▌   | 2605/4000 [00:02<00:01, 1284.47 examples/s][A
+Map:  71%|███████   | 2847/4000 [00:02<00:00, 1378.54 examples/s][A
+Map:  77%|███████▋  | 3096/4000 [00:02<00:00, 910.02 examples/s] [A
+Map:  83%|████████▎ | 3307/4000 [00:02<00:00, 1095.17 examples/s][A
+Map:  88%|████████▊ | 3525/4000 [00:02<00:00, 1276.67 examples/s][A
+Map:  94%|█████████▍| 3762/4000 [00:03<00:00, 1359.44 examples/s][A
+Map: 100%|█████████▉| 3997/4000 [00:03<00:00, 1415.36 examples/s][AMap: 100%|██████████| 4000/4000 [00:03<00:00, 1148.94 examples/s]
+
+Map:   0%|          | 0/500 [00:00<?, ? examples/s][A
+Map:  40%|████      | 202/500 [00:00<00:00, 2009.14 examples/s][A
+Map:  85%|████████▌ | 427/500 [00:00<00:00, 2143.88 examples/s][AMap: 100%|██████████| 500/500 [00:00<00:00, 1358.32 examples/s]
+Loading clients...: 100%|██████████| 1/1 [00:05<00:00,  5.72s/it]Loading clients...: 100%|██████████| 1/1 [00:05<00:00,  5.72s/it]
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:03<00:03,  3.47s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.67s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.94s/it]
+Communication round:   0%|          | 0/10 [00:00<?, ?it/s]Round 0 | Client 0 | Train Loss: 2.2548
+Aggregated model updated.
+2026-09-28 10:49:15 | [Round 0] train_loss: 2.2548  wall_clock: 45741.1979675293
+Testing on client 0 ...
+Round 0 | Client 0 | eval_loss: 1.5806 | perplexity: 4.8580
+2026-09-28 10:49:42 | [Round 0] eval_loss: 1.5806  perplexity: 4.8580  wall_clock: 45741.1979675293
+Communication round:  10%|█         | 1/10 [15:42<2:21:18, 942.06s/it]Round 1 | Client 0 | Train Loss: 1.8330
+Aggregated model updated.
+2026-09-28 11:02:20 | [Round 1] train_loss: 1.8330  wall_clock: 83625.95448493958
+Testing on client 0 ...
+Round 1 | Client 0 | eval_loss: 1.3969 | perplexity: 4.0428
+2026-09-28 11:03:20 | [Round 1] eval_loss: 1.3969  perplexity: 4.0428  wall_clock: 83625.95448493958
+Communication round:  20%|██        | 2/10 [29:19<1:55:50, 868.87s/it]Round 2 | Client 0 | Train Loss: 1.6347
+Aggregated model updated.
+2026-09-28 11:21:25 | [Round 2] train_loss: 1.6347  wall_clock: 137874.76695775986
+Testing on client 0 ...
+Round 2 | Client 0 | eval_loss: 1.2748 | perplexity: 3.5781
+2026-09-28 11:22:26 | [Round 2] eval_loss: 1.2748  perplexity: 3.5781  wall_clock: 137874.76695775986
+Communication round:  30%|███       | 3/10 [48:26<1:56:09, 995.66s/it]Round 3 | Client 0 | Train Loss: 1.4564
+Aggregated model updated.
+2026-09-28 11:36:24 | [Round 3] train_loss: 1.4564  wall_clock: 179757.16708898544
+Testing on client 0 ...
+Round 3 | Client 0 | eval_loss: 1.1670 | perplexity: 3.2124
+2026-09-28 11:36:52 | [Round 3] eval_loss: 1.1670  perplexity: 3.2124  wall_clock: 179757.16708898544
+Communication round:  40%|████      | 4/10 [1:02:51<1:34:25, 944.25s/it]

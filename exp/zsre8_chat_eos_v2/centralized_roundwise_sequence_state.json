@@ -1,0 +1,32 @@
+{
+  "pid": 3324,
+  "python": "D:\\sofrware\\anaconda3\\envs\\wzm\\python.exe",
+  "status": "complete",
+  "variant": "centralized_roundwise",
+  "completed": [
+    "train",
+    "eval",
+    "summarize"
+  ],
+  "step": "summarize",
+  "command": [
+    "D:\\sofrware\\anaconda3\\envs\\wzm\\python.exe",
+    "-X",
+    "utf8",
+    "-u",
+    "summarize_stage1.py",
+    "--run",
+    "zsre8_chat_eos_v2",
+    "--methods",
+    "base,local,centralized,fedit,fedrotlora",
+    "--metric",
+    "em",
+    "--centralized-dir",
+    "centralized_roundwise",
+    "--output",
+    "stage1_summary_em_centralized_roundwise.csv"
+  ],
+  "log": "C:\\Users\\admin\\Desktop\\FedLLM-Factory-main\\FedLLM-Factory-main\\exp\\zsre8_chat_eos_v2\\centralized_roundwise_sequence_logs\\summarize.log",
+  "child_pid": null,
+  "updated_at": "2026-09-28T07:42:13.991915+00:00"
+}

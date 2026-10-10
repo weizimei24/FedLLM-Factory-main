@@ -1,0 +1,8 @@
+2026-09-28 10:49:15 | [Round 0] train_loss: 2.2548  wall_clock: 45741.1979675293
+2026-09-28 10:49:42 | [Round 0] eval_loss: 1.5806  perplexity: 4.8580  wall_clock: 45741.1979675293
+2026-09-28 11:02:20 | [Round 1] train_loss: 1.8330  wall_clock: 83625.95448493958
+2026-09-28 11:03:20 | [Round 1] eval_loss: 1.3969  perplexity: 4.0428  wall_clock: 83625.95448493958
+2026-09-28 11:21:25 | [Round 2] train_loss: 1.6347  wall_clock: 137874.76695775986
+2026-09-28 11:22:26 | [Round 2] eval_loss: 1.2748  perplexity: 3.5781  wall_clock: 137874.76695775986
+2026-09-28 11:36:24 | [Round 3] train_loss: 1.4564  wall_clock: 179757.16708898544
+2026-09-28 11:36:52 | [Round 3] eval_loss: 1.1670  perplexity: 3.2124  wall_clock: 179757.16708898544

@@ -1,0 +1,20 @@
+2026-09-28 11:51:57 | [Round 0] train_loss: 2.2548  wall_clock: 38193.2727098465
+2026-09-28 11:57:12 | [Round 0] em: 7.7500  f1: 14.8537  containment: 7.9500  wall_clock: 38193.2727098465
+2026-09-28 12:15:26 | [Round 1] train_loss: 1.8330  wall_clock: 92888.76761198044
+2026-09-28 12:20:34 | [Round 1] em: 10.0000  f1: 17.5405  containment: 10.1500  wall_clock: 92888.76761198044
+2026-09-28 12:39:22 | [Round 2] train_loss: 1.6347  wall_clock: 149320.13391256332
+2026-09-28 12:45:03 | [Round 2] em: 12.6750  f1: 20.0860  containment: 12.8500  wall_clock: 149320.13391256332
+2026-09-28 13:03:16 | [Round 3] train_loss: 1.4564  wall_clock: 203959.122133255
+2026-09-28 13:08:55 | [Round 3] em: 15.9500  f1: 23.3487  containment: 16.0500  wall_clock: 203959.122133255
+2026-09-28 13:28:21 | [Round 4] train_loss: 1.2865  wall_clock: 262233.46470594406
+2026-09-28 13:34:47 | [Round 4] em: 16.9250  f1: 24.2707  containment: 17.1750  wall_clock: 262233.46470594406
+2026-09-28 13:52:54 | [Round 5] train_loss: 1.1129  wall_clock: 316600.131547451
+2026-09-28 13:58:56 | [Round 5] em: 20.2750  f1: 27.0329  containment: 20.4500  wall_clock: 316600.131547451
+2026-09-28 14:17:52 | [Round 6] train_loss: 0.9601  wall_clock: 373402.5332689285
+2026-09-28 14:23:44 | [Round 6] em: 23.0500  f1: 29.8637  containment: 23.2250  wall_clock: 373402.5332689285
+2026-09-28 14:42:12 | [Round 7] train_loss: 0.8153  wall_clock: 428831.5520763397
+2026-09-28 14:48:04 | [Round 7] em: 25.3250  f1: 31.7686  containment: 25.5250  wall_clock: 428831.5520763397
+2026-09-28 15:06:28 | [Round 8] train_loss: 0.6858  wall_clock: 484008.22517871857
+2026-09-28 15:12:03 | [Round 8] em: 26.9250  f1: 33.3053  containment: 27.1500  wall_clock: 484008.22517871857
+2026-09-28 15:30:18 | [Round 9] train_loss: 0.5674  wall_clock: 538761.8490338326
+2026-09-28 15:36:19 | [Round 9] em: 29.1750  f1: 35.5315  containment: 29.3250  wall_clock: 538761.8490338326

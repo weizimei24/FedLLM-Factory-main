@@ -1,0 +1,96 @@
+{
+  "method": "base",
+  "generation": {
+    "protocol": "zsre_chat_eos_v2",
+    "do_sample": false,
+    "max_new_tokens": 32,
+    "chat_template": true,
+    "enable_thinking": false,
+    "instruction": "Answer the question. Return only the short answer and no explanation.",
+    "eos_token_id": 151645,
+    "containment": "whole-token target span in prediction"
+  },
+  "per_client": {
+    "0": {
+      "em": 2.2,
+      "f1": 9.067128549125453,
+      "containment": 2.8,
+      "num_samples": 500,
+      "average_generated_tokens": 8.19,
+      "eos_rate": 98.6,
+      "max_tokens_rate": 1.4
+    },
+    "1": {
+      "em": 1.2,
+      "f1": 4.984800169991986,
+      "containment": 2.4,
+      "num_samples": 500,
+      "average_generated_tokens": 8.57,
+      "eos_rate": 97.8,
+      "max_tokens_rate": 2.2
+    },
+    "2": {
+      "em": 2.0,
+      "f1": 6.700792540792541,
+      "containment": 3.2,
+      "num_samples": 500,
+      "average_generated_tokens": 8.188,
+      "eos_rate": 98.4,
+      "max_tokens_rate": 1.6
+    },
+    "3": {
+      "em": 3.4,
+      "f1": 8.347332053911003,
+      "containment": 3.8,
+      "num_samples": 500,
+      "average_generated_tokens": 7.338,
+      "eos_rate": 96.8,
+      "max_tokens_rate": 3.2
+    },
+    "4": {
+      "em": 2.4,
+      "f1": 9.730053835053836,
+      "containment": 3.6,
+      "num_samples": 500,
+      "average_generated_tokens": 9.52,
+      "eos_rate": 98.6,
+      "max_tokens_rate": 1.4
+    },
+    "5": {
+      "em": 1.4,
+      "f1": 5.9958436403637645,
+      "containment": 2.2,
+      "num_samples": 500,
+      "average_generated_tokens": 8.55,
+      "eos_rate": 97.2,
+      "max_tokens_rate": 2.8
+    },
+    "6": {
+      "em": 1.2,
+      "f1": 7.404562209376451,
+      "containment": 3.2,
+      "num_samples": 500,
+      "average_generated_tokens": 9.04,
+      "eos_rate": 98.2,
+      "max_tokens_rate": 1.8
+    },
+    "7": {
+      "em": 1.6,
+      "f1": 5.439993514225712,
+      "containment": 3.2,
+      "num_samples": 500,
+      "average_generated_tokens": 9.406,
+      "eos_rate": 98.4,
+      "max_tokens_rate": 1.6
+    }
+  },
+  "macro_average": {
+    "em": 1.925,
+    "f1": 7.208813314105093,
+    "containment": 3.05,
+    "num_samples": 500.0,
+    "average_generated_tokens": 8.60025,
+    "eos_rate": 98.0,
+    "max_tokens_rate": 2.0
+  }
+}

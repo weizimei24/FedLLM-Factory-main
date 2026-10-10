@@ -1,0 +1,12 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:02<00:02,  2.50s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.26s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.45s/it]
+You're using a Qwen2TokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+local client 0: EM=36.60 F1=44.63 containment=36.80 n=500
+local client 1: EM=23.80 F1=29.82 containment=24.60 n=500
+local client 2: EM=33.00 F1=37.22 containment=33.00 n=500
+local client 3: EM=51.00 F1=55.56 containment=51.60 n=500
+local client 4: EM=23.60 F1=30.05 containment=23.60 n=500
+local client 5: EM=33.80 F1=39.60 containment=34.20 n=500
+local client 6: EM=33.60 F1=39.50 containment=33.60 n=500
+local client 7: EM=24.80 F1=30.48 containment=25.00 n=500
+local macro: EM=32.52 F1=38.36 containment=32.80
