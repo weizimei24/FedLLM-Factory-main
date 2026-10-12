@@ -1,0 +1,45 @@
+{
+  "kind": "deterministic_replay_of_original_fedit_training",
+  "target_round_zero_based": 1,
+  "sampled_clients": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "all_clients_share": "global_before.pt",
+  "local_epochs": 1,
+  "local_optimizer_steps": 63,
+  "lr_at_round": 9.900000000000001e-05,
+  "lora_rank": 8,
+  "lora_alpha": 32,
+  "actual_lora_scale": 4.0,
+  "train_config_sha256": "c9512f26a60e2fa8063818d9b58cc45cba914436f5d5d0fd42af60f93bb57a14",
+  "train_data_sha256": {
+    "0": "d931167cd8234ab27bab9812491b35b4a6c96457fee0e52d2328732011e49e21",
+    "1": "32cc43b34c5909d42b1ab701f27c2fc494923a3d75480e10214a51252956f86b",
+    "2": "d57c248fcd796a2a32571651b9b5eaf3a3676767935d0a8753ba981d650db971",
+    "3": "1096f90c5ccd74cdb42018f2df3fdc23de946a459bb49965d8fad02850c3011c",
+    "4": "58e1c99c515b64bd92c47091ae93c52286bdf9accf7f7fc84e5c62dc842ec7f5",
+    "5": "9b58d5e7c9a256dd2b6ad16e6924e336c4a60c2911e1ea474f87d1c99a1d1958",
+    "6": "4b512d3909f07705d3f9bdfc3a7954163b52186d8b3a00f0e7f24f5d42e0e014",
+    "7": "6238241d1594ebce021c0884462d08b8575feb2b4310b5fff0b8b3a74cd70631"
+  },
+  "checkpoint_sha256": {
+    "client_0.pt": "193e77f4eabf6b9ec9e39fc8e16a6480b1e89ce6219aaafdffdc5bec9908cb0b",
+    "client_1.pt": "c42face0e297453c36fbbb78c617014babe61ff3997252e6ac781125f3da88dd",
+    "client_2.pt": "f0fe753ba1417544c0d4b8d0f2df1a5bdf3ac6cf61eca9c4685822e6231a542f",
+    "client_3.pt": "43fb9f27a62c416784979b236046c5679020573e18480c6f62a4f1feea6dd7b7",
+    "client_4.pt": "b3c41221fc3f4fe24955d5fef02b9657163b557ac2f808f0b361ac58e6a5554c",
+    "client_5.pt": "0e7e7fa08ce2cc659abfa13e063d3446dcab5bbf3852f3a1ab2c95a5031decdc",
+    "client_6.pt": "bb0f033025ff9938f808a0b552e3e94177e3f5e2845f155503fb1da8de0e34d1",
+    "client_7.pt": "160d409dee7f27ef8bc36c0eb1513874fc933d7c1566d86179d285d02b09ec1e",
+    "global_after_fedit.pt": "925a54e70f9a5bf0d757a1b694ddbbcc2b5f539dc1713ff831d8284eb3ef2b64",
+    "global_before.pt": "6e642f62128d6fde385d1668d3331465092b700cc7201936c1b498998d236794"
+  },
+  "note": "Not recovered from the old run: it saved only the final adapter. No test examples were trained on."
+}

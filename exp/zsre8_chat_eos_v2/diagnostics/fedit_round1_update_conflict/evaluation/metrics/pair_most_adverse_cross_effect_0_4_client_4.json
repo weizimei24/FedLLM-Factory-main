@@ -1,0 +1,13 @@
+{
+  "nll": 2.3779031372070314,
+  "num_samples": 500,
+  "client_id": 4,
+  "condition": "pair_most_adverse_cross_effect_0_4",
+  "rank": 24,
+  "em": 3.8,
+  "f1": 10.62080808080808,
+  "containment": 4.0,
+  "average_generated_tokens": 4.59,
+  "eos_rate": 100.0,
+  "max_tokens_rate": 0.0
+}

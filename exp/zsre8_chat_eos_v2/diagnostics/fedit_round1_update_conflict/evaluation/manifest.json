@@ -1,0 +1,29 @@
+{
+  "capture_manifest_sha256": "072df6f9b7668936a318ee331f6c20ff993600ecbdcdf421fb58f2b9aea31434",
+  "protocol": {
+    "protocol": "zsre_chat_eos_v2",
+    "do_sample": false,
+    "max_new_tokens": 32,
+    "chat_template": true,
+    "enable_thinking": false,
+    "instruction": "Answer the question. Return only the short answer and no explanation.",
+    "eos_token_id": 151645,
+    "containment": "whole-token target span in prediction"
+  },
+  "split": "dataset/zsre/test/<client>.jsonl",
+  "validation_relation": "held-out rephrasings of the same facts as local training; no identical questions",
+  "validation_sha256": {
+    "0": "d8ec3332c6ad03d1c5355474cfdad5a5a35d334d877d2898bd4339093d080e30",
+    "1": "9e6e96c398c20677a0e07cf44013f534992acd9e7b15030012b5cdfc391c4525",
+    "2": "d42f7542c58096ab76cecb94f03a5f649a4305d0700636d30d1af38ac2695105",
+    "3": "4bfd1cce3e689ac9935c762a008b73c4dcc0e600d919ebe263301d0bf121442b",
+    "4": "542a3a72575ea0e67b67d9eabe8df755ee6abb7b1b2cf42212b737e9d95da251",
+    "5": "fd94ee332a3715089d8b24ed58909c66e27def81a2000d3ef12a770d6fa70521",
+    "6": "4215e51678e60c9927734ada780bbedcd54203d80fa82aeb5093c471609f2da4",
+    "7": "aaf617627f62546abf4625344929a13f3dda1a3606eeedfe4b15897202950384"
+  },
+  "target_round_zero_based": 1,
+  "nll": "per-example mean gold answer plus EOS token NLL",
+  "matrix_average": "mean of actual scaled dense client delta matrices; not FedIT factor-average checkpoint",
+  "pair_selection": "min/max sum of two cross-client NLL improvements; exploratory, selected on this validation set"
+}

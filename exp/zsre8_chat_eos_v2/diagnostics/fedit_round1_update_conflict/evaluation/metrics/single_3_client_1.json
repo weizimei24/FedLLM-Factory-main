@@ -1,0 +1,13 @@
+{
+  "nll": 2.6786056365966795,
+  "num_samples": 500,
+  "client_id": 1,
+  "condition": "single_3",
+  "rank": 16,
+  "em": 3.0,
+  "f1": 7.425238095238094,
+  "containment": 3.0,
+  "average_generated_tokens": 4.016,
+  "eos_rate": 99.8,
+  "max_tokens_rate": 0.2
+}
