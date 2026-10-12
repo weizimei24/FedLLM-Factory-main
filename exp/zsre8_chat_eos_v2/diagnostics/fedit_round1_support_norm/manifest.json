@@ -1,0 +1,85 @@
+{
+  "experiment": "fedit_round1_support_normalized_one_shot",
+  "source_capture_manifest_sha256": "072df6f9b7668936a318ee331f6c20ff993600ecbdcdf421fb58f2b9aea31434",
+  "source_checkpoint_sha256": {
+    "client_0.pt": "193e77f4eabf6b9ec9e39fc8e16a6480b1e89ce6219aaafdffdc5bec9908cb0b",
+    "client_1.pt": "c42face0e297453c36fbbb78c617014babe61ff3997252e6ac781125f3da88dd",
+    "client_2.pt": "f0fe753ba1417544c0d4b8d0f2df1a5bdf3ac6cf61eca9c4685822e6231a542f",
+    "client_3.pt": "43fb9f27a62c416784979b236046c5679020573e18480c6f62a4f1feea6dd7b7",
+    "client_4.pt": "b3c41221fc3f4fe24955d5fef02b9657163b557ac2f808f0b361ac58e6a5554c",
+    "client_5.pt": "0e7e7fa08ce2cc659abfa13e063d3446dcab5bbf3852f3a1ab2c95a5031decdc",
+    "client_6.pt": "bb0f033025ff9938f808a0b552e3e94177e3f5e2845f155503fb1da8de0e34d1",
+    "client_7.pt": "160d409dee7f27ef8bc36c0eb1513874fc933d7c1566d86179d285d02b09ec1e",
+    "global_after_fedit.pt": "925a54e70f9a5bf0d757a1b694ddbbcc2b5f539dc1713ff831d8284eb3ef2b64",
+    "global_before.pt": "6e642f62128d6fde385d1668d3331465092b700cc7201936c1b498998d236794"
+  },
+  "source_train_sha256": {
+    "0": "d931167cd8234ab27bab9812491b35b4a6c96457fee0e52d2328732011e49e21",
+    "1": "32cc43b34c5909d42b1ab701f27c2fc494923a3d75480e10214a51252956f86b",
+    "2": "d57c248fcd796a2a32571651b9b5eaf3a3676767935d0a8753ba981d650db971",
+    "3": "1096f90c5ccd74cdb42018f2df3fdc23de946a459bb49965d8fad02850c3011c",
+    "4": "58e1c99c515b64bd92c47091ae93c52286bdf9accf7f7fc84e5c62dc842ec7f5",
+    "5": "9b58d5e7c9a256dd2b6ad16e6924e336c4a60c2911e1ea474f87d1c99a1d1958",
+    "6": "4b512d3909f07705d3f9bdfc3a7954163b52186d8b3a00f0e7f24f5d42e0e014",
+    "7": "6238241d1594ebce021c0884462d08b8575feb2b4310b5fff0b8b3a74cd70631"
+  },
+  "source_test_sha256": {
+    "0": "d8ec3332c6ad03d1c5355474cfdad5a5a35d334d877d2898bd4339093d080e30",
+    "1": "9e6e96c398c20677a0e07cf44013f534992acd9e7b15030012b5cdfc391c4525",
+    "2": "d42f7542c58096ab76cecb94f03a5f649a4305d0700636d30d1af38ac2695105",
+    "3": "4bfd1cce3e689ac9935c762a008b73c4dcc0e600d919ebe263301d0bf121442b",
+    "4": "542a3a72575ea0e67b67d9eabe8df755ee6abb7b1b2cf42212b737e9d95da251",
+    "5": "fd94ee332a3715089d8b24ed58909c66e27def81a2000d3ef12a770d6fa70521",
+    "6": "4215e51678e60c9927734ada780bbedcd54203d80fa82aeb5093c471609f2da4",
+    "7": "aaf617627f62546abf4625344929a13f3dda1a3606eeedfe4b15897202950384"
+  },
+  "previous_joint_sha256": "e45218467c41bf12bd1926e7f0fda5c3a501fcf99072c9971469a2f2d2511484",
+  "source_round_zero_based": 1,
+  "lora_scaling": 4.0,
+  "svd_dtype": "float64",
+  "support_A": "(sum_i abs(c_ik))^2 / sum_i c_ik^2, clamped [1,8]",
+  "support_B_taus": [
+    0.1,
+    0.2,
+    0.3
+  ],
+  "scaled_average_etas": [
+    1.5,
+    2.0,
+    3.0,
+    4.0
+  ],
+  "shuffled_support_seeds": [
+    42,
+    43,
+    44
+  ],
+  "pairs": [
+    [
+      0,
+      4
+    ],
+    [
+      3,
+      6
+    ]
+  ],
+  "ties": "per-client per-layer exact top 20% absolute elements; sign of trimmed sum; mean of same-sign nonzero elements",
+  "rank8": "ordinary truncated SVD of scale*BgAg + aggregated matrix",
+  "generation": {
+    "protocol": "zsre_chat_eos_v2",
+    "do_sample": false,
+    "max_new_tokens": 32,
+    "chat_template": true,
+    "enable_thinking": false,
+    "instruction": "Answer the question. Return only the short answer and no explanation.",
+    "eos_token_id": 151645,
+    "containment": "whole-token target span in prediction"
+  },
+  "nll": "per-example mean supervised answer+EOS token NLL",
+  "nll_batch_size": 8,
+  "generation_batch_size": 8,
+  "bootstrap_seed": 20261012,
+  "bootstrap_replicates": 1000,
+  "bootstrap_unit": "paired test question, pooled 8x500 in client order"
+}

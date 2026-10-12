@@ -1,0 +1,41 @@
+{
+  "experiment": "post_aggregation_fedit_round_test_evaluation",
+  "rounds_completed": [
+    10,
+    15,
+    20,
+    25,
+    30
+  ],
+  "checkpoint_sha256": {
+    "10": "25e6b3b4b679280c97c824bbdc39a25fe6ffbb70c04493525ec45e4f4c3e7bfe",
+    "15": "555a1641120917661e01a722fa9769577d3fc7b0ff479e658ed1c052cb1f3788",
+    "20": "be86bae7462fca34826dd346c2bd4b478e840fbcc5b0cde862be5ff5884160fc",
+    "25": "17225b1b5a84c283ac18a73bc185ee05f2af9885d18f30a3c8a32f07aa410014",
+    "30": "a84e538b5b0479b5ef3e98da69b129808f78d85583cc082b3d96a520409471bc"
+  },
+  "config_sha256": "c9512f26a60e2fa8063818d9b58cc45cba914436f5d5d0fd42af60f93bb57a14",
+  "test_sha256": {
+    "0": "d8ec3332c6ad03d1c5355474cfdad5a5a35d334d877d2898bd4339093d080e30",
+    "1": "9e6e96c398c20677a0e07cf44013f534992acd9e7b15030012b5cdfc391c4525",
+    "2": "d42f7542c58096ab76cecb94f03a5f649a4305d0700636d30d1af38ac2695105",
+    "3": "4bfd1cce3e689ac9935c762a008b73c4dcc0e600d919ebe263301d0bf121442b",
+    "4": "542a3a72575ea0e67b67d9eabe8df755ee6abb7b1b2cf42212b737e9d95da251",
+    "5": "fd94ee332a3715089d8b24ed58909c66e27def81a2000d3ef12a770d6fa70521",
+    "6": "4215e51678e60c9927734ada780bbedcd54203d80fa82aeb5093c471609f2da4",
+    "7": "aaf617627f62546abf4625344929a13f3dda1a3606eeedfe4b15897202950384"
+  },
+  "generation": {
+    "protocol": "zsre_chat_eos_v2",
+    "do_sample": false,
+    "max_new_tokens": 32,
+    "chat_template": true,
+    "enable_thinking": false,
+    "instruction": "Answer the question. Return only the short answer and no explanation.",
+    "eos_token_id": 151645,
+    "containment": "whole-token target span in prediction"
+  },
+  "answer_nll": "mean of per-example mean gold-answer-plus-EOS token NLL",
+  "batch_size": 8,
+  "round_10_reference": "exp/zsre8_chat_eos_v2/fedit/evaluation/zsre/metrics.json"
+}
