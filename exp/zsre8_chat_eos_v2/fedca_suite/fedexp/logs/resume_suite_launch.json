@@ -1,0 +1,18 @@
+{
+  "pid": 41252,
+  "started": "2026-10-15T10:40:36.3148649+08:00",
+  "python": "D:/sofrware/anaconda3/envs/wzm/python.exe",
+  "arguments": [
+    "-X",
+    "utf8",
+    "-u",
+    "tools/run_fedca_suite.py",
+    "--only",
+    "fedexp",
+    "--resume-training",
+    "--rounds-eval",
+    "2,4,6,8"
+  ],
+  "stdout": "C:\\Users\\admin\\Desktop\\FedLLM-Factory-main\\FedLLM-Factory-main\\exp\\zsre8_chat_eos_v2\\fedca_suite\\fedexp\\logs\\resume_suite_20261015_104036.stdout.log",
+  "stderr": "C:\\Users\\admin\\Desktop\\FedLLM-Factory-main\\FedLLM-Factory-main\\exp\\zsre8_chat_eos_v2\\fedca_suite\\fedexp\\logs\\resume_suite_20261015_104036.stderr.log"
+}

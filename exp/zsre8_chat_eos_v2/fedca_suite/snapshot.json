@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-10-15T10:32:45+08:00",
+  "snapshot_time": "2026-10-15T11:44:26+08:00",
   "protocol": "zsre_chat_eos_v2",
   "seed": 42,
   "planned_rounds": 10,
@@ -86,11 +86,24 @@
       }
     },
     "fedexp": {
-      "training_status": "Partial local snapshot (9/10 rounds)",
-      "completed_rounds_recorded": 9,
-      "final_adapter_present_locally": false,
-      "evaluated_saved_rounds": [],
-      "final_macro_average": null
+      "training_status": "Complete (10/10 rounds)",
+      "completed_rounds_recorded": 10,
+      "final_adapter_present_locally": true,
+      "evaluated_saved_rounds": [
+        2,
+        4,
+        6,
+        8
+      ],
+      "final_macro_average": {
+        "em": 9.4,
+        "f1": 16.273084693084694,
+        "containment": 10.125,
+        "num_samples": 500.0,
+        "average_generated_tokens": 4.45125,
+        "eos_rate": 99.95,
+        "max_tokens_rate": 0.05
+      }
     },
     "probe_only": {
       "training_status": "No local results yet",

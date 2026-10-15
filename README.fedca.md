@@ -50,6 +50,21 @@ python -X utf8 -u tools/run_fedca_suite.py --stage mechanism
 python -X utf8 -u tools/run_fedca_suite.py --summary
 ```
 
+To finish an interrupted core experiment without retraining completed rounds:
+
+```powershell
+python -X utf8 -u tools/run_fedca_suite.py --only fedexp --resume-training --rounds-eval 2,4,6,8
+```
+
+This loads the latest `round_XXX/lora_weights.pt`, keeps the original round
+index for learning-rate decay and client RNG/shuffling, then runs the usual
+final and saved-round evaluations. Local optimizers are recreated every round
+in the original trainer, so no optimizer checkpoint is needed at this boundary.
+Only full-participation prototype runs with every round saved are supported.
+Round records and weights must agree, and a failed continuation does not create
+a final adapter. Original training logs are preserved; continuation logs have
+separate timestamped names. Do not run this concurrently with the original job.
+
 Each experiment writes to `exp/zsre8_chat_eos_v2/fedca_suite/<name>/`:
 
 - `adapter/.../fedca_rounds.jsonl`: per round, the chosen η, the probe's gain and excess for every candidate, each client's train CE / excess / local gain, and the probe time;

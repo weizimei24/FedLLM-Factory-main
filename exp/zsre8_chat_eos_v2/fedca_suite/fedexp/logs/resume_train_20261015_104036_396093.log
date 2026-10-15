@@ -1,0 +1,31 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:02<00:02,  2.55s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.31s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.50s/it]
+Loaded exp\zsre8_chat_eos_v2\fedca_suite\fedexp\adapter\fedca_zsre_Qwen3-1.7B_8c_1E_lr0.0001\round_009\lora_weights.pt: 9/10 completed rounds
+=== Resumed round 10/10; lr=9.13517247484e-05 ===
+Round 9 | Client 0 | Train Loss: 1.2088
+Round 9 | Client 1 | Train Loss: 1.8789
+Round 9 | Client 2 | Train Loss: 1.5746
+Round 9 | Client 3 | Train Loss: 1.0872
+Round 9 | Client 4 | Train Loss: 1.8126
+Round 9 | Client 5 | Train Loss: 1.3333
+Round 9 | Client 6 | Train Loss: 1.4461
+Round 9 | Client 7 | Train Loss: 1.9426
+FedCA round 9: eta=2.57 (fedexp)
+Testing on client 0 ...
+Round 9 | Client 0 | eval_loss: 1.4598 | perplexity: 4.3049
+Testing on client 1 ...
+Round 9 | Client 1 | eval_loss: 2.1988 | perplexity: 9.0138
+Testing on client 2 ...
+Round 9 | Client 2 | eval_loss: 1.9075 | perplexity: 6.7361
+Testing on client 3 ...
+Round 9 | Client 3 | eval_loss: 1.5757 | perplexity: 4.8342
+Testing on client 4 ...
+Round 9 | Client 4 | eval_loss: 2.0875 | perplexity: 8.0646
+Testing on client 5 ...
+Round 9 | Client 5 | eval_loss: 1.6338 | perplexity: 5.1231
+Testing on client 6 ...
+Round 9 | Client 6 | eval_loss: 1.8407 | perplexity: 6.3011
+Testing on client 7 ...
+Round 9 | Client 7 | eval_loss: 2.2467 | perplexity: 9.4565
+Round 10: {'eval_loss': 1.8687985639909563, 'perplexity': 6.729296585176893}
+Adapter saved to exp/zsre8_chat_eos_v2/fedca_suite/fedexp\adapter\fedca_zsre_Qwen3-1.7B_8c_1E_lr0.0001

@@ -95,6 +95,8 @@ def main() -> int:
     parser.add_argument("--stage", choices=("core", "mechanism", "sensitivity", "all"), default="core")
     parser.add_argument("--only", default="", help="comma-separated experiment names")
     parser.add_argument("--rounds-eval", default="", help="also evaluate these saved rounds, e.g. 2,4,6,8")
+    parser.add_argument("--resume-training", action="store_true",
+                        help="continue a partial training run from its last saved completed round")
     parser.add_argument("--summary", action="store_true")
     args = parser.parse_args()
     if args.summary:
@@ -111,10 +113,17 @@ def main() -> int:
         out = ROOT / "exp" / suffix
         logs = out / "logs"
         common = ["--config", CONFIG, "--suffix", suffix]
-        if not (adapter_dir(name) / "lora_weights.pt").is_file():
-            if (adapter_dir(name) / "fedca_rounds.jsonl").exists():
+        round_log = adapter_dir(name) / "fedca_rounds.jsonl"
+        if args.resume_training and round_log.is_file():
+            # A root adapter may have been written by main.py's finally block
+            # after an interruption, so inspect saved rounds even when it exists.
+            from datetime import datetime
+            stamp = datetime.now().strftime("%Y%m%d_%H%M%S_%f")
+            run(["tools/resume_fedca.py", *common, *flags(overrides)], logs / f"resume_train_{stamp}.log")
+        elif not (adapter_dir(name) / "lora_weights.pt").is_file():
+            if round_log.exists():
                 raise SystemExit(f"{name}: a previous training run stopped midway; "
-                                 f"remove {out} before retrying (rounds cannot be resumed)")
+                                 "retry with --resume-training to reuse the last completed round")
             run(["main.py", *common, *flags(overrides)], logs / "train.log")
         if not (out / "evaluation/zsre/metrics.json").is_file():
             run(["eval_zsre.py", *common, "--method", "fedca"], logs / "eval.log")
