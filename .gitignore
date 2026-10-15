@@ -17,3 +17,9 @@ __pycache__/
 
 # Local API credentials
 /.env
+
+# FedCA suite model checkpoints stay local; keep configs, logs and metrics.
+/exp/zsre8_chat_eos_v2/fedca_suite/**/*.pt
+/exp/zsre8_chat_eos_v2/fedca_suite/**/*.pth
+/exp/zsre8_chat_eos_v2/fedca_suite/**/*.bin
+/exp/zsre8_chat_eos_v2/fedca_suite/**/*.safetensors

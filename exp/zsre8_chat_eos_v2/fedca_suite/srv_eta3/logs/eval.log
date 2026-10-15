@@ -1,0 +1,12 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:03<00:03,  3.28s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.67s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.91s/it]
+You're using a Qwen2TokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+fedca client 0: EM=10.00 F1=16.50 containment=10.00 n=500
+fedca client 1: EM=7.40 F1=11.74 containment=7.40 n=500
+fedca client 2: EM=9.60 F1=12.92 containment=9.80 n=500
+fedca client 3: EM=15.80 F1=20.93 containment=15.80 n=500
+fedca client 4: EM=4.80 F1=11.42 containment=5.00 n=500
+fedca client 5: EM=11.00 F1=15.12 containment=11.00 n=500
+fedca client 6: EM=12.20 F1=17.06 containment=12.40 n=500
+fedca client 7: EM=6.20 F1=10.57 containment=6.20 n=500
+fedca macro: EM=9.62 F1=14.53 containment=9.70

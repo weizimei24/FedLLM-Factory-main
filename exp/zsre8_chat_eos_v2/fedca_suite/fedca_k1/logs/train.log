@@ -1,0 +1,265 @@
+Reproducibility: seed=42, deterministic=True
+Loading clients...:   0%|          | 0/8 [00:00<?, ?it/s]Loading clients...:  12%|█▎        | 1/8 [00:02<00:15,  2.28s/it]Loading clients...:  25%|██▌       | 2/8 [00:03<00:09,  1.53s/it]Loading clients...:  38%|███▊      | 3/8 [00:04<00:06,  1.29s/it]Loading clients...:  50%|█████     | 4/8 [00:05<00:04,  1.17s/it]Loading clients...:  62%|██████▎   | 5/8 [00:06<00:03,  1.12s/it]Loading clients...:  75%|███████▌  | 6/8 [00:07<00:02,  1.08s/it]Loading clients...:  88%|████████▊ | 7/8 [00:08<00:01,  1.06s/it]Loading clients...: 100%|██████████| 8/8 [00:09<00:00,  1.04s/it]Loading clients...: 100%|██████████| 8/8 [00:09<00:00,  1.17s/it]
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:02<00:02,  2.55s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.30s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.49s/it]
+Communication round:   0%|          | 0/10 [00:00<?, ?it/s]Round 0 | Client 0 | Train Loss: 2.9224
+Round 0 | Client 1 | Train Loss: 3.8161
+Round 0 | Client 2 | Train Loss: 3.6741
+Round 0 | Client 3 | Train Loss: 3.1074
+Round 0 | Client 4 | Train Loss: 3.8678
+Round 0 | Client 5 | Train Loss: 3.1120
+Round 0 | Client 6 | Train Loss: 3.5744
+Round 0 | Client 7 | Train Loss: 3.8870
+FedCA round 0: eta=1 (probe) | probe gain 1.5468 excess 0.4037 budget 0.4314
+Testing on client 0 ...
+Round 0 | Client 0 | eval_loss: 2.2140 | perplexity: 9.1525
+Testing on client 1 ...
+Round 0 | Client 1 | eval_loss: 3.1592 | perplexity: 23.5523
+Testing on client 2 ...
+Round 0 | Client 2 | eval_loss: 2.9083 | perplexity: 18.3249
+Testing on client 3 ...
+Round 0 | Client 3 | eval_loss: 2.4317 | perplexity: 11.3777
+Testing on client 4 ...
+Round 0 | Client 4 | eval_loss: 3.0773 | perplexity: 21.6987
+Testing on client 5 ...
+Round 0 | Client 5 | eval_loss: 2.4386 | perplexity: 11.4567
+Testing on client 6 ...
+Round 0 | Client 6 | eval_loss: 2.9250 | perplexity: 18.6347
+Testing on client 7 ...
+Round 0 | Client 7 | eval_loss: 3.2476 | perplexity: 25.7284
+2026-10-14 09:31:34 | [Round 0] eval_loss: 2.8002  perplexity: 17.4908  wall_clock: 59020.75593620539
+Communication round:  10%|█         | 1/10 [17:40<2:39:06, 1060.70s/it]Round 1 | Client 0 | Train Loss: 2.0570
+Round 1 | Client 1 | Train Loss: 2.8724
+Round 1 | Client 2 | Train Loss: 2.6541
+Round 1 | Client 3 | Train Loss: 2.0591
+Round 1 | Client 4 | Train Loss: 2.8367
+Round 1 | Client 5 | Train Loss: 2.2248
+Round 1 | Client 6 | Train Loss: 2.5688
+Round 1 | Client 7 | Train Loss: 2.9668
+FedCA round 1: eta=1 (probe) | probe gain 0.2673 excess 0.0842 budget 0.1478
+Testing on client 0 ...
+Round 1 | Client 0 | eval_loss: 1.9855 | perplexity: 7.2828
+Testing on client 1 ...
+Round 1 | Client 1 | eval_loss: 2.7596 | perplexity: 15.7939
+Testing on client 2 ...
+Round 1 | Client 2 | eval_loss: 2.5541 | perplexity: 12.8596
+Testing on client 3 ...
+Round 1 | Client 3 | eval_loss: 2.0908 | perplexity: 8.0913
+Testing on client 4 ...
+Round 1 | Client 4 | eval_loss: 2.6917 | perplexity: 14.7571
+Testing on client 5 ...
+Round 1 | Client 5 | eval_loss: 2.1586 | perplexity: 8.6593
+Testing on client 6 ...
+Round 1 | Client 6 | eval_loss: 2.5752 | perplexity: 13.1343
+Testing on client 7 ...
+Round 1 | Client 7 | eval_loss: 2.8338 | perplexity: 17.0099
+2026-10-14 09:49:20 | [Round 1] eval_loss: 2.4562  perplexity: 12.1985  wall_clock: 118120.08676975965
+Communication round:  20%|██        | 2/10 [35:26<2:21:47, 1063.44s/it]Round 2 | Client 0 | Train Loss: 1.8757
+Round 2 | Client 1 | Train Loss: 2.6287
+Round 2 | Client 2 | Train Loss: 2.3935
+Round 2 | Client 3 | Train Loss: 1.8213
+Round 2 | Client 4 | Train Loss: 2.5865
+Round 2 | Client 5 | Train Loss: 2.0196
+Round 2 | Client 6 | Train Loss: 2.2940
+Round 2 | Client 7 | Train Loss: 2.6999
+FedCA round 2: eta=1.5 (probe) | probe gain 0.2124 excess 0.0700 budget 0.0990
+Testing on client 0 ...
+Round 2 | Client 0 | eval_loss: 1.8023 | perplexity: 6.0638
+Testing on client 1 ...
+Round 2 | Client 1 | eval_loss: 2.5134 | perplexity: 12.3467
+Testing on client 2 ...
+Round 2 | Client 2 | eval_loss: 2.3052 | perplexity: 10.0264
+Testing on client 3 ...
+Round 2 | Client 3 | eval_loss: 1.8418 | perplexity: 6.3077
+Testing on client 4 ...
+Round 2 | Client 4 | eval_loss: 2.4622 | perplexity: 11.7308
+Testing on client 5 ...
+Round 2 | Client 5 | eval_loss: 1.9514 | perplexity: 7.0383
+Testing on client 6 ...
+Round 2 | Client 6 | eval_loss: 2.2976 | perplexity: 9.9507
+Testing on client 7 ...
+Round 2 | Client 7 | eval_loss: 2.5844 | perplexity: 13.2554
+2026-10-14 10:07:08 | [Round 2] eval_loss: 2.2198  perplexity: 9.5900  wall_clock: 177168.7444254756
+Communication round:  30%|███       | 3/10 [53:14<2:04:20, 1065.80s/it]Round 3 | Client 0 | Train Loss: 1.7361
+Round 3 | Client 1 | Train Loss: 2.4654
+Round 3 | Client 2 | Train Loss: 2.1836
+Round 3 | Client 3 | Train Loss: 1.6193
+Round 3 | Client 4 | Train Loss: 2.3903
+Round 3 | Client 5 | Train Loss: 1.8334
+Round 3 | Client 6 | Train Loss: 2.0783
+Round 3 | Client 7 | Train Loss: 2.5229
+FedCA round 3: eta=2 (probe) | probe gain 0.1539 excess 0.0594 budget 0.0630
+Testing on client 0 ...
+Round 3 | Client 0 | eval_loss: 1.6603 | perplexity: 5.2611
+Testing on client 1 ...
+Round 3 | Client 1 | eval_loss: 2.3659 | perplexity: 10.6536
+Testing on client 2 ...
+Round 3 | Client 2 | eval_loss: 2.1424 | perplexity: 8.5195
+Testing on client 3 ...
+Round 3 | Client 3 | eval_loss: 1.6813 | perplexity: 5.3725
+Testing on client 4 ...
+Round 3 | Client 4 | eval_loss: 2.3189 | perplexity: 10.1642
+Testing on client 5 ...
+Round 3 | Client 5 | eval_loss: 1.8123 | perplexity: 6.1246
+Testing on client 6 ...
+Round 3 | Client 6 | eval_loss: 2.0647 | perplexity: 7.8831
+Testing on client 7 ...
+Round 3 | Client 7 | eval_loss: 2.4343 | perplexity: 11.4076
+2026-10-14 10:24:47 | [Round 3] eval_loss: 2.0600  perplexity: 8.1733  wall_clock: 235991.55487418175
+Communication round:  40%|████      | 4/10 [1:10:53<1:46:18, 1063.01s/it]Round 4 | Client 0 | Train Loss: 1.6043
+Round 4 | Client 1 | Train Loss: 2.3295
+Round 4 | Client 2 | Train Loss: 2.0299
+Round 4 | Client 3 | Train Loss: 1.4854
+Round 4 | Client 4 | Train Loss: 2.2598
+Round 4 | Client 5 | Train Loss: 1.7175
+Round 4 | Client 6 | Train Loss: 1.9100
+Round 4 | Client 7 | Train Loss: 2.4030
+FedCA round 4: eta=2 (probe) | probe gain 0.1134 excess 0.0334 budget 0.0599
+Testing on client 0 ...
+Round 4 | Client 0 | eval_loss: 1.5566 | perplexity: 4.7427
+Testing on client 1 ...
+Round 4 | Client 1 | eval_loss: 2.2885 | perplexity: 9.8604
+Testing on client 2 ...
+Round 4 | Client 2 | eval_loss: 2.0485 | perplexity: 7.7561
+Testing on client 3 ...
+Round 4 | Client 3 | eval_loss: 1.5804 | perplexity: 4.8568
+Testing on client 4 ...
+Round 4 | Client 4 | eval_loss: 2.2421 | perplexity: 9.4132
+Testing on client 5 ...
+Round 4 | Client 5 | eval_loss: 1.7235 | perplexity: 5.6044
+Testing on client 6 ...
+Round 4 | Client 6 | eval_loss: 1.9169 | perplexity: 6.7999
+Testing on client 7 ...
+Round 4 | Client 7 | eval_loss: 2.3493 | perplexity: 10.4782
+2026-10-14 10:42:35 | [Round 4] eval_loss: 1.9632  perplexity: 7.4390  wall_clock: 295936.43562197685
+Communication round:  50%|█████     | 5/10 [1:28:40<1:28:43, 1064.66s/it]Round 5 | Client 0 | Train Loss: 1.5119
+Round 5 | Client 1 | Train Loss: 2.2309
+Round 5 | Client 2 | Train Loss: 1.9208
+Round 5 | Client 3 | Train Loss: 1.3929
+Round 5 | Client 4 | Train Loss: 2.1784
+Round 5 | Client 5 | Train Loss: 1.6280
+Round 5 | Client 6 | Train Loss: 1.7885
+Round 5 | Client 7 | Train Loss: 2.3126
+FedCA round 5: eta=3 (probe) | probe gain 0.0990 excess 0.0447 budget 0.0578
+Testing on client 0 ...
+Round 5 | Client 0 | eval_loss: 1.4692 | perplexity: 4.3459
+Testing on client 1 ...
+Round 5 | Client 1 | eval_loss: 2.1970 | perplexity: 8.9981
+Testing on client 2 ...
+Round 5 | Client 2 | eval_loss: 1.9457 | perplexity: 6.9984
+Testing on client 3 ...
+Round 5 | Client 3 | eval_loss: 1.4833 | perplexity: 4.4073
+Testing on client 4 ...
+Round 5 | Client 4 | eval_loss: 2.1359 | perplexity: 8.4645
+Testing on client 5 ...
+Round 5 | Client 5 | eval_loss: 1.6443 | perplexity: 5.1774
+Testing on client 6 ...
+Round 5 | Client 6 | eval_loss: 1.8023 | perplexity: 6.0637
+Testing on client 7 ...
+Round 5 | Client 7 | eval_loss: 2.2502 | perplexity: 9.4893
+2026-10-14 11:00:19 | [Round 5] eval_loss: 1.8660  perplexity: 6.7431  wall_clock: 355765.0513753295
+Communication round:  60%|██████    | 6/10 [1:46:25<1:10:58, 1064.68s/it]Round 6 | Client 0 | Train Loss: 1.4107
+Round 6 | Client 1 | Train Loss: 2.1208
+Round 6 | Client 2 | Train Loss: 1.8181
+Round 6 | Client 3 | Train Loss: 1.2975
+Round 6 | Client 4 | Train Loss: 2.0706
+Round 6 | Client 5 | Train Loss: 1.5469
+Round 6 | Client 6 | Train Loss: 1.6916
+Round 6 | Client 7 | Train Loss: 2.2050
+FedCA round 6: eta=2 (probe) | probe gain 0.0704 excess 0.0273 budget 0.0603
+Testing on client 0 ...
+Round 6 | Client 0 | eval_loss: 1.4142 | perplexity: 4.1132
+Testing on client 1 ...
+Round 6 | Client 1 | eval_loss: 2.1387 | perplexity: 8.4886
+Testing on client 2 ...
+Round 6 | Client 2 | eval_loss: 1.8818 | perplexity: 6.5656
+Testing on client 3 ...
+Round 6 | Client 3 | eval_loss: 1.4370 | perplexity: 4.2082
+Testing on client 4 ...
+Round 6 | Client 4 | eval_loss: 2.0811 | perplexity: 8.0131
+Testing on client 5 ...
+Round 6 | Client 5 | eval_loss: 1.5965 | perplexity: 4.9356
+Testing on client 6 ...
+Round 6 | Client 6 | eval_loss: 1.7308 | perplexity: 5.6450
+Testing on client 7 ...
+Round 6 | Client 7 | eval_loss: 2.1949 | perplexity: 8.9795
+2026-10-14 11:18:03 | [Round 6] eval_loss: 1.8094  perplexity: 6.3686  wall_clock: 414604.49872612953
+Communication round:  70%|███████   | 7/10 [2:04:09<53:12, 1064.28s/it]  Round 7 | Client 0 | Train Loss: 1.3652
+Round 7 | Client 1 | Train Loss: 2.0494
+Round 7 | Client 2 | Train Loss: 1.7518
+Round 7 | Client 3 | Train Loss: 1.2495
+Round 7 | Client 4 | Train Loss: 2.0151
+Round 7 | Client 5 | Train Loss: 1.4884
+Round 7 | Client 6 | Train Loss: 1.6129
+Round 7 | Client 7 | Train Loss: 2.1418
+FedCA round 7: eta=3 (probe) | probe gain 0.0565 excess 0.0408 budget 0.0621
+Testing on client 0 ...
+Round 7 | Client 0 | eval_loss: 1.3651 | perplexity: 3.9160
+Testing on client 1 ...
+Round 7 | Client 1 | eval_loss: 2.0783 | perplexity: 7.9913
+Testing on client 2 ...
+Round 7 | Client 2 | eval_loss: 1.8145 | perplexity: 6.1377
+Testing on client 3 ...
+Round 7 | Client 3 | eval_loss: 1.3821 | perplexity: 3.9835
+Testing on client 4 ...
+Round 7 | Client 4 | eval_loss: 2.0247 | perplexity: 7.5741
+Testing on client 5 ...
+Round 7 | Client 5 | eval_loss: 1.5477 | perplexity: 4.7006
+Testing on client 6 ...
+Round 7 | Client 6 | eval_loss: 1.6702 | perplexity: 5.3134
+Testing on client 7 ...
+Round 7 | Client 7 | eval_loss: 2.1200 | perplexity: 8.3309
+2026-10-14 11:35:45 | [Round 7] eval_loss: 1.7503  perplexity: 5.9934  wall_clock: 472890.0452747941
+Communication round:  80%|████████  | 8/10 [2:21:51<35:27, 1063.52s/it]Round 8 | Client 0 | Train Loss: 1.2850
+Round 8 | Client 1 | Train Loss: 1.9673
+Round 8 | Client 2 | Train Loss: 1.6683
+Round 8 | Client 3 | Train Loss: 1.1944
+Round 8 | Client 4 | Train Loss: 1.9271
+Round 8 | Client 5 | Train Loss: 1.4160
+Round 8 | Client 6 | Train Loss: 1.5453
+Round 8 | Client 7 | Train Loss: 2.0593
+FedCA round 8: eta=3 (probe) | probe gain 0.0802 excess 0.0648 budget 0.0799
+Testing on client 0 ...
+Round 8 | Client 0 | eval_loss: 1.3076 | perplexity: 3.6974
+Testing on client 1 ...
+Round 8 | Client 1 | eval_loss: 2.0245 | perplexity: 7.5724
+Testing on client 2 ...
+Round 8 | Client 2 | eval_loss: 1.7519 | perplexity: 5.7658
+Testing on client 3 ...
+Round 8 | Client 3 | eval_loss: 1.3293 | perplexity: 3.7782
+Testing on client 4 ...
+Round 8 | Client 4 | eval_loss: 1.9583 | perplexity: 7.0873
+Testing on client 5 ...
+Round 8 | Client 5 | eval_loss: 1.4947 | perplexity: 4.4581
+Testing on client 6 ...
+Round 8 | Client 6 | eval_loss: 1.6124 | perplexity: 5.0147
+Testing on client 7 ...
+Round 8 | Client 7 | eval_loss: 2.0689 | perplexity: 7.9159
+2026-10-14 11:59:49 | [Round 8] eval_loss: 1.6935  perplexity: 5.6612  wall_clock: 531259.6905514598
+Communication round:  90%|█████████ | 9/10 [2:45:55<19:42, 1182.53s/it]Round 9 | Client 0 | Train Loss: 1.2174
+Round 9 | Client 1 | Train Loss: 1.8863
+Round 9 | Client 2 | Train Loss: 1.5772
+Round 9 | Client 3 | Train Loss: 1.1278
+Round 9 | Client 4 | Train Loss: 1.8203
+Round 9 | Client 5 | Train Loss: 1.3539
+Round 9 | Client 6 | Train Loss: 1.4538
+Round 9 | Client 7 | Train Loss: 1.9493
+FedCA round 9: eta=3 (probe) | probe gain 0.0649 excess 0.0714 budget 0.0894
+Testing on client 0 ...
+Round 9 | Client 0 | eval_loss: 1.2615 | perplexity: 3.5309
+Testing on client 1 ...
+Round 9 | Client 1 | eval_loss: 1.9587 | perplexity: 7.0898
+Testing on client 2 ...
+Round 9 | Client 2 | eval_loss: 1.6870 | perplexity: 5.4032
+Testing on client 3 ...
+Round 9 | Client 3 | eval_loss: 1.2752 | perplexity: 3.5795
+Testing on client 4 ...
+Round 9 | Client 4 | eval_loss: 1.9048 | perplexity: 6.7178
+Testing on client 5 ...
+Round 9 | Client 5 | eval_loss: 1.4478 | perplexity: 4.2536
+Testing on client 6 ...
+Round 9 | Client 6 | eval_loss: 1.5615 | perplexity: 4.7658
+Testing on client 7 ...
+Round 9 | Client 7 | eval_loss: 1.9939 | perplexity: 7.3441
+2026-10-14 12:33:53 | [Round 9] eval_loss: 1.6363  perplexity: 5.3356  wall_clock: 642269.2360147834
+Communication round: 100%|██████████| 10/10 [3:19:59<00:00, 1448.58s/it]                                                                        Adapter saved to exp/zsre8_chat_eos_v2/fedca_suite/fedca_k1\adapter\fedca_zsre_Qwen3-1.7B_8c_1E_lr0.0001

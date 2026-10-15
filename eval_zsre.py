@@ -125,7 +125,7 @@ def generate_and_score(model, tokenizer, rows: list[dict], batch_size: int) -> t
 def main() -> int:
     parser = build_parser()
     parser.add_argument("--base-only", action="store_true", help="evaluate the unmodified pretrained model")
-    parser.add_argument("--method", choices=("base", "local", "centralized", "fedit", "fedrotlora", "rolora", "flora", "fedexlora", "ffalora", "flexlora", "ilora", "fedfh"), default=None)
+    parser.add_argument("--method", choices=("base", "local", "centralized", "fedit", "fedrotlora", "rolora", "flora", "fedexlora", "ffalora", "flexlora", "ilora", "fedfh", "fedca"), default=None)
     parser.add_argument("--data-dir", default="dataset/zsre")
     parser.add_argument("--num-clients", type=int, default=8)
     parser.add_argument(

@@ -1,0 +1,38 @@
+{
+  "2": {
+    "em": 3.175,
+    "f1": 9.241851872843359,
+    "containment": 3.8,
+    "num_samples": 500.0,
+    "average_generated_tokens": 6.1987499999999995,
+    "eos_rate": 99.1,
+    "max_tokens_rate": 0.9
+  },
+  "4": {
+    "em": 7.025,
+    "f1": 13.767710137085137,
+    "containment": 7.275,
+    "num_samples": 500.0,
+    "average_generated_tokens": 4.19475,
+    "eos_rate": 100.0,
+    "max_tokens_rate": 0.0
+  },
+  "6": {
+    "em": 9.25,
+    "f1": 16.24068362193362,
+    "containment": 9.4,
+    "num_samples": 500.0,
+    "average_generated_tokens": 3.98775,
+    "eos_rate": 100.0,
+    "max_tokens_rate": 0.0
+  },
+  "8": {
+    "em": 10.375,
+    "f1": 17.47283230658231,
+    "containment": 10.525,
+    "num_samples": 500.0,
+    "average_generated_tokens": 3.98725,
+    "eos_rate": 100.0,
+    "max_tokens_rate": 0.0
+  }
+}
