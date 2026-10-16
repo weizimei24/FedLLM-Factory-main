@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-10-15T11:44:26+08:00",
+  "snapshot_time": "2026-10-16T08:58:03+08:00",
   "protocol": "zsre_chat_eos_v2",
   "seed": 42,
   "planned_rounds": 10,
@@ -106,18 +106,44 @@
       }
     },
     "probe_only": {
-      "training_status": "No local results yet",
-      "completed_rounds_recorded": 0,
-      "final_adapter_present_locally": false,
-      "evaluated_saved_rounds": [],
-      "final_macro_average": null
+      "training_status": "Complete (10/10 rounds)",
+      "completed_rounds_recorded": 10,
+      "final_adapter_present_locally": true,
+      "evaluated_saved_rounds": [
+        2,
+        4,
+        6,
+        8
+      ],
+      "final_macro_average": {
+        "em": 11.65,
+        "f1": 19.010531135531135,
+        "containment": 11.825000000000001,
+        "num_samples": 500.0,
+        "average_generated_tokens": 3.9615,
+        "eos_rate": 100.0,
+        "max_tokens_rate": 0.0
+      }
     },
     "ntd_only": {
-      "training_status": "No local results yet",
-      "completed_rounds_recorded": 0,
-      "final_adapter_present_locally": false,
-      "evaluated_saved_rounds": [],
-      "final_macro_average": null
+      "training_status": "Complete (10/10 rounds)",
+      "completed_rounds_recorded": 10,
+      "final_adapter_present_locally": true,
+      "evaluated_saved_rounds": [
+        2,
+        4,
+        6,
+        8
+      ],
+      "final_macro_average": {
+        "em": 8.700000000000001,
+        "f1": 15.797977994227994,
+        "containment": 8.825000000000001,
+        "num_samples": 500.0,
+        "average_generated_tokens": 3.98925,
+        "eos_rate": 100.0,
+        "max_tokens_rate": 0.0
+      }
     }
   }
 }
